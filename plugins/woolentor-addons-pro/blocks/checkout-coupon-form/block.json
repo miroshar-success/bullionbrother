@@ -1,0 +1,549 @@
+{
+  "name": "woolentor/checkout-coupon-form",
+  "category": "woolentor-checkout",
+  "title": "WL : Checkout Coupon Form",
+  "description": "Display Checkout Coupon Form.",
+  "keywords": [
+    "woolentor",
+    "checkout form",
+    "Coupon form",
+    "Coupon field",
+    "checkout"
+  ],
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "blockUniqId": {
+      "type": "string",
+      "default": ""
+    },
+    "areaPadding": {
+      "type": "object",
+      "default": {
+        "device": "desktop"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} { padding: {{areaPadding}} !important; }"
+      }
+    },
+    "areaBGProperty": {
+      "type": "object",
+      "default": {
+        "imageId": null,
+        "imageUrl": "",
+        "position": "",
+        "attachment": "",
+        "repeat": "",
+        "size": ""
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}"
+      }
+    },
+    "formApplyButton": {
+      "type": "string",
+      "default": "Apply coupon"
+    },
+    "formDescription": {
+      "type": "string",
+      "default": "If you have a coupon code, please apply it below."
+    },
+    "togglerSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .checkout-coupon-toggle .woocommerce-info { font-size: {{togglerSize}}; }"
+      }
+    },
+    "togglerTextColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .checkout-coupon-toggle .woocommerce-info { color: {{togglerTextColor}}; }"
+      }
+    },
+    "togglerLinkColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .checkout-coupon-toggle .woocommerce-info a { color: {{togglerLinkColor}}; }"
+      }
+    },
+    "togglerLinkHoverColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .checkout-coupon-toggle .woocommerce-info a:hover { color: {{togglerLinkHoverColor}}; }"
+      }
+    },
+    "togglerLeftIconColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .checkout-coupon-toggle .woocommerce-info::before { color: {{togglerLeftIconColor}}; }"
+      }
+    },
+    "togglerTopBorderColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .checkout-coupon-toggle .woocommerce-info { border-top-color: {{togglerTopBorderColor}}; }"
+      }
+    },
+    "togglerBorderType": {
+      "type": "string",
+      "default": "",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .checkout-coupon-toggle .woocommerce-info { border-style: {{togglerBorderType}}; }"
+      }
+    },
+    "togglerBorderWidth": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "togglerBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .checkout-coupon-toggle .woocommerce-info { border-width: {{togglerBorderWidth}}; }"
+      }
+    },
+    "togglerBorderColor": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "togglerBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .checkout-coupon-toggle .woocommerce-info { border-color: {{togglerBorderColor}}; }"
+      }
+    },
+    "togglerBorderRadius": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .checkout-coupon-toggle .woocommerce-info { border-radius: {{togglerBorderRadius}}; }"
+      }
+    },
+    "togglerPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .checkout-coupon-toggle .woocommerce-info { padding: {{togglerPadding}}; }"
+      }
+    },
+    "togglerMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .checkout-coupon-toggle .woocommerce-info { margin: {{togglerMargin}}; }"
+      }
+    },
+    "togglerAlignment": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .checkout-coupon-toggle .woocommerce-info { text-align: {{togglerAlignment}}; }{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .checkout-coupon-toggle .woocommerce-info::before{ position: static;margin-right:10px; }"
+      }
+    },
+    "togglerBackgroundColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .checkout-coupon-toggle .woocommerce-info { background-color: {{togglerBackgroundColor}}; }"
+      }
+    },
+    "descriptionColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .woolentor-info { color: {{descriptionColor}}; }"
+      }
+    },
+    "descriptionSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .woolentor-info { font-size: {{descriptionSize}}; }"
+      }
+    },
+    "descriptionAlignment": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .woolentor-info { text-align: {{descriptionAlignment}}; }"
+      }
+    },
+    "descriptionMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .woolentor-info { margin: {{descriptionMargin}}; }"
+      }
+    },
+    "formBorderType": {
+      "type": "string",
+      "default": "",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .coupon-form { border-style: {{formBorderType}}; }"
+      }
+    },
+    "formBorderWidth": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "formBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .coupon-form { border-width: {{formBorderWidth}}; }"
+      }
+    },
+    "formBorderColor": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "formBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .coupon-form { border-color: {{formBorderColor}}; }"
+      }
+    },
+    "formBorderRadius": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .coupon-form { border-radius: {{formBorderRadius}}; }"
+      }
+    },
+    "formPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .coupon-form { padding: {{formPadding}}; }"
+      }
+    },
+    "formMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .coupon-form { margin: {{formMargin}}; }"
+      }
+    },
+    "inputBoxBGColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .coupon-form input.input-text { background-color: {{inputBoxBGColor}}; }"
+      }
+    },
+    "inputBoxColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .coupon-form input.input-text,{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .coupon-form input.input-text::-webkit-input-placeholder { color: {{inputBoxColor}}; }"
+      }
+    },
+    "inputBoxSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .coupon-form input.input-text { font-size: {{inputBoxSize}}; }"
+      }
+    },
+    "inputBoxHeight": {
+      "type": "number",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .coupon-form input.input-text { height: {{inputBoxHeight}}px; }"
+      }
+    },
+    "inputBoxWidth": {
+      "type": "number",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .coupon-form input.input-text { width: {{inputBoxWidth}}px; }"
+      }
+    },
+    "inputBoxBorderType": {
+      "type": "string",
+      "default": "",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .coupon-form input.input-text { border-style: {{inputBoxBorderType}}!important; }"
+      }
+    },
+    "inputBoxBorderWidth": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "inputBoxBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .coupon-form input.input-text { border-width: {{inputBoxBorderWidth}}!important; }"
+      }
+    },
+    "inputBoxBorderColor": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "inputBoxBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .coupon-form input.input-text { border-color: {{inputBoxBorderColor}}!important; }"
+      }
+    },
+    "inputBoxBorderRadius": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .coupon-form input.input-text { border-radius: {{inputBoxBorderRadius}}; }"
+      }
+    },
+    "inputBoxPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .coupon-form input.input-text { padding: {{inputBoxPadding}}; }"
+      }
+    },
+    "inputBoxMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .coupon-form input.input-text { margin: {{inputBoxMargin}}!important; }"
+      }
+    },
+    "inputBoxFocusColor": {
+      "type": "string",
+      "default": "",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .coupon-form input.input-text:focus { color: {{inputBoxFocusColor}}; }"
+      }
+    },
+    "inputBoxFocusBorderColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .coupon-form input.input-text:focus { border-color: {{inputBoxFocusBorderColor}}!important; }"
+      }
+    },
+    "submitBtnColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .coupon-form button.button { color: {{submitBtnColor}}; }"
+      }
+    },
+    "submitBtnBGColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .coupon-form button.button { background-color: {{submitBtnBGColor}}; }"
+      }
+    },
+    "submitBtnSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .coupon-form button.button { font-size: {{submitBtnSize}}; }"
+      }
+    },
+    "submitBtnBorderType": {
+      "type": "string",
+      "default": "",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .coupon-form button.button { border-style: {{submitBtnBorderType}} !important; }"
+      }
+    },
+    "submitBtnBorderWidth": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "submitBtnBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .coupon-form button.button { border-width: {{submitBtnBorderWidth}} !important; }"
+      }
+    },
+    "submitBtnBorderColor": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "submitBtnBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .coupon-form button.button { border-color: {{submitBtnBorderColor}} !important; }"
+      }
+    },
+    "submitBtnBorderRadius": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .coupon-form button.button { border-radius: {{submitBtnBorderRadius}} !important; }"
+      }
+    },
+    "submitBtnPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .coupon-form button.button { padding: {{submitBtnPadding}}; }"
+      }
+    },
+    "submitBtnHoverColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .coupon-form button.button:hover { color: {{submitBtnHoverColor}}; }"
+      }
+    },
+    "submitBtnHoverBGColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .coupon-form button.button:hover { background-color: {{submitBtnHoverBGColor}}; }"
+      }
+    },
+    "submitBtnHoverBorderColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-checkout-coupon-form .coupon-form button.button:hover { border-color: {{submitBtnHoverBorderColor}} !important; }"
+      }
+    }
+  }
+}

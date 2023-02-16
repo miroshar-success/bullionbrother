@@ -1,0 +1,744 @@
+/*
+Frontend styles.
+*/
+
+/* Editor fix */
+.elementor {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.elementor .elementor-inner,
+.elementor .elementor-section-wrap,
+.elementor-section {
+    width: 600px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+#elementor-add-new-section {
+    width: 600px;
+    max-width: 600px;
+}
+.elementor-add-section-inner .elementor-add-new-section .elementor-add-section-area-button:not(.elementor-add-section-button) {
+    display: none;
+}
+.elementor-widget:not(:last-child) {
+    margin: 0px !important;
+}
+.elementor-column-wrap {
+    padding: 0px !important;
+}
+.elementor-column-gap-default > .elementor-row > .elementor-column > .elementor-element-populated {
+    padding: 0px !important;
+}
+
+/* Column resize prevention */
+.elementor-container .elementor-element-edit-mode.elementor-column > .ui-resizable-handle {
+    display: none !important;
+}
+
+/* Hide admin bar elementor editor start */
+.woolentor-template-template li#wp-admin-bar-elementor_edit_page {
+    display: none;
+}
+.woolentor-template-template li#wp-admin-bar-elementor_inspector {
+    display: none;
+}
+
+/* Elementor section */
+.elementor-element {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: initial;
+    flex-direction: initial;
+    -ms-flex-wrap: initial;
+    flex-wrap: initial;
+    -webkit-box-pack: initial;
+    -ms-flex-pack: initial;
+    justify-content: initial;
+    -webkit-box-align: initial;
+    -ms-flex-align: initial;
+    align-items: initial;
+    -ms-flex-line-pack: initial;
+    align-content: initial;
+    gap: initial;
+    -ms-flex-preferred-size: initial;
+    flex-basis: initial;
+    -webkit-box-flex: initial;
+    -ms-flex-positive: initial;
+    flex-grow: initial;
+    -ms-flex-negative: initial;
+    flex-shrink: initial;
+    -webkit-box-ordinal-group: initial;
+    -ms-flex-order: initial;
+    order: initial;
+    -ms-flex-item-align: initial;
+    align-self: initial;
+}
+.elementor-widget-wrap > .elementor-element {
+    width: 100%;
+}
+.elementor-section {
+    position: relative;
+}
+.elementor-section .elementor-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+.elementor-column {
+    position: relative;
+    min-height: 1px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.elementor-widget-wrap {
+    width: 100%;
+    position: relative;
+    display: block !important;
+}
+.elementor-column-wrap {
+    width: 100%;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+}
+.elementor-column-gap-narrow > .elementor-column > .elementor-element-populated,
+.elementor-column-gap-default > .elementor-column > .elementor-element-populated,
+.elementor-column-gap-extended > .elementor-column > .elementor-element-populated,
+.elementor-column-gap-wide > .elementor-column > .elementor-element-populated,
+.elementor-column-gap-wider > .elementor-column > .elementor-element-populated,
+.elementor-column-gap-no > .elementor-column > .elementor-element-populated,
+.elementor-column-gap-narrow > .elementor-row > .elementor-column > .elementor-element-populated,
+.elementor-column-gap-default > .elementor-row > .elementor-column > .elementor-element-populated,
+.elementor-column-gap-extended > .elementor-row > .elementor-column > .elementor-element-populated,
+.elementor-column-gap-wide > .elementor-row > .elementor-column > .elementor-element-populated,
+.elementor-column-gap-wider > .elementor-row > .elementor-column > .elementor-element-populated,
+.elementor-column-gap-no > .elementor-row > .elementor-column > .elementor-element-populated {
+    padding: 0;
+}
+.elementor-column-gap-narrow > .elementor-column > .elementor-element-populated > .elementor-widget-wrap,
+.elementor-column-gap-default > .elementor-column > .elementor-element-populated > .elementor-widget-wrap,
+.elementor-column-gap-extended > .elementor-column > .elementor-element-populated > .elementor-widget-wrap,
+.elementor-column-gap-wide > .elementor-column > .elementor-element-populated > .elementor-widget-wrap,
+.elementor-column-gap-wider > .elementor-column > .elementor-element-populated > .elementor-widget-wrap,
+.elementor-column-gap-no > .elementor-column > .elementor-element-populated > .elementor-widget-wrap,
+.elementor-column-gap-narrow > .elementor-row > .elementor-column > .elementor-element-populated > .elementor-widget-wrap,
+.elementor-column-gap-default > .elementor-row > .elementor-column > .elementor-element-populated > .elementor-widget-wrap,
+.elementor-column-gap-extended > .elementor-row > .elementor-column > .elementor-element-populated > .elementor-widget-wrap,
+.elementor-column-gap-wide > .elementor-row > .elementor-column > .elementor-element-populated > .elementor-widget-wrap,
+.elementor-column-gap-wider > .elementor-row > .elementor-column > .elementor-element-populated > .elementor-widget-wrap,
+.elementor-column-gap-no > .elementor-row > .elementor-column > .elementor-element-populated > .elementor-widget-wrap {
+    padding: 0 !important;
+}
+.elementor-column.elementor-col-10, .elementor-column[data-col="10"] {
+    width: 10% !important;
+}
+.elementor-column.elementor-col-11, .elementor-column[data-col="11"] {
+    width: 11.111% !important;
+}
+.elementor-column.elementor-col-12, .elementor-column[data-col="12"] {
+    width: 12.5% !important;
+}
+.elementor-column.elementor-col-14, .elementor-column[data-col="14"] {
+    width: 14.285% !important;
+}
+.elementor-column.elementor-col-16, .elementor-column[data-col="16"] {
+    width: 16.666% !important;
+}
+.elementor-column.elementor-col-20, .elementor-column[data-col="20"] {
+    width: 20% !important;
+}
+.elementor-column.elementor-col-25, .elementor-column[data-col="25"] {
+    width: 25% !important;
+}
+.elementor-column.elementor-col-30, .elementor-column[data-col="30"] {
+    width: 30% !important;
+}
+.elementor-column.elementor-col-33, .elementor-column[data-col="33"] {
+    width: 33.333% !important;
+}
+.elementor-column.elementor-col-40, .elementor-column[data-col="40"] {
+    width: 40% !important;
+}
+.elementor-column.elementor-col-50, .elementor-column[data-col="50"] {
+    width: 50% !important;
+}
+.elementor-column.elementor-col-60, .elementor-column[data-col="60"] {
+    width: 60% !important;
+}
+.elementor-column.elementor-col-66, .elementor-column[data-col="66"] {
+    width: 66.666% !important;
+}
+.elementor-column.elementor-col-70, .elementor-column[data-col="70"] {
+    width: 70% !important;
+}
+.elementor-column.elementor-col-75, .elementor-column[data-col="75"] {
+    width: 75% !important;
+}
+.elementor-column.elementor-col-80, .elementor-column[data-col="80"] {
+    width: 80% !important;
+}
+.elementor-column.elementor-col-83, .elementor-column[data-col="83"] {
+    width: 83.333% !important;
+}
+.elementor-column.elementor-col-90, .elementor-column[data-col="90"] {
+    width: 90% !important;
+}
+.elementor-column.elementor-col-100, .elementor-column[data-col="100"] {
+    width: 100% !important;
+}
+
+/* Widget common CSS */
+#woolentor-email-wrapper {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#woolentor-email-wrapper,
+.elementor-widget-container {
+    display: block;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    color: #3c3c3c;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+#woolentor-email-wrapper {
+    background-color: #fff;
+    margin: 0 auto;
+}
+h1, h2, h3, h4, h5, h6, p, a, span {
+    color: #3c3c3c;
+    margin: 0;
+    padding: 0;
+}
+ul, ol {
+    display: block;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #3c3c3c;
+    margin: 0;
+    padding: 0 0 0 40px;
+}
+pre {
+    display: block;
+    color: #3c3c3c;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    display: block;
+    font-weight: 600;
+}
+h1 {
+    font-size: 34px;
+    line-height: 44px;
+}
+h2 {
+    font-size: 30px;
+    line-height: 40px;
+}
+h3 {
+    font-size: 26px;
+    line-height: 36px;
+}
+h4 {
+    font-size: 22px;
+    line-height: 32px;
+}
+h5 {
+    font-size: 18px;
+    line-height: 28px;
+}
+h6 {
+    font-size: 14px;
+    line-height: 24px;
+}
+p {
+    display: block;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+ul li, ol li {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    box-shadow: none;
+    cursor: pointer;
+    color: inherit;
+}
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+/* Heading widget */
+.woolentor-email-heading-wrapper {
+    overflow: hidden;
+}
+p.woolentor-email-heading,
+span.woolentor-email-heading,
+div.woolentor-email-heading {
+    display: block;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.woolentor-email-heading,
+.woolentor-email-heading a {
+    color: #3c3c3c;
+}
+.woolentor-email-heading a {
+    text-decoration: inherit;
+}
+
+/* Image widget */
+.woolentor-email-image-wrapper {
+    line-height: 0;
+}
+.woolentor-email-image-wrapper,
+.woolentor-email-image {
+    overflow: hidden;
+}
+.woolentor-email-image {
+    display: inline-block;
+    line-height: 0;
+}
+.woolentor-email-image a {
+    display: block;
+}
+.woolentor-email-image img {
+    max-width: 100%;
+}
+
+/* Text editor widget */
+.woolentor-email-text-editor-wrapper {
+    overflow: hidden;
+}
+.woolentor-email-text-editor,
+.woolentor-email-text-editor {
+    display: block;
+}
+.woolentor-email-text-editor > *:not(:first-child) {
+    margin: 15px 0 0 0;
+}
+.woolentor-email-text-editor h1,
+.woolentor-email-text-editor h2,
+.woolentor-email-text-editor h3,
+.woolentor-email-text-editor h4,
+.woolentor-email-text-editor h5,
+.woolentor-email-text-editor h6,
+.woolentor-email-text-editor p,
+.woolentor-email-text-editor a,
+.woolentor-email-text-editor pre,
+.woolentor-email-text-editor ul,
+.woolentor-email-text-editor ol {
+    color: #3c3c3c;
+}
+
+/* Button widget */
+.woolentor-email-video-wrapper {
+    line-height: 0;
+}
+.woolentor-email-video-wrapper,
+.woolentor-email-video {
+    overflow: hidden;
+}
+.woolentor-email-video {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    line-height: 0;
+}
+.woolentor-email-video a {
+    display: block;
+}
+.woolentor-email-video img {
+    width: 100%;
+    height: auto;
+}
+
+/* Button widget */
+.woolentor-email-button-wrapper {
+    overflow: hidden;
+}
+.woolentor-email-button,
+.woolentor-email-button {
+    display: inline-block;
+}
+
+/* Divider widget */
+.woolentor-email-divider-wrapper {
+    line-height: 0;
+}
+.woolentor-email-divider-wrapper,
+.woolentor-email-divider {
+    overflow: hidden;
+}
+.woolentor-email-divider {
+    display: block;
+}
+.woolentor-email-divider-line {
+    display: block;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #3c3c3c;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Spacer widget */
+.woolentor-email-spacer-wrapper {
+    line-height: 0;
+}
+.woolentor-email-spacer-wrapper,
+.woolentor-email-spacer {
+    overflow: hidden;
+}
+.woolentor-email-spacer,
+.woolentor-email-spacer-inner {
+    display: block;
+}
+
+/* Nav menu widget */
+.woolentor-email-nav-menu-wrapper {
+    line-height: 0;
+}
+.woolentor-email-nav-menu-wrapper,
+.woolentor-email-nav-menu {
+    overflow: hidden;
+}
+.woolentor-email-nav-menu ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.woolentor-email-nav-menu ul li {
+    display: inline-block;
+    font-weight: 600;
+    color: #3c3c3c;
+}
+.woolentor-email-nav-menu-vertical ul li {
+    display: block;
+}
+.woolentor-email-nav-menu ul li a,
+.woolentor-email-nav-menu ul li span {
+    display: inline-block;
+    color: #3c3c3c;
+    text-decoration: inherit;
+    padding: 5px 20px;
+}
+
+/* Social icons widget */
+.woolentor-email-social-icons-wrapper {
+    line-height: 0;
+}
+.woolentor-email-social-icons-wrapper,
+.woolentor-email-social-icons {
+    overflow: hidden;
+}
+.woolentor-email-social-icons {
+    line-height: 0;
+}
+.woolentor-email-social-icons ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 0;
+}
+.woolentor-email-social-icons ul li {
+    display: inline-block;
+}
+.woolentor-email-social-icons-vertical ul li {
+    display: block;
+}
+.woolentor-email-social-icons-horizontal ul li + li {
+    margin-left: 15px;
+}
+.woolentor-email-social-icons-vertical ul li + li {
+    margin-top: 15px;
+}
+.woolentor-email-social-icons ul li img {
+    width: 45px;
+    height: auto;
+}
+.woolentor-email-social-icons ul li a,
+.woolentor-email-social-icons ul li span {
+    display: inline-block;
+    text-decoration: inherit;
+    padding: 0;
+}
+
+/* Products widget */
+.woolentor-email-products-wrapper {
+    overflow: hidden;
+}
+.woolentor-email-products-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.woolentor-email-product-col {
+    position: relative;
+    min-height: 1px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.woolentor-email-products-columns-1 .woolentor-email-product-col {
+    width: 100%;
+}
+.woolentor-email-products-columns-2 .woolentor-email-product-col {
+    width: 50%;
+}
+.woolentor-email-products-columns-3 .woolentor-email-product-col {
+    width: 33.333333%;
+}
+.woolentor-email-products-columns-4 .woolentor-email-product-col {
+    width: 25%;
+}
+.woolentor-email-products-columns-5 .woolentor-email-product-col {
+    width: 20%;
+}
+.woolentor-email-products-columns-6 .woolentor-email-product-col {
+    width: 16.666667%;
+}
+.woolentor-email-product-wrap {
+    width: 100%;
+}
+.woolentor-email-product {
+    overflow: hidden;
+}
+.woolentor-email-product-image {
+    line-height: 0;
+    overflow: hidden;
+    margin: 0 0 10px 0;
+}
+.woolentor-email-product-title {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    margin: 0 0 5px 0;
+}
+.woolentor-email-product-image a,
+.woolentor-email-product-title a {
+    display: inline-block;
+}
+.woolentor-email-product-title a {
+    text-decoration: inherit;
+}
+.woolentor-email-product-price del,
+.woolentor-email-product-price ins,
+.woolentor-email-product-price bdi,
+.woolentor-email-product-price span {
+    color: inherit;
+}
+.woolentor-email-product-price del {
+    opacity: 0.5;
+}
+.woolentor-email-product-price ins {
+    text-decoration: none;
+}
+
+/* Order details widget */
+.woolentor-email-order-details-wrapper {
+    overflow: hidden;
+}
+.woolentor-email-order-details {
+    color: #3c3c3c;
+}
+.woolentor-email-order-details .order-details-table th a,
+.woolentor-email-order-details .order-details-table td a,
+.woolentor-email-order-details .order-details-table th del,
+.woolentor-email-order-details .order-details-table td del,
+.woolentor-email-order-details .order-details-table th ins,
+.woolentor-email-order-details .order-details-table td ins,
+.woolentor-email-order-details .order-details-table th span,
+.woolentor-email-order-details .order-details-table td span {
+    color: inherit;
+}
+.woolentor-email-order-details .order-details-table td.item {
+    word-wrap: break-word;
+}
+.woolentor-email-order-details .order-details-table .wc-item-meta-label {
+    float: left;
+    margin: 0 5px 0 0;
+    clear: both;
+}
+/* Layout 1 */
+.woolentor-email-order-details.layout-1 .woolentor-email-order-details-heading {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #3c3c3c;
+    margin: 0 0 10px 0;
+}
+.woolentor-email-order-details.layout-1 .order-details-table {
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #3c3c3c;
+    overflow: hidden;
+}
+.woolentor-email-order-details.layout-1 .order-details-table th,
+.woolentor-email-order-details.layout-1 .order-details-table td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
+    border-style: none;
+    border-width: 0;
+    border-color: transparent;
+}
+.woolentor-email-order-details.layout-1 .order-details-table th + th,
+.woolentor-email-order-details.layout-1 .order-details-table td + td,
+.woolentor-email-order-details.layout-1 .order-details-table th + td,
+.woolentor-email-order-details.layout-1 .order-details-table td + th {
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #3c3c3c;
+}
+.woolentor-email-order-details.layout-1 .order-details-table tbody th,
+.woolentor-email-order-details.layout-1 .order-details-table tbody td,
+.woolentor-email-order-details.layout-1 .order-details-table tfoot th,
+.woolentor-email-order-details.layout-1 .order-details-table tfoot td {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #3c3c3c;
+}
+
+/* Downloads widget */
+.woolentor-email-downloads-wrapper {
+    overflow: hidden;
+}
+.woolentor-email-downloads {
+    color: #3c3c3c;
+}
+.woolentor-email-downloads .downloads-table th a,
+.woolentor-email-downloads .downloads-table td a,
+.woolentor-email-downloads .downloads-table th del,
+.woolentor-email-downloads .downloads-table td del,
+.woolentor-email-downloads .downloads-table th ins,
+.woolentor-email-downloads .downloads-table td ins,
+.woolentor-email-downloads .downloads-table th span,
+.woolentor-email-downloads .downloads-table td span {
+    color: inherit;
+}
+.woolentor-email-downloads .downloads-table td.download-product {
+    word-wrap: break-word;
+}
+/* Layout 1 */
+.woolentor-email-downloads.layout-1 .woolentor-email-downloads-heading {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #3c3c3c;
+    margin: 0 0 10px 0;
+}
+.woolentor-email-downloads.layout-1 .downloads-table {
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #3c3c3c;
+    overflow: hidden;
+}
+.woolentor-email-downloads.layout-1 .downloads-table th,
+.woolentor-email-downloads.layout-1 .downloads-table td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
+    border-style: none;
+    border-width: 0;
+    border-color: transparent;
+}
+.woolentor-email-downloads.layout-1 .downloads-table th + th,
+.woolentor-email-downloads.layout-1 .downloads-table td + td,
+.woolentor-email-downloads.layout-1 .downloads-table th + td,
+.woolentor-email-downloads.layout-1 .downloads-table td + th {
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #3c3c3c;
+}
+.woolentor-email-downloads.layout-1 .downloads-table tbody th,
+.woolentor-email-downloads.layout-1 .downloads-table tbody td {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #3c3c3c;
+}
+.woolentor-email-downloads.layout-1 .downloads-table .download-file a {
+    display: inline-block;
+}
+
+/* Billing address widget */
+.woolentor-email-billing-address-wrapper {
+    overflow: hidden;
+}
+.woolentor-email-billing-address {
+    color: #3c3c3c;
+}
+.woolentor-email-billing-address-heading {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #3c3c3c;
+    margin: 0 0 10px 0;
+}
+
+/* Shipping address widget */
+.woolentor-email-shipping-address-wrapper {
+    overflow: hidden;
+}
+.woolentor-email-shipping-address {
+    color: #3c3c3c;
+}
+.woolentor-email-shipping-address-heading {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #3c3c3c;
+    margin: 0 0 10px 0;
+}
+
+/* Customer note widget */
+.woolentor-email-customer-note-wrapper {
+    overflow: hidden;
+}
+.woolentor-email-customer-note,
+.woolentor-email-customer-note a {
+    color: #3c3c3c;
+}
+.woolentor-email-customer-note a {
+    text-decoration: inherit;
+}
+.woolentor-email-customer-note-heading {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #3c3c3c;
+    margin: 0 0 10px 0;
+}

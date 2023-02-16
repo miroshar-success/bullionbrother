@@ -1,0 +1,698 @@
+#: custom-payment-gateways-for-woocommerce.php:150
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-general.php:72
+msgid "Settings"
+msgstr ""
+
+#: custom-payment-gateways-for-woocommerce.php:153
+msgid "Unlock All"
+msgstr ""
+
+#: includes/class-alg-wc-custom-payment-gateways-input-fields.php:140
+#, php-format
+msgid "%s is a required field."
+msgstr ""
+
+#: includes/class-alg-wc-custom-payment-gateways-input-fields.php:158
+#: includes/class-alg-wc-custom-payment-gateways-input-fields.php:190
+msgid "Payment gateway input fields"
+msgstr ""
+
+#: includes/class-wc-gateway-alg-custom.php:59
+#, php-format
+msgid "Any &quot;%1$s&quot; method"
+msgstr ""
+
+#: includes/class-wc-gateway-alg-custom.php:70
+#, php-format
+msgid "%1$s (#%2$s)"
+msgstr ""
+
+#: includes/class-wc-gateway-alg-custom.php:73
+#, php-format
+msgid "%1$s &ndash; %2$s"
+msgstr ""
+
+#: includes/class-wc-gateway-alg-custom.php:74
+msgid "Other locations"
+msgstr ""
+
+#: includes/class-wc-gateway-alg-custom.php:367
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-general.php:69
+msgid "Custom Gateway"
+msgstr ""
+
+#: includes/class-wc-gateway-alg-custom.php:368
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:25
+msgid "Custom Payment Gateway"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-advanced.php:24
+msgid "Advanced"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-advanced.php:37
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:58
+msgid "Advanced Options"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-advanced.php:42
+msgid "Shipping methods"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-advanced.php:43
+msgid ""
+"Used in \"Enable for shipping methods\" custom payment gateway's option."
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-advanced.php:49
+msgid "Load shipping methods and instances"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-advanced.php:50
+msgid "Load shipping methods only"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-advanced.php:51
+msgid "Do not load"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-fees.php:24
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-fees.php:37
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-fees.php:42
+msgid "Fees"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-fees.php:43
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:43
+msgid "Enable section"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-fees.php:53
+msgid "Cart Total Options"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-fees.php:54
+msgid "This section sets how cart total should be calculated for the fees."
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-fees.php:55
+msgid ""
+"Affects \"Min cart total\", \"Max cart total\" options and \"Percent\" based "
+"fees."
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-fees.php:60
+msgid "Taxes"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-fees.php:61
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-fees.php:68
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-fees.php:75
+msgid "Include"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-fees.php:67
+msgid "Shipping"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-fees.php:74
+msgid "Discounts"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-general.php:24
+msgid "General"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-general.php:37
+msgid "Custom Payment Gateways Options"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-general.php:40
+msgid "Here you can set number of custom payment gateways to add."
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-general.php:41
+#, php-format
+msgid "After setting the number, visit %s to set each gateway's options."
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-general.php:43
+msgid "WooCommerce > Settings > Payments"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-general.php:46
+#: includes/settings/class-alg-wc-settings-custom-payment-gateways.php:24
+msgid "Custom Payment Gateways"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-general.php:47
+msgid "Enable plugin"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-general.php:53
+msgid "Number of gateways"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-general.php:57
+msgid "Number of custom payments gateways to be added."
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-general.php:58
+msgid "Press \"Save changes\" after changing this number to see new options."
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-general.php:67
+msgid "Admin title for Custom Gateway"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:24
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:37
+msgid "Input Fields"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:42
+msgid "Input fields"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:53
+msgid "Order Details Options"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:58
+msgid "Add to order details"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:59
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:104
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:187
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:194
+msgid "Enable"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:60
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:105
+msgid "After order table."
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:61
+msgid "For example on \"Thank You\" page."
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:67
+msgid "Templates"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:68
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:124
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:151
+msgid "Header"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:76
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:132
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:159
+msgid "Each field"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:77
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:133
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:160
+#, php-format
+msgid "Placeholders: %s"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:86
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:142
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:169
+msgid "Footer"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:98
+msgid "Emails Options"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:103
+msgid "Add to emails"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:111
+msgid "Sent to"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:117
+msgid "All emails"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:118
+msgid "Admin emails only"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:119
+msgid "Customer emails only"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:123
+msgid "HTML templates"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:150
+msgid "Plain text templates"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:181
+msgid "General Options"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:186
+msgid "Add to order notes"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:193
+msgid "Process in \"Advanced Order Export For WooCommerce\" plugin"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:200
+msgid "Template"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:201
+msgid "Template for a single input field output."
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:208
+msgid "Glue"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-input-fields.php:209
+msgid "Inserted between input field in output."
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-custom-payment-gateways.php:56
+msgid "Reset Settings"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-custom-payment-gateways.php:61
+msgid "Reset section settings"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-custom-payment-gateways.php:62
+msgid "Reset"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-custom-payment-gateways.php:101
+msgid "Your settings have been reset."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:16
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:18
+msgid "Enable custom gateway"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:22
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:156
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:251
+msgid "Title"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:24
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:29
+msgid "Description"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:31
+msgid "Payment method description that the customer will see on your checkout."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:32
+msgid "Custom Payment Gateway Description."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:36
+msgid "Instructions"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:38
+msgid "Instructions that will be added to the thank you page."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:43
+msgid "Email instructions"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:45
+msgid "Instructions that will be added to the emails."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:50
+msgid "Icon"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:52
+msgid ""
+"If you want to show an image next to the gateway's name on the frontend, "
+"enter a URL to an image."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:62
+msgid "Minimum order amount"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:64
+msgid ""
+"If you want to set minimum order amount (excluding fees) to show this "
+"gateway on frontend, enter a number here. Set to 0 to disable."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:72
+msgid "Enable for shipping methods"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:76
+msgid ""
+"If gateway is only available for certain shipping methods, set it up here. "
+"Leave blank to enable for all methods."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:79
+msgid "Select shipping methods"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:82
+msgid "Accept for virtual orders"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:83
+msgid "Accept"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:84
+msgid "Accept gateway if the order is virtual."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:89
+msgid "Default order status"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:98
+msgid "Send additional emails"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:99
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:108
+#, php-format
+msgid ""
+"This may help if you are using pending or custom default order status and "
+"not receiving %s emails."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:101
+msgid "admin new order"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:102
+msgid "Send to admin"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:107
+msgid "Send to customer"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:110
+msgid "customer processing order"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:115
+msgid "Custom return URL (Thank You page)"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:116
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:278
+msgid "URL"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:117
+msgid "Enter full URL with http(s)."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:118
+msgid "Optional. Leave blank to use default URL."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:119
+#, php-format
+msgid "Available placeholders: %s."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:129
+msgid "Fees Options"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:131
+msgid "This section allows you to set extra checkout fees."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:132
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:232
+#, php-format
+msgid "General options are in %s."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:134
+msgid "WooCommerce > Settings > Custom Payment Gateways > Fees"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:137
+msgid "Number of fees"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:138
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:238
+msgid "Save changes to see new options."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:150
+#, php-format
+msgid "Fee %s"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:151
+msgid "Enabled"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:157
+msgid "Name for the fee."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:158
+msgid ""
+"Multiple fees of the same name will be merged into one (with tax options "
+"from the first fee)."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:163
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:264
+msgid "Type"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:164
+msgid "Percent is calculated from cart total."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:169
+msgid "Fixed"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:170
+msgid "Percent"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:174
+msgid "Amount"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:175
+msgid "Fee amount."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:176
+msgid "This field is required."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:182
+msgid "Min amount"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:183
+msgid "Minimum fee amount."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:184
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:192
+msgid "Used for \"Percent\" type fees."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:190
+msgid "Max amount"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:191
+msgid "Maximum fee amount."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:198
+msgid "Taxable"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:199
+msgid "Is the fee taxable?"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:204
+msgid "Tax class"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:205
+msgid ""
+"The tax class for the fee if taxable. A blank string is standard tax class."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:210
+msgid "Min cart total"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:211
+msgid "Minimum cart total for fee to be applied."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:217
+msgid "Max cart total"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:218
+msgid "Maximum cart total for fee to be applied."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:229
+msgid "Input Fields Options"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:231
+msgid "This section allows you to collect data from customers on checkout."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:234
+msgid "WooCommerce > Settings > Custom Payment Gateways > Input Fields"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:237
+msgid "Number of input fields"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:250
+#, php-format
+msgid "Input field #%s"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:251
+msgid "required"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:252
+msgid "The field will not be added to the frontend, if no title is set."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:258
+msgid "Required"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:259
+msgid "Is field required to fill in on checkout"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:269
+msgid "Text"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:270
+msgid "Number"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:271
+msgid "Select (drop-down list)"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:272
+msgid "Color"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:273
+msgid "Date"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:274
+msgid "Email"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:275
+msgid "Range"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:276
+msgid "Tel"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:277
+msgid "Time"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:279
+msgid "Week"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:280
+msgid "Month"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:281
+msgid "Password"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:282
+msgid "Checkbox"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:283
+msgid "Textarea"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:287
+msgid "Placeholder"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:287
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:293
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:299
+msgid "optional"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:293
+msgid "Class"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:299
+msgid "Default value"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:305
+msgid "Options"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:305
+msgid "for \"Select\" type; one option per line"
+msgstr ""

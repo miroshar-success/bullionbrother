@@ -1,0 +1,81 @@
+<wpml-config>   
+    <admin-texts>
+        <key name="theme_mods_kadence">
+            <key name="header_html2_content" />
+            <key name="header_mobile_html2_content" />
+            <key name="header_account_link" />
+            <key name="header_account_modal_registration_link" />
+            <key name="header_account_label" />
+            <key name="header_account_in_link" />
+            <key name="header_account_in_label" />
+            <key name="header_mobile_account_link" />
+            <key name="header_mobile_account_modal_registration_link" />
+			<key name="header_mobile_account_label" />
+            <key name="header_mobile_account_in_link" />
+            <key name="header_mobile_account_in_label" />
+			<key name="header_button2_label" />
+            <key name="header_button2_link" />
+            <key name="mobile_button2_label" />
+			<key name="mobile_button2_link" />
+			<key name="header_toggle_widget_label" />
+			<key name="header_contact_items">
+               <key name="items">
+					<key name="0">
+						<key name="link" />
+						<key name="label" />
+					</key>
+					<key name="1">
+						<key name="link" />
+						<key name="label" />
+					</key>
+					<key name="2">
+						<key name="link" />
+						<key name="label" />
+					</key>
+					<key name="3">
+						<key name="link" />
+						<key name="label" />
+					</key>
+					<key name="4">
+						<key name="link" />
+						<key name="label" />
+					</key>
+				</key>
+            </key>
+			<key name="header_mobile_contact_items">
+                <key name="items">
+					<key name="0">
+						<key name="link" />
+						<key name="label" />
+					</key>
+					<key name="1">
+						<key name="link" />
+						<key name="label" />
+					</key>
+					<key name="2">
+						<key name="link" />
+						<key name="label" />
+					</key>
+					<key name="3">
+						<key name="link" />
+						<key name="label" />
+					</key>
+					<key name="4">
+						<key name="link" />
+						<key name="label" />
+					</key>
+				</key>
+            </key>
+			<key name="cart_pop_free_shipping_message" />
+			<key name="product_archive_shop_filter_label" />
+			<key name="dark_mode_light_switch_title" />
+			<key name="dark_mode_dark_switch_title" />
+			<key name="header_dark_mode_light_switch_title" />
+			<key name="header_dark_mode_dark_switch_title" />
+			<key name="mobile_dark_mode_light_switch_title" />
+			<key name="mobile_dark_mode_dark_switch_title" />
+			<key name="footer_dark_mode_light_switch_title" />
+			<key name="footer_dark_mode_dark_switch_title" />
+        </key>
+    </admin-texts>
+</wpml-config>

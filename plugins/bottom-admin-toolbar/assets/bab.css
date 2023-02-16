@@ -1,0 +1,20 @@
+html.bottom-admin-toolbar{
+    padding-top: 0;
+    padding-bottom: 32px;
+}
+#wpadminbar{
+    top:auto;
+    bottom: 0;
+    transition: transform .3s ease-in-out;
+}
+#wpadminbar.is-hidden{
+    transform: translateY(var(--bab-data-height));
+}
+#wpadminbar .menupop .ab-sub-wrapper{
+    bottom: var(--bab-data-height);
+}
+@media all and (max-width: 600px){
+    #wpadminbar{
+        position: fixed;
+    }
+}

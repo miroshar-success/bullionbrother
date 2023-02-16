@@ -1,0 +1,161 @@
+{
+  "name": "woolentor/product-addtocart",
+  "category": "woolentor-single-product",
+  "title": "Product Add To Cart",
+  "attributes": {
+    "blockUniqId": {
+      "type": "string",
+      "default": ""
+    },
+    "areaPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} { padding: {{areaPadding}}; }"
+      }
+    },
+    "areaMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} { margin: {{areaMargin}}; }"
+      }
+    },
+    "areaBGProperty": {
+      "type": "object",
+      "default": {
+        "imageId": null,
+        "imageUrl": "",
+        "position": "",
+        "attachment": "",
+        "repeat": "",
+        "size": ""
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}"
+      }
+    },
+    "textColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .cart button{ color: {{textColor}} !important; }"
+      }
+    },
+    "textSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .cart button{ font-size: {{textSize}} !important; }"
+      }
+    },
+    "buttonPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .cart button{ padding: {{buttonPadding}} !important; }"
+      }
+    },
+    "buttonBorderType": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .cart button{ border-style: {{buttonBorderType}} !important; }"
+      }
+    },
+    "buttonBorderWidth": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "buttonBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} .cart button{ border-width: {{buttonBorderWidth}} !important; }"
+      }
+    },
+    "buttonBorderColor": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "buttonBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} .cart button{ border-color: {{buttonBorderColor}} !important; }"
+      }
+    },
+    "buttonBorderRadius": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .cart button{ border-radius: {{buttonBorderRadius}} !important; }"
+      }
+    },
+    "buttonBackgroundColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .cart button{ background-color: {{buttonBackgroundColor}} !important; }"
+      }
+    },
+    "hoverTextColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .cart button:hover{ color: {{hoverTextColor}} !important; }"
+      }
+    },
+    "hoverButtonBackgroundColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .cart button:hover{ background-color: {{hoverButtonBackgroundColor}} !important; }"
+      }
+    },
+    "hoverButtonBorderColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .cart button:hover{ border-color: {{hoverButtonBorderColor}} !important; }"
+      }
+    }
+  }
+}

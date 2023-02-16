@@ -1,0 +1,72 @@
+{
+  "name": "woolentor/promo-banner",
+  "category": "woolentor-blocks",
+  "title": "Promo Banner",
+  "attributes": {
+    "style": {
+      "type": "string",
+      "default": "1"
+    },
+    "contentAlignment": {
+      "type": "string",
+      "default": "left"
+    },
+    "title": {
+      "type": "string",
+      "default": "",
+      "selector": ".banner_title"
+    },
+    "subTitle": {
+      "type": "string",
+      "default": "",
+      "selector": ".banner_subtitle"
+    },
+    "imgId": {
+      "type": "number"
+    },
+    "imgUrl": {
+      "type": "string",
+      "source": "attribute",
+      "attribute": "src",
+      "selector": "img"
+    },
+    "buttonUrl": {
+      "type": "string",
+      "source": "attribute",
+      "selector": "a",
+      "attribute": "href"
+    },
+    "buttonText": {
+      "type": "string",
+      "source": "html",
+      "selector": "a"
+    },
+    "linkTarget": {
+      "type": "string",
+      "source": "attribute",
+      "selector": "a",
+      "attribute": "target"
+    },
+    "titleColor": {
+      "type": "string",
+      "selector": ".woolentor-banner .banner_title"
+    },
+    "titleSize": {
+      "type": "string"
+    },
+    "subTitleColor": {
+      "type": "string",
+      "selector": ".woolentor-banner .banner_subtitle"
+    },
+    "subTitleSize": {
+      "type": "string"
+    },
+    "buttonColor": {
+      "type": "string",
+      "selector": ".woolentor-banner .banner_button"
+    },
+    "buttonSize": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Awesome Widget",
+    "quantity": 2,
+    "product_id": 33,
+    "variation_id": 0,
+    "sku": "WIDGET",
+    "categories": "Category A, Category B",
+    "tags": "TagA, TagB",
+    "type": "simple",
+    "unit_price": "88.00",
+    "line_subtotal": "176.00",
+    "line_total": "176.00",
+    "line_tax": "0.00",
+    "line_subtotal_tax": "0.00",
+    "tax_class": "",
+    "item_meta":[]
+}

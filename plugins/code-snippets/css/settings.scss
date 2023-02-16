@@ -1,0 +1,69 @@
+@import 'editor';
+
+$sections: general, description_editor, editor, license;
+
+p.submit {
+	max-width: 1020px;
+
+	.button-secondary {
+		float: right;
+	}
+}
+
+.nav-tab-wrapper {
+	margin-bottom: 1em;
+}
+
+input[type=number] {
+	width: 4em;
+}
+
+.CodeMirror {
+	max-width: 800px;
+	width: 100%;
+	padding-right: 1em;
+}
+
+.CodeMirror-sizer::before {
+	content: '<?php';
+}
+
+body.no-js {
+	.nav-tab-wrapper {
+		display: none;
+	}
+
+	.settings-section {
+		display: block !important;
+	}
+}
+
+body.js {
+
+	.settings-section-title {
+		border: 0;
+		clip: rect(1px, 1px, 1px, 1px);
+		clip-path: inset(50%);
+		height: 1px;
+		margin: -1px;
+		overflow: hidden;
+		padding: 0;
+		position: absolute;
+		width: 1px;
+		word-wrap: normal !important;
+	}
+
+	.nav-tab:not(.nav-tab-active) {
+		cursor: pointer;
+	}
+
+	.settings-section {
+		display: none;
+	}
+
+	@each $section in $sections {
+		.wrap[data-active-tab=#{$section}] .#{$section}-settings {
+			display: block;
+		}
+	}
+}

@@ -1,0 +1,92 @@
+{
+    "id": 1234,
+    "number": "1234",
+    "date": [
+        "2019-03-01T12:00:0+00:00",
+        0
+    ],
+    "status": "processing",
+    "status_previous": "pending",
+    "payment_method": "Direct Bank Transfer",
+    "transaction_id": "123456789",
+    "view_url": "https://example.com/my-account/view-order/1234",
+    "user_id": 261,
+    "currency": "USD",
+    "currency_symbol": "$",
+    "item_count": 1,
+    "line_items": [
+        {
+            "name": "Awesome Widget",
+            "quantity": 2,
+            "product_id": 33,
+            "variation_id": 0,
+            "sku": "WIDGET",
+            "categories": "Category A, Category B",
+            "tags": "TagA, TagB",
+            "type": "simple",
+            "unit_price": "88.00",
+            "line_subtotal": "176.00",
+            "line_total": "176.00",
+            "line_tax": "0.00",
+            "line_subtotal_tax": "0.00",
+            "tax_class": "",
+            "item_meta": []
+        }
+    ],
+    "prices_include_tax": true,
+    "total": "176.00",
+    "subtotal": "176.00",
+    "tax_total": "0.00",
+    "cart_discount": "0.00",
+    "discount_total": "0.00",
+    "coupons": "welcome_10, spring_25",
+    "shipping_total": "0.00",
+    "shipping_tax": "0.00",
+    "has_downloadable_item": true,
+    "downloadable_files": [
+        {
+            "filename": "Important.zip",
+            "download_url": "https://example.com/9f8b4cc20388aebd22ed0f1b01ae23e6.zip"
+        }
+    ],
+    "customer_note": "This is a note added by the customer during checkout.",
+    "notes": [
+        {
+            "note": "Thank you for your order. We will let you know once your order has shipped.",
+            "date": [
+                "2019-03-01T12:00:0+00:00",
+                0
+            ],
+            "author": "WooCommerce",
+            "author_email": "storeowner@example.com"
+        }
+    ],
+    "meta_data": [],
+    "billing_first_name": "John",
+    "billing_last_name": "Smith",
+    "billing_company": "Acme, Inc.",
+    "billing_email": "john@example.com",
+    "billing_phone": "1 123 456 789",
+    "billing_address": "Unit 1, 1600 Pennsylvania Ave NW, Washington, DC, 20500, US",
+    "billing_address_1": "Unit 1",
+    "billing_address_2": "1600 Pennsylvania Ave NW",
+    "billing_city": "Washington",
+    "billing_state": "DC",
+    "billing_state_name": "District Of Columbia",
+    "billing_postcode": "20500",
+    "billing_country": "US",
+    "billing_country_name": "United States",
+    "shipping_method": "Free Shipping",
+    "shipping_first_name": "John",
+    "shipping_last_name": "Smith",
+    "shipping_company": "Acme, Inc.",
+    "shipping_address": "Unit 1, 1600 Pennsylvania Ave NW, Washington, DC, 20500, US",
+    "shipping_address_1": "Unit 1",
+    "shipping_address_2": "1600 Pennsylvania Ave NW",
+    "shipping_city": "Washington",
+    "shipping_state": "DC",
+    "shipping_state_name": "District Of Columbia",
+    "shipping_postcode": "20500",
+    "shipping_country": "US",
+    "shipping_country_name": "United States"
+}

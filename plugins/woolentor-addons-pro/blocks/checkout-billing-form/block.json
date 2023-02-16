@@ -1,0 +1,236 @@
+{
+  "name": "woolentor/checkout-billing-form",
+  "category": "woolentor-checkout",
+  "title": "Checkout Billing Form",
+  "attributes": {
+    "blockUniqId": {
+      "type": "string",
+      "default": ""
+    },
+    "areaPadding": {
+      "type": "object",
+      "default": {
+        "device": "desktop"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} { padding: {{areaPadding}} !important; }"
+      }
+    },
+    "areaBGProperty": {
+      "type": "object",
+      "default": {
+        "imageId": null,
+        "imageUrl": "",
+        "position": "",
+        "attachment": "",
+        "repeat": "",
+        "size": ""
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}"
+      }
+    },
+    "formTitle": {
+      "type": "string",
+      "default": "Billing details"
+    },
+    "createfieldLabel": {
+      "type": "string",
+      "default": "Create an account?"
+    },
+    "headingColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-billing-fields > h3,{{WOOLENTOR_WRAPPER}} .woocommerce-billing-fields .woolentor-field-heading * { color: {{headingColor}}; } {{WOOLENTOR_WRAPPER}} .woocommerce-billing-fields .woolentor-field-heading{ border-color:{{headingColor}} }"
+      }
+    },
+    "headingSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-billing-fields > h3,{{WOOLENTOR_WRAPPER}} .woocommerce-billing-fields .woolentor-field-heading * { font-size: {{headingSize}}; }"
+      }
+    },
+    "headingAlignment": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-billing-fields > h3,{{WOOLENTOR_WRAPPER}} .woocommerce-billing-fields .woolentor-field-heading { text-align: {{headingAlignment}}; }"
+      }
+    },
+    "headingMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-billing-fields > h3,{{WOOLENTOR_WRAPPER}} .woocommerce-billing-fields .woolentor-field-heading { margin: {{headingMargin}}; }"
+      }
+    },
+    "labelColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) .form-row label { color: {{labelColor}}; }"
+      }
+    },
+    "labelRequiredColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) .form-row label abbr { color: {{labelRequiredColor}}; }"
+      }
+    },
+    "labelSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) .form-row label { font-size: {{labelSize}}; }"
+      }
+    },
+    "labelAlignment": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) .form-row label { text-align: {{labelAlignment}}; }"
+      }
+    },
+    "labelMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) .form-row label { margin: {{labelMargin}}; }"
+      }
+    },
+    "inputBoxBGColor": {
+      "type": "string",
+      "style": {
+        "selector": ".woocommerce {{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) input.input-text,.woocommerce {{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) .input-text,.woocommerce {{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) textarea,.woocommerce {{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) select,.woocommerce {{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) .select2-container .select2-selection,.woocommerce {{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) .select2-container--default .select2-selection--single .select2-selection__rendered,.woocommerce {{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) .woocommerce-input-wrapper strong { background-color: {{inputBoxBGColor}}; }"
+      }
+    },
+    "inputBoxColor": {
+      "type": "string",
+      "style": {
+        "selector": ".woocommerce {{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) input.input-text,.woocommerce {{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) .input-text,.woocommerce {{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) textarea,.woocommerce {{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) select,.woocommerce {{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) .select2-container .select2-selection,.woocommerce {{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) .select2-container--default .select2-selection--single .select2-selection__rendered,.woocommerce {{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) .woocommerce-input-wrapper strong { color: {{inputBoxColor}}; }"
+      }
+    },
+    "inputBoxSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) input.input-text, {{WOOLENTOR_WRAPPER}} .form-row select, {{WOOLENTOR_WRAPPER}} .form-row .select2-container .select2-selection,{{WOOLENTOR_WRAPPER}} .form-row .select2-container .select2-selection .select2-selection__rendered,{{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) .input-text { font-size: {{inputBoxSize}}; }"
+      }
+    },
+    "inputBoxHeight": {
+      "type": "number",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) input.input-text,{{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) select { height: {{inputBoxHeight}}px; } {{WOOLENTOR_WRAPPER}} .select2-container--default .select2-selection--single,{{WOOLENTOR_WRAPPER}} .select2-container--default .select2-selection--single .select2-selection__arrow { height: {{inputBoxHeight}}px;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-align: center;-ms-flex-align: center;align-items: center; } {{WOOLENTOR_WRAPPER}} .select2-container--default .select2-selection--single[aria-expanded='true']{outline: 1px solid #005fcc; border: 1px solid transparent;}"
+      }
+    },
+    "inputBoxBorderType": {
+      "type": "string",
+      "default": "",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) input.input-text, {{WOOLENTOR_WRAPPER}} .form-row select, {{WOOLENTOR_WRAPPER}} .form-row .select2-container .select2-selection, {{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) .input-text { border-style: {{inputBoxBorderType}}; }"
+      }
+    },
+    "inputBoxBorderWidth": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "inputBoxBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) input.input-text, {{WOOLENTOR_WRAPPER}} .form-row select, {{WOOLENTOR_WRAPPER}} .form-row .select2-container .select2-selection, {{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) .input-text { border-width: {{inputBoxBorderWidth}}; }"
+      }
+    },
+    "inputBoxBorderColor": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "inputBoxBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) input.input-text, {{WOOLENTOR_WRAPPER}} .form-row select, {{WOOLENTOR_WRAPPER}} .form-row .select2-container .select2-selection, {{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) .input-text { border-color: {{inputBoxBorderColor}}; }"
+      }
+    },
+    "inputBoxBorderRadius": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) input.input-text,{{WOOLENTOR_WRAPPER}} .form-row select, {{WOOLENTOR_WRAPPER}} .form-row .select2-container .select2-selection,{{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) .input-text { border-radius: {{inputBoxBorderRadius}}; }"
+      }
+    },
+    "inputBoxPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) input.input-text,{{WOOLENTOR_WRAPPER}} .form-row select, {{WOOLENTOR_WRAPPER}} .form-row .select2-container .select2-selection,{{WOOLENTOR_WRAPPER}} .form-row .select2-container .select2-selection .select2-selection__arrow,{{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) .input-text { padding: {{inputBoxPadding}}; }"
+      }
+    },
+    "inputBoxMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) .form-row { margin: {{inputBoxMargin}}!important; }"
+      }
+    },
+    "inputBoxFocusColor": {
+      "type": "string",
+      "default": "",
+      "style": {
+        "selector": ".woocommerce {{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) input.input-text:focus,.woocommerce {{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) .input-text:focus,.woocommerce {{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) textarea:focus,.woocommerce {{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) select:focus,.woocommerce {{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) .select2-container .select2-selection:focus,.woocommerce {{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) .select2-container--default .select2-selection--single .select2-selection__rendered:focus,.woocommerce {{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) .woocommerce-input-wrapper strong:focus { color: {{inputBoxFocusColor}}; }"
+      }
+    },
+    "inputBoxFocusBorderColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) input.input-text:focus, {{WOOLENTOR_WRAPPER}} .form-row select, {{WOOLENTOR_WRAPPER}} .form-row .select2-container .select2-selection:focus, {{WOOLENTOR_WRAPPER}} :is(.woocommerce-account-fields,.woocommerce-billing-fields) .input-text:focus { border-color: {{inputBoxFocusBorderColor}}; }"
+      }
+    }
+  }
+}

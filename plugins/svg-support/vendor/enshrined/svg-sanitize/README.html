@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+
+<h1 id="svg-sanitizer">svg-sanitizer</h1>
+
+<p><a href="https://travis-ci.org/darylldoyle/svg-sanitizer"><img src="https://travis-ci.org/darylldoyle/svg-sanitizer.svg?branch=master" alt="Build Status" /></a> <a href="https://codeclimate.com/github/darylldoyle/svg-sanitizer/coverage"><img src="https://codeclimate.com/github/darylldoyle/svg-sanitizer/badges/coverage.svg" alt="Test Coverage" /></a></p>
+
+<p>This is my attempt at building a decent SVG sanitizer in PHP. The work is laregely borrowed from <a href="https://github.com/cure53/DOMPurify">DOMPurify</a>.</p>
+
+<h2 id="installation">Installation</h2>
+
+<p>Either require <code>enshrined/svg-sanitize</code> through composer or download the repo and include the old way!</p>
+
+<h2 id="usage">Usage</h2>
+
+<p>Using this is fairly easy. Create a new instance of <code>enshrined\svgSanitize\Sanitizer</code> and then call the <code>sanitize</code> whilst passing in your dirty SVG/XML</p>
+
+<p><strong>Basic Example</strong></p>
+
+<pre><code class="php">use enshrined\svgSanitize\Sanitizer;
+
+// Create a new sanitizer instance
+$sanitizer = new Sanitizer();
+
+// Load the dirty svg
+$dirtySVG = file_get_contents('filthy.svg');
+
+// Pass it to the sanitizer and get it back clean
+$cleanSVG = $sanitizer-&gt;sanitize($dirtySVG);
+
+// Now do what you want with your clean SVG/XML data
+
+</code></pre>
+
+<h2 id="output">Output</h2>
+
+<p>This will either return a sanitized SVG/XML string or boolean <code>false</code> if XML parsing failed (usually due to a badly formatted file).</p>
+
+<h2 id="options">Options</h2>
+
+<p>You may pass your own whitelist of tags and attributes by using the <code>Sanitizer::setAllowedTags</code> and <code>Sanitizer::setAllowedAttrs</code> methods respectively.</p>
+
+<p>These methods require that you implement the <code>enshrined\svgSanitize\data\TagInterface</code> or <code>enshrined\svgSanitize\data\AttributeInterface</code>.</p>
+
+<h2 id="removeremotereferences">Remove remote references</h2>
+
+<p>You have the option to remove attributes that reference remote files, this will stop HTTP leaks but will add an overhead to the sanitizer.</p>
+
+<p>This defaults to false, set to true to remove references.</p>
+
+<p><code>$sanitizer-&gt;removeRemoteReferences(true);</code></p>
+
+<h2 id="viewingsanitizationissues">Viewing Sanitization Issues</h2>
+
+<p>You may use the <code>getXmlIssues()</code> method to return an array of issues that occurred during sanitization.</p>
+
+<p>This may be useful for logging or providing feedback to the user on why an SVG was refused.</p>
+
+<p><code>$issues = $sanitizer-&gt;getXmlIssues();</code></p>
+
+<h2 id="minification">Minification</h2>
+
+<p>You can minify the XML output by calling <code>$sanitizer-&gt;minify(true);</code>.</p>
+
+<h2 id="demo">Demo</h2>
+
+<p>There is a demo available at: <a href="http://svg.enshrined.co.uk/">http://svg.enshrined.co.uk/</a></p>
+
+<h2 id="wordpress">WordPress</h2>
+
+<p>I&#8217;ve just released a WordPress plugin containing this code so you can sanitize your WordPress uploads. It&#8217;s available from the WordPress plugin directory: <a href="https://wordpress.org/plugins/safe-svg/">https://wordpress.org/plugins/safe-svg/</a></p>
+
+<h2 id="drupal">Drupal</h2>
+
+<p><a href="https://github.com/heyMP">Michael Potter</a> has kindly created a Drupal module for this library which is available at: <a href="https://www.drupal.org/project/svg_sanitizer">https://www.drupal.org/project/svg_sanitizer</a></p>
+
+<h2 id="typo3">TYPO3</h2>
+
+<p>An integration for TYPO3 CMS of this library is available as composer package <code>t3g/svg-sanitizer</code> at <a href="https://github.com/TYPO3GmbH/svg_sanitizer">https://github.com/TYPO3GmbH/svg_sanitizer</a></p>
+
+<h2 id="tests">Tests</h2>
+
+<p>You can run these by running <code>vendor/bin/phpunit</code> from the base directory of this package.</p>
+
+<h2 id="standalonescanningoffilesviacli">Standalone scanning of files via CLI</h2>
+
+<p>Thanks to the work by <a href="https://github.com/gudmdharalds">gudmdharalds</a> there&#8217;s now a standalone scanner that can be used via the CLI.</p>
+
+<p>Any errors will be output in JSON format. See <a href="https://github.com/darylldoyle/svg-sanitizer/pull/25">the PR</a> for an example.</p>
+
+<p>Use it as follows: <code>php svg-scanner.php ~/svgs/myfile.svg</code></p>
+
+<h2 id="to-do">To-Do</h2>
+
+<p>More extensive testing for the SVGs/XML would be lovely, I&#8217;ll try and add these soon. If you feel like doing it for me, please do and make a PR!</p>
+
+</body>
+</html>
+

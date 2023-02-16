@@ -1,0 +1,97 @@
+.htwoolentor-faq-card {
+  margin-bottom: 12px;
+}
+.htwoolentor-faq-card .htwoolentor-faq-head {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.625;
+  position: relative;
+  display: flex;
+  padding: 19px 25px;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  color: #333333;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.htwoolentor-faq .htwoolentor-faq-card.is-active .htwoolentor-faq-head .htwoolentor-faq-head-icon.htwoolentor-faq-close-icon,.htwoolentor-faq .htwoolentor-faq-card .htwoolentor-faq-head .htwoolentor-faq-head-icon.htwoolentor-faq-open-icon{
+  display: block;
+}
+
+.htwoolentor-faq .htwoolentor-faq-card.is-active .htwoolentor-faq-head .htwoolentor-faq-head-icon.htwoolentor-faq-open-icon,.htwoolentor-faq .htwoolentor-faq-card .htwoolentor-faq-head .htwoolentor-faq-head-icon.htwoolentor-faq-close-icon{
+  display: none;
+}
+
+.htwoolentor-faq .htwoolentor-faq-card.is-active .htwoolentor-faq-head .htwoolentor-faq-head-icon svg :not([stroke="none"]) {
+  fill: #FFFFFF;
+}
+.htwoolentor-faq .htwoolentor-faq-card.is-active .htwoolentor-faq-head .htwoolentor-faq-head-icon svg :not([fill="none"]) {
+  stroke: #FFFFFF;
+}
+.htwoolentor-faq .htwoolentor-faq-card .htwoolentor-faq-head .htwoolentor-faq-head-icon svg [fill="none"] {
+  fill: transparent !important;
+}
+.htwoolentor-faq .htwoolentor-faq-card .htwoolentor-faq-head .htwoolentor-faq-head-icon svg [stroke="none"] {
+  stroke: transparent !important;
+}
+@media only screen and (max-width: 767px) {
+  .htwoolentor-faq-card .htwoolentor-faq-head {
+    padding: 15px 15px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+.htwoolentor-faq-card .htwoolentor-faq-head .htwoolentor-faq-head-indicator {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  margin-left: 10px;
+}
+.htwoolentor-faq-card .htwoolentor-faq-head .htwoolentor-faq-head-indicator::before, .htwoolentor-faq-card .htwoolentor-faq-head .htwoolentor-faq-head-indicator::after {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 2px;
+  content: "";
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transform: translateY(-50%);
+  border-radius: 10px;
+  background-color: #3D3D3D;
+}
+@media only screen and (max-width: 767px) {
+  .htwoolentor-faq-card .htwoolentor-faq-head .htwoolentor-faq-head-indicator {
+    margin-left: 15px;
+  }
+}
+.htwoolentor-faq-card .htwoolentor-faq-head .htwoolentor-faq-head-indicator::after {
+  transform: translateY(-50%) rotate(90deg);
+}
+.htwoolentor-faq-card .htwoolentor-faq-body {
+  overflow: hidden;
+}
+.htwoolentor-faq-card .htwoolentor-faq-body .htwoolentor-faq-content {
+  padding: 16px 25px 4px;
+}
+@media only screen and (max-width: 767px) {
+  .htwoolentor-faq-card .htwoolentor-faq-body .htwoolentor-faq-content {
+    padding: 16px 15px 4px;
+  }
+}
+.htwoolentor-faq-card .htwoolentor-faq-body .htwoolentor-faq-content p {
+  font-size: 15px;
+  line-height: 30px;
+  margin: 0;
+}
+.htwoolentor-faq-card.is-active .htwoolentor-faq-head {
+  color: #FFFFFF;
+  border-color: #dc9a0e;
+  background-color: #dc9a0e;
+}
+.htwoolentor-faq-card.is-active .htwoolentor-faq-head .htwoolentor-faq-head-indicator::after {
+  background-color: #ffffff;
+  transform: translateY(-50%);
+}

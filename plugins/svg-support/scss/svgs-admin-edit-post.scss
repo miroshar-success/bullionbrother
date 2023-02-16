@@ -1,0 +1,21 @@
+/**
+ * Featured Image Display
+ *
+ * Fixes the 0px featured image on edit screen
+ * WooCommerce Product, Sensei Course
+ */
+body #set-post-thumbnail,
+body #postimagediv .inside img[src$=".svg"] {
+	width: 100%;
+}
+
+// Block display of featured image SVG
+body .block-editor__container  {
+	.components-panel .editor-post-featured-image__container img[src$='.svg'] {
+		position: relative;
+	}
+
+	.edit-post-sidebar .components-panel .components-checkbox-control {
+		margin-top: 10px;
+	}
+}

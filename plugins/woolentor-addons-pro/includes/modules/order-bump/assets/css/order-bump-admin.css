@@ -1,0 +1,174 @@
+/* Order Bump template
+======================================================= */
+.woolentor-order-bump #edit-slug-box,
+.woolentor-order-bump #preview-action,
+.woolentor-order-bump #visibility,
+.woolentor-order-bump #delete-action,
+.woolentor-order-bump .page-title-action,
+.woolentor-order-bump #elementor-switch-mode,
+.woolentor-order-bump .updated.notice a	{
+	display: none !important;
+}
+
+.shoplentor_page_woolentor-order-bump #id {
+	width: 3%;
+}
+
+/**
+ * Template status switcher
+*/
+.shoplentor_page_woolentor-order-bump td {
+	vertical-align: middle;
+}
+
+.woolentor-order-bump-status-switch span span {
+	display: none;
+}
+
+.woolentor-order-bump-status-switch {
+	display: inline-block;
+	height: 18px;
+	position: relative;
+	overflow: visible;
+	padding: 0;
+	cursor: pointer;
+	width: 63px;
+}
+
+.woolentor-order-bump-status-switch * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.woolentor-order-bump-status-switch label,
+.woolentor-order-bump-status-switch>span {
+	line-height: 20px;
+	height: 20px;
+	vertical-align: middle;
+}
+
+.woolentor-order-bump-status-switch input:focus~a,
+.woolentor-order-bump-status-switch input:focus+label {
+	outline: none;
+}
+
+.woolentor-order-bump-status-switch label {
+	position: relative;
+	z-index: 3;
+	display: block;
+	width: 100%;
+}
+
+.woolentor-order-bump-status-switch input {
+	position: absolute;
+	opacity: 0;
+	z-index: 5;
+}
+
+.woolentor-order-bump-status-switch>span {
+	position: absolute;
+	left: -50px;
+	width: 100%;
+	margin: 0;
+	padding-right: 50px;
+	text-align: left;
+	white-space: nowrap;
+}
+
+.woolentor-order-bump-status-switch>span span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	display: block;
+	width: 50%;
+	margin-left: 47px;
+	text-align: left;
+	font-size: 0.8em;
+	width: 100%;
+	left: 10px;
+	top: -1px;
+	opacity: 0;
+}
+
+.woolentor-order-bump-status-switch a {
+	position: absolute;
+	right: 50%;
+	z-index: 4;
+	display: block;
+	height: 100%;
+	padding: 0;
+	left: 2px;
+	width: 18px;
+	background-color: #fff;
+	border: 1px solid #CCC;
+	border-radius: 100%;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.woolentor-order-bump-status-switch>span span:first-of-type {
+	color: #ccc;
+	opacity: 1;
+	left: 40%;
+}
+
+.woolentor-order-bump-status-switch>span:before {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 50px;
+	top: -2px;
+	background-color: #fafafa;
+	border: 1px solid #ccc;
+	border-radius: 30px;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+
+.woolentor-order-bump-status-switch input:checked~a {
+	border-color: #fff;
+	left: 100%;
+	margin-left: -19px;
+}
+
+.woolentor-order-bump-status-switch input:checked~span:before {
+	border-color: #0097D1;
+	box-shadow: inset 0 0 0 30px #0097D1;
+}
+
+.woolentor-order-bump-status-switch input:checked~span span:first-of-type {
+	opacity: 0;
+}
+
+.woolentor-order-bump-status-switch input:checked~span span:last-of-type {
+	opacity: 1;
+	color: #fff;
+}
+
+.woolentor-order-bump-status-switch.woolentor-loading a:after {
+	content: "";
+	border: 2px solid transparent;
+	border-radius: 100%;
+	width: 80%;
+	height: 80%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	border-left-color: #ccc;
+	animation: statusload 1800ms ease-in-out 5 forwards;
+}
+
+@keyframes statusload {
+	to {
+		transform: rotate(1turn);
+	}
+}
+
+/*  End Toggle Switch  */

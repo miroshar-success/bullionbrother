@@ -1,0 +1,134 @@
+{
+  "name": "woolentor/faq",
+  "category": "woolentor-blocks",
+  "title": "FAQ",
+  "attributes": {
+    "blockUniqId": {
+      "type": "string",
+      "default": ""
+    },
+    "faqList": {
+      "type": "array",
+      "default": [
+        {
+          "title": "Words To Live By",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris niesi ut aliquip ex ea commodo consequat.sed do eiusmod tempor incididunt ut quis labore et doliore magna aliqua."
+        },
+        {
+          "title": "Producing Perfume From Home",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris niesi ut aliquip ex ea commodo consequat.sed do eiusmod tempor incididunt ut quis labore et doliore magna aliqua."
+        },
+        {
+          "title": "The Basics Of Western Astrology Explained",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris niesi ut aliquip ex ea commodo consequat.sed do eiusmod tempor incididunt ut quis labore et doliore magna aliqua."
+        },
+        {
+          "title": "What Curling Irons Are The Best Ones",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris niesi ut aliquip ex ea commodo consequat.sed do eiusmod tempor incididunt ut quis labore et doliore magna aliqua."
+        }
+      ]
+    },
+    "showFirstItem": {
+      "type": "boolean",
+      "default": true
+    },
+    "iconPosition": {
+      "type": "string",
+      "default": "right"
+    },
+    "headBackgroundColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .htwoolentor-faq-head{ background-color: {{headBackgroundColor}}; }"
+      }
+    },
+    "faqTitleColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .htwoolentor-faq-head-text{ color: {{faqTitleColor}}; }"
+      }
+    },
+    "titleSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .htwoolentor-faq-head-text{ font-size: {{titleSize}}; }"
+      }
+    },
+    "titleBorderType": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .htwoolentor-faq-head{ border-style: {{titleBorderType}}; }"
+      }
+    },
+    "titleBorderWidth": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .htwoolentor-faq-head{ border-width: {{titleBorderWidth}}; }"
+      }
+    },
+    "titleBorderColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .htwoolentor-faq-head{ border-color: {{titleBorderColor}}; }"
+      }
+    },
+    "titleBorderRadius": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .htwoolentor-faq-head{ border-radius: {{titleBorderRadius}}; }"
+      }
+    },
+    "iconColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .htwoolentor-faq-head-indicator:before,{{WOOLENTOR_WRAPPER}} .htwoolentor-faq-head-indicator:after{ background-color: {{iconColor}}!important; }"
+      }
+    },
+    "activeHeadBackgroundColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .is-active .htwoolentor-faq-head{ background-color: {{activeHeadBackgroundColor}}; }"
+      }
+    },
+    "activeFaqTitleColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .is-active .htwoolentor-faq-head-text{ color: {{activeFaqTitleColor}}; }"
+      }
+    },
+    "activeIconColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .is-active .htwoolentor-faq-head-indicator:before,.{{WOOLENTOR_WRAPPER}} .is-active .htwoolentor-faq-head-indicator:after{ background-color: {{activeIconColor}}!important; }"
+      }
+    },
+    "contentColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .htwoolentor-faq-content{ color: {{contentColor}}; }"
+      }
+    },
+    "contentSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .htwoolentor-faq-content,{{WOOLENTOR_WRAPPER}} .htwoolentor-faq-content p{ font-size: {{contentSize}}; }"
+      }
+    }
+  }
+}

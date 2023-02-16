@@ -1,0 +1,305 @@
+{
+	"name": "woolentor/customer-review",
+    "category": "woolentor-blocks",
+    "title": "WL: Customer Review",
+    "description": "Display Product Customer Review.",
+    "keywords": [ "woolentor", "product", "review", "woocommerce", "customer", "customer review" ],
+    "supports": {
+        "align": [ "wide", "full" ]
+    },
+    "attributes": {
+        "blockUniqId":{
+            "type": "string",
+            "default": ""
+        },
+        "areaPadding": {
+            "type": "object",
+            "default": {
+                "device": "desktop"
+            },
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} { padding: {{areaPadding}} !important; }"
+            }
+        },
+        "areaMargin": {
+            "type": "object",
+            "default": {
+                "device": "desktop"
+            },
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} { margin: {{areaMargin}} !important; }"
+            }
+        },
+        "areaBGProperty":{
+            "type": "object",
+            "default": {
+                "imageId": null,
+                "imageUrl":"",
+                "position": "",
+                "attachment": "",
+                "repeat": "",
+                "size": ""
+            },
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}}"
+            }
+        },
+
+        "reviewStyle":{
+            "type": "string",
+            "default": "1"
+        },
+        "reviewType":{
+            "type": "string",
+            "default": "custom"
+        },
+
+        "customerReviewList":{
+            "type": "array",
+            "default": [
+                {
+                    "name":"Carolina Monntoya",
+                    "designation":"Managing Director",
+                    "rating":"5",
+                    "message":"Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                    "image":{
+                        "id":"",
+                        "url":""
+                    }
+                },
+                {
+                    "name":"Peter Rose",
+                    "designation":"Manager",
+                    "rating":"5",
+                    "message":"Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                    "image":{
+                        "id":"",
+                        "url":""
+                    }
+                },
+                {
+                    "name":"Gerald Gilbert",
+                    "designation":"Developer",
+                    "rating":"5",
+                    "message":"Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                    "image":{
+                        "id":"",
+                        "url":""
+                    }
+                }
+            ]
+        },
+
+        "limit":{
+            "type": "number"
+        },
+        "offset":{
+            "type": "number"
+        },
+        "productIds":{
+            "type": "string"
+        },
+        "imageSize":{
+            "type": "string",
+            "default": "full"
+        },
+        "showImage":{
+            "type": "boolean",
+            "default": true
+        },
+
+        "columns": {
+            "type": "object",
+            "default": {
+                "desktop": 3
+            }
+        },
+        "noGutter":{
+            "type": "boolean",
+            "default": false
+        },
+        "columnSpace":{
+            "type": "number",
+            "default": 15,
+            "style" : {
+                "dependency": [
+                    [
+                        {
+                            "key": "noGutter", 
+                            "condition": "==", 
+                            "value": false
+                        }
+                    ]
+                ],
+                "selector":"{{WOOLENTOR_WRAPPER}} .woolentor-grid:not(.woolentor-no-gutters) { column-gap: {{columnSpace}}px; }"
+            }
+        },
+        "rowSpace":{
+            "type": "number",
+            "default": 15,
+            "style" : {
+                "dependency": [
+                    [
+                        {
+                            "key": "noGutter", 
+                            "condition": "==", 
+                            "value": false
+                        }
+                    ]
+                ],
+                "selector":"{{WOOLENTOR_WRAPPER}} .woolentor-grid:not(.woolentor-no-gutters) { row-gap: {{rowSpace}}px; }"
+            }
+        },
+
+        "contentAlign":{
+            "type":"string",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} .wl-customer-testimonal { text-align: {{contentAlign}}; }"
+            }
+        },
+        "contentPadding": {
+            "type": "object",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} .wl-customer-testimonal { padding: {{contentPadding}}; }"
+            }
+        },
+        "contentMargin": {
+            "type": "object",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} .wl-customer-testimonal { margin: {{contentMargin}}; }"
+            }
+        },
+        "contentBGColor":{
+            "type":"string",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} .wl-customer-testimonal { background-color: {{contentBGColor}}; }"
+            }
+        },
+        "contentBorder": {
+            "type": "object",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} .wl-customer-testimonal"
+            }
+        },
+        "contentBorderRadius": {
+            "type": "object",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} .wl-customer-testimonal { border-radius: {{contentBorderRadius}}; }"
+            }
+        },
+
+        "imageBorder": {
+            "type": "object",
+            "style" : {
+                "dependency": [
+                    [
+                        {
+                            "key": "showImage", 
+                            "condition": "==", 
+                            "value": true
+                        }
+                    ]
+                ],
+                "selector":"{{WOOLENTOR_WRAPPER}} .wl-customer-testimonal img"
+            }
+        },
+        "imageBorderRadius": {
+            "type": "object",
+            "style" : {
+                "dependency": [
+                    [
+                        {
+                            "key": "showImage", 
+                            "condition": "==", 
+                            "value": true
+                        }
+                    ]
+                ],
+                "selector":"{{WOOLENTOR_WRAPPER}} .wl-customer-testimonal img { border-radius: {{imageBorderRadius}} !important; }"
+            }
+        },
+
+        "nameColor":{
+            "type":"string",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} .wl-customer-testimonal .clint-info h4 { color: {{nameColor}}!important; }{{WOOLENTOR_WRAPPER}} .wlb-review-style-2 .wl-customer-testimonal .clint-info h4:before{ background-color: {{nameColor}}!important; }"
+            }
+        },
+        "nameSize":{
+            "type": "string",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} .wl-customer-testimonal .clint-info h4 { font-size: {{nameSize}}!important; }"
+            }
+        },
+        "namePadding": {
+            "type": "object",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} .wl-customer-testimonal .clint-info h4 { padding: {{namePadding}}!important; }"
+            }
+        },
+        "nameMargin": {
+            "type": "object",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} .wl-customer-testimonal .clint-info h4 { margin: {{nameMargin}}!important; }"
+            }
+        },
+
+        "designationColor":{
+            "type":"string",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} .wl-customer-testimonal .clint-info span { color: {{designationColor}}!important; }"
+            }
+        },
+        "designationSize":{
+            "type": "string",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} .wl-customer-testimonal .clint-info span { font-size: {{designationSize}}!important; }"
+            }
+        },
+        "designationPadding": {
+            "type": "object",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} .wl-customer-testimonal .clint-info span { padding: {{designationPadding}}!important; }"
+            }
+        },
+        "designationMargin": {
+            "type": "object",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} .wl-customer-testimonal .clint-info span { margin: {{designationMargin}}!important; }"
+            }
+        },
+
+        "messageColor":{
+            "type":"string",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} .wl-customer-testimonal p { color: {{messageColor}}!important; }"
+            }
+        },
+        "messageSize":{
+            "type": "string",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} .wl-customer-testimonal p { font-size: {{messageSize}}!important; }"
+            }
+        },
+        "messagePadding": {
+            "type": "object",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} .wl-customer-testimonal p { padding: {{messagePadding}}!important; }"
+            }
+        },
+        "messageMargin": {
+            "type": "object",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} .wl-customer-testimonal p { margin: {{messageMargin}}!important; }"
+            }
+        },
+
+        "ratingColor":{
+            "type":"string",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} .wl-customer-testimonal .clint-info .rating { color: {{ratingColor}}!important; }"
+            }
+        }
+    
+    }
+}

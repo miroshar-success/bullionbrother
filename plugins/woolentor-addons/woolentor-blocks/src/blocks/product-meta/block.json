@@ -1,0 +1,91 @@
+{
+  "name": "woolentor/product-meta",
+  "category": "woolentor-single-product",
+  "title": "Product Meta",
+  "attributes": {
+    "blockUniqId": {
+      "type": "string",
+      "default": ""
+    },
+    "areaPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} { padding: {{areaPadding}}; }"
+      }
+    },
+    "areaMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} { margin: {{areaMargin}}; }"
+      }
+    },
+    "areaBGProperty": {
+      "type": "object",
+      "default": {
+        "imageId": null,
+        "imageUrl": "",
+        "position": "",
+        "attachment": "",
+        "repeat": "",
+        "size": ""
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}"
+      }
+    },
+    "textColor": {
+      "type": "string",
+      "style": {
+        "selector": ".woocommerce {{WOOLENTOR_WRAPPER}} .product_meta{ color: {{textColor}}; }"
+      }
+    },
+    "linkColor": {
+      "type": "string",
+      "style": {
+        "selector": ".woocommerce {{WOOLENTOR_WRAPPER}} .product_meta a{ color: {{linkColor}}; }"
+      }
+    },
+    "linkHoverColor": {
+      "type": "string",
+      "style": {
+        "selector": ".woocommerce {{WOOLENTOR_WRAPPER}} .product_meta a:hover{ color: {{linkHoverColor}}; }"
+      }
+    },
+    "textSize": {
+      "type": "string",
+      "style": {
+        "selector": ".woocommerce {{WOOLENTOR_WRAPPER}} .product_meta{ font-size: {{textSize}} !important; }"
+      }
+    },
+    "textMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": ".woocommerce {{WOOLENTOR_WRAPPER}} .product_meta{ margin: {{textMargin}}; }"
+      }
+    }
+  }
+}

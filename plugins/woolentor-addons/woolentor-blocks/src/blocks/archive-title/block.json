@@ -1,0 +1,113 @@
+{
+  "name": "woolentor/archive-title",
+  "category": "woolentor-blocks",
+  "title": "Archive Title",
+  "attributes": {
+    "blockUniqId": {
+      "type": "string",
+      "default": ""
+    },
+    "areaPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} { padding: {{areaPadding}}; }"
+      }
+    },
+    "areaBGProperty": {
+      "type": "object",
+      "default": {
+        "imageId": null,
+        "imageUrl": "",
+        "position": "",
+        "attachment": "",
+        "repeat": "",
+        "size": ""
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}"
+      }
+    },
+    "titleTag": {
+      "type": "string",
+      "default": "h2"
+    },
+    "showTitle": {
+      "type": "boolean",
+      "default": true
+    },
+    "showDescription": {
+      "type": "boolean",
+      "default": true
+    },
+    "showImage": {
+      "type": "boolean",
+      "default": false
+    },
+    "contentAlignment": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} { text-align:{{contentAlignment}}; }"
+      }
+    },
+    "titleColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-archive-title{ color:{{titleColor}}!important; }"
+      }
+    },
+    "titleSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-archive-title{ font-size:{{titleSize}}!important; }"
+      }
+    },
+    "titleMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-archive-title{ margin:{{titleMargin}}!important; }"
+      }
+    },
+    "descColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-archive-desc{ color:{{descColor}}!important; }"
+      }
+    },
+    "descSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-archive-desc{ font-size:{{descSize}}!important; }"
+      }
+    },
+    "descMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-archive-desc{ margin:{{descMargin}}!important; }"
+      }
+    }
+  }
+}

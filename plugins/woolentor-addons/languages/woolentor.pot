@@ -1,0 +1,6150 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooLentor - WooCommerce Elementor Addons + Builder\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-13 03:55+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.3; wp-6.1\n"
+"X-Domain: woolentor"
+
+#. %s: Product title
+#: includes/modules/variation-swatch/includes/ajax-actions.php:88
+#, php-format
+msgid "\"%1$s\" has been added to your cart. %2$s"
+msgstr ""
+
+#. 1: Plugin name 2: PHP 3: Required PHP version
+#: includes/base.php:187
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:626
+msgid "\"Out of stock\" BG Color"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:614
+msgid "\"Out of stock\" Text Color"
+msgstr ""
+
+#: includes/addons/wl_onepage_slider.php:476
+#: includes/addons/wl_onepage_slider.php:481
+#: includes/addons/wl_onepage_slider.php:486
+msgid "#"
+msgstr ""
+
+#: includes/base.php:165
+#, php-format
+msgid ""
+"%1$sWooLentor Addons for Elementor%2$s requires %1$s\"WooCommerce\"%2$s "
+"plugin to be active. Please activate WooCommerce to continue."
+msgstr ""
+
+#: includes/base.php:172
+#, php-format
+msgid ""
+"%1$sWooLentor Addons for Elementor%2$s requires %1$s\"WooCommerce\"%2$s "
+"plugin to be installed and activated. Please install WooCommerce to continue."
+msgstr ""
+
+#: classes/class.default_data.php:310
+#, php-format
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:188
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:203
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:217
+msgid "-------"
+msgstr ""
+
+#: includes/admin/templates/dashboard-sidebar.php:25
+msgid ". Which will motivate us a lot."
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:105
+#: includes/addons/product_curvy.php:82 includes/addons/product_curvy.php:100
+#: includes/addons/product_tabs.php:96
+msgid "1"
+msgstr ""
+
+#: includes/admin/templates/dashboard-sidebar.php:13
+msgid "10 Custom Shop Page Templates"
+msgstr ""
+
+#: includes/admin/templates/dashboard-sidebar.php:11
+msgid "100+ Elementor Elements"
+msgstr ""
+
+#: includes/addons/wb_product_call_for_price.php:63
+#: includes/addons/wb_product_call_for_price.php:64
+msgid "123-456-7890"
+msgstr ""
+
+#: includes/admin/templates/dashboard-sidebar.php:12
+msgid "15 Product Custom Templates"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:106
+#: includes/addons/product_curvy.php:83 includes/addons/product_curvy.php:101
+#: includes/addons/product_tabs.php:97
+msgid "2"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:107
+#: includes/addons/product_curvy.php:84 includes/addons/product_tabs.php:98
+msgid "3"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:108
+#: includes/addons/product_curvy.php:85 includes/addons/product_tabs.php:99
+msgid "4"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:109
+#: includes/addons/product_tabs.php:100
+msgid "5"
+msgstr ""
+
+#: includes/addons/special_day_offer.php:115
+msgid "50%"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:110
+#: includes/addons/product_tabs.php:101
+msgid "6"
+msgstr ""
+
+#: includes/addons/product_tabs.php:1478 includes/addons/product_tabs.php:1608
+#: woolentor-blocks/build/blocks/product-tab/loop-item.php:39
+#: woolentor-blocks/src/blocks/product-tab/loop-item.php:39
+msgid ":"
+msgstr ""
+
+#: woolentor-blocks/build/blocks/product-curvy/index.php:98
+#: woolentor-blocks/src/blocks/product-curvy/index.php:98
+msgid "<i class=\"fa fa-shopping-cart\"></i>"
+msgstr ""
+
+#: includes/addons/product_tabs.php:1116
+msgid "Action Button"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:642
+#: includes/addons/product_image_accordion.php:522
+#: includes/addons/product_accordion.php:601
+#: includes/addons/product_curvy.php:726
+msgid "Action Button Style"
+msgstr ""
+
+#: includes/admin/include/template-library.php:162
+#: includes/admin/include/template-library.php:214
+#: includes/admin/include/class.extension-manager.php:159
+#: includes/admin/include/class.extension-manager.php:226
+msgid "Activate"
+msgstr ""
+
+#: includes/base.php:141
+msgid "Activate Elementor"
+msgstr ""
+
+#: includes/base.php:166
+msgid "Activate WooCommerce"
+msgstr ""
+
+#: includes/admin/include/template-library.php:173
+#: includes/admin/include/template-library.php:225
+#: includes/admin/include/class.extension-manager.php:170
+#: includes/admin/include/class.extension-manager.php:237
+msgid "Activated"
+msgstr ""
+
+#: classes/class.assest_management.php:367
+msgid "Activating.."
+msgstr ""
+
+#: classes/class.assest_management.php:368 includes/addons/wl_faq.php:464
+#: includes/addons/wl_faq.php:760 includes/addons/wb_product_data_tab.php:187
+#: includes/addons/wb_archive_product.php:758
+msgid "Active"
+msgstr ""
+
+#: includes/addons/wl_product_filter.php:519
+msgid "Active Slider Background"
+msgstr ""
+
+#: includes/addons/product_image_accordion.php:73
+#: includes/addons/product_accordion.php:94
+#: includes/addons/product_curvy.php:129
+msgid "Add ID Manually"
+msgstr ""
+
+#: includes/admin/include/admin_field-manager.php:433
+msgid "Add Item"
+msgstr ""
+
+#: includes/admin/include/class.template_cpt.php:34
+msgid "Add New"
+msgstr ""
+
+#: includes/admin/include/class.template_cpt.php:33
+msgid "Add New Template"
+msgstr ""
+
+#: includes/addons/wl_recently_viewed_products.php:394
+#: includes/addons/wb_wishsuite_table.php:347
+#: woolentor-blocks/includes/classes/Api/Api.php:186
+msgid "Add To Cart"
+msgstr ""
+
+#: includes/addons/wb_product_add_to_cart.php:1020
+#: includes/modules/variation-swatch/includes/Frontend/Woo_Config.php:1007
+msgid "Add to Cart"
+msgstr ""
+
+#: includes/addons/wb_archive_product.php:542
+msgid "Add To Cart Button"
+msgstr ""
+
+#: includes/addons/product_image_accordion.php:200
+#: includes/addons/product_accordion.php:221
+#: includes/addons/product_curvy.php:244
+msgid "Add to Cart Button Icon"
+msgstr ""
+
+#: includes/addons/product_image_accordion.php:189
+#: includes/addons/product_accordion.php:209
+msgid "Add to Cart Button Text"
+msgstr ""
+
+#: includes/helper-function.php:1080 includes/helper-function.php:1081
+#: includes/helper-function.php:1097
+#: woolentor-blocks/includes/helper-functions.php:524
+#: woolentor-blocks/includes/helper-functions.php:525
+#: woolentor-blocks/includes/helper-functions.php:541
+msgid "Add to Compare"
+msgstr ""
+
+#: includes/class.product_video_gallery.php:30
+msgid "Add Youtube / Vimeo URL"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:330
+msgid "add_to_cart"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:205
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:206
+msgid "Added"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:249
+msgid "Added button custom icon"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:236
+msgid "Added button icon type"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:202
+msgid "Added button text"
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/form-shipping.php:44
+msgid "Additional information"
+msgstr ""
+
+#: includes/addons/wl_faq.php:183
+#: includes/addons/wl_product_horizontal_filter.php:190
+#: includes/addons/wl_product_filter.php:87
+msgid "Additional Options"
+msgstr ""
+
+#: classes/class.widgets_control.php:232
+msgid "Adds Banner"
+msgstr ""
+
+#: includes/addons/wb_product_suggest_price.php:87
+#: includes/addons/wb_product_suggest_price.php:88
+msgid "admin@domain.com"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:96
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:143
+msgid "After Add To Cart"
+msgstr ""
+
+#: includes/addons/wb_product_add_to_cart.php:503
+msgid "After Add to Cart"
+msgstr ""
+
+#: includes/addons/wl_category_grid.php:593
+msgid "After Border Color"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:144
+msgid "After Image"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:145
+msgid "After Summary"
+msgstr ""
+
+#: includes/addons/wl_faq.php:246
+msgid "After Title"
+msgstr ""
+
+#: includes/addons/wl_faq.php:350 includes/addons/wl_faq.php:573
+#: includes/addons/wb_product_short_description.php:53
+#: includes/addons/wl_breadcrumbs.php:74
+#: includes/addons/wb_wishsuite_counter.php:65
+#: includes/addons/wl_product_horizontal_filter.php:738
+#: includes/addons/wl_onepage_slider.php:169
+#: includes/addons/special_day_offer.php:269
+#: includes/addons/wl_store_features.php:139
+#: includes/addons/wb_product_data_tab.php:156
+#: includes/addons/wb_archive_product.php:233
+#: includes/addons/wl_archive_title.php:108
+#: includes/addons/wb_product_qr_code.php:87
+#: includes/addons/wb_product_related.php:165
+#: includes/addons/wb_archive_result_count.php:79
+#: includes/addons/wb_product_description.php:51
+#: includes/addons/wl_category.php:293 includes/addons/wl_brand.php:294
+#: includes/addons/wb_product_categories.php:60
+#: includes/addons/wb_product_rating.php:96
+#: includes/addons/wb_product_title.php:103
+#: includes/addons/wb_product_sku.php:60
+#: includes/addons/wb_customer_review.php:286
+#: includes/addons/wl_recently_viewed_products.php:234
+#: includes/addons/product_tabs.php:231 includes/addons/product_tabs.php:953
+#: includes/addons/product_tabs.php:1032 includes/addons/wb_product_tags.php:60
+msgid "Alignment"
+msgstr ""
+
+#: includes/admin/include/template-library/templates_list.php:29
+msgid "ALL"
+msgstr ""
+
+#: includes/addons/wb_wc_multicurrency.php:58
+#: includes/admin/include/class.template-manager.php:372
+msgid "All"
+msgstr ""
+
+#: includes/admin/include/class.template-manager.php:479
+msgid "All Assigned Template has been imported"
+msgstr ""
+
+#: includes/admin/include/template-library/templates_list.php:18
+msgid "All Builders"
+msgstr ""
+
+#: includes/addons/wl_category_grid.php:75
+#: includes/modules/ajax-search/base.php:125
+msgid "All Categories"
+msgstr ""
+
+#: includes/admin/include/class.template-manager.php:467
+msgid "All Data Saved"
+msgstr ""
+
+#: classes/class.assest_management.php:357
+msgid "All Items have been Loaded"
+msgstr ""
+
+#: includes/addons/wb_archive_product.php:99
+msgid "Allow Order"
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/form-checkout.php:54
+msgid "Already have an account?"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"An all-in-one WooCommerce solution to create a beautiful WooCommerce store."
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:84 includes/addons/wl_testimonial.php:145
+msgid "Anna Miller"
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/form-coupon.php:21
+msgid "Apply"
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/form-coupon.php:21
+msgid "Apply coupon"
+msgstr ""
+
+#: includes/admin/include/class.template-manager.php:266
+#: includes/admin/include/class.template-manager.php:289
+msgid "Archive"
+msgstr ""
+
+#: classes/class.widgets_control.php:412
+msgid "Archive Catalog Ordering"
+msgstr ""
+
+#: includes/addons/wl_archive_title.php:226
+msgid "Archive Description"
+msgstr ""
+
+#: classes/class.widgets_control.php:404
+#: woolentor-blocks/includes/classes/Blocks_List.php:203
+msgid "Archive Layout Default"
+msgstr ""
+
+#: includes/addons/wb_archive_product.php:43
+msgid "Archive Product"
+msgstr ""
+
+#: classes/class.widgets_control.php:408
+msgid "Archive Result Count"
+msgstr ""
+
+#: classes/class.widgets_control.php:272
+#: includes/addons/wl_archive_title.php:43
+#: includes/addons/wl_archive_title.php:224
+#: woolentor-blocks/includes/classes/Blocks_List.php:89
+msgid "Archive Title"
+msgstr ""
+
+#: classes/class.assest_management.php:334
+#: includes/admin/include/class.template-manager.php:482
+msgid "Are you sure?"
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:295
+#: includes/addons/wl_onepage_slider.php:160
+#: includes/addons/wl_store_features.php:131
+#: includes/addons/wb_customer_review.php:278
+#: includes/addons/wl_category_grid.php:459
+msgid "Area"
+msgstr ""
+
+#: includes/addons/wl_onepage_slider.php:202
+msgid "Area Background Type"
+msgstr ""
+
+#: includes/addons/wl_store_features.php:206
+msgid "Area Margin"
+msgstr ""
+
+#: includes/addons/wl_store_features.php:193
+msgid "Area Padding"
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:955
+#: includes/addons/wb_product_upsell.php:84
+#: includes/addons/wb_archive_product.php:148
+#: includes/addons/wb_product_related.php:99
+#: includes/addons/wl_product_filter.php:913
+msgid "ASC"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:154
+#: includes/addons/product_image_accordion.php:167
+#: includes/addons/product_accordion.php:188
+#: includes/addons/wl_category.php:136 includes/addons/product_curvy.php:223
+#: includes/addons/wl_recently_viewed_products.php:64
+#: includes/addons/product_tabs.php:182
+#: includes/addons/wl_category_grid.php:115
+msgid "Ascending"
+msgstr ""
+
+#: includes/admin/include/class.template-manager.php:478
+msgid "Assigned Template Importing.."
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:110
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:115
+msgid "Auto convert Dropdown to Image Swatch"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:104
+msgid "Auto convert Dropdowns to Label Swatch"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:367 includes/addons/product_tabs.php:506
+#: includes/addons/wl_category_grid.php:351
+msgid "Autoplay animation speed"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:354 includes/addons/product_tabs.php:493
+#: includes/addons/wl_category_grid.php:339
+msgid "Autoplay speed"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:332
+msgid "availability"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:363
+msgid "Available Custom Text"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:931
+msgid "Available Number Color"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:365
+#: includes/addons/product_flash_sale.php:1038
+msgid "Available:"
+msgstr ""
+
+#: includes/addons/wl_category_grid.php:1038
+msgid "Awaiting category image"
+msgstr ""
+
+#: classes/class.default_data.php:343
+msgid "Awaiting product image"
+msgstr ""
+
+#: includes/admin/include/template-library/templates_list.php:49
+msgid "Back to Library"
+msgstr ""
+
+#: includes/addons/wl_faq.php:308 includes/addons/wl_faq.php:386
+#: includes/addons/wl_faq.php:471 includes/addons/wl_faq.php:649
+#: includes/addons/wl_faq.php:784 includes/addons/product_flash_sale.php:911
+#: includes/addons/wl_product_horizontal_filter.php:349
+#: includes/addons/wl_product_horizontal_filter.php:536
+#: includes/addons/wl_product_horizontal_filter.php:723
+#: includes/addons/wl_product_horizontal_filter.php:810
+#: includes/addons/wl_product_horizontal_filter.php:841
+#: includes/addons/wl_onepage_slider.php:196
+#: includes/addons/wl_onepage_slider.php:347
+#: includes/addons/wl_onepage_slider.php:553
+#: includes/addons/wl_onepage_slider.php:569
+#: includes/addons/special_day_offer.php:681
+#: includes/addons/special_day_offer.php:760
+#: includes/addons/wl_testimonial.php:989
+#: includes/addons/wl_store_features.php:219
+#: includes/addons/wl_store_features.php:321
+#: includes/addons/wl_store_features.php:385
+#: includes/addons/product_image_accordion.php:293
+#: includes/addons/product_image_accordion.php:564
+#: includes/addons/product_image_accordion.php:623
+#: includes/addons/product_accordion.php:358
+#: includes/addons/product_accordion.php:371
+#: includes/addons/product_accordion.php:635
+#: includes/addons/product_accordion.php:682
+#: includes/addons/product_curvy.php:384 includes/addons/product_curvy.php:397
+#: includes/addons/product_curvy.php:735 includes/addons/product_curvy.php:767
+#: includes/addons/product_curvy.php:811 includes/addons/wb_just_table.php:123
+#: includes/addons/wb_product_suggest_price.php:236
+#: includes/addons/wb_product_suggest_price.php:335
+#: includes/addons/wb_product_suggest_price.php:433
+#: includes/addons/wb_product_suggest_price.php:510
+#: includes/addons/wl_product_filter.php:242
+#: includes/addons/wl_product_filter.php:312
+#: includes/addons/wl_product_filter.php:362
+#: includes/addons/wl_product_filter.php:503
+#: includes/addons/wl_product_filter.php:514
+#: includes/addons/wl_product_filter.php:563
+#: includes/addons/wl_product_filter.php:656
+#: includes/addons/wl_product_filter.php:720
+#: includes/addons/wb_image_marker.php:51
+#: includes/addons/wb_image_marker.php:207
+#: includes/addons/wb_image_marker.php:260
+#: includes/addons/wb_customer_review.php:327
+#: includes/addons/wb_wishsuite_table.php:398
+#: includes/addons/wb_wishsuite_table.php:430
+#: includes/addons/product_tabs.php:776
+#: includes/addons/wl_category_grid.php:489
+#: includes/addons/wl_category_grid.php:871
+msgid "Background"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:855
+#: includes/addons/wl_testimonial.php:929
+#: includes/addons/wl_testimonial.php:1029
+#: includes/addons/wb_product_data_tab.php:113
+#: includes/addons/wb_product_data_tab.php:205
+#: includes/addons/wb_archive_product.php:571
+#: includes/addons/wb_archive_product.php:660
+#: includes/addons/wb_archive_product.php:744
+#: includes/addons/wb_archive_product.php:777
+#: includes/addons/wb_archive_product.php:837
+#: includes/addons/wb_archive_catalog_ordering.php:72
+#: includes/addons/wb_product_call_for_price.php:156
+#: includes/addons/wb_product_call_for_price.php:188
+#: includes/addons/product_accordion.php:65
+#: includes/addons/wb_product_suggest_price.php:629
+#: includes/addons/wb_product_suggest_price.php:661
+#: includes/addons/wb_product_suggest_price.php:772
+#: includes/addons/wb_product_suggest_price.php:804
+#: includes/addons/wl_recently_viewed_products.php:446
+#: includes/addons/wl_recently_viewed_products.php:498
+#: includes/addons/wl_recently_viewed_products.php:602
+#: includes/addons/wl_recently_viewed_products.php:677
+#: includes/addons/wb_wishsuite_table.php:231
+#: includes/addons/product_tabs.php:661 includes/addons/product_tabs.php:713
+#: includes/addons/product_tabs.php:817 includes/addons/product_tabs.php:1146
+#: includes/addons/product_tabs.php:1206
+#: includes/addons/wb_product_add_to_cart.php:1117
+#: includes/addons/wb_product_add_to_cart.php:1151
+#: includes/addons/wl_category_grid.php:737
+#: includes/addons/wl_category_grid.php:811
+#: includes/addons/wl_category_grid.php:911
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:455
+msgid "Background Color"
+msgstr ""
+
+#: includes/addons/wl_onepage_slider.php:353
+#: includes/addons/wl_onepage_slider.php:559
+#: includes/addons/product_accordion.php:61
+msgid "Background Type"
+msgstr ""
+
+#: includes/modules/backorder/class.backorder.php:455
+msgid "Backorder Availability"
+msgstr ""
+
+#: includes/modules/backorder/class.backorder.php:442
+msgid "Backorder Limit"
+msgstr ""
+
+#: includes/modules/backorder/class.backorder.php:446
+msgid ""
+"Backorder limit. If this is a variable product this value will be used to "
+"control backorder limit for all variations, unless you define backorder "
+"limit at variation level."
+msgstr ""
+
+#: includes/modules/backorder/class.backorder.php:99
+msgid "Backordered"
+msgstr ""
+
+#: includes/addons/wl_recently_viewed_products.php:535
+msgid "Badge"
+msgstr ""
+
+#: includes/addons/special_day_offer.php:165
+msgid "Badge Image"
+msgstr ""
+
+#: includes/addons/special_day_offer.php:43 includes/addons/add_banner.php:43
+msgid "Banner"
+msgstr ""
+
+#: includes/addons/special_day_offer.php:155
+msgid "Banner Badge"
+msgstr ""
+
+#: includes/addons/special_day_offer.php:106
+msgid "Banner Description"
+msgstr ""
+
+#: includes/addons/add_banner.php:77
+msgid "Banner image"
+msgstr ""
+
+#: includes/addons/special_day_offer.php:131
+msgid "Banner Link"
+msgstr ""
+
+#: includes/addons/special_day_offer.php:97 includes/addons/add_banner.php:105
+msgid "Banner Sub Title"
+msgstr ""
+
+#: includes/addons/special_day_offer.php:88 includes/addons/add_banner.php:97
+msgid "Banner Title"
+msgstr ""
+
+#: includes/addons/wb_product_add_to_cart.php:502
+msgid "Befor Add to Cart"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:95
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:142
+msgid "Before Add To Cart"
+msgstr ""
+
+#: includes/addons/wl_category_grid.php:651
+msgid "Before Border Color"
+msgstr ""
+
+#: includes/addons/wl_faq.php:245
+msgid "Before Title"
+msgstr ""
+
+#: includes/addons/product_image_accordion.php:68
+#: includes/addons/product_accordion.php:89
+#: includes/addons/product_curvy.php:124 includes/addons/product_tabs.php:81
+msgid "Best Selling Products"
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/form-billing.php:26
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/form-billing.php:28
+msgid "Billing address"
+msgstr ""
+
+#: includes/admin/templates/dashboard-gutenberg.php:14
+msgid "Blocks"
+msgstr ""
+
+#: includes/admin/templates/dashboard-widget.php:88
+msgid "Blog"
+msgstr ""
+
+#: includes/addons/wl_onepage_slider.php:473
+msgid "Boho Dreams"
+msgstr ""
+
+#: includes/addons/wl_faq.php:288 includes/addons/wl_faq.php:409
+#: includes/addons/wl_faq.php:493 includes/addons/wl_faq.php:678
+#: includes/addons/wl_faq.php:813
+#: includes/addons/wl_product_horizontal_filter.php:304
+#: includes/addons/wl_product_horizontal_filter.php:402
+#: includes/addons/wl_product_horizontal_filter.php:469
+#: includes/addons/wl_product_horizontal_filter.php:555
+#: includes/addons/wl_product_horizontal_filter.php:678
+#: includes/addons/wl_onepage_slider.php:532
+#: includes/addons/special_day_offer.php:661
+#: includes/addons/special_day_offer.php:740
+#: includes/addons/wl_testimonial.php:484
+#: includes/addons/wl_testimonial.php:540
+#: includes/addons/wl_testimonial.php:867
+#: includes/addons/wl_testimonial.php:941
+#: includes/addons/wl_testimonial.php:1001
+#: includes/addons/wl_testimonial.php:1042
+#: includes/addons/wl_store_features.php:171
+#: includes/addons/wl_store_features.php:331
+#: includes/addons/wl_store_features.php:395
+#: includes/addons/wl_store_features.php:419
+#: includes/addons/wb_product_data_tab.php:53
+#: includes/addons/wb_archive_product.php:180
+#: includes/addons/wb_archive_product.php:275
+#: includes/addons/wb_archive_product.php:584
+#: includes/addons/wb_archive_product.php:673
+#: includes/addons/wb_archive_catalog_ordering.php:99
+#: includes/addons/wb_product_call_for_price.php:137
+#: includes/addons/wl_category.php:285 includes/addons/wl_brand.php:250
+#: includes/addons/wl_brand.php:331
+#: includes/addons/wb_product_suggest_price.php:271
+#: includes/addons/wb_product_suggest_price.php:370
+#: includes/addons/wb_product_suggest_price.php:468
+#: includes/addons/wb_product_suggest_price.php:520
+#: includes/addons/wb_product_suggest_price.php:610
+#: includes/addons/wb_product_suggest_price.php:753
+#: includes/addons/wl_product_filter.php:175
+#: includes/addons/wl_product_filter.php:261
+#: includes/addons/wl_product_filter.php:333
+#: includes/addons/wl_product_filter.php:372
+#: includes/addons/wl_product_filter.php:455
+#: includes/addons/wl_product_filter.php:574
+#: includes/addons/wl_product_filter.php:667
+#: includes/addons/wl_product_filter.php:731
+#: includes/addons/wb_image_marker.php:217
+#: includes/addons/wb_image_marker.php:270
+#: includes/addons/wb_image_marker.php:331
+#: includes/addons/wb_customer_review.php:337
+#: includes/addons/wb_customer_review.php:370
+#: includes/addons/wl_recently_viewed_products.php:204
+#: includes/addons/wl_recently_viewed_products.php:274
+#: includes/addons/wl_recently_viewed_products.php:458
+#: includes/addons/wl_recently_viewed_products.php:510
+#: includes/addons/wl_recently_viewed_products.php:614
+#: includes/addons/wb_wishsuite_table.php:99
+#: includes/addons/wb_wishsuite_table.php:127
+#: includes/addons/product_tabs.php:307 includes/addons/product_tabs.php:388
+#: includes/addons/product_tabs.php:674 includes/addons/product_tabs.php:726
+#: includes/addons/product_tabs.php:789 includes/addons/product_tabs.php:831
+#: includes/addons/product_tabs.php:878
+#: includes/addons/wb_product_add_to_cart.php:612
+#: includes/addons/wb_product_add_to_cart.php:706
+#: includes/addons/wb_product_add_to_cart.php:1097
+#: includes/addons/wl_category_grid.php:536
+#: includes/addons/wl_category_grid.php:749
+#: includes/addons/wl_category_grid.php:823
+#: includes/addons/wl_category_grid.php:883
+#: includes/addons/wl_category_grid.php:924
+msgid "Border"
+msgstr ""
+
+#: includes/addons/wb_product_data_tab.php:124
+#: includes/addons/wb_product_data_tab.php:216
+#: includes/addons/wb_archive_product.php:709
+#: includes/addons/product_image_accordion.php:551
+#: includes/addons/product_image_accordion.php:608
+#: includes/addons/wb_product_call_for_price.php:199
+#: includes/addons/product_accordion.php:395
+#: includes/addons/product_curvy.php:352 includes/addons/product_curvy.php:368
+#: includes/addons/wb_product_suggest_price.php:672
+#: includes/addons/wb_product_suggest_price.php:815
+#: includes/addons/wb_wishsuite_table.php:241
+#: includes/addons/wb_product_add_to_cart.php:1163
+#: includes/addons/wb_ever_compare_table.php:187
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:512
+msgid "Border Color"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:542
+msgid "Border color"
+msgstr ""
+
+#: includes/addons/wl_faq.php:296 includes/addons/wl_faq.php:417
+#: includes/addons/wl_faq.php:501 includes/addons/wl_faq.php:689
+#: includes/addons/wl_faq.php:824 includes/addons/product_flash_sale.php:707
+#: includes/addons/product_flash_sale.php:970
+#: includes/addons/wl_product_horizontal_filter.php:312
+#: includes/addons/wl_product_horizontal_filter.php:563
+#: includes/addons/wl_product_horizontal_filter.php:686
+#: includes/addons/wl_onepage_slider.php:540
+#: includes/addons/special_day_offer.php:669
+#: includes/addons/special_day_offer.php:748
+#: includes/addons/wl_testimonial.php:492
+#: includes/addons/wl_testimonial.php:548
+#: includes/addons/wl_testimonial.php:875
+#: includes/addons/wl_testimonial.php:949
+#: includes/addons/wl_testimonial.php:1009
+#: includes/addons/wl_testimonial.php:1050
+#: includes/addons/wl_store_features.php:339
+#: includes/addons/wb_product_data_tab.php:145
+#: includes/addons/wb_product_data_tab.php:237
+#: includes/addons/wb_archive_product.php:188
+#: includes/addons/wb_archive_product.php:283
+#: includes/addons/wb_archive_product.php:592
+#: includes/addons/wb_archive_product.php:879
+#: includes/addons/product_image_accordion.php:573
+#: includes/addons/wb_product_image.php:61
+#: includes/addons/wb_product_image.php:106
+#: includes/addons/wb_product_call_for_price.php:145
+#: includes/addons/product_accordion.php:644
+#: includes/addons/product_curvy.php:776
+#: includes/addons/wl_product_video_gallery.php:134
+#: includes/addons/wl_product_video_gallery.php:180
+#: includes/addons/wl_brand.php:258 includes/addons/wl_brand.php:339
+#: includes/addons/wb_product_suggest_price.php:280
+#: includes/addons/wb_product_suggest_price.php:379
+#: includes/addons/wb_product_suggest_price.php:477
+#: includes/addons/wb_product_suggest_price.php:529
+#: includes/addons/wb_product_suggest_price.php:618
+#: includes/addons/wb_product_suggest_price.php:761
+#: includes/addons/wl_product_filter.php:582
+#: includes/addons/wl_product_filter.php:675
+#: includes/addons/wb_image_marker.php:225
+#: includes/addons/wb_image_marker.php:278
+#: includes/addons/wb_image_marker.php:339
+#: includes/addons/wb_customer_review.php:345
+#: includes/addons/wb_customer_review.php:378
+#: includes/addons/wl_recently_viewed_products.php:212
+#: includes/addons/wl_recently_viewed_products.php:282
+#: includes/addons/wl_recently_viewed_products.php:466
+#: includes/addons/wl_recently_viewed_products.php:518
+#: includes/addons/wl_recently_viewed_products.php:622
+#: includes/addons/product_tabs.php:315 includes/addons/product_tabs.php:397
+#: includes/addons/product_tabs.php:682 includes/addons/product_tabs.php:734
+#: includes/addons/product_tabs.php:797 includes/addons/product_tabs.php:839
+#: includes/addons/product_tabs.php:886
+#: includes/addons/wb_product_add_to_cart.php:380
+#: includes/addons/wb_product_add_to_cart.php:620
+#: includes/addons/wb_product_add_to_cart.php:714
+#: includes/addons/wb_product_add_to_cart.php:1105
+#: includes/addons/wl_category_grid.php:544
+#: includes/addons/wl_category_grid.php:757
+#: includes/addons/wl_category_grid.php:831
+#: includes/addons/wl_category_grid.php:891
+#: includes/addons/wl_category_grid.php:932
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:520
+msgid "Border Radius"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:499
+msgid "Border width"
+msgstr ""
+
+#: includes/addons/wb_product_add_to_cart.php:504
+msgid "Both Side of Add to Cart"
+msgstr ""
+
+#: includes/addons/special_day_offer.php:56
+#: includes/addons/wl_product_video_gallery.php:73
+#: includes/addons/add_banner.php:69
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:476
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:490
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:504
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:525
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:555
+msgid "Bottom"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:257
+#: includes/addons/wb_customer_review.php:245
+msgid "Bottom Space"
+msgstr ""
+
+#: includes/addons/wl_category_grid.php:509
+msgid "Box Color"
+msgstr ""
+
+#: includes/addons/wl_faq.php:318 includes/addons/wl_faq.php:430
+#: includes/addons/wl_faq.php:527 includes/addons/wl_faq.php:705
+#: includes/addons/wl_faq.php:840
+#: includes/addons/wl_product_horizontal_filter.php:359
+#: includes/addons/wl_store_features.php:229
+#: includes/addons/wb_archive_product.php:225
+#: includes/addons/wl_recently_viewed_products.php:689
+#: includes/addons/wl_category_grid.php:480
+msgid "Box Shadow"
+msgstr ""
+
+#: classes/class.widgets_control.php:288 includes/addons/wl_brand.php:241
+msgid "Brand"
+msgstr ""
+
+#: includes/addons/wl_brand.php:322
+msgid "Brand Image"
+msgstr ""
+
+#: includes/addons/wl_brand.php:95
+msgid "Brand Link"
+msgstr ""
+
+#: includes/addons/wl_brand.php:51
+#: woolentor-blocks/includes/classes/Blocks_List.php:24
+#: woolentor-blocks/build/blocks/brand-logo/index.php:18
+#: woolentor-blocks/src/blocks/brand-logo/index.php:18
+msgid "Brand Logo"
+msgstr ""
+
+#: includes/addons/wl_brand.php:138
+msgid "Brand Option"
+msgstr ""
+
+#: includes/addons/wl_brand.php:74 includes/addons/wl_brand.php:114
+msgid "Brand Title"
+msgstr ""
+
+#: classes/class.widgets_control.php:276 includes/addons/wl_breadcrumbs.php:43
+#: woolentor-blocks/includes/classes/Blocks_List.php:96
+msgid "Breadcrumbs"
+msgstr ""
+
+#: includes/addons/wl_onepage_slider.php:294
+#: includes/addons/special_day_offer.php:620 includes/addons/wb_whols.php:48
+#: includes/addons/wb_product_call_for_price.php:74
+#: includes/addons/wl_product_filter.php:625
+#: includes/addons/wb_product_add_to_cart.php:462
+#: includes/addons/wb_product_add_to_cart.php:870
+#: includes/addons/add_banner.php:230
+msgid "Button"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:660
+#: includes/addons/product_flash_sale.php:669
+msgid "Button Background"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:699
+msgid "Button Border"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:224
+msgid "Button custom icon"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:431
+msgid "Button custom style"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:744
+msgid "Button Hover Background Color"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:730
+msgid "Button Hover Icon Color"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:678
+#: includes/addons/product_flash_sale.php:686
+msgid "Button Icon Color"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:211
+msgid "Button icon type"
+msgstr ""
+
+#: includes/addons/wl_onepage_slider.php:103 includes/addons/add_banner.php:121
+msgid "Button Link"
+msgstr ""
+
+#: includes/addons/wb_product_call_for_price.php:61
+msgid "Button Phone Number"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:49
+msgid "Button Settings"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:406
+msgid "Button style"
+msgstr ""
+
+#: includes/addons/wl_onepage_slider.php:93
+#: includes/addons/special_day_offer.php:146
+#: includes/addons/special_day_offer.php:148
+#: includes/addons/wb_product_call_for_price.php:50
+#: includes/addons/wb_product_suggest_price.php:51
+#: includes/addons/add_banner.php:113
+msgid "Button Text"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:193
+msgid "Button text"
+msgstr ""
+
+#: includes/addons/product_image_accordion.php:191
+#: includes/addons/product_accordion.php:212
+msgid "Buy"
+msgstr ""
+
+#: classes/class.assest_management.php:364
+#: includes/admin/include/template-library.php:181
+#: includes/admin/include/template-library.php:233
+#: includes/admin/include/class.extension-manager.php:190
+#: includes/admin/templates/dashboard-popup.php:14
+msgid "Buy Now"
+msgstr ""
+
+#: includes/admin/templates/dashboard-popup.php:12
+msgid "BUY PRO"
+msgstr ""
+
+#: includes/modules/sales-notification/class.sale_notification.php:230
+msgid "By"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Attribute_Taxonomy_Metabox.php:87
+msgid "By checking this will enable you to set multiple color."
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Attribute_Taxonomy_Metabox.php:64
+#: includes/modules/variation-swatch/includes/Admin/Attribute_Taxonomy_Metabox.php:310
+msgid ""
+"By default, the \"Attribute Name\" will be shown as the tooltip. If you want "
+"custom tooltip text, put it here."
+msgstr ""
+
+#: includes/addons/wb_product_call_for_price.php:43
+#: includes/addons/wb_product_call_for_price.php:52
+#: includes/addons/wb_product_call_for_price.php:53
+msgid "Call For Price"
+msgstr ""
+
+#: classes/class.assest_management.php:333
+#: includes/admin/include/class.template-manager.php:485
+msgid "Cancel"
+msgstr ""
+
+#: includes/addons/wb_customer_review.php:82
+#: includes/addons/wb_customer_review.php:143
+msgid "Carolina Monntoya"
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/form-checkout.php:47
+msgid "Cart"
+msgstr ""
+
+#: includes/addons/wb_ever_compare_table.php:172
+#: includes/addons/wb_ever_compare_table.php:178
+msgid "Cart Button Background"
+msgstr ""
+
+#: includes/addons/wb_ever_compare_table.php:160
+msgid "Cart Button Color"
+msgstr ""
+
+#: includes/admin/templates/dashboard-sidebar.php:14
+msgid ""
+"Cart Page, Checkout, My Account, Registration and Thank you page custom "
+"layout template"
+msgstr ""
+
+#: includes/addons/wb_product_categories.php:43
+msgid "Categories"
+msgstr ""
+
+#: classes/class.widgets_control.php:284
+msgid "Category"
+msgstr ""
+
+#: includes/addons/product_image_accordion.php:321
+msgid "Category Color"
+msgstr ""
+
+#: includes/addons/wl_category_grid.php:69
+msgid "Category Display Type"
+msgstr ""
+
+#: classes/class.widgets_control.php:252
+#: includes/addons/wl_category_grid.php:44
+#: woolentor-blocks/includes/classes/Blocks_List.php:31
+msgid "Category Grid"
+msgstr ""
+
+#: includes/addons/product_image_accordion.php:332
+msgid "Category Hover Color"
+msgstr ""
+
+#: includes/addons/wl_category.php:43
+msgid "Category List"
+msgstr ""
+
+#: classes/class.default_data.php:378 classes/class.default_data.php:426
+#: includes/addons/wb_product_categories.php:179
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/addons/wl_faq.php:358 includes/addons/wl_faq.php:581
+#: includes/addons/wb_product_short_description.php:61
+#: includes/addons/wl_breadcrumbs.php:82
+#: includes/addons/wb_wishsuite_counter.php:73
+#: includes/addons/wl_product_horizontal_filter.php:746
+#: includes/addons/wl_onepage_slider.php:177
+#: includes/addons/special_day_offer.php:55
+#: includes/addons/special_day_offer.php:277
+#: includes/addons/wl_store_features.php:147
+#: includes/addons/wb_product_data_tab.php:164
+#: includes/addons/wb_archive_product.php:241
+#: includes/addons/wl_archive_title.php:116
+#: includes/addons/wb_product_qr_code.php:95
+#: includes/addons/wb_product_related.php:173
+#: includes/addons/wb_archive_result_count.php:87
+#: includes/addons/wb_product_description.php:59
+#: includes/addons/wl_category.php:301 includes/addons/wl_brand.php:302
+#: includes/addons/wb_product_categories.php:68
+#: includes/addons/wb_product_rating.php:104
+#: includes/addons/wb_product_title.php:111
+#: includes/addons/wb_product_sku.php:68
+#: includes/addons/wb_customer_review.php:294
+#: includes/addons/wl_recently_viewed_products.php:242
+#: includes/addons/product_tabs.php:239 includes/addons/product_tabs.php:961
+#: includes/addons/product_tabs.php:1040 includes/addons/wb_product_tags.php:68
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:286
+msgid "Center"
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/cart-shipping.php:38
+msgid "Change address"
+msgstr ""
+
+#: includes/admin/include/settings_field_manager_default.php:304
+msgid "Check All"
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/form-checkout.php:58
+msgid "Choose a Payment Gateway"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:407
+msgid "Choose a style for the compare button from here."
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:420
+msgid "Choose a table style from here."
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:237
+msgid "Choose an icon for the compare button from here."
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:212
+msgid "Choose an icon type for the compare button from here."
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin.php:51
+msgid "Choose an image"
+msgstr ""
+
+#: includes/addons/wl_brand.php:84
+#: includes/admin/include/admin_field-manager.php:289
+msgid "Choose Image"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:323
+msgid ""
+"Choose which fields should be presented on the product compare page with "
+"table."
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:191
+msgid "Circle"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Frontend/Woo_Config.php:856
+#: includes/modules/variation-swatch/includes/Frontend/Woo_Config.php:971
+msgid "Clear"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:100
+#: includes/addons/wb_customer_review.php:98
+msgid "Client Rating"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:128
+#: includes/addons/wb_customer_review.php:126
+msgid "Client Say"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:689
+#: includes/addons/wb_customer_review.php:505
+msgid "Client say"
+msgstr ""
+
+#: includes/addons/wb_product_suggest_price.php:74
+#: includes/addons/wb_product_suggest_price.php:75
+msgid "Close"
+msgstr ""
+
+#: includes/addons/wb_product_suggest_price.php:690
+msgid "Close Button"
+msgstr ""
+
+#: includes/addons/wb_product_suggest_price.php:72
+msgid "Close Button Text"
+msgstr ""
+
+#: includes/addons/wl_faq.php:136 includes/addons/wl_faq.php:228
+msgid "Close Icon"
+msgstr ""
+
+#: includes/addons/product_accordion.php:437
+msgid "Collapse Background"
+msgstr ""
+
+#: includes/addons/product_accordion.php:426
+msgid "Collapse Icon Color"
+msgstr ""
+
+#: includes/addons/wl_faq.php:439 includes/addons/wl_faq.php:480
+#: includes/addons/wl_faq.php:552 includes/addons/wl_faq.php:632
+#: includes/addons/wl_faq.php:661 includes/addons/wl_faq.php:767
+#: includes/addons/wl_faq.php:796 includes/addons/product_flash_sale.php:789
+#: includes/addons/product_flash_sale.php:898
+#: includes/addons/wl_product_horizontal_filter.php:381
+#: includes/addons/wl_product_horizontal_filter.php:448
+#: includes/addons/wl_product_horizontal_filter.php:524
+#: includes/addons/wl_product_horizontal_filter.php:606
+#: includes/addons/wl_product_horizontal_filter.php:637
+#: includes/addons/wl_product_horizontal_filter.php:699
+#: includes/addons/wl_product_horizontal_filter.php:787
+#: includes/addons/wl_product_horizontal_filter.php:829
+#: includes/addons/wl_onepage_slider.php:220
+#: includes/addons/wl_onepage_slider.php:262
+#: includes/addons/wl_onepage_slider.php:315
+#: includes/addons/wl_onepage_slider.php:390
+#: includes/addons/wb_product_upsell.php:117
+#: includes/addons/special_day_offer.php:336
+#: includes/addons/special_day_offer.php:395
+#: includes/addons/special_day_offer.php:454
+#: includes/addons/special_day_offer.php:513
+#: includes/addons/special_day_offer.php:572
+#: includes/addons/special_day_offer.php:639
+#: includes/addons/special_day_offer.php:727
+#: includes/addons/wl_testimonial.php:584
+#: includes/addons/wl_testimonial.php:641
+#: includes/addons/wl_testimonial.php:697
+#: includes/addons/wl_testimonial.php:753
+#: includes/addons/wl_testimonial.php:844
+#: includes/addons/wl_testimonial.php:978
+#: includes/addons/wl_store_features.php:466
+#: includes/addons/wl_store_features.php:512
+#: includes/addons/wb_archive_product.php:326
+#: includes/addons/wb_archive_product.php:385
+#: includes/addons/wb_archive_product.php:421
+#: includes/addons/wb_archive_product.php:456
+#: includes/addons/wb_archive_product.php:558
+#: includes/addons/wb_archive_product.php:648
+#: includes/addons/wb_archive_product.php:733
+#: includes/addons/wb_archive_product.php:765
+#: includes/addons/product_image_accordion.php:540
+#: includes/addons/product_image_accordion.php:595
+#: includes/addons/wb_whols.php:56
+#: includes/addons/wb_archive_catalog_ordering.php:61
+#: includes/addons/wb_product_related.php:132
+#: includes/addons/product_accordion.php:619
+#: includes/addons/product_accordion.php:666
+#: includes/addons/wl_category.php:332 includes/addons/product_curvy.php:754
+#: includes/addons/product_curvy.php:798
+#: includes/addons/wb_product_suggest_price.php:412
+#: includes/addons/wb_product_suggest_price.php:498
+#: includes/addons/wl_product_filter.php:154
+#: includes/addons/wl_product_filter.php:230
+#: includes/addons/wl_product_filter.php:300
+#: includes/addons/wl_product_filter.php:350
+#: includes/addons/wl_product_filter.php:406
+#: includes/addons/wl_product_filter.php:472
+#: includes/addons/wl_product_filter.php:644
+#: includes/addons/wl_product_filter.php:708
+#: includes/addons/wb_image_marker.php:194
+#: includes/addons/wb_image_marker.php:311
+#: includes/addons/wb_image_marker.php:372
+#: includes/addons/wb_customer_review.php:400
+#: includes/addons/wb_customer_review.php:457
+#: includes/addons/wb_customer_review.php:513
+#: includes/addons/wb_customer_review.php:568
+#: includes/addons/wl_recently_viewed_products.php:314
+#: includes/addons/wl_recently_viewed_products.php:369
+#: includes/addons/wl_recently_viewed_products.php:435
+#: includes/addons/wl_recently_viewed_products.php:487
+#: includes/addons/wl_recently_viewed_products.php:580
+#: includes/addons/wl_recently_viewed_products.php:666
+#: includes/addons/wb_wishsuite_table.php:153
+#: includes/addons/wb_wishsuite_table.php:193
+#: includes/addons/wb_wishsuite_table.php:213
+#: includes/addons/wb_wishsuite_table.php:261
+#: includes/addons/wb_wishsuite_table.php:386
+#: includes/addons/wb_wishsuite_table.php:418
+#: includes/addons/product_tabs.php:282 includes/addons/product_tabs.php:361
+#: includes/addons/product_tabs.php:649 includes/addons/product_tabs.php:764
+#: includes/addons/product_tabs.php:1134 includes/addons/product_tabs.php:1194
+#: includes/addons/wb_product_add_to_cart.php:917
+#: includes/addons/wb_product_add_to_cart.php:939
+#: includes/addons/wb_product_additional_information.php:76
+#: includes/addons/wb_product_additional_information.php:124
+#: includes/addons/add_banner.php:155 includes/addons/add_banner.php:197
+#: includes/addons/add_banner.php:239 includes/addons/wl_category_grid.php:569
+#: includes/addons/wl_category_grid.php:640
+#: includes/addons/wl_category_grid.php:726
+#: includes/addons/wl_category_grid.php:860
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:439
+msgid "Color"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:564
+msgid "Column background color (Event)"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:572
+msgid "Column background color (Odd)"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:550
+msgid "Column Padding"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:101
+#: includes/addons/wb_product_upsell.php:50
+#: includes/addons/wl_testimonial.php:182
+#: includes/addons/wl_testimonial.php:192
+#: includes/addons/wb_archive_product.php:50
+#: includes/addons/wb_product_related.php:65
+#: includes/addons/product_curvy.php:75 includes/addons/product_curvy.php:93
+#: includes/addons/wb_customer_review.php:180
+#: includes/addons/wl_recently_viewed_products.php:72
+#: includes/addons/product_tabs.php:92 includes/addons/wl_category_grid.php:197
+#: includes/addons/wl_category_grid.php:207
+msgid "Columns"
+msgstr ""
+
+#: includes/helper-function.php:1042 includes/addons/product_flash_sale.php:137
+#: includes/addons/product_image_accordion.php:150
+#: includes/addons/product_accordion.php:171
+#: includes/addons/product_curvy.php:206 includes/addons/product_tabs.php:165
+msgid "Comment count"
+msgstr ""
+
+#: includes/helper-function.php:1097
+#: woolentor-blocks/includes/helper-functions.php:541
+#: includes/modules/compare/includes/classes/Admin/Dashboard.php:59
+#: includes/modules/compare/includes/classes/Admin/Dashboard.php:60
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:196
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:197
+msgid "Compare"
+msgstr ""
+
+#: includes/addons/wb_product_add_to_cart.php:596
+#: includes/addons/wb_product_add_to_cart.php:690
+msgid "Compare Background Color"
+msgstr ""
+
+#: includes/addons/wb_product_add_to_cart.php:581
+#: includes/addons/wb_product_add_to_cart.php:675
+msgid "Compare Icon Color"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:264
+msgid "Compare page"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:635
+msgid "Compare Settings"
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/form-checkout.php:53
+msgid "Contact information"
+msgstr ""
+
+#: includes/admin/include/class.template_cpt.php:107
+msgid "Container Width"
+msgstr ""
+
+#: includes/addons/wl_faq.php:45 includes/addons/wl_faq.php:82
+#: includes/addons/wl_faq.php:544 includes/addons/wl_onepage_slider.php:66
+#: includes/addons/wb_product_data_tab.php:255
+#: includes/addons/wb_image_marker.php:251
+#: includes/addons/wb_ever_compare_table.php:131
+#: includes/addons/wb_product_additional_information.php:117
+msgid "Content"
+msgstr ""
+
+#: includes/addons/add_banner.php:63
+msgid "Content Alignment"
+msgstr ""
+
+#: includes/addons/wl_store_features.php:410
+#: includes/addons/product_accordion.php:450
+#: includes/addons/wl_recently_viewed_products.php:226
+msgid "Content Area"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:210
+msgid "Content Bottom"
+msgstr ""
+
+#: includes/addons/product_accordion.php:466
+#: includes/addons/product_curvy.php:600 includes/addons/product_curvy.php:614
+#: includes/addons/wb_ever_compare_table.php:138
+msgid "Content Color"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:596
+msgid "Content color (Event)"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:604
+msgid "Content color (Odd)"
+msgstr ""
+
+#: includes/addons/product_image_accordion.php:213
+#: includes/addons/product_accordion.php:267
+#: includes/addons/product_curvy.php:258
+msgid "Content Display"
+msgstr ""
+
+#: includes/addons/product_accordion.php:287
+#: includes/addons/product_curvy.php:301
+msgid "Content Limit"
+msgstr ""
+
+#: includes/addons/wb_ever_compare_table.php:149
+msgid "Content Link Color"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:612
+msgid "Content link color"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:620
+msgid "Content link hover color"
+msgstr ""
+
+#: includes/addons/special_day_offer.php:50
+msgid "Content Position"
+msgstr ""
+
+#: includes/addons/product_image_accordion.php:181
+#: includes/addons/product_accordion.php:202
+#: includes/addons/product_curvy.php:237
+#: includes/addons/wl_recently_viewed_products.php:120
+msgid "Content Settings"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:206
+msgid "Content Top"
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/form-checkout.php:61
+msgid "Continue to payment"
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/form-checkout.php:52
+msgid "Continue to shipping"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:303
+msgid "Copied"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:295
+msgid "Copy shareable link"
+msgstr ""
+
+#: includes/addons/wl_category_grid.php:632
+msgid "Count"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:168
+msgid "Countdown"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:186
+msgid "Countdown Style"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:238
+msgid "Countdown Title"
+msgstr ""
+
+#: includes/addons/wb_wishsuite_counter.php:92
+msgid "Counter"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:845
+#: includes/addons/wb_wishsuite_counter.php:112
+msgid "Counter Background"
+msgstr ""
+
+#: includes/addons/wb_wishsuite_counter.php:100
+msgid "Counter Color"
+msgstr ""
+
+#: includes/addons/wb_wishsuite_counter.php:122
+msgid "Counter Icon"
+msgstr ""
+
+#: includes/addons/wb_wishsuite_counter.php:131
+msgid "Counter Icon Color"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:814
+msgid "Counter Item"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:855
+msgid "Counter Label"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:761
+msgid "Counter Style"
+msgstr ""
+
+#: includes/addons/wb_wishsuite_counter.php:153
+msgid "Counter Text Color"
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/form-coupon.php:17
+#: includes/modules/shopify-like-checkout/templates/form-coupon.php:18
+msgid "Coupon code"
+msgstr ""
+
+#: includes/admin/include/template-library/popup-template.php:25
+msgid "Create a new page from this template"
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/form-billing.php:55
+msgid "Create an account?"
+msgstr ""
+
+#: includes/addons/wl_faq.php:58 includes/addons/wl_testimonial.php:71
+#: includes/addons/wb_customer_review.php:69
+#: woolentor-blocks/includes/classes/Scripts.php:119
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:218
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:243
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:413
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:425
+msgid "Custom"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:341
+msgid "Custom heading"
+msgstr ""
+
+#: includes/addons/wl_faq.php:203
+msgid "Custom Icon"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:253
+msgid "Custom Label"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:118
+#: includes/addons/product_tabs.php:146
+msgid "Custom Order"
+msgstr ""
+
+#: includes/addons/product_image_accordion.php:131
+#: includes/addons/product_accordion.php:152
+#: includes/addons/product_curvy.php:187
+msgid "Custom order"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:99
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:147
+msgid "Custom Position"
+msgstr ""
+
+#: includes/custom-metabox.php:72
+msgid "Custom Product Badge Text"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:158
+msgid "Customer"
+msgstr ""
+
+#: classes/class.widgets_control.php:292
+msgid "Customer Review"
+msgstr ""
+
+#: woolentor-blocks/includes/classes/Manage_Styles.php:205
+msgid "Data fetch"
+msgstr ""
+
+#: includes/admin/admin-init.php:374
+msgid "Data Fetch successfully!"
+msgstr ""
+
+#: woolentor-blocks/includes/classes/Manage_Styles.php:212
+msgid "Data not found."
+msgstr ""
+
+#: includes/admin/admin-init.php:312
+msgid "Data Saved successfully!"
+msgstr ""
+
+#: includes/helper-function.php:1039 includes/addons/product_flash_sale.php:134
+#: includes/addons/wb_product_upsell.php:66
+#: includes/addons/wb_archive_product.php:127
+#: includes/addons/product_image_accordion.php:147
+#: includes/addons/wb_product_related.php:81
+#: includes/addons/product_accordion.php:168
+#: includes/addons/product_curvy.php:203 includes/addons/product_tabs.php:162
+msgid "Date"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:265
+#: includes/addons/product_flash_sale.php:267
+#: includes/addons/product_flash_sale.php:1029
+#: includes/modules/flash-sale/class.flash-sale.php:447
+msgid "Days"
+msgstr ""
+
+#: includes/addons/wl_brand.php:62
+#: includes/addons/wb_product_add_to_cart.php:59
+#: includes/admin/include/class.template-manager.php:97
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:217
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:242
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:411
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:424
+msgid "Default"
+msgstr ""
+
+#: includes/helper-function.php:835
+msgid "Default sorting"
+msgstr ""
+
+#: includes/addons/wl_brand.php:76
+msgid "Default title"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:130
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:178
+msgid "Default: 10"
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:956
+#: includes/addons/wb_product_upsell.php:85
+#: includes/addons/wb_archive_product.php:149
+#: includes/addons/wb_product_related.php:100
+#: includes/addons/wl_product_filter.php:914
+msgid "DESC"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:153
+#: includes/addons/product_image_accordion.php:166
+#: includes/addons/product_accordion.php:187
+#: includes/addons/wl_category.php:137 includes/addons/product_curvy.php:222
+#: includes/addons/wl_recently_viewed_products.php:63
+#: includes/addons/product_tabs.php:181
+#: includes/addons/wl_category_grid.php:116
+msgid "Descending"
+msgstr ""
+
+#: includes/addons/special_day_offer.php:104
+#: includes/addons/special_day_offer.php:443
+#: includes/addons/wl_archive_title.php:175
+#: includes/addons/wb_image_marker.php:365
+msgid "Description"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:331
+msgid "description"
+msgstr ""
+
+#: includes/addons/wl_archive_title.php:184
+msgid "Description Color"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:91 includes/addons/wl_testimonial.php:633
+#: includes/addons/wb_customer_review.php:89
+#: includes/addons/wb_customer_review.php:449
+msgid "Designation"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:93 includes/addons/wl_testimonial.php:146
+msgid "Designer"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:152
+#: includes/addons/wb_customer_review.php:158
+msgid "Developer"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:335
+msgid "dimensions"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Attribute_Taxonomy_Metabox.php:55
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:205
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:220
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:330
+msgid "Disable"
+msgstr ""
+
+#: includes/admin/templates/dashboard-element.php:20
+#: includes/admin/templates/dashboard-gutenberg.php:33
+#: includes/admin/templates/dashboard-module.php:22
+msgid "Disable all"
+msgstr ""
+
+#: includes/helper-function.php:610
+msgid "div"
+msgstr ""
+
+#: includes/addons/wl_faq.php:111
+msgid "Do you want to individual icon ?"
+msgstr ""
+
+#: includes/base.php:284 includes/admin/include/admin_field-manager.php:351
+#: includes/admin/include/admin_field-manager.php:470
+#: includes/admin/templates/dashboard-widget.php:94
+#: includes/admin/templates/dashboard-welcome.php:19
+msgid "Documentation"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:122
+msgid "e.g: woocommerce_after_shop_loop_item_title"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:170
+msgid "e.g: woocommerce_after_single_product_summary"
+msgstr ""
+
+#: includes/admin/include/template-library.php:118
+msgid "Edit Page"
+msgstr ""
+
+#: includes/admin/include/template-library.php:118
+#: includes/admin/include/class.template_cpt.php:36
+msgid "Edit Template"
+msgstr ""
+
+#: includes/admin/include/class.template-manager.php:457
+msgid "Edit With Elementor"
+msgstr ""
+
+#: includes/admin/include/class.template-manager.php:211
+#: includes/admin/include/class.template-manager.php:461
+msgid "Edit With Gutenberg"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:203
+#: includes/addons/wb_customer_review.php:191
+#: includes/addons/wl_recently_viewed_products.php:83
+#: includes/addons/wl_category_grid.php:218
+msgid "Eight"
+msgstr ""
+
+#: includes/addons/wb_product_reviews.php:50
+msgid "Element Information"
+msgstr ""
+
+#: includes/admin/include/class.template-manager.php:439
+#: includes/admin/include/class.template-manager.php:473
+#: includes/admin/include/template-library/templates_list.php:19
+msgid "Elementor"
+msgstr ""
+
+#: includes/addons/wl_faq.php:59
+msgid "Elementor Template"
+msgstr ""
+
+#: includes/addons/wb_product_suggest_price.php:130
+msgid "Email Field Placeholder"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:364
+msgid "Empty compare page text"
+msgstr ""
+
+#: includes/addons/wl_recently_viewed_products.php:105
+#: includes/addons/wl_recently_viewed_products.php:647
+msgid "Empty Message"
+msgstr ""
+
+#: includes/addons/product_image_accordion.php:483
+#: includes/addons/product_accordion.php:562
+#: includes/addons/product_curvy.php:652 includes/addons/product_curvy.php:666
+msgid "Empty Rating Color"
+msgstr ""
+
+#: includes/addons/wb_archive_product.php:501
+msgid "Empty Rating Star Color"
+msgstr ""
+
+#: includes/addons/wb_wishsuite_table.php:56
+#: includes/addons/wb_ever_compare_table.php:56
+msgid "Empty table text"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:204
+msgid "Enable"
+msgstr ""
+
+#: includes/addons/wb_product_qr_code.php:62
+msgid "Enable Add to Cart URL"
+msgstr ""
+
+#: includes/admin/templates/dashboard-element.php:19
+#: includes/admin/templates/dashboard-gutenberg.php:32
+#: includes/admin/templates/dashboard-module.php:21
+msgid "Enable all"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:120
+msgid "Enable Image Type Attribute For"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Attribute_Taxonomy_Metabox.php:86
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:383
+msgid "Enable Multi Color"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:199
+msgid "Enable Shape Inset"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:273
+msgid "Enable shareable link"
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/cart-shipping.php:57
+msgid "Enter a different address"
+msgstr ""
+
+#: includes/admin/include/class.template-manager.php:448
+msgid "Enter a template name"
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/cart-shipping.php:50
+msgid "Enter your address to view shipping options."
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:203
+msgid "Enter your compare added button text."
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:194
+msgid "Enter your compare button text."
+msgstr ""
+
+#: includes/custom-metabox.php:74
+msgid ""
+"Enter your preferred Sale badge text. Ex: New / Free etc (Only for Universal "
+"layout addon)"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:381
+msgid "Enter your required image size."
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:372
+msgid "Enter your return to shop button text."
+msgstr ""
+
+#: includes/addons/wb_product_suggest_price.php:177
+msgid "Error Message"
+msgstr ""
+
+#: includes/addons/wb_ever_compare_table.php:97
+#: includes/addons/wb_ever_compare_table.php:103
+msgid "Even Heading Background"
+msgstr ""
+
+#: classes/class.widgets_control.php:439
+#: includes/addons/wb_ever_compare_table.php:49
+msgid "EverCompare"
+msgstr ""
+
+#: includes/admin/include/class.extension-manager.php:26
+#: includes/admin/include/class.extension-manager.php:27
+msgid "Extension"
+msgstr ""
+
+#: includes/addons/wl_category.php:192 includes/addons/wl_category.php:203
+msgid "Extra Option"
+msgstr ""
+
+#: includes/base.php:285
+msgid "Facebook Group"
+msgstr ""
+
+#: woolentor-blocks/includes/classes/Blocks_List.php:74
+msgid "FAQ"
+msgstr ""
+
+#: classes/class.widgets_control.php:248
+msgid "Faq"
+msgstr ""
+
+#: includes/addons/wl_faq.php:70
+msgid "FAQ Title"
+msgstr ""
+
+#: includes/helper-function.php:1044
+msgid "Featured"
+msgstr ""
+
+#: includes/admin/include/class.template_cpt.php:43
+msgid "Featured Image"
+msgstr ""
+
+#: includes/addons/product_image_accordion.php:67
+#: includes/addons/product_accordion.php:88
+#: includes/addons/product_curvy.php:123 includes/addons/product_tabs.php:80
+msgid "Featured Products"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:349
+msgid "Fields heading text"
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:52
+#: includes/addons/wl_product_horizontal_filter.php:199
+#: includes/addons/wl_product_filter.php:52
+#: includes/addons/wl_product_filter.php:854
+msgid "Filter"
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:767
+msgid "Filter Button"
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:276
+msgid "Filter Button Icon"
+msgstr ""
+
+#: includes/addons/product_image_accordion.php:62
+#: includes/addons/product_accordion.php:83
+#: includes/addons/product_curvy.php:118 includes/addons/product_tabs.php:75
+msgid "Filter By"
+msgstr ""
+
+#: includes/admin/include/class.template_cpt.php:51
+msgid "Filter from list"
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:112
+msgid "Filter List"
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:655
+msgid "Filter Menu"
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:70
+#: includes/addons/wl_product_horizontal_filter.php:159
+msgid "Filter Placeholder"
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:61
+msgid "Filter Title"
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:79
+#: includes/addons/wl_product_filter.php:59
+msgid "Filter Type"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:200
+#: includes/addons/wb_customer_review.php:188
+#: includes/addons/wl_recently_viewed_products.php:80
+#: includes/addons/wl_category_grid.php:215
+msgid "Five"
+msgstr ""
+
+#: includes/addons/wb_wc_multicurrency.php:59
+msgid "Flag only"
+msgstr ""
+
+#: includes/modules/flash-sale/class.flash-sale.php:196
+msgid "Flash Sale!"
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:617
+#: includes/addons/wl_product_horizontal_filter.php:798
+#: includes/addons/wl_onepage_slider.php:418
+#: includes/addons/wl_testimonial.php:764 includes/addons/product_tabs.php:1158
+#: includes/addons/wb_product_add_to_cart.php:438
+#: includes/addons/wb_product_add_to_cart.php:774
+#: includes/addons/wb_product_add_to_cart.php:954
+msgid "Font Size"
+msgstr ""
+
+#: includes/addons/wl_product_filter.php:210
+msgid "Form Style"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:199
+#: includes/addons/wb_customer_review.php:187
+#: includes/addons/wl_recently_viewed_products.php:79
+#: includes/addons/wl_category_grid.php:214
+msgid "Four"
+msgstr ""
+
+#: includes/admin/include/template-library/templates_list.php:30
+msgid "Free"
+msgstr ""
+
+#: includes/admin/include/class.extension-manager.php:136
+msgid "Free extension"
+msgstr ""
+
+#: includes/addons/wl_store_features.php:110
+msgid "Free shipping"
+msgstr ""
+
+#: includes/modules/flash-sale/class.flash-sale.php:160
+msgid "Free!"
+msgstr ""
+
+#: woolentor-blocks/includes/helper-functions.php:296
+msgid "Full"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:63
+msgid "General Settings"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:379
+msgid "General Style"
+msgstr ""
+
+#: includes/addons/wb_customer_review.php:157
+msgid "Gerald Gilbert"
+msgstr ""
+
+#: includes/admin/templates/dashboard-welcome.php:21
+msgid "Get Now"
+msgstr ""
+
+#: includes/admin/templates/dashboard-sidebar.php:16
+msgid "Get Pro Now"
+msgstr ""
+
+#: includes/admin/templates/dashboard-welcome.php:43
+msgid "Get Support"
+msgstr ""
+
+#: includes/base.php:272 includes/addons/wl_category.php:209
+#: includes/addons/wl_brand.php:229 includes/addons/wl_brand.php:372
+msgid "Go Pro"
+msgstr ""
+
+#: includes/addons/product_accordion.php:66
+msgid "Gradient Color"
+msgstr ""
+
+#: includes/admin/include/class.template-manager.php:440
+msgid "Gutenberg"
+msgstr ""
+
+#: includes/helper-function.php:603
+msgid "H1"
+msgstr ""
+
+#: includes/helper-function.php:604
+msgid "H2"
+msgstr ""
+
+#: includes/helper-function.php:605
+msgid "H3"
+msgstr ""
+
+#: includes/helper-function.php:606
+msgid "H4"
+msgstr ""
+
+#: includes/helper-function.php:607
+msgid "H5"
+msgstr ""
+
+#: includes/helper-function.php:608
+msgid "H6"
+msgstr ""
+
+#. Author of the plugin
+msgid "HasThemes"
+msgstr ""
+
+#: includes/admin/admin-init.php:180
+msgid "HasThemes Stories"
+msgstr ""
+
+#: includes/admin/templates/dashboard-welcome.php:53
+msgid ""
+"Have you ever noticed any missing features? Please notify us if you do. As "
+"soon as possible, our staff will add any necessary features based on your "
+"requests. Our commitment to our clients is second to none. We always attempt "
+"to fulfill their demands."
+msgstr ""
+
+#: includes/addons/wb_wc_multicurrency.php:70
+#: includes/addons/wb_product_upsell.php:93
+#: includes/addons/wb_product_upsell.php:110
+#: includes/addons/wb_product_related.php:108
+#: includes/addons/wb_product_related.php:124
+#: includes/addons/wb_just_table.php:67
+#: includes/addons/wb_ever_compare_table.php:68
+#: includes/addons/wb_product_additional_information.php:45
+#: includes/addons/wb_product_additional_information.php:52
+#: includes/addons/wb_product_additional_information.php:69
+msgid "Heading"
+msgstr ""
+
+#: includes/addons/wb_just_table.php:96 includes/addons/wb_just_table.php:102
+#: includes/addons/wb_wishsuite_table.php:88
+msgid "Heading Background"
+msgstr ""
+
+#: includes/addons/wb_wc_multicurrency.php:78
+#: includes/addons/wb_product_data_tab.php:293
+#: includes/addons/wb_just_table.php:75
+#: includes/addons/wb_wishsuite_table.php:76
+#: includes/addons/wb_ever_compare_table.php:76
+msgid "Heading Color"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:580
+msgid "Heading color (Event)"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:588
+msgid "Heading color (Odd)"
+msgstr ""
+
+#: includes/addons/wb_product_data_tab.php:304
+msgid "Heading Margin"
+msgstr ""
+
+#: includes/addons/wb_product_data_tab.php:285
+msgid "Heading Typography"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:942
+#: includes/addons/wl_onepage_slider.php:448
+#: includes/addons/wl_onepage_slider.php:519
+#: includes/addons/wl_product_video_gallery.php:97
+#: includes/addons/wl_product_filter.php:529
+#: includes/addons/wb_product_add_to_cart.php:837
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:385
+msgid "Height"
+msgstr ""
+
+#: includes/addons/wb_archive_catalog_ordering.php:83
+msgid "Height (px)"
+msgstr ""
+
+#: includes/admin/templates/dashboard-style.php:20
+#: includes/admin/templates/dashboard-style.php:23
+msgid "Helping Screenshot"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:1224
+msgid "Here"
+msgstr ""
+
+#: includes/helper-function.php:966 includes/helper-function.php:984
+msgid "here"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:177
+#: includes/addons/product_flash_sale.php:329
+#: includes/addons/wb_product_upsell.php:96
+#: includes/addons/wb_archive_product.php:806
+#: includes/addons/wl_archive_title.php:63
+#: includes/addons/wl_archive_title.php:75
+#: includes/addons/wl_archive_title.php:87
+#: includes/addons/wb_product_related.php:110
+#: includes/addons/wb_product_additional_information.php:55
+msgid "Hide"
+msgstr ""
+
+#: includes/addons/product_image_accordion.php:222
+msgid "Hide Category"
+msgstr ""
+
+#: includes/addons/wb_product_add_to_cart.php:487
+#: includes/addons/wb_product_add_to_cart.php:896
+msgid "Hide Compare"
+msgstr ""
+
+#: includes/addons/product_accordion.php:276
+#: includes/addons/product_curvy.php:289
+msgid "Hide Content"
+msgstr ""
+
+#: includes/addons/product_image_accordion.php:243
+#: includes/addons/product_accordion.php:300
+#: includes/addons/product_curvy.php:278
+msgid "Hide Price"
+msgstr ""
+
+#: includes/addons/wb_product_add_to_cart.php:1028
+msgid "Hide Quantity Field"
+msgstr ""
+
+#: includes/addons/product_image_accordion.php:255
+#: includes/addons/product_accordion.php:311
+#: includes/addons/product_curvy.php:315
+msgid "Hide Rating"
+msgstr ""
+
+#: includes/addons/product_image_accordion.php:232
+#: includes/addons/product_curvy.php:267
+#: includes/addons/wb_product_categories.php:84
+#: includes/addons/wb_product_sku.php:84 includes/addons/wb_product_tags.php:84
+msgid "Hide Title"
+msgstr ""
+
+#: includes/addons/wb_product_add_to_cart.php:477
+#: includes/addons/wb_product_add_to_cart.php:886
+msgid "Hide Wishlist"
+msgstr ""
+
+#: includes/addons/wl_product_filter.php:103
+msgid "Hierarchical"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:121
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:169
+msgid "Hook name"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:129
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:177
+msgid "Hook priority"
+msgstr ""
+
+#: includes/addons/wl_category.php:54
+msgid "Horizontal"
+msgstr ""
+
+#: includes/addons/special_day_offer.php:198
+msgid "Horizontal Position"
+msgstr ""
+
+#: classes/class.widgets_control.php:309
+msgid "Horizontal Product Filter"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:278
+#: includes/addons/product_flash_sale.php:280
+#: includes/addons/product_flash_sale.php:1030
+#: includes/modules/flash-sale/class.flash-sale.php:448
+msgid "Hours"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:723
+#: includes/addons/wl_product_horizontal_filter.php:631
+#: includes/addons/wl_product_horizontal_filter.php:823
+#: includes/addons/special_day_offer.php:720
+#: includes/addons/wl_testimonial.php:963
+#: includes/addons/wl_store_features.php:378
+#: includes/addons/wb_archive_product.php:642
+#: includes/addons/product_image_accordion.php:588
+#: includes/addons/wb_product_call_for_price.php:170
+#: includes/addons/product_accordion.php:659
+#: includes/addons/product_curvy.php:791
+#: includes/addons/wb_product_suggest_price.php:491
+#: includes/addons/wb_product_suggest_price.php:643
+#: includes/addons/wb_product_suggest_price.php:786
+#: includes/addons/wl_product_filter.php:344
+#: includes/addons/wl_product_filter.php:465
+#: includes/addons/wl_product_filter.php:702
+#: includes/addons/wl_recently_viewed_products.php:480
+#: includes/addons/wb_wishsuite_table.php:411
+#: includes/addons/product_tabs.php:353 includes/addons/product_tabs.php:748
+#: includes/addons/product_tabs.php:1066 includes/addons/product_tabs.php:1188
+#: includes/addons/wb_product_add_to_cart.php:274
+#: includes/addons/wb_product_add_to_cart.php:638
+#: includes/addons/wb_product_add_to_cart.php:932
+#: includes/addons/wb_product_add_to_cart.php:1132
+#: includes/addons/wl_category_grid.php:845
+msgid "Hover"
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:727
+#: includes/addons/wl_onepage_slider.php:363
+msgid "Hover Background"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:463
+msgid "Hover Background Color"
+msgstr ""
+
+#: includes/addons/wl_onepage_slider.php:369
+#: includes/addons/wl_onepage_slider.php:575
+msgid "Hover Background Type"
+msgstr ""
+
+#: includes/addons/wl_store_features.php:180
+msgid "Hover Border"
+msgstr ""
+
+#: includes/addons/wl_store_features.php:184
+msgid "Hover Border Type"
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:711
+#: includes/addons/wl_onepage_slider.php:326
+#: includes/addons/wl_onepage_slider.php:404
+#: includes/addons/wl_category.php:344
+#: includes/addons/wl_recently_viewed_products.php:325
+#: includes/addons/wb_wishsuite_table.php:164
+#: includes/addons/wb_wishsuite_table.php:272
+#: includes/addons/add_banner.php:251 includes/addons/wl_category_grid.php:581
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:447
+msgid "Hover Color"
+msgstr ""
+
+#: includes/modules/post-duplicator/class.post-duplicator.php:45
+msgid "HT Duplicate"
+msgstr ""
+
+#: includes/modules/post-duplicator/class.post-duplicator.php:45
+msgid "HT Duplicator"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:241
+msgid "HTML tags are allowed."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://hasthemes.com/plugins/woolentor-pro/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://woolentor.com/"
+msgstr ""
+
+#: includes/addons/special_day_offer.php:133 includes/addons/wl_brand.php:97
+#: includes/addons/add_banner.php:123
+msgid "https://your-link.com"
+msgstr ""
+
+#: includes/modules/flash-sale/class.flash-sale.php:438
+msgid "Hurry Up! Offer ends in"
+msgstr ""
+
+#: includes/addons/wl_faq.php:613 includes/addons/wl_store_features.php:68
+#: includes/addons/wl_store_features.php:84
+#: includes/addons/wl_product_filter.php:114
+msgid "Icon"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:538
+#: includes/addons/wl_breadcrumbs.php:154
+#: includes/addons/wl_store_features.php:264
+#: includes/addons/wb_wishsuite_table.php:311
+msgid "Icon Color"
+msgstr ""
+
+#: includes/addons/wl_store_features.php:279
+#: includes/addons/wb_wishsuite_table.php:321
+msgid "Icon Hover Color"
+msgstr ""
+
+#: includes/addons/wl_faq.php:717 includes/addons/wl_faq.php:852
+msgid "Icon Line Height"
+msgstr ""
+
+#: includes/addons/wl_faq.php:241
+msgid "Icon Position"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:551
+#: includes/addons/wl_breadcrumbs.php:166
+#: includes/addons/wl_store_features.php:294
+#: includes/addons/wl_product_filter.php:321
+#: includes/addons/wl_product_filter.php:427
+msgid "Icon Size"
+msgstr ""
+
+#: includes/addons/product_accordion.php:235
+#: includes/addons/wl_product_filter.php:125
+msgid "Icon Spacing"
+msgstr ""
+
+#: includes/addons/wl_store_features.php:64
+msgid "Icon Type"
+msgstr ""
+
+#: includes/addons/wl_faq.php:737
+msgid "Icon Width"
+msgstr ""
+
+#: includes/helper-function.php:1038 includes/addons/product_flash_sale.php:133
+#: includes/addons/product_image_accordion.php:146
+#: includes/addons/product_accordion.php:167
+#: includes/addons/wl_category.php:151 includes/addons/product_curvy.php:202
+#: includes/addons/product_tabs.php:161
+#: includes/addons/wl_category_grid.php:131
+msgid "ID"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:276
+msgid ""
+"If you enable this you can easily share your compare page link with specific "
+"products."
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/form-checkout.php:56
+msgid ""
+"If you have shopped with us before, please enter your details below. If you "
+"are a new customer, please proceed to the Billing section."
+msgstr ""
+
+#: includes/admin/include/diagnostic-data.php:388
+#, php-format
+msgid ""
+"If you want to help us improve the %4$s%1$s%5$s plugin even more, please "
+"allow us to collect non-sensitive diagnostic data and usage information. "
+"Over %2$shere%3$s, you can see what kind of data we collect."
+msgstr ""
+
+#: includes/base.php:140
+#, php-format
+msgid ""
+"If you want to use the %1$sTemplate Builder%2$s feature, make sure the "
+"%1$s\"Elementor\"%2$s plugin is activated. Please activate Elementor to "
+"continue."
+msgstr ""
+
+#: includes/base.php:147
+#, php-format
+msgid ""
+"If you want to use the %1$sTemplate Builder%2$s feature, make sure the "
+"%1$s\"Elementor\"%2$s plugin is installed and activated. Please install "
+"Elementor to continue."
+msgstr ""
+
+#: includes/admin/templates/dashboard-sidebar.php:25
+msgid ""
+"If you’re loving how our product has helped your business, please let the "
+"WordPress community know by "
+msgstr ""
+
+#: includes/addons/wl_onepage_slider.php:53
+#: includes/addons/special_day_offer.php:66
+#: includes/addons/wl_testimonial.php:111
+#: includes/addons/wl_testimonial.php:531
+#: includes/addons/wl_store_features.php:72
+#: includes/addons/wl_store_features.php:97
+#: includes/addons/wb_archive_product.php:266
+#: includes/addons/wb_product_image.php:44
+#: includes/addons/wb_image_marker.php:43
+#: includes/addons/wb_customer_review.php:109
+#: includes/addons/wb_customer_review.php:361
+#: includes/addons/wl_category_grid.php:501
+#: includes/modules/variation-swatch/includes/Admin/Attribute_Taxonomy_Metabox.php:54
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:219
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:329
+msgid "Image"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:559
+msgid "Image Area Border Color"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:395
+msgid "Image Hard Crop"
+msgstr ""
+
+#: classes/class.widgets_control.php:240
+#: woolentor-blocks/includes/classes/Blocks_List.php:39
+msgid "Image Marker"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:380
+msgid "Image size"
+msgstr ""
+
+#: includes/addons/wl_store_features.php:240
+msgid "Image/Icon"
+msgstr ""
+
+#: classes/class.assest_management.php:363
+msgid "Import"
+msgstr ""
+
+#: includes/admin/include/class.template-manager.php:383
+msgid "Import Previously Assigned Templates"
+msgstr ""
+
+#: includes/admin/include/template-library/popup-template.php:22
+msgid "Import template to your Library"
+msgstr ""
+
+#: classes/class.assest_management.php:361
+msgid "Import to Library"
+msgstr ""
+
+#: classes/class.assest_management.php:362
+msgid "Import to Page"
+msgstr ""
+
+#: classes/class.assest_management.php:356
+msgid "in this package"
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/form-checkout.php:48
+msgid "Information"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:165
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:300
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:327
+msgid "Inherit"
+msgstr ""
+
+#: includes/custom-metabox.php:45
+msgid "Initial number in stock"
+msgstr ""
+
+#: includes/addons/wb_product_suggest_price.php:192
+msgid "Input"
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:515
+#: includes/addons/wl_product_filter.php:221
+msgid "Input Box"
+msgstr ""
+
+#: includes/addons/wb_product_suggest_price.php:109
+msgid "Input Field Placeholder"
+msgstr ""
+
+#: includes/admin/include/class.template_cpt.php:47
+msgid "Insert into Template"
+msgstr ""
+
+#: includes/base.php:148
+msgid "Install Elementor"
+msgstr ""
+
+#: includes/admin/include/template-library.php:168
+#: includes/admin/include/template-library.php:220
+#: includes/admin/include/class.extension-manager.php:165
+#: includes/admin/include/class.extension-manager.php:232
+msgid "Install Now"
+msgstr ""
+
+#: includes/base.php:173
+msgid "Install WooCommerce"
+msgstr ""
+
+#: classes/class.assest_management.php:366
+msgid "Installing.."
+msgstr ""
+
+#: includes/admin/include/class.template-manager.php:483
+msgid ""
+"It will import those templates that were created from the \"Templates\" menu "
+"of Elementor and assigned to corresponding WooCommerce pages."
+msgstr ""
+
+#: includes/addons/wl_faq.php:259 includes/addons/wl_testimonial.php:475
+#: includes/addons/wb_archive_product.php:171
+msgid "Item"
+msgstr ""
+
+#: includes/addons/wl_recently_viewed_products.php:183
+msgid "Item Area"
+msgstr ""
+
+#: includes/addons/wb_just_table.php:138
+msgid "Item Gap Color"
+msgstr ""
+
+#: includes/addons/wl_faq.php:267
+msgid "Item Spacing"
+msgstr ""
+
+#: includes/addons/wb_product_short_description.php:69
+#: includes/addons/special_day_offer.php:285
+#: includes/addons/wl_store_features.php:155
+#: includes/addons/wb_product_data_tab.php:172
+#: includes/addons/wb_archive_product.php:249
+#: includes/addons/wb_product_description.php:67
+#: includes/addons/product_tabs.php:247 includes/addons/product_tabs.php:969
+#: includes/addons/product_tabs.php:1048
+msgid "Justified"
+msgstr ""
+
+#: classes/class.widgets_control.php:446 includes/addons/wb_just_table.php:48
+msgid "JustTable"
+msgstr ""
+
+#: includes/admin/include/class.extension-manager.php:72
+msgid "JustTables"
+msgstr ""
+
+#: includes/admin/include/class.extension-manager.php:90
+msgid ""
+"JustTables is an incredible WordPress plugin that lets you showcase all your "
+"WooCommerce products in a sortable and filterable table view. It allows your "
+"customers to easily navigate through different attributes of the products "
+"and compare them on a single page. This plugin will be of great help if you "
+"are looking for an easy solution that increases the chances of landing a "
+"sale on your online store."
+msgstr ""
+
+#: includes/admin/include/class.extension-manager.php:87
+msgid "JustTables Pro"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:151
+msgid "Kevin Walker"
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:437
+msgid "Label"
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:920
+#: includes/addons/wl_product_filter.php:789
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:864
+#: includes/addons/wl_product_filter.php:603
+msgid "Label Color"
+msgstr ""
+
+#: includes/addons/wl_store_features.php:48
+#: includes/addons/wb_product_add_to_cart.php:47
+#: includes/addons/wb_product_add_to_cart.php:55
+msgid "Layout"
+msgstr ""
+
+#: includes/addons/wl_store_features.php:56
+msgid "Layout Five"
+msgstr ""
+
+#: includes/addons/wl_store_features.php:55
+#: includes/addons/wb_product_add_to_cart.php:63
+msgid "Layout Four"
+msgstr ""
+
+#: includes/addons/wl_store_features.php:52
+#: includes/addons/wb_product_add_to_cart.php:60
+msgid "Layout One"
+msgstr ""
+
+#: includes/addons/product_accordion.php:54
+#: includes/addons/product_curvy.php:54
+msgid "Layout Settings"
+msgstr ""
+
+#: includes/addons/wl_store_features.php:54
+#: includes/addons/wb_product_add_to_cart.php:62
+msgid "Layout Three"
+msgstr ""
+
+#: includes/addons/wl_store_features.php:53
+#: includes/addons/wb_product_add_to_cart.php:61
+msgid "Layout Two"
+msgstr ""
+
+#: includes/admin/templates/dashboard-sidebar.php:25
+msgid "leaving us a review on our WP repository"
+msgstr ""
+
+#: includes/addons/wl_faq.php:354 includes/addons/wl_faq.php:577
+#: includes/addons/wb_product_short_description.php:57
+#: includes/addons/wl_breadcrumbs.php:78
+#: includes/addons/wb_wishsuite_counter.php:69
+#: includes/addons/wl_product_horizontal_filter.php:742
+#: includes/addons/wl_onepage_slider.php:173
+#: includes/addons/special_day_offer.php:57
+#: includes/addons/special_day_offer.php:273
+#: includes/addons/wl_store_features.php:143
+#: includes/addons/wb_product_data_tab.php:160
+#: includes/addons/wb_archive_product.php:237
+#: includes/addons/wb_archive_product.php:900
+#: includes/addons/wl_archive_title.php:112
+#: includes/addons/wb_product_qr_code.php:91
+#: includes/addons/wb_product_related.php:169
+#: includes/addons/wb_archive_result_count.php:83
+#: includes/addons/wb_product_description.php:55
+#: includes/addons/wl_category.php:297
+#: includes/addons/wl_product_video_gallery.php:61
+#: includes/addons/wl_brand.php:298
+#: includes/addons/wb_product_categories.php:64
+#: includes/addons/wb_product_rating.php:100
+#: includes/addons/wb_product_title.php:107
+#: includes/addons/wb_product_sku.php:64
+#: includes/addons/wb_customer_review.php:290
+#: includes/addons/wl_recently_viewed_products.php:238
+#: includes/addons/wl_recently_viewed_products.php:550
+#: includes/addons/product_tabs.php:235 includes/addons/product_tabs.php:957
+#: includes/addons/product_tabs.php:1036 includes/addons/add_banner.php:67
+#: includes/addons/wb_product_tags.php:64
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:285
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:477
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:491
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:505
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:526
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:556
+msgid "Left"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:310
+msgid "Limit"
+msgstr ""
+
+#: includes/addons/wl_breadcrumbs.php:112
+#: includes/addons/wb_product_meta.php:61
+#: includes/addons/wb_product_rating.php:64
+msgid "Link Color"
+msgstr ""
+
+#: includes/addons/wl_breadcrumbs.php:123
+#: includes/addons/wb_product_meta.php:72
+msgid "Link Hover Color"
+msgstr ""
+
+#: includes/addons/wb_product_rating.php:76
+msgid "Link Typography"
+msgstr ""
+
+#: includes/addons/wl_product_filter.php:387
+msgid "List Item"
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/form-checkout.php:55
+msgid "Log in"
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/form-login.php:41
+msgid "Login"
+msgstr ""
+
+#: includes/addons/wb_customer_review.php:128
+#: includes/addons/wb_customer_review.php:146
+#: includes/addons/wb_customer_review.php:153
+#: includes/addons/wb_customer_review.php:160
+msgid ""
+"Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod "
+"tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet, "
+"consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et "
+"dolore magna aliqua."
+msgstr ""
+
+#: includes/addons/wb_image_marker.php:111
+#: includes/addons/wb_image_marker.php:165
+msgid "Lorem ipsum pisaci volupt atem accusa saes ntisdumtiu loperm asaerks."
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/form-login.php:44
+msgid "Lost your password?"
+msgstr ""
+
+#: includes/addons/wl_product_video_gallery.php:89
+msgid "Main Video Area"
+msgstr ""
+
+#: includes/addons/wb_customer_review.php:151
+msgid "Manager"
+msgstr ""
+
+#: includes/addons/wb_customer_review.php:91
+#: includes/addons/wb_customer_review.php:144
+msgid "Managing Director"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:386
+#: includes/addons/product_flash_sale.php:453
+#: includes/addons/product_flash_sale.php:475
+#: includes/addons/product_flash_sale.php:801
+#: includes/addons/wb_product_price.php:71
+#: includes/addons/wl_product_horizontal_filter.php:336
+#: includes/addons/wl_product_horizontal_filter.php:422
+#: includes/addons/wl_product_horizontal_filter.php:489
+#: includes/addons/wl_onepage_slider.php:240
+#: includes/addons/wl_onepage_slider.php:282
+#: includes/addons/wb_product_upsell.php:143
+#: includes/addons/special_day_offer.php:298
+#: includes/addons/special_day_offer.php:357
+#: includes/addons/special_day_offer.php:416
+#: includes/addons/special_day_offer.php:475
+#: includes/addons/special_day_offer.php:534
+#: includes/addons/special_day_offer.php:593
+#: includes/addons/special_day_offer.php:704
+#: includes/addons/wl_testimonial.php:516
+#: includes/addons/wl_testimonial.php:604
+#: includes/addons/wl_testimonial.php:660
+#: includes/addons/wl_testimonial.php:716
+#: includes/addons/wl_testimonial.php:776
+#: includes/addons/wb_product_meta.php:92
+#: includes/addons/wl_store_features.php:364
+#: includes/addons/wl_store_features.php:440
+#: includes/addons/wl_store_features.php:486
+#: includes/addons/wl_store_features.php:532
+#: includes/addons/wb_product_data_tab.php:61
+#: includes/addons/wb_archive_product.php:212
+#: includes/addons/wb_archive_product.php:295
+#: includes/addons/wb_archive_product.php:361
+#: includes/addons/wb_archive_product.php:526
+#: includes/addons/wb_archive_product.php:613
+#: includes/addons/wl_archive_title.php:163
+#: includes/addons/wl_archive_title.php:203
+#: includes/addons/product_image_accordion.php:280
+#: includes/addons/product_image_accordion.php:344
+#: includes/addons/product_image_accordion.php:398
+#: includes/addons/product_image_accordion.php:461
+#: includes/addons/product_image_accordion.php:507
+#: includes/addons/wb_product_image.php:74
+#: includes/addons/wb_archive_catalog_ordering.php:119
+#: includes/addons/wb_product_related.php:152
+#: includes/addons/wb_product_call_for_price.php:124
+#: includes/addons/wb_archive_result_count.php:114
+#: includes/addons/wb_product_description.php:100
+#: includes/addons/product_accordion.php:333
+#: includes/addons/product_accordion.php:477
+#: includes/addons/product_accordion.php:540
+#: includes/addons/product_accordion.php:586
+#: includes/addons/product_curvy.php:340 includes/addons/product_curvy.php:469
+#: includes/addons/product_curvy.php:567 includes/addons/product_curvy.php:630
+#: includes/addons/product_curvy.php:711
+#: includes/addons/wl_product_video_gallery.php:148
+#: includes/addons/wl_brand.php:282
+#: includes/addons/wb_product_categories.php:151
+#: includes/addons/wb_product_suggest_price.php:245
+#: includes/addons/wb_product_suggest_price.php:344
+#: includes/addons/wb_product_suggest_price.php:442
+#: includes/addons/wb_product_suggest_price.php:597
+#: includes/addons/wb_product_suggest_price.php:740
+#: includes/addons/wb_product_rating.php:84
+#: includes/addons/wb_product_title.php:90
+#: includes/addons/wl_product_filter.php:195
+#: includes/addons/wb_product_sku.php:139
+#: includes/addons/wb_image_marker.php:350
+#: includes/addons/wb_image_marker.php:392
+#: includes/addons/wb_customer_review.php:420
+#: includes/addons/wb_customer_review.php:476
+#: includes/addons/wb_customer_review.php:532
+#: includes/addons/wb_product_stock.php:71
+#: includes/addons/wl_recently_viewed_products.php:336
+#: includes/addons/wl_recently_viewed_products.php:380
+#: includes/addons/wl_recently_viewed_products.php:709
+#: includes/addons/wb_product_add_to_cart.php:754
+#: includes/addons/wb_product_add_to_cart.php:1084
+#: includes/addons/wb_product_additional_information.php:102
+#: includes/addons/add_banner.php:167 includes/addons/add_banner.php:218
+#: includes/addons/wl_category_grid.php:522
+#: includes/addons/wl_category_grid.php:616
+#: includes/addons/wb_product_tags.php:151
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:485
+msgid "Margin"
+msgstr ""
+
+#: includes/addons/wb_image_marker.php:76
+#: includes/addons/wb_image_marker.php:186
+msgid "Marker"
+msgstr ""
+
+#: includes/addons/wb_image_marker.php:102
+#: includes/addons/wb_image_marker.php:164
+msgid "Marker #1"
+msgstr ""
+
+#: includes/addons/wb_image_marker.php:109
+msgid "Marker Content"
+msgstr ""
+
+#: includes/addons/wb_image_marker.php:100
+msgid "Marker Title"
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:150
+msgid "Max Price"
+msgstr ""
+
+#: includes/addons/wl_product_filter.php:852
+msgid "Max price"
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:89
+msgid "Max Width"
+msgstr ""
+
+#: includes/addons/wb_product_upsell.php:72
+#: includes/addons/wb_archive_product.php:133
+#: includes/addons/wb_product_related.php:87
+#: includes/addons/wl_category.php:155 includes/addons/wl_category_grid.php:135
+msgid "Menu Order"
+msgstr ""
+
+#: includes/addons/wb_product_suggest_price.php:155
+msgid "Message"
+msgstr ""
+
+#: includes/addons/wb_product_suggest_price.php:141
+msgid "Message Field Placeholder"
+msgstr ""
+
+#: includes/addons/wb_product_meta.php:43
+msgid "Meta"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:1031
+#: includes/modules/flash-sale/class.flash-sale.php:449
+msgid "Min"
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:141
+msgid "Min Price"
+msgstr ""
+
+#: includes/addons/wl_product_filter.php:851
+msgid "Min price"
+msgstr ""
+
+#: includes/addons/wb_product_add_to_cart.php:120
+msgid "Minus Icon"
+msgstr ""
+
+#: includes/addons/wb_product_add_to_cart.php:183
+#: includes/addons/wb_product_add_to_cart.php:281
+msgid "Minus Icon Color"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:291
+#: includes/addons/product_flash_sale.php:293
+msgid "Minutes"
+msgstr ""
+
+#: includes/admin/templates/dashboard-welcome.php:52
+msgid "Missing any Feature?"
+msgstr ""
+
+#: includes/addons/product_tabs.php:84
+msgid "Mixed order Products"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:431 includes/addons/product_tabs.php:573
+#: includes/addons/wl_category_grid.php:415
+msgid "Mobile Phone"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:462 includes/addons/product_tabs.php:606
+#: includes/addons/wl_category_grid.php:446
+msgid "Mobile Resolution"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Frontend/Woo_Config.php:749
+msgid "More"
+msgstr ""
+
+#: includes/admin/include/class.extension-manager.php:187
+#: includes/admin/include/class.extension-manager.php:255
+msgid "More Details"
+msgstr ""
+
+#: includes/admin/include/class.extension-manager.php:77
+msgid "Multi Currency"
+msgstr ""
+
+#: includes/admin/include/class.extension-manager.php:105
+msgid "Multi Currency Pro for WooCommerce"
+msgstr ""
+
+#: includes/admin/include/class.extension-manager.php:108
+msgid ""
+"Multi-Currency Pro for WooCommerce is a prominent currency switcher plugin "
+"for WooCommerce. This plugin allows your website or online store visitors to "
+"switch to their preferred currency or their country’s currency."
+msgstr ""
+
+#: includes/addons/wb_wc_multicurrency.php:48
+msgid "MultiCurrency"
+msgstr ""
+
+#: includes/addons/wl_category_grid.php:74
+msgid "Multiple Categories"
+msgstr ""
+
+#: classes/class.default_data.php:374 classes/class.default_data.php:396
+#: includes/addons/wb_product_sku.php:168
+msgid "N/A"
+msgstr ""
+
+#: includes/helper-function.php:1040 includes/addons/product_flash_sale.php:135
+#: includes/addons/wl_testimonial.php:82 includes/addons/wl_testimonial.php:576
+#: includes/addons/product_image_accordion.php:148
+#: includes/addons/product_accordion.php:169
+#: includes/addons/wl_category.php:152 includes/addons/product_curvy.php:204
+#: includes/addons/wb_customer_review.php:80
+#: includes/addons/wb_customer_review.php:392
+#: includes/addons/product_tabs.php:163
+#: includes/addons/wl_category_grid.php:132
+#: includes/admin/include/class.template-manager.php:447
+msgid "Name"
+msgstr ""
+
+#: includes/addons/wb_product_suggest_price.php:119
+msgid "Name Field Placeholder"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:970 includes/addons/product_tabs.php:756
+#: includes/addons/wl_category_grid.php:852
+msgid "Navigation"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:813 includes/addons/product_tabs.php:641
+#: includes/addons/wl_category_grid.php:695
+msgid "Navigation Arrow"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:898
+#: includes/addons/wl_testimonial.php:1021 includes/addons/product_tabs.php:705
+#: includes/addons/product_tabs.php:809
+#: includes/addons/wl_category_grid.php:780
+#: includes/addons/wl_category_grid.php:903
+msgid "Navigation Dots"
+msgstr ""
+
+#: includes/custom-metabox.php:73
+msgid "New"
+msgstr ""
+
+#: includes/admin/include/class.template_cpt.php:35
+msgid "New Template"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:204
+#: includes/addons/wb_customer_review.php:192
+#: includes/addons/wl_recently_viewed_products.php:84
+#: includes/addons/wl_category_grid.php:219
+msgid "Nine"
+msgstr ""
+
+#: includes/admin/include/class.template-manager.php:137
+msgid "NO"
+msgstr ""
+
+#: includes/addons/wl_faq.php:114 includes/addons/wl_faq.php:193
+#: includes/addons/wl_faq.php:206 includes/addons/wl_testimonial.php:218
+#: includes/addons/wl_testimonial.php:332
+#: includes/addons/wb_customer_review.php:206
+#: includes/addons/product_tabs.php:468
+#: includes/addons/wl_category_grid.php:172
+#: includes/addons/wl_category_grid.php:233
+#: includes/addons/wl_category_grid.php:317
+msgid "No"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:215
+#: includes/addons/wb_customer_review.php:203
+#: includes/addons/wl_category_grid.php:230
+msgid "No Gutters"
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/class.shopify-like-checkout.php:435
+#: includes/modules/variation-swatch/includes/ajax-actions.php:118
+#: includes/modules/variation-swatch/includes/ajax-actions.php:145
+#: includes/modules/variation-swatch/includes/ajax-actions.php:176
+#: includes/modules/variation-swatch/includes/Admin/Attribute_Taxonomy_Metabox.php:327
+msgid "No naughty business please!"
+msgstr ""
+
+#: includes/helper-function.php:1262
+msgid "No products were found matching your selection."
+msgstr ""
+
+#: classes/class.default_data.php:316
+msgid "No Rating Available"
+msgstr ""
+
+#: classes/class.default_data.php:543
+msgid "No related products are available."
+msgstr ""
+
+#: includes/modules/ajax-search/base.php:77
+msgid "No Results Found"
+msgstr ""
+
+#: includes/helper-function.php:424
+msgid "No saved templates found."
+msgstr ""
+
+#. $s shipping destination.
+#: includes/modules/shopify-like-checkout/templates/cart-shipping.php:56
+#, php-format
+msgid "No shipping options were found for %s."
+msgstr ""
+
+#: includes/admin/include/diagnostic-data.php:394
+msgid "No Thanks"
+msgstr ""
+
+#: classes/class.default_data.php:514
+msgid "No upsell products are available."
+msgstr ""
+
+#: includes/admin/include/class.template-manager.php:507
+#: includes/admin/include/class.template-manager.php:653
+#: includes/admin/include/class.template-manager.php:691
+#: includes/admin/include/class.template-manager.php:799
+msgid "Nonce Varification Faild !"
+msgstr ""
+
+#: includes/helper-function.php:1037 includes/addons/product_flash_sale.php:132
+#: includes/addons/product_image_accordion.php:145
+#: includes/addons/product_accordion.php:166
+#: includes/addons/product_curvy.php:201
+#: includes/addons/wl_product_filter.php:912
+#: includes/addons/product_tabs.php:160
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:216
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:241
+msgid "None"
+msgstr ""
+
+#: includes/addons/wl_faq.php:378 includes/addons/wl_faq.php:625
+#: includes/addons/product_flash_sale.php:653
+#: includes/addons/wl_product_horizontal_filter.php:599
+#: includes/addons/wl_product_horizontal_filter.php:780
+#: includes/addons/special_day_offer.php:633
+#: includes/addons/wl_testimonial.php:806
+#: includes/addons/wl_store_features.php:313
+#: includes/addons/wb_product_data_tab.php:95
+#: includes/addons/wb_archive_product.php:320
+#: includes/addons/wb_archive_product.php:378
+#: includes/addons/wb_archive_product.php:552
+#: includes/addons/wb_archive_product.php:702
+#: includes/addons/product_image_accordion.php:533
+#: includes/addons/wb_product_call_for_price.php:85
+#: includes/addons/product_accordion.php:612
+#: includes/addons/product_curvy.php:747
+#: includes/addons/wb_product_suggest_price.php:405
+#: includes/addons/wb_product_suggest_price.php:558
+#: includes/addons/wb_product_suggest_price.php:701
+#: includes/addons/wl_product_filter.php:293
+#: includes/addons/wl_product_filter.php:400
+#: includes/addons/wl_product_filter.php:637
+#: includes/addons/wl_recently_viewed_products.php:428
+#: includes/addons/wb_wishsuite_table.php:379
+#: includes/addons/product_tabs.php:267 includes/addons/product_tabs.php:634
+#: includes/addons/product_tabs.php:870 includes/addons/product_tabs.php:1127
+#: includes/addons/wb_product_add_to_cart.php:176
+#: includes/addons/wb_product_add_to_cart.php:544
+#: includes/addons/wb_product_add_to_cart.php:910
+#: includes/addons/wb_product_add_to_cart.php:1043
+#: includes/addons/wl_category_grid.php:688
+msgid "Normal"
+msgstr ""
+
+#: includes/admin/include/class.template_cpt.php:41
+msgid "Not found"
+msgstr ""
+
+#: includes/admin/include/class.template_cpt.php:42
+msgid "Not found in Trash"
+msgstr ""
+
+#: classes/class.assest_management.php:358
+msgid "Nothing Found"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:574
+#: includes/addons/product_flash_sale.php:823
+msgid "Number Color"
+msgstr ""
+
+#: includes/addons/product_tabs.php:124
+msgid "Number of Products"
+msgstr ""
+
+#: includes/addons/wb_ever_compare_table.php:113
+#: includes/addons/wb_ever_compare_table.php:119
+msgid "Odd Heading Background"
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:1111
+msgid "of"
+msgstr ""
+
+#: includes/addons/special_day_offer.php:124
+msgid "Off"
+msgstr ""
+
+#: includes/addons/special_day_offer.php:113
+#: includes/addons/special_day_offer.php:502
+msgid "Offer Amount"
+msgstr ""
+
+#: includes/addons/special_day_offer.php:122
+#: includes/addons/special_day_offer.php:561
+msgid "Offer Tag Line"
+msgstr ""
+
+#: includes/addons/wb_product_price.php:85
+msgid "Old Price"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:196
+#: includes/addons/wb_customer_review.php:184
+#: includes/addons/wl_recently_viewed_products.php:76
+#: includes/addons/wl_category_grid.php:211
+msgid "One"
+msgstr ""
+
+#: classes/class.widgets_control.php:256
+msgid "One Page Slider"
+msgstr ""
+
+#: includes/addons/wb_product_add_to_cart.php:154
+msgid "Only for Quantity Label."
+msgstr ""
+
+#: includes/addons/wb_product_add_to_cart.php:448
+msgid "Only for quantity plus, minus button and input number"
+msgstr ""
+
+#: includes/addons/wb_product_add_to_cart.php:499
+msgid "Only for wishlist and compare button."
+msgstr ""
+
+#: includes/addons/wb_image_marker.php:60
+msgid "Opacity Color"
+msgstr ""
+
+#: includes/addons/wb_product_suggest_price.php:547
+msgid "Open Button"
+msgstr ""
+
+#: includes/addons/wb_product_suggest_price.php:61
+msgid "Open Button Text"
+msgstr ""
+
+#: includes/addons/wl_faq.php:123 includes/addons/wl_faq.php:215
+msgid "Open Icon"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:185
+msgid "Open popup"
+msgstr ""
+
+#: includes/addons/wb_customer_review.php:173
+msgid "Option"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:149
+#: includes/addons/wb_product_upsell.php:80
+#: includes/addons/wb_archive_product.php:144
+#: includes/addons/wb_product_related.php:95
+#: includes/addons/wl_category.php:132
+#: includes/addons/wl_recently_viewed_products.php:59
+#: includes/addons/product_tabs.php:177
+#: includes/addons/wl_category_grid.php:111
+msgid "Order"
+msgstr ""
+
+#: includes/addons/product_image_accordion.php:162
+#: includes/addons/product_accordion.php:183
+#: includes/addons/product_curvy.php:218
+msgid "order"
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:45
+#: includes/addons/wl_product_horizontal_filter.php:122
+#: includes/addons/wl_product_horizontal_filter.php:123
+#: includes/addons/wb_product_upsell.php:62
+#: includes/addons/wb_product_related.php:77
+#: includes/addons/wl_product_filter.php:46
+msgid "Order By"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:128
+#: includes/addons/wb_archive_product.php:123
+#: includes/addons/product_image_accordion.php:141
+#: includes/addons/product_accordion.php:162
+#: includes/addons/product_curvy.php:197 includes/addons/product_tabs.php:156
+msgid "Order by"
+msgstr ""
+
+#: includes/addons/wb_archive_catalog_ordering.php:107
+msgid "Order Radius"
+msgstr ""
+
+#: includes/addons/wl_category.php:147 includes/addons/wl_category_grid.php:127
+msgid "Orderby"
+msgstr ""
+
+#: includes/addons/wb_archive_catalog_ordering.php:44
+msgid "Ordering"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:594
+msgid "Others"
+msgstr ""
+
+#: includes/admin/templates/dashboard-popup.php:13
+msgid ""
+"Our free version is great, but it doesn't have all our advanced features. "
+"The best way to unlock all of the features in our plugin is by purchasing "
+"the pro version."
+msgstr ""
+
+#: includes/helper-function.php:758 includes/helper-function.php:806
+msgid "Out of stock"
+msgstr ""
+
+#: includes/addons/wl_recently_viewed_products.php:591
+msgid "Out of Stock Badge Color"
+msgstr ""
+
+#: includes/helper-function.php:609
+msgid "p"
+msgstr ""
+
+#: includes/addons/wl_faq.php:326 includes/addons/wl_faq.php:395
+#: includes/addons/wl_faq.php:513 includes/addons/wl_faq.php:598
+#: includes/addons/product_flash_sale.php:398
+#: includes/addons/wl_product_horizontal_filter.php:324
+#: includes/addons/wl_product_horizontal_filter.php:410
+#: includes/addons/wl_product_horizontal_filter.php:477
+#: includes/addons/wl_product_horizontal_filter.php:575
+#: includes/addons/wl_onepage_slider.php:303
+#: includes/addons/special_day_offer.php:310
+#: includes/addons/special_day_offer.php:369
+#: includes/addons/special_day_offer.php:428
+#: includes/addons/special_day_offer.php:487
+#: includes/addons/special_day_offer.php:546
+#: includes/addons/special_day_offer.php:605
+#: includes/addons/special_day_offer.php:691
+#: includes/addons/wl_testimonial.php:504
+#: includes/addons/wl_testimonial.php:617
+#: includes/addons/wl_testimonial.php:673
+#: includes/addons/wl_testimonial.php:729
+#: includes/addons/wl_testimonial.php:886
+#: includes/addons/wl_store_features.php:351
+#: includes/addons/wl_store_features.php:427
+#: includes/addons/wb_product_data_tab.php:73
+#: includes/addons/wb_archive_product.php:200
+#: includes/addons/wb_archive_product.php:347
+#: includes/addons/wb_archive_product.php:626
+#: includes/addons/wb_archive_product.php:721
+#: includes/addons/wb_archive_product.php:863 includes/addons/wb_whols.php:76
+#: includes/addons/wb_product_call_for_price.php:112
+#: includes/addons/wb_product_description.php:112
+#: includes/addons/product_accordion.php:345
+#: includes/addons/wl_product_video_gallery.php:193
+#: includes/addons/wl_brand.php:270
+#: includes/addons/wb_product_suggest_price.php:258
+#: includes/addons/wb_product_suggest_price.php:357
+#: includes/addons/wb_product_suggest_price.php:455
+#: includes/addons/wb_product_suggest_price.php:585
+#: includes/addons/wb_product_suggest_price.php:728
+#: includes/addons/wl_product_filter.php:183
+#: includes/addons/wl_product_filter.php:269
+#: includes/addons/wl_product_filter.php:442
+#: includes/addons/wl_product_filter.php:687
+#: includes/addons/wb_image_marker.php:236
+#: includes/addons/wb_image_marker.php:289
+#: includes/addons/wb_customer_review.php:313
+#: includes/addons/wb_customer_review.php:433
+#: includes/addons/wb_customer_review.php:489
+#: includes/addons/wb_customer_review.php:545
+#: includes/addons/wl_recently_viewed_products.php:191
+#: includes/addons/wl_recently_viewed_products.php:261
+#: includes/addons/wl_recently_viewed_products.php:413
+#: includes/addons/wl_recently_viewed_products.php:633
+#: includes/addons/wl_recently_viewed_products.php:697
+#: includes/addons/wb_wishsuite_table.php:364
+#: includes/addons/product_tabs.php:693
+#: includes/addons/wb_product_add_to_cart.php:396
+#: includes/addons/wb_product_add_to_cart.php:733
+#: includes/addons/wb_product_add_to_cart.php:1071
+#: includes/addons/wl_category_grid.php:467
+#: includes/addons/wl_category_grid.php:768
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:471
+msgid "Padding"
+msgstr ""
+
+#: includes/addons/wl_onepage_slider.php:499
+#: includes/addons/wb_archive_product.php:90
+#: includes/addons/wb_archive_product.php:689
+msgid "Pagination"
+msgstr ""
+
+#: includes/addons/wl_category.php:154 includes/addons/wl_category_grid.php:134
+msgid "Parent"
+msgstr ""
+
+#: includes/admin/include/class.template_cpt.php:31
+msgid "Parent Item:"
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/form-login.php:28
+#: includes/modules/shopify-like-checkout/templates/form-login.php:29
+msgid "Password"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:336 includes/addons/product_tabs.php:472
+#: includes/addons/wl_category_grid.php:321
+msgid "Pause on Hover?"
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/form-checkout.php:50
+msgid "Payment"
+msgstr ""
+
+#: includes/addons/wb_customer_review.php:150
+msgid "Peter Rose"
+msgstr ""
+
+#: includes/base.php:189
+msgid "PHP"
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/form-checkout.php:63
+msgid "Place order"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:131
+msgid ""
+"Place the image size name here. WordPress default image sizes are: thumbnail,"
+" medium, medium_large, large and full. Custom image size also can be used. "
+"Default is: thumbnail"
+msgstr ""
+
+#: includes/admin/include/template-library/popup-template.php:26
+msgctxt "placeholder"
+msgid "Enter a Page Name"
+msgstr ""
+
+#: includes/addons/wl_product_filter.php:789
+msgctxt "placeholder"
+msgid "Search Products&hellip;"
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:663
+#: includes/addons/wb_product_suggest_price.php:211
+#: includes/addons/wb_product_suggest_price.php:313
+msgid "Placeholder Color"
+msgstr ""
+
+#: includes/admin/templates/dashboard-welcome.php:42
+msgid ""
+"Please do not hesitate to contact us if you require assistance or want a "
+"free store set-up. We will assist you within 12-24 hours of receiving your "
+"inquiry."
+msgstr ""
+
+#: includes/addons/wb_product_suggest_price.php:132
+#: includes/addons/wb_product_suggest_price.php:133
+msgid "Please Enter your email"
+msgstr ""
+
+#: includes/addons/wb_product_suggest_price.php:121
+#: includes/addons/wb_product_suggest_price.php:122
+msgid "Please Enter your name"
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/payment.php:21
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: includes/addons/wl_product_filter.php:971
+msgid "Please Select Filter Type"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Frontend.php:132
+msgid ""
+"Please select some product options before adding this product to your cart."
+msgstr ""
+
+#: includes/admin/include/template-library.php:256
+msgid "Plugin Not Found"
+msgstr ""
+
+#: includes/admin/include/template-library.php:276
+msgid "Plugin Successfully Activated"
+msgstr ""
+
+#: includes/addons/wb_product_add_to_cart.php:105
+msgid "Plus Icon"
+msgstr ""
+
+#: includes/addons/wb_product_add_to_cart.php:202
+#: includes/addons/wb_product_add_to_cart.php:299
+msgid "Plus Icon Color"
+msgstr ""
+
+#: includes/addons/wb_product_upsell.php:69
+#: includes/addons/wb_archive_product.php:130
+#: includes/addons/wb_product_related.php:84
+msgid "Popularity"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:202
+#: includes/addons/wl_testimonial.php:821
+#: includes/addons/wl_testimonial.php:906
+#: includes/addons/wb_archive_product.php:895
+#: includes/addons/wl_recently_viewed_products.php:546
+#: includes/addons/wb_product_add_to_cart.php:497
+#: includes/addons/wl_category_grid.php:703
+#: includes/addons/wl_category_grid.php:788
+msgid "Position"
+msgstr ""
+
+#: woolentor-blocks/includes/classes/Manage_Styles.php:100
+msgid "Post Data found."
+msgstr ""
+
+#: woolentor-blocks/includes/classes/Manage_Styles.php:105
+msgid "Post Data not found."
+msgstr ""
+
+#: includes/admin/include/class.template-manager.php:541
+msgid "Post request dose not found"
+msgstr ""
+
+#: includes/admin/include/class.template_cpt.php:25
+msgctxt "Post Type General Name"
+msgid "Template Builder"
+msgstr ""
+
+#: includes/admin/include/class.template_cpt.php:26
+msgctxt "Post Type Singular Name"
+msgid "Template Builder"
+msgstr ""
+
+#: classes/class.assest_management.php:365
+#: includes/admin/include/admin_field-manager.php:350
+#: includes/admin/include/admin_field-manager.php:469
+msgid "Preview"
+msgstr ""
+
+#: includes/addons/wb_product_price.php:44
+#: includes/addons/wl_product_horizontal_filter.php:43
+#: includes/addons/wb_product_upsell.php:68
+#: includes/addons/wb_archive_product.php:129
+#: includes/addons/wb_archive_product.php:405
+#: includes/addons/wb_product_related.php:83
+#: includes/addons/wl_product_filter.php:44
+#: includes/addons/wl_recently_viewed_products.php:350
+#: includes/addons/wb_wishsuite_table.php:175
+msgid "Price"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:329
+msgid "price"
+msgstr ""
+
+#: includes/modules/sales-notification/class.sale_notification.php:229
+msgid "Price :"
+msgstr ""
+
+#: includes/addons/wb_product_price.php:51
+#: includes/addons/wb_product_price.php:92
+#: includes/addons/wl_product_filter.php:614
+msgid "Price Color"
+msgstr ""
+
+#: includes/addons/product_tabs.php:1011
+msgid "Price color"
+msgstr ""
+
+#: classes/class.default_data.php:265
+msgid "Price does not set this product."
+msgstr ""
+
+#: includes/addons/wl_product_filter.php:594
+msgid "Price Label"
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:169
+msgid "Price Range"
+msgstr ""
+
+#: includes/addons/wl_product_filter.php:856
+msgid "Price:"
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:180
+msgid "Price: {{{ min_price }}} {{{ price_seprator }}} {{{ max_price }}}"
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:127
+#: includes/addons/wl_product_horizontal_filter.php:128
+msgid "Pricing"
+msgstr ""
+
+#: classes/class.assest_management.php:353
+#: includes/admin/include/class.template-manager.php:474
+#: includes/admin/include/admin_field-manager.php:131
+#: includes/admin/include/admin_field-manager.php:333
+#: includes/admin/include/admin_field-manager.php:450
+#: includes/admin/include/template-library/templates_list.php:31
+msgid "Pro"
+msgstr ""
+
+#: includes/admin/include/class.extension-manager.php:137
+msgid "Pro extension"
+msgstr ""
+
+#: includes/addons/wl_faq.php:158
+msgid "Producing Perfume From Home"
+msgstr ""
+
+#: classes/class.widgets_control.php:333
+#: woolentor-blocks/includes/classes/Blocks_List.php:118
+msgid "Product Add To Cart"
+msgstr ""
+
+#: includes/helper-function.php:1082
+#: woolentor-blocks/includes/helper-functions.php:526
+msgid "Product Added"
+msgstr ""
+
+#: classes/class.widgets_control.php:337
+#: woolentor-blocks/includes/classes/Blocks_List.php:160
+msgid "Product Additional Info"
+msgstr ""
+
+#: includes/custom-metabox.php:58
+msgid "Product Badge"
+msgstr ""
+
+#: classes/class.widgets_control.php:313
+msgid "Product Call for Price"
+msgstr ""
+
+#: classes/class.widgets_control.php:393
+#: includes/addons/product_image_accordion.php:117
+#: includes/addons/product_accordion.php:128
+#: includes/addons/product_curvy.php:163 includes/addons/product_tabs.php:135
+msgid "Product Categories"
+msgstr ""
+
+#: includes/addons/product_image_accordion.php:304
+msgid "Product Category"
+msgstr ""
+
+#: classes/class.default_data.php:431
+msgid "Product category does not exists."
+msgstr ""
+
+#: includes/addons/product_curvy.php:581
+msgid "Product Content"
+msgstr ""
+
+#: includes/addons/product_tabs.php:921
+msgid "Product Content Area Padding"
+msgstr ""
+
+#: includes/addons/product_tabs.php:933
+msgid "Product Content Background"
+msgstr ""
+
+#: includes/addons/product_tabs.php:1085
+msgid "Product content background"
+msgstr ""
+
+#: includes/addons/wl_category.php:206
+msgid ""
+"Product counter, Custom icon, Category Description option are available in "
+"the pro version"
+msgstr ""
+
+#: classes/class.widgets_control.php:260
+#: woolentor-blocks/includes/classes/Blocks_List.php:82
+msgid "Product Curvy"
+msgstr ""
+
+#: classes/class.widgets_control.php:341
+msgid "Product Data tabs"
+msgstr ""
+
+#: classes/class.widgets_control.php:345
+#: woolentor-blocks/includes/classes/Blocks_List.php:132
+msgid "Product Description"
+msgstr ""
+
+#: classes/class.widgets_control.php:305
+msgid "Product Filter"
+msgstr ""
+
+#: includes/addons/product_tabs.php:1097
+msgid "Product hover content area padding"
+msgstr ""
+
+#: includes/addons/product_image_accordion.php:95
+#: includes/addons/product_accordion.php:116
+#: includes/addons/product_curvy.php:151
+msgid "Product IDs"
+msgstr ""
+
+#: classes/class.widgets_control.php:365
+#: woolentor-blocks/includes/classes/Blocks_List.php:146
+msgid "Product Image"
+msgstr ""
+
+#: classes/class.widgets_control.php:264
+msgid "Product Image Accordion"
+msgstr ""
+
+#: includes/addons/product_tabs.php:897
+msgid "Product Image Area Padding"
+msgstr ""
+
+#: includes/addons/product_tabs.php:909
+msgid "Product Image Background"
+msgstr ""
+
+#: includes/addons/wl_product_video_gallery.php:126
+#: includes/addons/wl_product_video_gallery.php:172
+msgid "Product image border"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:91
+#: includes/addons/product_image_accordion.php:107
+#: includes/addons/product_accordion.php:142
+#: includes/addons/product_curvy.php:177
+#: includes/addons/wl_recently_viewed_products.php:49
+msgid "Product Limit"
+msgstr ""
+
+#: classes/class.widgets_control.php:381
+#: woolentor-blocks/includes/classes/Blocks_List.php:153
+msgid "Product Meta"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:338
+msgid ""
+"Product must have both \"Manage stock\" and \"Initial number in stock\" set "
+"from the \"Inventory\" tab to display the stock progress indicator.\""
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:137
+msgid "Product page button position"
+msgstr ""
+
+#: includes/addons/wb_archive_result_count.php:49
+msgid "Product Per Page"
+msgstr ""
+
+#: classes/class.widgets_control.php:353 includes/helper-function.php:1045
+#: includes/addons/product_flash_sale.php:466
+#: includes/addons/product_image_accordion.php:411
+#: includes/addons/product_accordion.php:490
+#: includes/addons/product_curvy.php:482 includes/addons/product_tabs.php:1003
+#: woolentor-blocks/includes/classes/Blocks_List.php:111
+msgid "Product Price"
+msgstr ""
+
+#: classes/class.widgets_control.php:397
+#: woolentor-blocks/includes/classes/Blocks_List.php:181
+msgid "Product QR Code"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:529
+#: includes/addons/product_image_accordion.php:474
+#: includes/addons/product_accordion.php:553
+#: includes/addons/product_curvy.php:643
+#: woolentor-blocks/includes/classes/Blocks_List.php:139
+msgid "Product Rating"
+msgstr ""
+
+#: classes/class.widgets_control.php:357
+msgid "Product rating"
+msgstr ""
+
+#: woolentor-blocks/includes/classes/Blocks_List.php:188
+msgid "Product Related"
+msgstr ""
+
+#: includes/addons/wb_product_reviews.php:43
+msgid "Product Reviews"
+msgstr ""
+
+#: classes/class.widgets_control.php:361
+msgid "Product reviews"
+msgstr ""
+
+#: includes/addons/product_tabs.php:54
+msgid "Product Settings"
+msgstr ""
+
+#: woolentor-blocks/includes/classes/Blocks_List.php:125
+msgid "Product Short Description"
+msgstr ""
+
+#: classes/class.widgets_control.php:349
+msgid "Product short description"
+msgstr ""
+
+#: classes/class.widgets_control.php:385
+msgid "Product SKU"
+msgstr ""
+
+#: includes/addons/product_tabs.php:206
+msgid "Product Slider"
+msgstr ""
+
+#: classes/class.widgets_control.php:377
+#: woolentor-blocks/includes/classes/Blocks_List.php:174
+msgid "Product Stock"
+msgstr ""
+
+#: includes/addons/product_tabs.php:61
+msgid "Product Style"
+msgstr ""
+
+#: classes/class.widgets_control.php:317
+msgid "Product suggest price"
+msgstr ""
+
+#: includes/addons/product_tabs.php:193
+msgid "Product Tab"
+msgstr ""
+
+#: woolentor-blocks/includes/classes/Blocks_List.php:60
+msgid "Product tab"
+msgstr ""
+
+#: includes/addons/product_tabs.php:294 includes/addons/product_tabs.php:374
+msgid "Product tab menu background"
+msgstr ""
+
+#: classes/class.widgets_control.php:228
+#: woolentor-blocks/includes/classes/Blocks_List.php:167
+msgid "Product Tabs"
+msgstr ""
+
+#: classes/class.widgets_control.php:389
+msgid "Product Tags"
+msgstr ""
+
+#: classes/class.default_data.php:414
+msgid "Product tags does not exists."
+msgstr ""
+
+#: classes/class.widgets_control.php:325
+#: includes/addons/product_flash_sale.php:411
+#: includes/addons/product_image_accordion.php:357
+#: includes/addons/product_curvy.php:410
+#: includes/addons/wb_product_title.php:43
+#: includes/addons/wb_product_title.php:62
+#: woolentor-blocks/includes/classes/Blocks_List.php:104
+msgid "Product Title"
+msgstr ""
+
+#: classes/class.widgets_control.php:373
+#: woolentor-blocks/includes/classes/Blocks_List.php:195
+msgid "Product Upsell"
+msgstr ""
+
+#: classes/class.widgets_control.php:369
+msgid "Product Video Gallery"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:73
+#: includes/addons/wb_customer_review.php:71
+#, php-format
+msgid ""
+"Product Wise Rating/Review Display is available in WooLentor Pro. <a "
+"href=\"%s\" target=\"_blank\">Purchase WooLentor Pro</a>"
+msgstr ""
+
+#: includes/addons/wb_product_related.php:51
+msgid "Products Per Page"
+msgstr ""
+
+#: includes/addons/wb_product_reviews.php:53
+msgid "Products reviews"
+msgstr ""
+
+#: includes/base.php:244 woolentor-blocks/includes/classes/Blocks_List.php:68
+msgid "Promo Banner"
+msgstr ""
+
+#: includes/addons/wl_brand.php:226 includes/addons/wl_brand.php:369
+msgid "Purchase our premium version to unlock these pro features!"
+msgstr ""
+
+#: includes/addons/wb_product_qr_code.php:43
+msgid "QR Code"
+msgstr ""
+
+#: includes/addons/wb_product_qr_code.php:72
+#: includes/addons/wb_wishsuite_table.php:205
+#: includes/addons/wb_product_add_to_cart.php:136
+msgid "Quantity"
+msgstr ""
+
+#: includes/addons/wb_product_add_to_cart.php:236
+#: includes/addons/wb_product_add_to_cart.php:353
+msgid "Quantity Backgeound"
+msgstr ""
+
+#: includes/addons/wb_product_add_to_cart.php:371
+msgid "Quantity Border"
+msgstr ""
+
+#: includes/addons/wb_product_add_to_cart.php:221
+#: includes/addons/wb_product_add_to_cart.php:317
+msgid "Quantity Number"
+msgstr ""
+
+#: includes/addons/wb_product_add_to_cart.php:88
+msgid "Quantity Text"
+msgstr ""
+
+#: includes/addons/product_image_accordion.php:55
+#: includes/addons/product_accordion.php:76
+#: includes/addons/product_curvy.php:111
+msgid "Query Settings"
+msgstr ""
+
+#: woolentor-blocks/includes/templates/product-universal.php:160
+#: woolentor-blocks/includes/templates/product-universal.php:207
+#: woolentor-blocks/build/blocks/universal-product/old_index.php:414
+#: woolentor-blocks/build/blocks/universal-product/old_index.php:461
+#: woolentor-blocks/src/blocks/universal-product/old_index.php:414
+#: woolentor-blocks/src/blocks/universal-product/old_index.php:461
+msgid "Quick View"
+msgstr ""
+
+#: includes/addons/wb_product_add_to_cart.php:250
+#: includes/addons/wb_product_add_to_cart.php:332
+msgid "Qunantity Text Color"
+msgstr ""
+
+#: includes/helper-function.php:1043 includes/addons/product_flash_sale.php:138
+#: includes/addons/wb_product_upsell.php:71
+#: includes/addons/wb_archive_product.php:132
+#: includes/addons/product_image_accordion.php:151
+#: includes/addons/wb_product_related.php:86
+#: includes/addons/product_accordion.php:172
+#: includes/addons/product_curvy.php:207 includes/addons/product_tabs.php:166
+msgid "Random"
+msgstr ""
+
+#: includes/addons/product_image_accordion.php:71
+#: includes/addons/product_accordion.php:92
+#: includes/addons/product_curvy.php:127
+msgid "Random Products"
+msgstr ""
+
+#: includes/addons/wl_product_filter.php:491
+msgid "Range Slider"
+msgstr ""
+
+#: includes/base.php:286
+msgid "Rate the plugin"
+msgstr ""
+
+#: includes/addons/wb_product_upsell.php:70
+#: includes/addons/wl_testimonial.php:745
+#: includes/addons/wb_archive_product.php:131
+#: includes/addons/wb_archive_product.php:481
+#: includes/addons/wb_product_related.php:85
+#: includes/addons/wb_customer_review.php:561
+msgid "Rating"
+msgstr ""
+
+#: includes/addons/product_image_accordion.php:495
+#: includes/addons/product_accordion.php:574
+#: includes/addons/product_curvy.php:681 includes/addons/product_curvy.php:696
+msgid "Rating Color"
+msgstr ""
+
+#: classes/class.default_data.php:298
+msgid "Rating does not enable."
+msgstr ""
+
+#: includes/admin/templates/dashboard-sidebar.php:22
+msgid "Rating icon"
+msgstr ""
+
+#: includes/addons/wb_archive_product.php:489
+msgid "Rating Star Color"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:328
+msgid "ratting"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:357
+msgid "Reached maximum limit message"
+msgstr ""
+
+#: includes/addons/product_image_accordion.php:66
+#: includes/addons/product_accordion.php:87
+#: includes/addons/product_curvy.php:122 includes/addons/product_tabs.php:79
+msgid "Recent Products"
+msgstr ""
+
+#: classes/class.widgets_control.php:280
+msgid "Recently Viewed Products"
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:216
+#: includes/addons/wl_product_filter.php:71
+msgid "Redirect Custom URL"
+msgstr ""
+
+#: includes/addons/wb_archive_product.php:447
+msgid "Regular Price"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:508
+#: includes/addons/product_image_accordion.php:440
+#: includes/addons/product_accordion.php:519
+#: includes/addons/product_curvy.php:528 includes/addons/product_curvy.php:543
+msgid "Regular Price Color"
+msgstr ""
+
+#: classes/class.widgets_control.php:329
+#: includes/addons/wb_product_related.php:45
+msgid "Related Product"
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/form-login.php:37
+msgid "Remember me"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:228
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:253
+msgid "Remove"
+msgstr ""
+
+#: includes/admin/include/class.template_cpt.php:45
+msgid "Remove featured image"
+msgstr ""
+
+#: includes/addons/wb_wishsuite_table.php:252
+msgid "Remove Icon"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:248
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:358
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:408
+msgid "Remove image"
+msgstr ""
+
+#: includes/admin/templates/dashboard-welcome.php:54
+msgid "Request"
+msgstr ""
+
+#: includes/custom-metabox.php:47
+msgid "Required for stock progress bar"
+msgstr ""
+
+#: classes/class.assest_management.php:336
+msgid "Reset All Settings"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/ajax-actions.php:189
+msgid "Reset Done!"
+msgstr ""
+
+#: includes/admin/templates/dashboard-module-setting-popup.php:18
+msgid "Reset To Default"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:63
+msgid "Reset to Default"
+msgstr ""
+
+#: classes/class.assest_management.php:335
+msgid "Resetting..."
+msgstr ""
+
+#: includes/addons/wb_archive_result_count.php:42
+#: includes/addons/wb_archive_result_count.php:62
+msgid "Result Count"
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/form-checkout.php:60
+msgid "Return to cart"
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/form-checkout.php:62
+msgid "Return to information"
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/form-checkout.php:64
+msgid "Return to shipping"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:374
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:375
+msgid "Return to shop"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:371
+msgid "Return to shop button text"
+msgstr ""
+
+#: includes/addons/wb_customer_review.php:43
+msgid "Review"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:67
+#: includes/addons/wb_customer_review.php:65
+msgid "Review Type"
+msgstr ""
+
+#: includes/addons/wl_faq.php:362 includes/addons/wl_faq.php:585
+#: includes/addons/wb_product_short_description.php:65
+#: includes/addons/wl_breadcrumbs.php:86
+#: includes/addons/wb_wishsuite_counter.php:77
+#: includes/addons/wl_product_horizontal_filter.php:750
+#: includes/addons/wl_onepage_slider.php:181
+#: includes/addons/special_day_offer.php:58
+#: includes/addons/special_day_offer.php:281
+#: includes/addons/wl_store_features.php:151
+#: includes/addons/wb_product_data_tab.php:168
+#: includes/addons/wb_archive_product.php:245
+#: includes/addons/wb_archive_product.php:904
+#: includes/addons/wl_archive_title.php:120
+#: includes/addons/wb_product_qr_code.php:99
+#: includes/addons/wb_product_related.php:177
+#: includes/addons/wb_archive_result_count.php:91
+#: includes/addons/wb_product_description.php:63
+#: includes/addons/wl_category.php:305
+#: includes/addons/wl_product_video_gallery.php:65
+#: includes/addons/wl_brand.php:306
+#: includes/addons/wb_product_categories.php:72
+#: includes/addons/wb_product_rating.php:108
+#: includes/addons/wb_product_title.php:115
+#: includes/addons/wb_product_sku.php:72
+#: includes/addons/wb_customer_review.php:298
+#: includes/addons/wl_recently_viewed_products.php:246
+#: includes/addons/wl_recently_viewed_products.php:554
+#: includes/addons/product_tabs.php:243 includes/addons/product_tabs.php:965
+#: includes/addons/product_tabs.php:1044 includes/addons/add_banner.php:68
+#: includes/addons/wb_product_tags.php:72
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:287
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:475
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:489
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:503
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:524
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:554
+msgid "Right"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:190
+msgid "Rounded"
+msgstr ""
+
+#: includes/addons/wb_archive_product.php:75
+#: includes/addons/product_tabs.php:112
+msgid "Rows"
+msgstr ""
+
+#: includes/addons/wl_onepage_slider.php:474
+msgid "Ruffled Poplin Dress"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:157
+msgid "Ruth Pierce"
+msgstr ""
+
+#: includes/addons/wb_archive_product.php:804
+msgid "Sale Flash"
+msgstr ""
+
+#: includes/addons/wb_archive_product.php:412
+msgid "Sale Price"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:488
+#: includes/addons/product_image_accordion.php:420
+#: includes/addons/product_accordion.php:499
+#: includes/addons/product_curvy.php:491 includes/addons/product_curvy.php:505
+msgid "Sale Price Color"
+msgstr ""
+
+#: includes/addons/product_image_accordion.php:69
+#: includes/addons/product_accordion.php:90
+#: includes/addons/product_curvy.php:125 includes/addons/product_tabs.php:82
+msgid "Sale Products"
+msgstr ""
+
+#: includes/addons/wb_archive_product.php:796
+msgid "Sale Tag"
+msgstr ""
+
+#: includes/helper-function.php:755 includes/helper-function.php:801
+msgid "Sale!"
+msgstr ""
+
+#: includes/admin/include/class.template-manager.php:472
+msgid "Sample Design"
+msgstr ""
+
+#: classes/class.assest_management.php:329
+#: includes/admin/templates/dashboard-element.php:39
+#: includes/admin/templates/dashboard-style.php:26
+#: includes/admin/templates/dashboard-gutenberg.php:60
+#: includes/admin/templates/dashboard-settings.php:18
+#: includes/admin/templates/dashboard-module-setting-popup.php:20
+#: includes/admin/templates/dashboard-module.php:50
+msgid "Save Changes"
+msgstr ""
+
+#: includes/admin/include/class.template-manager.php:465
+msgid "Save Settings"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:62
+msgid "Save Swatches"
+msgstr ""
+
+#: classes/class.assest_management.php:331
+msgid "Saved All Data"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/ajax-actions.php:164
+msgid "Saved!"
+msgstr ""
+
+#: classes/class.assest_management.php:330
+#: includes/admin/include/class.template-manager.php:466
+#: includes/modules/variation-swatch/includes/Admin.php:50
+msgid "Saving..."
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:260
+msgid "Search Button Icon"
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:207
+#: includes/addons/wl_product_horizontal_filter.php:504
+#: includes/addons/wl_product_filter.php:43
+msgid "Search Form"
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:246
+msgid "Search Form Placeholder"
+msgstr ""
+
+#: includes/modules/ajax-search/base.php:123
+msgid "Search Products"
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:248
+msgid "Search Products..."
+msgstr ""
+
+#: includes/admin/include/class.template_cpt.php:40
+msgid "Search Templates"
+msgstr ""
+
+#: includes/admin/include/template-library/templates_list.php:24
+msgid "Search.."
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:1032
+#: includes/modules/flash-sale/class.flash-sale.php:450
+msgid "Sec"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:304
+#: includes/addons/product_flash_sale.php:306
+msgid "Seconds"
+msgstr ""
+
+#: includes/helper-function.php:401
+#: includes/modules/variation-swatch/includes/Admin/Woo_Config.php:30
+msgid "Select"
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:1110
+msgid "select"
+msgstr ""
+
+#: includes/addons/wl_category_grid.php:84
+#: includes/addons/wl_category_grid.php:97
+msgid "Select categories"
+msgstr ""
+
+#: includes/addons/wl_faq.php:54
+msgid "Select Content Source"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:80
+msgid "Select Deal"
+msgstr ""
+
+#: includes/admin/include/class.template-manager.php:451
+msgid "Select Editor"
+msgstr ""
+
+#: includes/addons/wl_category.php:50 includes/addons/wl_brand.php:58
+msgid "Select Layout"
+msgstr ""
+
+#: includes/addons/product_image_accordion.php:81
+#: includes/addons/product_accordion.php:102
+#: includes/addons/product_curvy.php:137
+msgid "Select Product"
+msgstr ""
+
+#: includes/addons/wl_category_grid.php:51
+msgid "Select Style"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Attribute_Taxonomy_Metabox.php:264
+msgid "Select Swatch Image"
+msgstr ""
+
+#: includes/addons/wb_just_table.php:54
+msgid "Select Table"
+msgstr ""
+
+#: includes/helper-function.php:426 includes/addons/wl_faq.php:97
+msgid "Select Template"
+msgstr ""
+
+#: includes/addons/wb_product_suggest_price.php:85
+msgid "Send To Mail"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:603
+msgid "Separator Border Color"
+msgstr ""
+
+#: includes/addons/wl_breadcrumbs.php:50
+msgid "Separator Icon"
+msgstr ""
+
+#: includes/admin/include/diagnostic-data.php:389
+#, php-format
+msgid ""
+"Server information (Web server, PHP version, MySQL version), WordPress "
+"information, site name, site URL, number of plugins, number of users, your "
+"name, and email address. You can rest assured that no sensitive data will be "
+"collected or tracked. %1$sLearn more%2$s."
+msgstr ""
+
+#: includes/admin/include/class.template-manager.php:452
+msgid "Set Default"
+msgstr ""
+
+#: includes/admin/include/class.template_cpt.php:44
+msgid "Set featured image"
+msgstr ""
+
+#: includes/helper-function.php:966 includes/helper-function.php:984
+msgid "Set the initial stock amount from"
+msgstr ""
+
+#: includes/base.php:269 includes/addons/wl_recently_viewed_products.php:42
+#: includes/addons/wb_product_add_to_cart.php:73
+#: includes/admin/admin-init.php:101 includes/admin/admin-init.php:102
+#: includes/admin/templates/dashboard-gutenberg.php:15
+msgid "Settings"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:202
+#: includes/addons/wb_customer_review.php:190
+#: includes/addons/wl_recently_viewed_products.php:82
+#: includes/addons/wl_category_grid.php:217
+msgid "Seven"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:184
+msgid "Shape Style"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:281
+msgid "Share link button position"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:294
+msgid "Share link button text"
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/form-shipping.php:13
+msgid "Ship to a different address?"
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/class.shopify-like-checkout.php:304
+#: includes/modules/shopify-like-checkout/class.shopify-like-checkout.php:305
+#: includes/modules/shopify-like-checkout/templates/review-order.php:26
+#: includes/modules/shopify-like-checkout/templates/form-checkout.php:49
+msgid "Shipping"
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/cart-shipping.php:48
+msgid "Shipping costs are calculated during checkout."
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/form-checkout.php:57
+msgid "Shipping Method"
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/cart-shipping.php:40
+msgid "Shipping options will be updated during checkout."
+msgstr ""
+
+#. $s shipping destination.
+#: includes/modules/shopify-like-checkout/templates/cart-shipping.php:37
+#, php-format
+msgid "Shipping to %s."
+msgstr ""
+
+#: includes/admin/include/class.template-manager.php:263
+#: includes/admin/include/class.template-manager.php:285
+msgid "Shop"
+msgstr ""
+
+#: includes/addons/wl_onepage_slider.php:475
+#: includes/addons/wl_onepage_slider.php:480
+#: includes/addons/wl_onepage_slider.php:485
+msgid "Shop now"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:90
+msgid "Shop page button position"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:176
+#: includes/addons/product_flash_sale.php:328
+#: includes/addons/wb_product_upsell.php:95
+#: includes/addons/wb_archive_product.php:807
+#: includes/addons/wl_archive_title.php:64
+#: includes/addons/wl_archive_title.php:76
+#: includes/addons/wl_archive_title.php:88
+#: includes/addons/wb_product_related.php:111
+#: includes/addons/wb_product_additional_information.php:54
+msgid "Show"
+msgstr ""
+
+#: includes/addons/wl_recently_viewed_products.php:147
+msgid "Show Add To Cart Button"
+msgstr ""
+
+#: includes/addons/wl_recently_viewed_products.php:157
+msgid "Show Badge"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:74
+msgid "Show button in product list page"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:82
+msgid "Show button in single product page"
+msgstr ""
+
+#: includes/addons/product_image_accordion.php:72
+#: includes/addons/product_accordion.php:93
+#: includes/addons/product_curvy.php:128
+msgid "Show By Id"
+msgstr ""
+
+#: includes/modules/ajax-search/widget-product-search-ajax.php:50
+msgid "Show Category Dropdown"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:75
+msgid "Show compare button in product list page."
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:83
+msgid "Show compare button in single product page."
+msgstr ""
+
+#: includes/addons/wl_category_grid.php:169
+msgid "Show Count"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:174
+msgid "Show Countdown Timer"
+msgstr ""
+
+#: includes/addons/wl_archive_title.php:73
+msgid "Show Description"
+msgstr ""
+
+#: includes/addons/wl_recently_viewed_products.php:95
+msgid "Show Empty Message"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:322
+msgid "Show fields in table"
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:237
+msgid "Show Filter Button"
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:229
+msgid "Show Filter Label"
+msgstr ""
+
+#: includes/addons/wl_faq.php:190
+msgid "Show First Item"
+msgstr ""
+
+#: includes/addons/wl_archive_title.php:85
+msgid "Show Image"
+msgstr ""
+
+#: includes/addons/wl_category.php:166 includes/addons/wl_category_grid.php:146
+msgid "Show items"
+msgstr ""
+
+#: includes/modules/ajax-search/widget-product-search-ajax.php:45
+msgid "Show Number of Product:"
+msgstr ""
+
+#: includes/addons/wl_recently_viewed_products.php:137
+msgid "Show Price"
+msgstr ""
+
+#: includes/addons/wb_archive_product.php:111
+msgid "Show Result Count"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:326
+msgid "Show Stock Progress Bar"
+msgstr ""
+
+#: includes/addons/wl_archive_title.php:61
+#: includes/addons/wl_recently_viewed_products.php:127
+msgid "Show Title"
+msgstr ""
+
+#: includes/admin/templates/dashboard-welcome.php:66
+msgid ""
+"Sign up for our email list to get discounts, exclusive offers, the latest "
+"items, and news in your inbox."
+msgstr ""
+
+#: includes/admin/include/class.template-manager.php:269
+#: includes/admin/include/class.template-manager.php:293
+msgid "Single"
+msgstr ""
+
+#: includes/addons/wl_category_grid.php:73
+msgid "Single Category"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:201
+#: includes/addons/wb_customer_review.php:189
+#: includes/addons/wl_recently_viewed_products.php:81
+#: includes/addons/wl_category_grid.php:216
+msgid "Six"
+msgstr ""
+
+#: includes/addons/wb_product_qr_code.php:50
+#: includes/addons/wl_product_filter.php:550
+#: includes/addons/wb_wishsuite_table.php:332
+msgid "Size"
+msgstr ""
+
+#: includes/addons/wb_product_sku.php:43
+msgid "SKU"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:333
+msgid "sku"
+msgstr ""
+
+#: classes/class.default_data.php:374 classes/class.default_data.php:395
+#: includes/addons/wb_product_sku.php:167
+msgid "SKU:"
+msgstr ""
+
+#: includes/addons/wl_onepage_slider.php:44
+msgid "Slider"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:311 includes/addons/product_tabs.php:441
+#: includes/addons/wl_category_grid.php:296
+msgid "Slider Arrow"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:343 includes/addons/product_tabs.php:479
+#: includes/addons/wl_category_grid.php:328
+msgid "Slider autoplay"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:792 includes/addons/wl_brand.php:354
+#: includes/addons/wl_brand.php:366 includes/addons/product_tabs.php:619
+#: includes/addons/wl_category_grid.php:674
+msgid "Slider Controller Style"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:321 includes/addons/product_tabs.php:454
+#: includes/addons/wl_category_grid.php:306
+msgid "Slider dots"
+msgstr ""
+
+#: includes/addons/wl_product_filter.php:541
+msgid "Slider Handler"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:379
+#: includes/addons/wl_testimonial.php:410
+#: includes/addons/wl_testimonial.php:451 includes/addons/product_tabs.php:518
+#: includes/addons/product_tabs.php:551 includes/addons/product_tabs.php:594
+#: includes/addons/wl_category_grid.php:363
+#: includes/addons/wl_category_grid.php:394
+#: includes/addons/wl_category_grid.php:435
+msgid "Slider item to scroll"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:300
+#: includes/addons/wl_testimonial.php:399
+#: includes/addons/wl_testimonial.php:440 includes/addons/product_tabs.php:426
+#: includes/addons/product_tabs.php:539 includes/addons/product_tabs.php:582
+#: includes/addons/wl_category_grid.php:285
+#: includes/addons/wl_category_grid.php:383
+#: includes/addons/wl_category_grid.php:424
+msgid "Slider Items"
+msgstr ""
+
+#: includes/addons/wl_brand.php:65
+#, php-format
+msgid ""
+"Slider layouts are available in the pro version. <a href=\"%s\" "
+"target=\"_blank\">Get Pro</a>"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:169
+#: includes/addons/wl_category_grid.php:184
+msgid "Slider On"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:290 includes/addons/wl_brand.php:212
+#: includes/addons/wl_brand.php:223 includes/addons/product_tabs.php:416
+#: includes/addons/wl_category_grid.php:275
+msgid "Slider Option"
+msgstr ""
+
+#: includes/addons/wl_category.php:153 includes/addons/wl_category_grid.php:133
+msgid "Slug"
+msgstr ""
+
+#: includes/addons/wb_wishsuite_table.php:284
+msgid "Social Share"
+msgstr ""
+
+#: includes/helper-function.php:979
+msgid "Sold"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:350
+msgid "Sold Custom Text"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:920
+msgid "Sold Label Color"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:352
+#: includes/addons/product_flash_sale.php:1037
+msgid "Sold:"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:113
+msgid ""
+"Some themes remove the above positions. In that case, custom position is "
+"useful. Here you can place the custom/default hook name & priority to inject "
+"& adjust the compare button for the product loop."
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:161
+msgid ""
+"Some themes remove the above positions. In that case, custom position is "
+"useful. Here you can place the custom/default hook name & priority to inject "
+"& adjust the compare button for the single product page."
+msgstr ""
+
+#: includes/admin/include/class.template-manager.php:597
+#: includes/admin/include/class.template-manager.php:672
+#: includes/admin/include/class.template-manager.php:716
+#: includes/admin/include/class.template-manager.php:839
+msgid "Some thing is worng !"
+msgstr ""
+
+#: includes/addons/wb_product_suggest_price.php:179
+#: includes/addons/wb_product_suggest_price.php:180
+msgid "Something is wrong! try again"
+msgstr ""
+
+#. 1: quantity in stock 2: current quantity
+#: includes/modules/backorder/class.backorder.php:192
+#, php-format
+msgid ""
+"Sorry, \"%s\" has reached its maximum backorder limit — (%s available). You "
+"already have %s in your cart."
+msgstr ""
+
+#: includes/modules/backorder/class.backorder.php:134
+#, php-format
+msgid ""
+"Sorry, \"%s\" has reached its maximum backorder limit. Orders can be placed "
+"for up to <b>%s</b> units."
+msgstr ""
+
+#: includes/modules/backorder/class.backorder.php:198
+#, php-format
+msgid ""
+"Sorry, \"%s\" was not added to cart because it has reached the maximum "
+"backorder limit. (%s available)."
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/payment.php:21
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Frontend.php:131
+msgid ""
+"Sorry, no products matched your selection. Please choose a different "
+"combination."
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Frontend.php:133
+msgid ""
+"Sorry, this product is unavailable. Please choose a different combination."
+msgstr ""
+
+#: includes/admin/include/template-library.php:291
+msgid "Sorry, you are not allowed to install themes on this site."
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:44
+#: includes/addons/wl_product_horizontal_filter.php:117
+#: includes/addons/wl_product_horizontal_filter.php:118
+#: includes/addons/wl_product_filter.php:45
+msgid "Sort By"
+msgstr ""
+
+#: includes/helper-function.php:837
+msgid "Sort by average rating"
+msgstr ""
+
+#: includes/helper-function.php:838
+msgid "Sort by latest"
+msgstr ""
+
+#: includes/helper-function.php:836
+msgid "Sort by popularity"
+msgstr ""
+
+#: includes/helper-function.php:840
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: includes/helper-function.php:839
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: includes/addons/wl_breadcrumbs.php:134
+#: includes/addons/wl_testimonial.php:227
+#: includes/addons/wb_customer_review.php:215
+#: includes/addons/wl_category_grid.php:242
+msgid "Space"
+msgstr ""
+
+#: includes/addons/wb_product_add_to_cart.php:986
+msgid "Space Between"
+msgstr ""
+
+#: includes/addons/wb_product_image.php:118
+#: includes/addons/wb_product_categories.php:132
+#: includes/addons/wb_product_sku.php:120
+#: includes/addons/wb_product_add_to_cart.php:412
+#: includes/addons/wb_product_tags.php:132
+msgid "Spacing"
+msgstr ""
+
+#: includes/helper-function.php:611
+msgid "span"
+msgstr ""
+
+#: classes/class.widgets_control.php:236
+#: woolentor-blocks/includes/classes/Blocks_List.php:46
+msgid "Special Day Offer"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:189
+msgid "Squared"
+msgstr ""
+
+#: includes/addons/wb_product_rating.php:51
+msgid "Star Color"
+msgstr ""
+
+#: includes/addons/wb_archive_product.php:513
+msgid "Star Size"
+msgstr ""
+
+#: includes/addons/wl_store_features.php:120
+msgid "Start from $100"
+msgstr ""
+
+#: classes/class.default_data.php:489
+msgid "Stock availability does not exist this product."
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:319
+msgid "Stock Progress Bar"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:887
+msgid "Stock Progress Style"
+msgstr ""
+
+#: includes/addons/wl_store_features.php:41
+#: woolentor-blocks/includes/classes/Blocks_List.php:53
+msgid "Store Feature"
+msgstr ""
+
+#: classes/class.widgets_control.php:244
+msgid "Store Features"
+msgstr ""
+
+#: includes/addons/wb_product_short_description.php:45
+#: includes/addons/wl_breadcrumbs.php:66
+#: includes/addons/wb_wc_multicurrency.php:54
+#: includes/addons/wl_onepage_slider.php:152
+#: includes/addons/special_day_offer.php:261
+#: includes/addons/wl_testimonial.php:52
+#: includes/addons/wl_archive_title.php:100
+#: includes/addons/product_image_accordion.php:272
+#: includes/addons/wb_product_description.php:44
+#: includes/addons/product_accordion.php:325
+#: includes/addons/wl_category.php:221 includes/addons/product_curvy.php:61
+#: includes/addons/product_curvy.php:332
+#: includes/addons/wb_product_rating.php:44
+#: includes/addons/wb_image_marker.php:82
+#: includes/addons/wb_customer_review.php:50
+#: includes/addons/wb_product_stock.php:44 includes/addons/product_tabs.php:857
+#: includes/addons/add_banner.php:50 includes/addons/add_banner.php:139
+msgid "Style"
+msgstr ""
+
+#: includes/addons/wb_image_marker.php:90
+#: includes/addons/wl_category_grid.php:59
+msgid "Style Five"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:59 includes/addons/wb_image_marker.php:89
+#: includes/addons/wb_customer_review.php:57
+#: includes/addons/wl_category_grid.php:58
+msgid "Style Four"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:190
+#: includes/addons/wl_testimonial.php:56 includes/addons/product_curvy.php:65
+#: includes/addons/wb_image_marker.php:86
+#: includes/addons/wb_customer_review.php:54
+#: includes/addons/product_tabs.php:65 includes/addons/add_banner.php:54
+#: includes/addons/wl_category_grid.php:55
+msgid "Style One"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:58
+msgid "Style Settings"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:58 includes/addons/product_curvy.php:67
+#: includes/addons/wb_image_marker.php:88
+#: includes/addons/wb_customer_review.php:56
+#: includes/addons/product_tabs.php:67 includes/addons/wl_category_grid.php:57
+msgid "Style Three"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:191
+#: includes/addons/wl_testimonial.php:57 includes/addons/product_curvy.php:66
+#: includes/addons/wb_image_marker.php:87
+#: includes/addons/wb_customer_review.php:55
+#: includes/addons/product_tabs.php:66 includes/addons/add_banner.php:55
+#: includes/addons/wl_category_grid.php:56
+msgid "Style Two"
+msgstr ""
+
+#: includes/addons/wb_wishsuite_counter.php:57
+msgid "Styles"
+msgstr ""
+
+#: includes/addons/wl_onepage_slider.php:83
+#: includes/addons/wl_onepage_slider.php:253
+#: includes/addons/special_day_offer.php:384
+#: includes/addons/wl_store_features.php:118
+#: includes/addons/wl_store_features.php:501 includes/addons/add_banner.php:188
+msgid "Sub Title"
+msgstr ""
+
+#: includes/addons/wb_product_suggest_price.php:99
+#: includes/addons/wb_product_suggest_price.php:100
+msgid "Submit"
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:587
+#: includes/addons/wb_product_suggest_price.php:393
+#: includes/addons/wl_product_filter.php:281
+msgid "Submit Button"
+msgstr ""
+
+#: includes/modules/ajax-search/base.php:162
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: includes/addons/wb_product_suggest_price.php:97
+msgid "Submit Button Text"
+msgstr ""
+
+#: includes/admin/templates/dashboard-welcome.php:68
+msgid "Subscribe"
+msgstr ""
+
+#: includes/admin/templates/dashboard-welcome.php:65
+msgid "Subscribe and Get Offers"
+msgstr ""
+
+#: includes/addons/special_day_offer.php:95
+msgid "Subtitle"
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/review-order.php:12
+msgid "Subtotal"
+msgstr ""
+
+#: includes/addons/wb_product_suggest_price.php:165
+msgid "Success Message"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:646
+msgid "Successfully Settings Saved."
+msgstr ""
+
+#: includes/addons/wb_product_suggest_price.php:43
+#: includes/addons/wb_product_suggest_price.php:63
+#: includes/addons/wb_product_suggest_price.php:64
+msgid "Suggest Price"
+msgstr ""
+
+#: includes/admin/templates/dashboard-widget.php:100
+#: includes/admin/templates/dashboard-welcome.php:41
+msgid "Support"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Attribute_Taxonomy_Metabox.php:79
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:377
+msgid "Swatch Color"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Attribute_Taxonomy_Metabox.php:94
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:389
+msgid "Swatch Color 2"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Attribute_Taxonomy_Metabox.php:42
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:395
+msgid "Swatch Image"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:416
+msgid "Swatch Image Size"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Attribute_Taxonomy_Metabox.php:50
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:213
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:323
+msgid "Swatch Tooltip"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:163
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:298
+msgid "Swatch Type"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:34
+msgid "Swatches Settings"
+msgstr ""
+
+#: includes/addons/wb_product_data_tab.php:87
+msgid "Tab Menu"
+msgstr ""
+
+#: includes/addons/wb_product_data_tab.php:44
+msgid "Tab Menu Box"
+msgstr ""
+
+#: includes/addons/product_tabs.php:338
+msgid "Tab Menu margin"
+msgstr ""
+
+#: includes/addons/product_tabs.php:326
+msgid "Tab Menu padding"
+msgstr ""
+
+#: includes/addons/product_tabs.php:220
+msgid "Tab Menu Style"
+msgstr ""
+
+#: includes/addons/wb_wishsuite_table.php:119
+msgid "Table Body"
+msgstr ""
+
+#: includes/addons/wb_just_table.php:114
+msgid "Table Content"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:534
+msgid "Table custom style"
+msgstr ""
+
+#: includes/addons/wb_wishsuite_table.php:68
+msgid "Table Heading"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:54
+msgid "Table Settings"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:419
+msgid "Table style"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:390 includes/addons/product_tabs.php:530
+#: includes/addons/wl_category_grid.php:374
+msgid "Tablet"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:421 includes/addons/product_tabs.php:563
+#: includes/addons/wl_category_grid.php:405
+msgid "Tablet Resolution"
+msgstr ""
+
+#: classes/class.default_data.php:380 classes/class.default_data.php:409
+#: includes/addons/wb_product_tags.php:179
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/addons/wb_product_tags.php:43
+msgid "Tags"
+msgstr ""
+
+#: includes/admin/include/class.template_cpt.php:27
+#: includes/admin/include/class.template_cpt.php:28
+msgid "Template"
+msgstr ""
+
+#: includes/admin/include/class.template_cpt.php:29
+msgid "Template Archives"
+msgstr ""
+
+#: includes/admin/include/class.template_cpt.php:30
+msgid "Template Attributes"
+msgstr ""
+
+#: includes/admin/include/class.template-manager.php:74
+#: includes/admin/include/class.template-manager.php:75
+#: includes/admin/include/class.template_cpt.php:55
+msgid "Template Builder"
+msgstr ""
+
+#: includes/admin/include/class.template-manager.php:832
+msgid "Template has been imported"
+msgstr ""
+
+#: includes/admin/include/class.template-manager.php:565
+msgid "Template has been inserted"
+msgstr ""
+
+#: includes/admin/include/class.template-manager.php:635
+#: includes/admin/include/class.template-manager.php:708
+msgid "Template has been updated"
+msgstr ""
+
+#: includes/admin/include/template-library.php:34
+#: includes/admin/include/template-library.php:35
+msgid "Template Library"
+msgstr ""
+
+#: includes/admin/include/class.template-manager.php:454
+msgid "Template Settings"
+msgstr ""
+
+#: includes/admin/include/class.template_cpt.php:32
+#: includes/admin/include/template-library/templates_list.php:11
+msgid "Templates"
+msgstr ""
+
+#: includes/admin/include/class.template_cpt.php:49
+msgid "Templates list"
+msgstr ""
+
+#: includes/admin/include/class.template_cpt.php:50
+msgid "Templates list navigation"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:205
+#: includes/addons/wb_customer_review.php:193
+#: includes/addons/wl_recently_viewed_products.php:85
+#: includes/addons/wl_category_grid.php:220
+msgid "Ten"
+msgstr ""
+
+#: classes/class.widgets_control.php:296 includes/addons/wl_testimonial.php:45
+msgid "Testimonial"
+msgstr ""
+
+#: includes/addons/wb_wishsuite_counter.php:142
+#: includes/modules/variation-swatch/includes/Admin/Attribute_Taxonomy_Metabox.php:53
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:218
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:328
+msgid "Text"
+msgstr ""
+
+#: includes/addons/wb_wishsuite_counter.php:45
+msgid "Text after \"Wishlist\" icon"
+msgstr ""
+
+#: includes/addons/wb_product_short_description.php:82
+#: includes/addons/wl_breadcrumbs.php:101
+#: includes/addons/wb_product_meta.php:50
+#: includes/addons/wb_product_data_tab.php:102
+#: includes/addons/wb_product_data_tab.php:194
+#: includes/addons/wb_product_data_tab.php:272
+#: includes/addons/wb_archive_product.php:822
+#: includes/addons/wb_product_call_for_price.php:92
+#: includes/addons/wb_product_call_for_price.php:177
+#: includes/addons/wb_product_description.php:80
+#: includes/addons/wb_product_suggest_price.php:200
+#: includes/addons/wb_product_suggest_price.php:302
+#: includes/addons/wb_product_suggest_price.php:565
+#: includes/addons/wb_product_suggest_price.php:650
+#: includes/addons/wb_product_suggest_price.php:708
+#: includes/addons/wb_product_suggest_price.php:793
+#: includes/addons/wb_product_stock.php:51
+#: includes/addons/wb_product_add_to_cart.php:1050
+#: includes/addons/wb_product_add_to_cart.php:1139
+msgid "Text Color"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:302
+msgid "Text to show after link is copied"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:365
+msgid "Text will be displayed if user don't add any products to compare"
+msgstr ""
+
+#: includes/addons/wb_product_suggest_price.php:294
+msgid "Textarea"
+msgstr ""
+
+#: includes/addons/wb_product_suggest_price.php:167
+#: includes/addons/wb_product_suggest_price.php:168
+msgid "Thank you for contacting with us"
+msgstr ""
+
+#: includes/admin/include/diagnostic-data.php:414
+#, php-format
+msgid "Thank you very much for supporting %2$s%1$s%3$s."
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:123
+msgid "The attribute with Maximum variations count"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:124
+msgid "The attribute with Minimum variations count"
+msgstr ""
+
+#: includes/addons/wl_faq.php:163
+msgid "The Basics Of Western Astrology Explained"
+msgstr ""
+
+#: classes/class.default_data.php:288
+msgid "The description does not set this product."
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:122
+msgid "The First attribute"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:463 includes/addons/product_tabs.php:607
+#: includes/addons/wl_category_grid.php:447
+msgid "The resolution to mobile."
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:422 includes/addons/product_tabs.php:564
+#: includes/addons/wl_category_grid.php:406
+msgid "The resolution to the tablet."
+msgstr ""
+
+#: classes/class.default_data.php:275
+msgid "The short description does not set this product."
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:412
+msgid "Theme"
+msgstr ""
+
+#: includes/admin/include/template-library.php:302
+msgid "Theme Activated"
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/class.shopify-like-checkout.php:308
+#: includes/modules/shopify-like-checkout/templates/cart-shipping.php:53
+msgid ""
+"There are no shipping options available. Please ensure that your address has "
+"been entered correctly, or contact us if you need any help."
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Frontend/Woo_Config.php:835
+#: includes/modules/variation-swatch/includes/Frontend/Woo_Config.php:917
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: includes/addons/product_accordion.php:210
+msgid "This text effect only for simple product."
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:198
+#: includes/addons/wb_customer_review.php:186
+#: includes/addons/wl_recently_viewed_products.php:78
+#: includes/addons/wl_category_grid.php:213
+msgid "Three"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:222
+msgid "Thumbnail Bottom"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:214
+msgid "Thumbnail Left"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:218
+msgid "Thumbnail Right"
+msgstr ""
+
+#: includes/addons/wb_product_image.php:89
+#: includes/addons/wl_product_video_gallery.php:163
+msgid "Thumbnails"
+msgstr ""
+
+#: includes/addons/wb_product_image.php:98
+msgid "Thumbnails Border"
+msgstr ""
+
+#: includes/addons/wl_product_video_gallery.php:57
+msgid "Thumbnails Position"
+msgstr ""
+
+#: includes/helper-function.php:1041 includes/addons/wl_faq.php:68
+#: includes/addons/wl_faq.php:342 includes/addons/product_flash_sale.php:136
+#: includes/addons/product_flash_sale.php:772
+#: includes/addons/wl_product_horizontal_filter.php:197
+#: includes/addons/wl_product_horizontal_filter.php:370
+#: includes/addons/wl_onepage_slider.php:73
+#: includes/addons/wl_onepage_slider.php:211
+#: includes/addons/wb_product_upsell.php:67
+#: includes/addons/special_day_offer.php:86
+#: includes/addons/special_day_offer.php:325
+#: includes/addons/wl_store_features.php:108
+#: includes/addons/wl_store_features.php:455
+#: includes/addons/wb_archive_product.php:128
+#: includes/addons/wb_archive_product.php:310
+#: includes/addons/wl_archive_title.php:135
+#: includes/addons/product_image_accordion.php:149
+#: includes/addons/wb_product_related.php:82
+#: includes/addons/product_accordion.php:170
+#: includes/addons/wl_category.php:324 includes/addons/product_curvy.php:205
+#: includes/addons/wl_product_filter.php:94
+#: includes/addons/wl_product_filter.php:143
+#: includes/addons/wb_image_marker.php:304
+#: includes/addons/wl_recently_viewed_products.php:295
+#: includes/addons/wb_wishsuite_table.php:135
+#: includes/addons/product_tabs.php:164 includes/addons/product_tabs.php:945
+#: includes/addons/add_banner.php:147 includes/addons/wl_category_grid.php:561
+msgid "Title"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:327
+msgid "title"
+msgstr ""
+
+#: includes/addons/product_accordion.php:385
+msgid "Title Area"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:420
+#: includes/addons/wl_archive_title.php:144
+#: includes/addons/product_image_accordion.php:374
+#: includes/addons/product_accordion.php:415
+#: includes/addons/product_curvy.php:427 includes/addons/product_curvy.php:441
+#: includes/addons/wb_product_categories.php:95
+#: includes/addons/wb_product_title.php:70
+#: includes/addons/wb_product_sku.php:95
+#: includes/addons/wb_wishsuite_table.php:292
+#: includes/addons/wb_product_tags.php:95
+msgid "Title Color"
+msgstr ""
+
+#: includes/addons/product_tabs.php:991 includes/addons/product_tabs.php:1073
+msgid "Title color"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:441
+#: includes/addons/product_image_accordion.php:386
+#: includes/addons/product_curvy.php:456
+msgid "Title Hover Color"
+msgstr ""
+
+#: includes/addons/wl_archive_title.php:50
+#: includes/addons/wb_product_title.php:49
+#: includes/addons/wl_recently_viewed_products.php:167
+msgid "Title HTML Tag"
+msgstr ""
+
+#: includes/modules/ajax-search/widget-product-search-ajax.php:41
+msgid "Title:"
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:162
+#: includes/addons/wl_product_horizontal_filter.php:177
+msgid "to"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:1224
+msgid "To show the stock progress bar. Set the initial stock amount from"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Attribute_Taxonomy_Metabox.php:71
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:235
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:345
+msgid "Tooltip Image"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:256
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:366
+msgid "Tooltip Image Size"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Attribute_Taxonomy_Metabox.php:63
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:227
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:337
+msgid "Tooltip Text"
+msgstr ""
+
+#: includes/addons/special_day_offer.php:54
+#: includes/addons/wl_product_video_gallery.php:69
+#: includes/admin/include/template-library/templates_list.php:54
+#: includes/admin/include/template-library/templates_list.php:57
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:474
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:488
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:502
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:523
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:553
+msgid "Top"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:97
+msgid "Top On Image"
+msgstr ""
+
+#: includes/helper-function.php:1047
+msgid "Top Rated"
+msgstr ""
+
+#: includes/addons/product_image_accordion.php:70
+#: includes/addons/product_accordion.php:91
+#: includes/addons/product_curvy.php:126 includes/addons/product_tabs.php:83
+msgid "Top Rated Products"
+msgstr ""
+
+#: includes/helper-function.php:1046
+msgid "Top Seller"
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/review-order.php:58
+msgid "Total"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:197
+#: includes/addons/wb_customer_review.php:185
+#: includes/addons/wl_recently_viewed_products.php:77
+#: includes/addons/wl_category_grid.php:212
+msgid "Two"
+msgstr ""
+
+#: includes/admin/include/class.template-manager.php:96
+#: includes/admin/include/class.template-manager.php:450
+msgid "Type"
+msgstr ""
+
+#: includes/addons/wl_onepage_slider.php:105
+msgid "Type your button link here"
+msgstr ""
+
+#: includes/addons/wl_onepage_slider.php:95
+msgid "Type your button text here"
+msgstr ""
+
+#: includes/addons/product_image_accordion.php:192
+#: includes/addons/product_accordion.php:213
+msgid "Type your cart button text"
+msgstr ""
+
+#: includes/addons/wl_faq.php:71
+msgid "Type your faq title here"
+msgstr ""
+
+#: includes/addons/wl_onepage_slider.php:85
+msgid "Type your sub title here"
+msgstr ""
+
+#: includes/addons/wl_onepage_slider.php:75 includes/addons/wl_brand.php:77
+msgid "Type your title here"
+msgstr ""
+
+#: includes/addons/wl_faq.php:452 includes/addons/wl_faq.php:565
+#: includes/addons/wb_product_short_description.php:95
+#: includes/addons/wb_product_price.php:63
+#: includes/addons/wb_product_price.php:104
+#: includes/addons/wb_wishsuite_counter.php:168
+#: includes/addons/wl_product_horizontal_filter.php:393
+#: includes/addons/wl_product_horizontal_filter.php:460
+#: includes/addons/wl_product_horizontal_filter.php:546
+#: includes/addons/wb_wc_multicurrency.php:90
+#: includes/addons/wl_onepage_slider.php:232
+#: includes/addons/wl_onepage_slider.php:274
+#: includes/addons/wl_onepage_slider.php:338
+#: includes/addons/wb_product_upsell.php:132
+#: includes/addons/special_day_offer.php:349
+#: includes/addons/special_day_offer.php:408
+#: includes/addons/special_day_offer.php:467
+#: includes/addons/special_day_offer.php:526
+#: includes/addons/special_day_offer.php:585
+#: includes/addons/special_day_offer.php:652
+#: includes/addons/wb_product_meta.php:84
+#: includes/addons/wl_store_features.php:478
+#: includes/addons/wl_store_features.php:524
+#: includes/addons/wb_product_data_tab.php:137
+#: includes/addons/wb_product_data_tab.php:229
+#: includes/addons/wb_product_data_tab.php:264 includes/addons/wb_whols.php:68
+#: includes/addons/wb_archive_catalog_ordering.php:53
+#: includes/addons/wb_product_related.php:144
+#: includes/addons/wb_product_call_for_price.php:104
+#: includes/addons/wb_archive_result_count.php:71
+#: includes/addons/wb_product_description.php:92
+#: includes/addons/wl_category.php:357 includes/addons/product_curvy.php:592
+#: includes/addons/wb_just_table.php:87
+#: includes/addons/wb_product_categories.php:52
+#: includes/addons/wb_product_suggest_price.php:577
+#: includes/addons/wb_product_suggest_price.php:720
+#: includes/addons/wb_product_title.php:82
+#: includes/addons/wl_product_filter.php:166
+#: includes/addons/wl_product_filter.php:252
+#: includes/addons/wl_product_filter.php:419
+#: includes/addons/wb_product_sku.php:52
+#: includes/addons/wb_product_stock.php:63
+#: includes/addons/wb_wishsuite_table.php:108
+#: includes/addons/wb_wishsuite_table.php:145
+#: includes/addons/wb_wishsuite_table.php:185
+#: includes/addons/wb_wishsuite_table.php:224
+#: includes/addons/wb_wishsuite_table.php:303
+#: includes/addons/wb_wishsuite_table.php:356
+#: includes/addons/wb_product_add_to_cart.php:153
+#: includes/addons/wb_product_add_to_cart.php:1063
+#: includes/addons/wb_ever_compare_table.php:88
+#: includes/addons/wb_product_additional_information.php:91
+#: includes/addons/wb_product_additional_information.php:137
+#: includes/addons/add_banner.php:180 includes/addons/add_banner.php:210
+#: includes/addons/add_banner.php:264 includes/addons/wl_category_grid.php:608
+#: includes/addons/wl_category_grid.php:663
+#: includes/addons/wb_product_tags.php:52
+msgid "Typography"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:1270
+msgid "Unfortunately, no products were found in the deal you selected."
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:478
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:492
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:506
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:527
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:557
+msgid "Unit"
+msgstr ""
+
+#: classes/class.widgets_control.php:224
+msgid "Universal Product"
+msgstr ""
+
+#: includes/addons/product_flash_sale.php:52
+msgid "Unnamed Deal"
+msgstr ""
+
+#: includes/admin/include/class.template_cpt.php:37
+msgid "Update Template"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Attribute_Taxonomy_Metabox.php:264
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:227
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:252
+msgid "Upload"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Attribute_Taxonomy_Metabox.php:264
+msgid "Upload Image"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:230
+msgid "Upload you custom icon from here."
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:247
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:357
+#: includes/modules/variation-swatch/includes/Admin/Product_Metabox.php:407
+msgid "Upload/Add image"
+msgstr ""
+
+#: includes/admin/include/class.template_cpt.php:48
+msgid "Uploaded to this Template"
+msgstr ""
+
+#: includes/addons/wb_product_upsell.php:43
+msgid "Upsells"
+msgstr ""
+
+#: includes/admin/include/class.template_cpt.php:46
+msgid "Use as featured image"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Attribute_Taxonomy_Metabox.php:52
+msgid "Use Global Setting"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin.php:52
+msgid "Use image"
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:98
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:146
+msgid "Use Shortcode"
+msgstr ""
+
+#: includes/modules/shopify-like-checkout/templates/form-login.php:24
+#: includes/modules/shopify-like-checkout/templates/form-login.php:25
+msgid "Username or email"
+msgstr ""
+
+#: includes/addons/wb_archive_result_count.php:103
+#: includes/addons/wb_product_categories.php:109
+#: includes/addons/wb_product_sku.php:109
+#: includes/addons/wb_product_tags.php:109
+msgid "Value Color"
+msgstr ""
+
+#: includes/addons/wb_product_categories.php:121
+#: includes/addons/wb_product_tags.php:121
+msgid "Value Hover Color"
+msgstr ""
+
+#: includes/addons/special_day_offer.php:227
+msgid "Vertical Position"
+msgstr ""
+
+#: includes/class.product_video_gallery.php:27
+msgid "Video"
+msgstr ""
+
+#: includes/addons/wl_onepage_slider.php:113
+#: includes/addons/wl_onepage_slider.php:378
+msgid "Video Button"
+msgstr ""
+
+#: includes/addons/wl_onepage_slider.php:133
+msgid "Video Icon"
+msgstr ""
+
+#: includes/addons/wl_onepage_slider.php:121
+msgid "Video Link"
+msgstr ""
+
+#: includes/addons/wl_product_video_gallery.php:49
+msgid "Video Thumbnails"
+msgstr ""
+
+#: includes/admin/templates/dashboard-welcome.php:30
+#: includes/admin/templates/dashboard-welcome.php:32
+msgid "Video Tutorial"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/ajax-actions.php:90
+msgid "View Cart"
+msgstr ""
+
+#: includes/modules/backorder/class.backorder.php:190
+msgid "View cart"
+msgstr ""
+
+#: includes/admin/include/class.template_cpt.php:38
+msgid "View Template"
+msgstr ""
+
+#: includes/admin/include/class.template_cpt.php:39
+msgid "View Templates"
+msgstr ""
+
+#: classes/class.widgets_control.php:460
+msgid "WC Multicurrency"
+msgstr ""
+
+#: includes/admin/templates/dashboard-welcome.php:31
+msgid ""
+"We create videos to make our customers comprehend the product quickly. Using "
+"video tutorials is a fantastic method to learn how to use our plugins. We've "
+"compiled a list of videos for you."
+msgstr ""
+
+#: includes/admin/templates/dashboard-welcome.php:20
+msgid ""
+"We've organized the documentation and kept it up to date on a regular basis. "
+"This manual will assist you in using our plugin effectively."
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:334
+msgid "weight"
+msgstr ""
+
+#: includes/admin/templates/dashboard-welcome.php:8
+msgid "Welcome To WooLentor"
+msgstr ""
+
+#: includes/addons/wl_faq.php:168
+msgid "What Curling Irons Are The Best Ones"
+msgstr ""
+
+#: includes/addons/product_tabs.php:210
+msgid "When the product tab is off, Then working slider."
+msgstr ""
+
+#: classes/class.widgets_control.php:453
+#: includes/admin/include/class.extension-manager.php:67
+msgid "Whols"
+msgstr ""
+
+#: includes/admin/include/class.extension-manager.php:99
+msgid ""
+"Whols is an outstanding WordPress plugin for WooCommerce that allows store "
+"owners to set wholesale prices for the products of their online stores. This "
+"plugin enables you to show special wholesale prices to the wholesaler. Users "
+"can easily request to become a wholesale customer by filling out a simple "
+"online registration form. Once the registration is complete, the owner of "
+"the store will be able to review the request and approve the request either "
+"manually or automatically."
+msgstr ""
+
+#: includes/admin/include/class.extension-manager.php:96
+msgid "Whols Pro – WooCommerce Wholesale Prices"
+msgstr ""
+
+#: woolentor-blocks/includes/classes/Manage_Styles.php:127
+msgid "Widget CSS Saved."
+msgstr ""
+
+#: includes/addons/wl_onepage_slider.php:433
+#: includes/addons/wl_onepage_slider.php:507
+#: includes/addons/special_day_offer.php:173
+#: includes/addons/wb_product_add_to_cart.php:806
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:384
+msgid "Width"
+msgstr ""
+
+#: includes/modules/wishlist/includes/classes/Admin/Dashboard.php:65
+#: includes/modules/wishlist/includes/classes/Admin/Dashboard.php:66
+msgid "Wishlist"
+msgstr ""
+
+#: includes/addons/wb_product_add_to_cart.php:566
+#: includes/addons/wb_product_add_to_cart.php:660
+msgid "Wishlist Background Color"
+msgstr ""
+
+#: includes/addons/wb_product_add_to_cart.php:551
+#: includes/addons/wb_product_add_to_cart.php:645
+msgid "Wishlist Icon Color"
+msgstr ""
+
+#: includes/addons/wb_wishsuite_table.php:49
+msgid "WishSuite"
+msgstr ""
+
+#: classes/class.widgets_control.php:432
+#: includes/addons/wb_wishsuite_counter.php:38
+msgid "WishSuite Counter"
+msgstr ""
+
+#: classes/class.widgets_control.php:428
+msgid "WishSuite Table"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Woo_Config.php:32
+msgid "WL Color"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Woo_Config.php:33
+msgid "WL Image"
+msgstr ""
+
+#: includes/modules/variation-swatch/includes/Admin/Woo_Config.php:31
+msgid "WL Label"
+msgstr ""
+
+#: includes/addons/add_banner.php:13
+msgid "WL: Add Banner"
+msgstr ""
+
+#: includes/addons/wb_product_add_to_cart.php:13
+msgid "WL: Add To cart"
+msgstr ""
+
+#: includes/addons/wb_archive_catalog_ordering.php:13
+msgid "WL: Archive Catalog Ordering"
+msgstr ""
+
+#: includes/addons/wb_archive_result_count.php:13
+msgid "WL: Archive Result Count"
+msgstr ""
+
+#: includes/addons/wl_archive_title.php:13
+msgid "WL: Archive Title"
+msgstr ""
+
+#: includes/addons/wl_brand.php:13
+msgid "WL: Brand Logo"
+msgstr ""
+
+#: includes/addons/wl_breadcrumbs.php:13
+msgid "WL: Breadcrumbs"
+msgstr ""
+
+#: includes/addons/wb_product_call_for_price.php:13
+msgid "WL: Call For Price"
+msgstr ""
+
+#: includes/addons/wl_category_grid.php:12
+msgid "WL: Category Grid"
+msgstr ""
+
+#: includes/addons/wl_category.php:13
+msgid "WL: Category List"
+msgstr ""
+
+#: includes/addons/wb_customer_review.php:13
+msgid "WL: Customer Review"
+msgstr ""
+
+#: includes/addons/wb_ever_compare_table.php:13
+msgid "WL: EverCompare"
+msgstr ""
+
+#: includes/addons/wl_faq.php:13
+msgid "WL: FAQ"
+msgstr ""
+
+#: includes/addons/wb_image_marker.php:13
+msgid "WL: Image Marker"
+msgstr ""
+
+#: includes/addons/wb_just_table.php:13
+msgid "WL: JustTable"
+msgstr ""
+
+#: includes/addons/wb_wc_multicurrency.php:13
+msgid "WL: Multi Currency"
+msgstr ""
+
+#: includes/addons/wl_onepage_slider.php:12
+msgid "WL: One page slider"
+msgstr ""
+
+#: includes/addons/product_accordion.php:14
+msgid "WL: Product Accordion"
+msgstr ""
+
+#: includes/addons/wb_product_additional_information.php:13
+msgid "WL: Product Additional Information"
+msgstr ""
+
+#: includes/addons/wb_archive_product.php:13
+msgid "WL: Product Archive Layout (Default)"
+msgstr ""
+
+#: includes/addons/wb_product_categories.php:13
+msgid "WL: Product Categories"
+msgstr ""
+
+#: includes/addons/product_curvy.php:14
+msgid "WL: Product Curvy"
+msgstr ""
+
+#: includes/addons/wb_product_data_tab.php:13
+msgid "WL: Product Data Tabs"
+msgstr ""
+
+#: includes/addons/wb_product_description.php:13
+msgid "WL: Product Description"
+msgstr ""
+
+#: includes/addons/wl_product_filter.php:13
+msgid "WL: Product Filter"
+msgstr ""
+
+#: classes/class.widgets_control.php:421
+#: includes/addons/product_flash_sale.php:13
+msgid "WL: Product Flash Sale"
+msgstr ""
+
+#: includes/addons/wl_product_horizontal_filter.php:13
+msgid "WL: Product Horizontal Filter"
+msgstr ""
+
+#: includes/addons/wb_product_image.php:13
+msgid "WL: Product Image"
+msgstr ""
+
+#: includes/addons/product_image_accordion.php:14
+msgid "WL: Product Image Accordion"
+msgstr ""
+
+#: includes/addons/wb_product_meta.php:13
+msgid "WL: Product Meta"
+msgstr ""
+
+#: includes/addons/wb_product_price.php:13
+msgid "WL: Product Price"
+msgstr ""
+
+#: includes/addons/wb_product_rating.php:13
+msgid "WL: Product Rating"
+msgstr ""
+
+#: includes/addons/wb_product_reviews.php:13
+msgid "WL: Product Reviews"
+msgstr ""
+
+#: includes/addons/wb_product_short_description.php:13
+msgid "WL: Product Short Description"
+msgstr ""
+
+#: includes/addons/wb_product_sku.php:13
+msgid "WL: Product SKU"
+msgstr ""
+
+#: includes/addons/wb_product_stock.php:13
+msgid "WL: Product Stock"
+msgstr ""
+
+#: includes/addons/product_tabs.php:13
+msgid "WL: Product Tab"
+msgstr ""
+
+#: includes/addons/wb_product_tags.php:13
+msgid "WL: Product Tags"
+msgstr ""
+
+#: includes/addons/wb_product_title.php:13
+msgid "WL: Product title"
+msgstr ""
+
+#: includes/addons/wb_product_upsell.php:13
+msgid "WL: Product Upsell"
+msgstr ""
+
+#: includes/addons/wl_product_video_gallery.php:13
+msgid "WL: Product Video Gallery"
+msgstr ""
+
+#: includes/addons/wb_product_qr_code.php:13
+msgid "WL: QR Code"
+msgstr ""
+
+#: includes/addons/wl_recently_viewed_products.php:13
+msgid "WL: Recently Viewed Products"
+msgstr ""
+
+#: includes/addons/wb_product_related.php:13
+msgid "WL: Related Product"
+msgstr ""
+
+#: includes/addons/special_day_offer.php:13
+msgid "WL: Special Day Offer"
+msgstr ""
+
+#: includes/addons/wl_store_features.php:13
+msgid "WL: Store Feature"
+msgstr ""
+
+#: includes/addons/wb_product_suggest_price.php:13
+msgid "WL: Suggest Price"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:13
+msgid "WL: Testimonial"
+msgstr ""
+
+#: woolentor-blocks/build/blocks/universal-product/old_index.php:48
+#: woolentor-blocks/build/blocks/universal-product/sort_index.php:48
+#: woolentor-blocks/src/blocks/universal-product/old_index.php:48
+#: woolentor-blocks/src/blocks/universal-product/sort_index.php:48
+msgid "WL: Universal Product Layout"
+msgstr ""
+
+#: includes/addons/wb_whols.php:13
+msgid "WL: Whols"
+msgstr ""
+
+#: includes/addons/wb_wishsuite_counter.php:13
+msgid "WL: WishSuite Counter"
+msgstr ""
+
+#: includes/addons/wb_wishsuite_table.php:13
+msgid "WL: WishSuite Table"
+msgstr ""
+
+#: includes/manage_wc_template.php:103 includes/base.php:188
+#: includes/admin/admin-init.php:90 includes/admin/admin-init.php:91
+msgid "WooLentor"
+msgstr ""
+
+#. Name of the plugin
+msgid "WooLentor - WooCommerce Elementor Addons + Builder"
+msgstr ""
+
+#: classes/class.widgets_control.php:44
+msgid "Woolentor Addons"
+msgstr ""
+
+#: includes/manage_wc_template.php:103
+msgid "WooLentor Admin Menu"
+msgstr ""
+
+#: includes/modules/ajax-search/widget-product-search-ajax.php:12
+msgid "WooLentor Ajax Product Search Widget"
+msgstr ""
+
+#: includes/admin/templates/dashboard-gutenberg.php:28
+msgid "WooLentor Blocks"
+msgstr ""
+
+#: woolentor-blocks/includes/classes/Manage_Styles.php:160
+msgid "WooLentor Blocks CSS Delete."
+msgstr ""
+
+#: woolentor-blocks/includes/classes/Manage_Styles.php:150
+msgid "WooLentor Blocks css file update."
+msgstr ""
+
+#: includes/admin/include/class.template-manager.php:233
+msgid "WooLentor Canvas"
+msgstr ""
+
+#: includes/admin/templates/dashboard-element.php:15
+msgid "WooLentor Element"
+msgstr ""
+
+#: includes/admin/include/class.template-manager.php:234
+msgid "WooLentor Full width"
+msgstr ""
+
+#: includes/admin/templates/dashboard-sidebar.php:9
+msgid ""
+"WooLentor is one of the most popular WooCommerce Elementor Addons on "
+"WordPress.org. It has been downloaded more than 1,627,298 times and 90,000 "
+"stores are using WooLentor plugin. Why not you?"
+msgstr ""
+
+#: includes/admin/templates/dashboard-sidebar.php:8
+msgid "Woolentor Logo"
+msgstr ""
+
+#: includes/admin/templates/dashboard-module.php:17
+msgid "WooLentor Module"
+msgstr ""
+
+#: includes/admin/include/class.template_cpt.php:56
+msgid "WooLentor Template"
+msgstr ""
+
+#: includes/admin/templates/dashboard-sidebar.php:30
+msgid "Woolentor trustpilot rating"
+msgstr ""
+
+#: includes/modules/ajax-search/widget-product-search-ajax.php:14
+msgid "WooLentor: Product Search Ajax"
+msgstr ""
+
+#: includes/addons/wl_faq.php:153
+msgid "Words To Live By"
+msgstr ""
+
+#: includes/addons/wb_just_table.php:129
+msgid "Wrapper Background"
+msgstr ""
+
+#: includes/addons/wb_product_suggest_price.php:143
+#: includes/addons/wb_product_suggest_price.php:144
+msgid "Write your message"
+msgstr ""
+
+#: classes/class.quickview_manage.php:25
+msgid "X"
+msgstr ""
+
+#: includes/addons/wb_image_marker.php:118
+msgid "X Position"
+msgstr ""
+
+#: includes/addons/wb_image_marker.php:139
+msgid "Y Position"
+msgstr ""
+
+#: includes/admin/include/class.template-manager.php:137
+msgid "YES"
+msgstr ""
+
+#: classes/class.assest_management.php:332 includes/addons/wl_faq.php:113
+#: includes/addons/wl_faq.php:192 includes/addons/wl_faq.php:205
+#: includes/addons/wl_testimonial.php:217
+#: includes/addons/wl_testimonial.php:333
+#: includes/addons/wb_customer_review.php:205
+#: includes/addons/product_tabs.php:469
+#: includes/addons/wl_category_grid.php:171
+#: includes/addons/wl_category_grid.php:232
+#: includes/addons/wl_category_grid.php:318
+#: includes/admin/include/class.template-manager.php:484
+msgid "Yes"
+msgstr ""
+
+#: includes/admin/include/diagnostic-data.php:391
+msgid "Yes, I Agree"
+msgstr ""
+
+#: includes/admin/include/template-library.php:78
+msgid "You are not permitted to import the template."
+msgstr ""
+
+#: woolentor-blocks/includes/classes/Manage_Styles.php:146
+#: woolentor-blocks/includes/classes/Manage_Styles.php:199
+msgid "You are not permitted to save CSS."
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:350
+msgid "You can change heading text from here."
+msgstr ""
+
+#: includes/admin/templates/dashboard-gutenberg.php:29
+msgid "You can enable or disable all blocks by one click."
+msgstr ""
+
+#: includes/admin/templates/dashboard-element.php:16
+#: includes/admin/templates/dashboard-module.php:18
+msgid "You can enable or disable all options by one click."
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:91
+msgid "You can manage compare button position in product list page."
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:138
+msgid "You can manage compare button position in single product page."
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:358
+msgid "You can manage message for maximum product added in the compare table."
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:188
+msgid "You can manage the popup window from here."
+msgstr ""
+
+#: includes/modules/compare/includes/classes/Admin/Admin_Fields.php:311
+msgid "You can manage your maximum compare quantity from here."
+msgstr ""
+
+#: includes/addons/wl_recently_viewed_products.php:108
+msgid "You haven't viewed at any of the products yet."
+msgstr ""
+
+#: includes/addons/wl_recently_viewed_products.php:738
+msgid ""
+"You haven't viewed at any of the products yet. Below are demo product for "
+"the editing mode."
+msgstr ""
+
+#: includes/addons/wl_onepage_slider.php:484
+msgid "Zippers cotton jogger"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:153
+msgid ""
+"“ Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod "
+"tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet, "
+"consectetur adipisicing elit ”"
+msgstr ""
+
+#: includes/addons/wl_testimonial.php:130
+#: includes/addons/wl_testimonial.php:147
+#: includes/addons/wl_testimonial.php:159
+msgid ""
+"“ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod "
+"tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "
+"laboris consequat. ”"
+msgstr ""

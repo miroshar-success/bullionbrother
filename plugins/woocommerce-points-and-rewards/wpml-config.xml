@@ -1,0 +1,12 @@
+<wpml-config>   
+    <admin-texts>
+    	<key name="woo_pr_lables_points" />
+        <key name="woo_pr_lables_points_monetary_value" />
+        <key name="woo_pr_single_product_message" />
+        <key name="woo_pr_earn_points_cart_message" />
+        <key name="woo_pr_redeem_points_cart_message" />
+        <key name="woo_pr_guest_checkout_page_message" />
+        <key name="woo_pr_guest_checkout_page_buy_message" />
+        <key name="woo_pr_guest_user_history_message" />
+    </admin-texts>
+</wpml-config>    

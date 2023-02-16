@@ -1,0 +1,303 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-08-25 14:31+0530\n"
+"PO-Revision-Date: 2018-04-03 13:52+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-SearchPath-0: easy-login-woocommerce-premium\n"
+"X-Poedit-SearchPath-1: easy-login-addon-security\n"
+
+#: easy-login-addon-security/class-xoo-sel-core.php:148
+msgid "Please verify you are a human."
+msgstr ""
+
+#: easy-login-addon-security/class-xoo-sel-core.php:166
+msgid "Couldn't verify recaptcha. Please try again."
+msgstr ""
+
+#: easy-login-woocommerce-premium/admin/class-xoo-el-menu-settings.php:15
+msgid "Login/Signup Popup"
+msgstr ""
+
+#: easy-login-woocommerce-premium/admin/class-xoo-el-menu-settings.php:66
+msgid "Add to menu"
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/class-xoo-el-form-handler.php:86
+#: easy-login-woocommerce-premium/includes/class-xoo-el-form-handler.php:90
+msgid "Error:"
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/class-xoo-el-form-handler.php:90
+msgid "Username is required."
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/class-xoo-el-form-handler.php:110
+msgid "Lost your password?"
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/class-xoo-el-form-handler.php:118
+msgid "Incorrect Email or Username."
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/class-xoo-el-form-handler.php:134
+msgid "Login successful"
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/class-xoo-el-form-handler.php:211
+msgid "Please enter an account password."
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/class-xoo-el-form-handler.php:215
+#: easy-login-woocommerce-premium/includes/class-xoo-el-form-handler.php:550
+msgid "Passwords don't match"
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/class-xoo-el-form-handler.php:248
+msgid "Registration successful"
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/class-xoo-el-form-handler.php:253
+msgid "Registration successful. Please <a class=\"xoo-el-login-tgr\">Login</a>"
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/class-xoo-el-form-handler.php:258
+msgid ""
+"Your account was created successfully and a password has been sent to your "
+"email address"
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/class-xoo-el-form-handler.php:302
+msgid "Please provide a valid email address."
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/class-xoo-el-form-handler.php:306
+msgid ""
+"An account is already registered with your email address. Please log in."
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/class-xoo-el-form-handler.php:314
+msgid "Please enter a valid account username."
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/class-xoo-el-form-handler.php:318
+msgid ""
+"An account is already registered with that username. Please choose another."
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/class-xoo-el-form-handler.php:343
+msgid ""
+"Couldn&#8217;t register you&hellip; please contact us if you continue to "
+"have problems."
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/class-xoo-el-form-handler.php:503
+msgid ""
+"A password reset email has been sent to the email address on file for your "
+"account, but may take several minutes to show up in your inbox. Please wait "
+"at least 10 minutes before attempting another reset."
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/class-xoo-el-form-handler.php:544
+#: easy-login-woocommerce-premium/templates/global/xoo-el-resetpw-section.php:63
+msgid ""
+"This key is invalid or has already been used. Please reset your password "
+"again if needed."
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/class-xoo-el-form-handler.php:573
+msgid ""
+"Your password has been reset successfully! Please <a class=\"xoo-el-login-tgr"
+"\">Login</a>"
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/class-xoo-el-form-handler.php:606
+msgid "<strong>ERROR</strong>: Enter a username or email address."
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/class-xoo-el-form-handler.php:610
+msgid ""
+"<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/class-xoo-el-form-handler.php:631
+msgid "<strong>ERROR</strong>: Invalid username or email."
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/class-xoo-el-form-handler.php:656
+msgid "Someone has requested a password reset for the following account:"
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/class-xoo-el-form-handler.php:658
+#, php-format
+msgid "Site Name: %s"
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/class-xoo-el-form-handler.php:660
+#: easy-login-woocommerce-premium/includes/class-xoo-el-form-handler.php:768
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/class-xoo-el-form-handler.php:661
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/class-xoo-el-form-handler.php:662
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/class-xoo-el-form-handler.php:666
+#, php-format
+msgid "[%s] Password Reset"
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/class-xoo-el-form-handler.php:697
+msgid "The email could not be sent."
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/class-xoo-el-form-handler.php:697
+msgid "Possible reason: your host may have disabled the mail() function."
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/class-xoo-el-form-handler.php:769
+msgid "To set your password, visit the following address:"
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/class-xoo-el-frontend.php:122
+msgid "My account"
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/class-xoo-el-frontend.php:127
+#: easy-login-woocommerce-premium/includes/class-xoo-el-frontend.php:131
+msgid "Logout"
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/class-xoo-el-frontend.php:141
+#: easy-login-woocommerce-premium/includes/class-xoo-el-frontend.php:156
+#: easy-login-woocommerce-premium/templates/global/xoo-el-header.php:28
+msgid "Login"
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/class-xoo-el-frontend.php:146
+msgid "Signup"
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/class-xoo-el-frontend.php:151
+msgid "Lost Password"
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/xoo-el-functions.php:316
+#, php-format
+msgid "Please check %s"
+msgstr ""
+
+#: easy-login-woocommerce-premium/includes/xoo-el-functions.php:320
+#, php-format
+msgid "%s cannot be empty"
+msgstr ""
+
+#: easy-login-woocommerce-premium/templates/global/xoo-el-header.php:31
+#: easy-login-woocommerce-premium/templates/global/xoo-el-register-section.php:30
+msgid "Sign Up"
+msgstr ""
+
+#: easy-login-woocommerce-premium/templates/global/xoo-el-login-section.php:26
+#: easy-login-woocommerce-premium/templates/global/xoo-el-lostpw-section.php:25
+msgid "Username / Email"
+msgstr ""
+
+#: easy-login-woocommerce-premium/templates/global/xoo-el-login-section.php:35
+msgid "Password"
+msgstr ""
+
+#: easy-login-woocommerce-premium/templates/global/xoo-el-login-section.php:52
+msgid "Remember me"
+msgstr ""
+
+#: easy-login-woocommerce-premium/templates/global/xoo-el-login-section.php:54
+msgid "Forgot Password?"
+msgstr ""
+
+#: easy-login-woocommerce-premium/templates/global/xoo-el-login-section.php:61
+msgid "Sign In"
+msgstr ""
+
+#: easy-login-woocommerce-premium/templates/global/xoo-el-lostpw-section.php:36
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+
+#: easy-login-woocommerce-premium/templates/global/xoo-el-lostpw-section.php:52
+msgid "Email Reset Link"
+msgstr ""
+
+#: easy-login-woocommerce-premium/templates/global/xoo-el-resetpw-section.php:25
+msgid "New Password"
+msgstr ""
+
+#: easy-login-woocommerce-premium/templates/global/xoo-el-resetpw-section.php:33
+msgid "Confirm Password"
+msgstr ""
+
+#: easy-login-woocommerce-premium/templates/global/xoo-el-resetpw-section.php:67
+msgid "Please enter a new password"
+msgstr ""
+
+#: easy-login-woocommerce-premium/templates/global/xoo-el-resetpw-section.php:87
+msgid "Change Password"
+msgstr ""
+
+#: easy-login-woocommerce-premium/templates/xoo-el-form.php:27
+msgid "Continue to resetting password"
+msgstr ""
+
+#: easy-login-woocommerce-premium/xoo-form-fields-fw/admin/class-xoo-aff-fields.php:1221
+#, php-format
+msgid "Please check %s."
+msgstr ""
+
+#: easy-login-woocommerce-premium/xoo-form-fields-fw/admin/class-xoo-aff-fields.php:1225
+#, php-format
+msgid "%s cannot be empty."
+msgstr ""
+
+#: easy-login-woocommerce-premium/xoo-form-fields-fw/admin/class-xoo-aff-fields.php:1233
+#, php-format
+msgid "%s needs to be minimum %s characters."
+msgstr ""
+
+#: easy-login-woocommerce-premium/xoo-form-fields-fw/admin/class-xoo-aff-fields.php:1238
+#, php-format
+msgid "%s cannot exceed %s characters."
+msgstr ""
+
+#: easy-login-woocommerce-premium/xoo-form-fields-fw/admin/class-xoo-aff-fields.php:1243
+#, php-format
+msgid "%s should be minimum %s."
+msgstr ""
+
+#: easy-login-woocommerce-premium/xoo-form-fields-fw/admin/class-xoo-aff-fields.php:1248
+#, php-format
+msgid "%s cannot be more than %s."
+msgstr ""
+
+#: easy-login-woocommerce-premium/xoo-form-fields-fw/admin/class-xoo-aff-fields.php:1253
+#, php-format
+msgid "%s should be in multiple of %s."
+msgstr ""
+
+#: easy-login-woocommerce-premium/xoo-form-fields-fw/includes/class-xoo-aff.php:110
+msgid "Please enter a stronger password."
+msgstr ""

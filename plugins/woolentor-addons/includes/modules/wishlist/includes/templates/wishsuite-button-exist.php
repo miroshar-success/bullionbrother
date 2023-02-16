@@ -1,0 +1,1 @@
+<a href="<?php echo esc_url( $button_url ); ?>" class="wishsuite-btn-exist <?php echo $button_class; ?>" data-added-text="<?php echo esc_attr__( $button_exist_text, 'wishsuite'); ?>" data-product_id="<?php echo esc_attr( $product_id ); ?>"><?php echo $button_exist_text; ?></a>

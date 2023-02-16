@@ -1,0 +1,529 @@
+=== WooCommerce Zapier Changelog ===
+
+2022-10-13 - version 2.3.1
+* Full details: https://om4.io/?p=20216
+* Change: Marked as compatible with WooCommerce 7.0. PR #557 PR #550, PR #549, PR #547
+* Change: Marked as compatible with WordPress 6.1. PR #557 PR #550, PR #547
+* Change: Marked as compatible with WooCommerce Bookings v1.15.63. PR #543
+* Change: Marked as compatible with WooCommerce Subscriptions v4.5.1.
+* Change: WooCommerce Zapier now integrates with 5000+ apps on Zapier.com.
+
+2022-01-24 - version 2.3.0
+* Full details: https://om4.io/?p=20152
+* New: Improved support for popular security plugins (such as Wordfence Security). Authentication is now possible whilst using Wordfence Security's Two Factor Authentication on your WordPress user account. Please see https://docs.om4.io/woocommerce-zapier/plugin-compatibility/#wordfence-security for details. PR #527
+* New: Compatible with PHP 8.1 when using WordPress 5.9 or newer. PR #511
+* Fix: System Status screen not showing all Zapier webhooks - was only showing the first 10 webhooks. PR #537
+* Change: Task History records are now kept indefinitely, rather than being deleted automatically after 30 days. This should help avoid confusion when viewing the **WooCommerce Zapier** metaboxes in the WordPress admin area. #504
+* Change: Remove **View/Edit Zap** links from the **WooCommerce** -> **Zapier** screen because Zap IDs are no longer available for new Zaps/webhooks created after June 2021. Automatically rename all existing WooCommerce Zapier webhooks to `WooCommerce Zapier` for consistency. #518, #528
+* Change: WooCommerce Zapier now integrates with 4000+ apps on Zapier.com.
+* Change: Minimum required PHP version is now 7.2.0 No longer supporting PHP 7.1.x or 7.0.x. #517
+* Change: Minimum required WordPress version is 5.3.0. #517
+* Change: Minimum required WooCommerce version is 4.2.0. #517
+* Change: Minimum required WooCommerce Subscriptions version is 3.0.0. #517
+* Change: Marked as compatible with WooCommerce 6.1. PR #525
+* Change: Marked as compatible with WooCommerce Subscriptions v4.0. PR #534
+* Change: Marked as compatible with WooCommerce Bookings v1.15.49. PR #514
+
+2021-09-29 - version 2.2.2
+* Full details: https://om4.io/?p=20127
+* Change: WooCommerce Zapier now integrates with 3,800+ apps on Zapier.com. #499
+* Change: Legacy Feed Migration deadline. PR #500
+* Change: Marked as compatible with WooCommerce 5.8. #499
+
+2021-07-23 - version 2.2.1
+* Full details: https://om4.io/?p=20105
+* Security: Automatically revoke all existing WooCommerce Zapier API Keys based on advice in https://woocommerce.com/posts/critical-vulnerability-detected-july-2021/.
+* Change: Marked as compatible with WooCommerce 5.5. PR #474
+* Change: Marked as compatible with WordPress 5.8. PR #474
+
+2021-05-26 - version 2.2.0
+* Full details: https://om4.io/?p=20075
+* New: Added WooCommerce Bookings support. The minimum required WooCommerce Bookings version is 1.15.35. PR #413
+* Change: Marked as compatible with WooCommerce 5.3. PR #448
+
+2021-05-11 - version 2.1.0
+* Full details: https://om4.io/?p=20063
+* New: Add support for the newly released WooCommerce Subscriptions v3.1. #426, #431
+* Fix: Avoid a PHP fatal error that occurs with WooCommerce Subscriptions v3.1 (which introduces a v3 subscriptions REST API endpoint). PR #425
+* Fix: Ensure Subscriptions webhooks are created with the REST API v1 version, to improve compatibility with WooCommerce Subscriptions version 3.1. #431
+* Fix: Performance Improvement: ensure resources are initialised only once (not twice). PR #411.
+* Change: Remove unused REST API endpoint routes and methods. #412
+* Change: Minimum required PHP version is now 7.0. No longer supporting PHP 5.6.x. #423
+* Change: Minimum required WordPress version is 4.9.0. #423
+* Change: Minimum required WooCommerce version is 3.7.0. #213, #423
+* Change: Marked as compatible with WooCommerce 5.2. PR #417, PR #428
+* Change: Update documentation links to new doc.om4.io site. PR #439
+* Dev: Refactor resource definitions #422
+
+2021-04-01 - version 2.0.8
+* Full details: https://om4.io/?p=20028
+* Change: WooCommerce Zapier now integrates with 3000+ apps on Zapier.com. #415
+* Change: Authentication key retention. #415
+* Change: Legacy Feed Migration deadline. #415
+* Change: Improve translatable strings with disambiguation by context. #415
+* Change: Marked as compatible with WordPress 5.7.
+* Change: Marked as compatible with WooCommerce 5.1.
+
+2020-12-08 - version 2.0.7
+* Full details: https://om4.io/?p=20010
+* Fix: Correctly handle authentication requests for complex passwords containing Double-quote (") or single-quote (') characters. The behaviour is now in-line with how WordPress core handles passwords internally. #377
+* Change: Marked as compatible with WordPress 5.6.
+* Change: Marked as compatible with WooCommerce 4.8.
+
+2020-11-27 - version 2.0.6
+* Full details: https://om4.io/?p=19959
+* New: Compatibility with PHP 8. #368
+* Fix: Deprecated warning that occurs on PHP 8 for the `OM4\WooCommerceZapier\TaskHistory\Task` constructor. #368
+* Change: Send `X-WordPress-GMT-Offset` HTTP header during webhook deliveries to Zapier to help improve date/time timezone conversion reliability in Zaps. #362
+* Change: Improved handling of Task History messages so that they correctly show the trigger rule and View/Edit Zap link after the corresponding Zap has been turned off. #307
+* Change: Improved Authentication error messages. PR #350
+* Change: Marked as compatible with WooCommerce 4.7.
+
+2020-09-11 - version 2.0.5
+* Full details: https://om4.io/?p=19877
+* Fix: Prevent a PHP notice that could occur during authentication when using WordPress 5.5 and above with WP_DEBUG enabled. #330
+* Change: Legacy Mode logs are now logged to a `woocommerce-zapier-legacy` log file, separate from the main `woocommerce-zapier` log file. PR#306
+* Change: Improved error detection and logging during authentication ping requests, to help identify WooCommerce REST API authentication issues. #298
+* Change: Marked as compatible with WooCommerce 4.5
+* Change: Marked as compatible with WordPress 5.5
+
+2020-04-24 - version 2.0.4
+* Full details: https://om4.io/?p=19824
+* New: SSL Check in Status screen to help to identify authentication errors. #281
+* Fix: No data sent when using `Subscription status changed`, `Subscription renewed` or `Subscription renewal failed` trigger rules. #285
+* Change: Automatically revoke REST API authentication keys that haven't ever been used. #278
+
+2020-04-11 - version 2.0.3
+* Full details: https://om4.io/?p=19809
+* Fix: Authentication attempts failing with `The username and/or password you supplied is incorrect.` message for users with usernames or passwords containing some special characters (such a %, <, >, and trailing/leading spaces). PR#144
+
+2020-04-09 - version 2.0.2
+* Full details: https://om4.io/?p=19780
+* Fix: deployment issue.
+
+2020-04-09 - version 2.0.1
+* Full details: https://om4.io/?p=19780
+* Fix: Correctly recognise Zapier REST API Keys for non-english stores. #277
+* Fix: Remove All Data not working during plugin Uninstall. #275
+* Change: Help prevent unexpected authentication errors by improving compatibility with plugins that customise the login/authentication process. #276
+* Change: Log failed authentication attempts if detailed logging is enabled. PR#142
+
+2020.04.06 - version 2.0.0
+* Full details: https://om4.io/?p=19742
+* Important: This a major release that contains many new features. It also requires you to migrate all of your existing WooCommerce Zaps to the new system. Please see https://docs.om4.io/woocommerce-zapier/migration/ for important details.
+* New: Two-Way Integration: Now supporting Actions and Searches as well as Triggers.  You can now use Zaps to create (or update existing) data in WooCommerce via your Zaps.
+* New: There are now three times (3x) the number of available trigger events, giving you 3 times as many reasons to send your WooCommerce store data to Zapier!
+* New: Simplified Zap Creation: The Zap creation process is simplified, with no requirement to create Zap specific feeds in WooCommerce. Zaps are now managed entirely via WooCommerce.com.
+* New: Data Types: Adds support for Products and Coupons, in addition to the already supported Orders, Customers and Subscriptions.
+* New: Powered by the REST API: WooCommerce Zapier version 2 is powered by the WooCommerce REST API, giving you access to many more data fields as well as more robust and reliable data delivery.
+* New: Secure by Design: HTTPS (secure) communication between WooCommerce and Zapier, as well as a new authentication method, will help improve data confidentiality and integrity.
+* New: Zaps are now sent to Zapier asynchronously via WooCommerce's built-in webhooks feature. #225
+* New: Store Zapier history data for 30 days that has been sent to Zapier (via Triggers), and also what WooCommerce data has been created or updated from a Zapier Zap. Please see https://docs.om4.io/woocommerce-zapier/plugin-interface/#task-history for details. #225
+* New: Resource History metabox on Edit Coupon, Edit Order, Edit Product and Edit Subscription admin screens. Please see https://docs.om4.io/woocommerce-zapier/plugin-interface/#resource-history for details. #225
+* New: Plugin uninstall feature, which deletes all Zapier settings/data from the database if the `WC_ZAPIER_REMOVE_ALL_DATA` constant is defined and set to true. Please see https://docs.om4.io/woocommerce-zapier/uninstall/ for details. #225, #237.
+* New: Settings screen to enable or disable detailed logging. Please see https://docs.om4.io/woocommerce-zapier/plugin-interface/#plugin-settings for details. PR #101
+* New: Improved compatibility of the Legacy Feeds with certain plugins that modify the Order data upon load. #233
+* New: When deactivating the plugin, pause existing Zapier webhooks so that no data is sent to them. When reactivating the plugin, unpause existing Zapier webhooks. #237
+* New: Improved System Status screen display and information. Now displayed at the bottom of the WooCommerce -> Status screen. PR#107.
+* New: Add support for WooCommerce Admin (wc-admin) which was introduced in WooCommerce 4.0. #266
+* Fix: Prevent incorrectly filling of line item data in the Legacy Feeds. #234
+* Security Fix: Improved input sanitisation and output escaping in the WordPress admin area (for authenticated store owners). PR#114
+* Change: Marked as compatible with WooCommerce 4.0.1
+* Change: For existing users upgrading to version 2, Zapier Feeds are now know as Legacy Feeds. No new Legacy Feeds can be created, and users have 12 months to deactivate each Zapier Feed (and corresponding Zap) and create new Zaps using the new REST API based system. Please see https://docs.om4.io/woocommerce-zapier/migration/ for details. PR#100, #257, #226
+* Change: For new users, Zapier Feeds are no longer available and REST API based Zaps must be used instead. PR#100
+* Change: Simplify/improve WooCommerce active check. #194
+* Change: WooCommerce Zapier now requires a store with HTTPS so that REST API endpoints are securely communicated with. Please see https://docs.om4.io/woocommerce-zapier/install/#system-requirements for details. #213
+* Change: WooCommerce Zapier now requires pretty permalinks to be turned on (in WordPress Settings, Permalinks) so that REST API Endpoints are accessible. Please see https://docs.om4.io/woocommerce-zapier/install/#system-requirements for details. #213
+* Change: Administrator role is now required in order to manage WooCommerce Zapier-related settings in WordPress. Please see https://docs.om4.io/woocommerce-zapier/install/#system-requirements for details. #226
+* Change: An Administrator role is required when authenticating your WooCommerce store with your Zapier account. Please see https://docs.om4.io/woocommerce-zapier/install/#system-requirements for details. #271
+* Change: Shop Owner or Administrator role is now required in order to manage WooCommerce Zapier-related settings in WordPress. #226
+* Change: Minimum required PHP version is 5.6.20. #213
+* Change: Minimum required WordPress version is 4.7.0. #213
+* Change: Minimum required WooCommerce version is 3.5.0. #213, #232
+* Change: Minimum required WooCommerce Subscriptions version is 2.4.3. #213
+* Change: Plugin textdomain changed from `wc_zapier` to `woocommerce-zapier`.
+* Change: Marked as compatible with WordPress 5.4.0.
+* Change: Marked as compatible with WooCommerce Subscriptions v3.0.0.
+* Change: Coding standard improvements. PR#114
+* Dev: `WC_ZAPIER_DEBUG` constant is no longer used. Enable Detailed Logging setting should be used instead. Please see https://docs.om4.io/woocommerce-zapier/migration/#woocommerce-zapier-integration-debugger for details. PR #101
+* Dev: Legacy Zapier Feeds functionality moved from `includes` to `legacy` directory. PR#100
+* Dev: Deprecate `wc_zapier_data` filter. PR#100
+* Dev: Deprecate `wc_zapier_data_***` filter. PR#100
+* Dev: Deprecate `wc_zapier_data_json` filter. PR#100
+* Dev: Deprecate `wc_zapier_data_json_***` filter. PR#100
+* Dev: Deprecate `wc_zapier_data_sent_to_zapier_successfully` hook. PR#100
+* Dev: Deprecate `wc_zapier_scheduled_event` hook. PR#100
+* Dev: Deprecate `wc_zapier_trigger_directories` filter. PR#100, PR#110
+* Dev: Deprecate `WC_Zapier()` function. PR#100
+* Dev: Deprecate `OM4\Zapier\Admin\FeedUI` class. PR#100
+* Dev: Deprecate `OM4\Zapier\Admin\SystemStatus` class. PR#100
+* Dev: Deprecate `OM4\Zapier\Exception\IncompletePayloadException` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Exception\InvalidClassException` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Exception\InvalidMethodException` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Exception\InvalidPropertyException` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Exception\InvalidTypeException` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Exception\JsonErrorException` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Exception\MissingDataException` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Exception\MissingSampleException` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Feed\FeedFactory` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Feed\Feed` class. PR #100
+* Dev: Deprecate `OM4\Zapier\LegacyTrait` class. PR#100
+* Dev: Deprecate `OM4\Zapier\Logger` class. PR#100
+* Dev: Deprecate `OM4\Zapier\Payload\Base\Base` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Payload\Base\Collection` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Payload\Base\Item` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Payload\Collection\DownloadableFiles` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Payload\Collection\LineItems` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Payload\Collection\Notes` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Payload\Contract` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Payload\Customer` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Payload\Item\BillingTrait` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Payload\Item\DownloadableFile` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Payload\Item\LineItem` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Payload\Item\MetaData` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Payload\Item\Note` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Payload\Item\ShippingTrait` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Payload\NullPayload` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Payload\Order` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Payload\Plugin\CheckoutFieldEditor` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Payload\Plugin\Subscription\Order` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Payload\Plugin\Subscription\Subscription` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Plugin\CheckoutFieldEditor` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Plugin\Subscriptions` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Plugin` class. PR#100
+* Dev: Deprecate `OM4\Zapier\SendQueue` class. PR#100
+* Dev: Deprecate `OM4\Zapier\Trigger\Base` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Trigger\Customer\NewCustomer` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Trigger\Order\Base` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Trigger\Order\NewOrder` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Trigger\Order\StatusChange` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Trigger\Subscription\Base` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Trigger\Subscription\NewSubscription` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Trigger\Subscription\RenewalFailed` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Trigger\Subscription\Renewal` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Trigger\Subscription\StatusChange` class. PR #100
+* Dev: Deprecate `OM4\Zapier\Trigger\TriggerFactory` class. PR #100
+* Dev: Deleted `OM4\Zapier\Admin\Privacy` class. PR#100
+* Dev: Deleted `OM4\Zapier\Admin\Pointers` class. PR#100
+* Dev: Delete already deprecated `WC_Zapier` class. PR #100
+* Dev: Delete already deprecated `WC_Zapier_Admin` class. PR #100
+* Dev: Delete already deprecated `WC_Zapier_Admin_Feed_UI` class. PR #100
+* Dev: Delete already deprecated `WC_Zapier_Admin_Pointers` class. PR #100
+* Dev: Delete already deprecated `WC_Zapier_Admin_System_Status` class. PR #100
+* Dev: Delete already deprecated `WC_Zapier_Checkout_Field_Editor` class. PR #100
+* Dev: Delete already deprecated `WC_Zapier_Feed` class. PR #100
+* Dev: Delete already deprecated `WC_Zapier_Feed_Factory` class. PR #100
+* Dev: Delete already deprecated `WC_Zapier_Send_Queue` class. PR #100
+* Dev: Delete already deprecated `WC_Zapier_Subscriptions` class. PR #100
+* Dev: Delete already deprecated `WC_Zapier_Trigger_Factory` class. PR #100
+* Dev: Delete already deprecated `WC_Zapier_Trigger_New_Customer` class. PR #100
+* Dev: Delete already deprecated `WC_Zapier_Trigger_Order` class. PR #100
+* Dev: Delete already deprecated `WC_Zapier_Trigger_Order_New` class. PR #100
+* Dev: Delete already deprecated `WC_Zapier_Trigger_Order_Status_Change` class. PR #100
+* Dev: Delete already deprecated `WC_Zapier_Trigger_Subscription` class. PR #100
+* Dev: Delete already deprecated `WC_Zapier_Trigger_Subscription_New` class. PR #100
+* Dev: Delete already deprecated `WC_Zapier_Trigger_Subscription_Renewal` class. PR #100
+* Dev: Delete already deprecated `WC_Zapier_Trigger_Subscription_Renewal_Failed` class. PR #100
+* Dev: Delete already deprecated `WC_Zapier_Trigger_Subscription_Status_Change` class. PR #100
+
+2019.11.29 - version 1.9.6
+* Full details: https://om4.io/?p=19713
+* Fix: Better compatibility with plugins that override WooCommerce order totals (such as the WooCommerce Account Funds extension). #215
+* Change: Compatible with PHP 7.4.
+* Change: Marked as compatible with WordPress 5.3.0.
+* Change: Marked as compatible with WooCommerce 3.8.1.
+* Change: Marked as compatible with WooCommerce Subscriptions v2.6.3.
+
+2019.09.16 - version 1.9.5
+* Full details: https://om4.io/?p=1139
+* Fix: Typo in the logger, and context handling logic fixed. #200
+* Fix: Incorrect text-domain on privacy class. PR#71
+* New: Improved compatibility with certain plugins that modify the WP_Post data upon load. #204
+* New: Log get_post errors and modified behaviour.
+* Marked as compatible with WordPress 5.2.3.
+* Marked as compatible with WooCommerce 3.7.0.
+* Marked as compatible with WooCommerce Subscriptions v2.6.1 (and backwards compatible with WooCommerce Subscriptions v2.4.x). #208
+* Change: Coding standard improvements, including improved documentation. PR#71
+* Change: Minimum required WordPress version is 4.6.0.
+
+2019.05.20 - version 1.9.4
+* Full details: https://om4.io/?p=1131
+* Fix: Avoid undefined index when an order or customer's billing or shipping country code is invalid. #193
+* Fix: Avoid undefined index when a customer's shipping state is invalid. #193, #190
+* Fix: Check multisite config for WooCommerce availability, allowing WooCommerce to be network activated. #192
+* Fix: Avoid deprecated notice for function `get_used_coupons()` when running WooCommerce 3.7 (development version). #197
+
+2019.05.10 - version 1.9.3
+* Full details: https://om4.io/?p=1125
+* Fix: Date fields show current date/time instead of being empty #143
+* Fix: Better compatibility with the Measurement Price Calculator extension. #188
+* Fix: Improve Order shipping information collection logic which can cause a fatal error. #190
+* Change: Clarifying in the documentation that `tax_total` field excludes shipping tax.
+* Change: Support WooCommerce Subscriptions 2.5. #144
+
+2019.05.07 - version 1.9.2
+* Full details: https://om4.io/?p=1117
+* Fix: Avoid a PHP Fatal error in hosting environments that have PHP opcode caching enabled with opcache.save_comments=0, which was causing reflection to fail. #184
+* Fix: Use JSON file for sample data instead of Reflection. #184
+* Fix: Do not use Reflection for validation. #184
+* Change: Remove temporary hotfix that was implemented in v1.9.1. #184
+
+2019.05.03 - version 1.9.1
+* Full details: https://om4.io/?p=1113
+* Fix: Implement a hotfix for uncommon web hosting environments that have opcode caching enabled with opcache.save_comments=0 #184.
+
+2019.05.02 - version 1.9.0
+* Full details: https://om4.io/?p=1058
+* New: Improved [line item support in Zapier](https://om4.io/?p=1062). #90
+* New: Added link to logging in the plugin page. #119
+* New: Notice for administrators if PHP version is not supported. #164
+       If the plugin installed in a PHP 5.2 - 5.3 environment, it won't work, only displaying a message.
+* Fix: Updated sample data in the extension and the Zapier site to better represent real data. #151
+* Fix: When WooCommerce Checkout Field Editor is installed, avoid a PHP notice. #164
+* Change: Use WooCommerce for logging. #90
+* Change: Ensure SSL certificate verification occurs when sending data to Zapier. #168
+* Change: Minimum required PHP version is now 5.4. No longer supporting PHP 5.2.x and 5.3.x. #154
+* Change: Introduce namespaces and class autoloader. #150 #161
+          Deprecated all existing class names and replace them with new namespaced classes. #161
+* Change: Filter parameters are changed: #161
+    * In `wc_zapier_data` filter the second parameter is now of type `OM4\Zapier\Trigger\Base` (was `WC_Zapier_Trigger`).
+    * In `wc_zapier_data_***` filter the second parameter is now of type `OM4\Zapier\Trigger\Base` (was `WC_Zapier_Trigger`).
+    * In `wc_zapier_data_json` filter the second parameter is now of type `OM4\Zapier\Trigger\Base` (was `WC_Zapier_Trigger`).
+    * In `wc_zapier_data_json_***` filter the second parameter is now of type `OM4\Zapier\Trigger\Base` (was `WC_Zapier_Trigger`).
+    * In `wc_zapier_scheduled_event` hook the third parameter is now of type `OM4\Zapier\Trigger\Base` (was `WC_Zapier_Trigger`).
+    * In `wc_zapier_send_asynchronously` filter the second parameter is now of type `OM4\Zapier\Trigger\Base` (was `WC_Zapier_Trigger`).
+* Change: Using a new rigid structure for payloads. #50 #149 #151 #152
+* Change: Notice for administrators if WooCommerce not installed. #161
+          If the plugin installed without WooCommerce, now displaying a message.
+* Change: Removed `woothemes_queue_update` and legacy woo* files. Updates are now handled by WooCommerce core. #161
+* Change: Simplified WooCommerce check. #161
+* Change: Remove redundant admin CSS. #155
+
+2019.04.17 - version 1.8.3
+* Full details: https://om4.io/?p=1078
+* Marked as compatible with WooCommerce 3.6.0.
+
+2019.03.08 - version 1.8.2
+* Full details: https://om4.io/?p=1050
+* Fix: Sending of Order sample data for stores with refunded orders. #159
+* Change: Prices and Totals are sent using WooCommerce's "General -> Currency options -> Number of decimals" setting instead of always with two decimal places. #158
+* Marked as compatible with WooCommerce 3.5.6.
+
+2019.02.08 - version 1.8.1
+* Full details: https://om4.io/?p=1047
+* New: Compatibility with WooCommerce Subscriptions v2.5.0 (and backwards compatible with WooCommerce Subscriptions v2.3.x). #144
+* Fix: Improve support of older WooCommerce versions < 3.3.0 combined with specific newer WordPress versions. #145
+
+2019.02.04 - version 1.8.0
+* Full details: https://om4.io/?p=1034
+* Change: When setting up Customer, Order or Subscription Zaps, send real Customer/Order/Subscription data from your store (rather than static data). This should make setting up Zaps much easier, as the Zap editor will show real fields and data from your store. #105
+* Change: Remove remaining support for WooCommerce 2.6.x. WooCommerce 3.0 or above is required. #132
+* Change: The "Subscription Created" trigger now triggers for all cases (not just checkout and REST API subscription creations). #132
+* Change: Requires WordPress v4.6.0 or newer (no longer supports WordPress v4.5.x). #140
+* Change: Requires WooCommerce Subscriptions v2.3.0 or newer (no longer supports WooCommerce Subscriptions v2.2.x or 2.1.x). #136
+
+2018.11.21 - version 1.7.5
+* Full details: https://om4.io/?p=1001
+* Fix: Avoid duplicate New Order triggers during subscription renewals. #128
+* Fix: Avoid Undefined Index notice when running via WP-CLI. #129
+* Change: Improved queueing during WP-Cron (ie for Subscription Renewals). #128
+* Fix: Avoid PHP Warning: html_entity_decode() expects parameter 1 to be string, object given. #125
+* Marked as compatible with WooCommerce 3.5.x.
+
+2018.07.24 - version 1.7.4
+* Full details: https://om4.io/?p=999
+* Fix: Avoid a fatal error that was occurring when orders or subscriptions containing a deleted product were being sent to Zapier. In those cases cases, the line_items.categories, line_items.tags and line_items.type data fields will be empty. #121
+
+2018.06.19 - version 1.7.3
+* Full details: https://om4.io/?p=991
+* Fix: New Order trigger not consistently triggering for orders that use the PayPal Standard payment gateway with PayPal IPN. #119
+* Change: Improved logging for queue processing. #119
+
+2018.05.24 - version 1.7.2
+* Full details: https://om4.io/?p=980
+* New: Coupons field for Orders, which is a comma-separated list of coupon codes that were used for the order. #67
+* Send unique sample data so the "Pick a Sample to Set Up Your Zap" screen in the Zap editor shows the most recent sample data.
+* Send JSON Content-Type header when sending data to Zapier. #102
+* WooCommerce 3.4 compatibility. #113
+* GDPR privacy support (requires WordPress 4.9.6+ and WooCommerce 3.4+). #117
+
+2018.03.09 - version 1.7.1
+* Full details: https://om4.io/?p=967
+* New: Order metadata (custom field data) is now sent to Zapier using a new meta_data array. #107
+* Change: Order line item metadata now includes hidden meta data. #106
+* Fix: Avoid Undefined Index notice for orders from countries with no states. #108
+
+2018.01.31 - version 1.7.0
+* Full details: https://om4.io/?p=951
+* Compatibility with WooCommerce 3.3 and 3.2 (and backwards compatible with WooCommerce v3.1.x and 3.0.x).
+* Send data to Zapier synchronously, instead of relying on WordPress Cron. This should prevent scenarios where data is sent to Zapier multiple times or not at all.
+* New: Line Item Unit Price field for orders and subscriptions.
+* Fix: Avoid intermittent PHP fatal error that occurred with some variable products.
+* Sending data asynchronously via WordPress cron is now deprecated and will be removed in a future version.
+* "New Order Status Change" trigger: Include previous and new order statuses in the order's notes.
+* "New Subscription Status Change" trigger: Include previous and new subscription statuses in the subscription's notes.
+* Improved logging of Zapier's response after sending data to Zapier.
+* Asynchronous sending: attempt to send data to Zapier more promptly (5 seconds instead of 10 seconds).
+* Improved logging for WordPress Cron.
+* Fix: Avoid PHP notice that occurred for New Order Status Change trigger.
+* Ensure sample order data is sent to Zapier in the store's local timezone (not UTC/GMT).
+
+2017.07.06 - version 1.6.9
+* Full details: https://om4.io/?p=898
+* New: Billing State Name field for orders and customers.
+* New: Shipping State Name field for orders and customers.
+* Change: Minimum required version is now WooCommerce 2.6.0 (tested up to WooCommerce 3.1.0).
+* Remove support for WooCommerce 2.4 and 2.5.
+
+2017.05.01 - version 1.6.8
+* Full details: https://om4.io/?p=881
+* Fix: Orders/Subscriptions: ensure order line item meta data is sent correctly when using WooCommerce 3.0+.
+* Fix: Orders: correctly send product category/tag information for variable products.
+
+2017.04.07 - version 1.6.7
+* Full details: https://om4.io/?p=878
+* Fix: Avoid "Undefined index: variation_id" error when using WooCommerce 2.6.x or earlier.
+* Change: System status information now displays in WooCommerce 3.0.1 or newer, or 2.6.x or older. It won't display in WooCommerce 3.0.0.
+* Change: Minimum required version is WooCommerce 2.4.9.
+
+2017.04.04 - version 1.6.6
+* Full details: https://om4.io/?p=875
+* New: Compatibility with WooCommerce 3.0 (and backwards compatible with WooCommerce v2.6.x)
+* New: Compatibility with WooCommerce Subscriptions v2.2.0 (and backwards compatible with WooCommerce Subscriptions v2.1.x).
+* Fix: Orders & Subscriptions: Ensure each line_item.type field value is correctly set to the product type. Previously it was being incorrectly set to the line item type of line_item.
+
+2017.01.19 - version 1.6.5
+* Full details: https://om4.io/?p=873
+* Security Fix: Improved output escaping in the WordPress admin area. Thanks to David Green of 10up for reporting these.
+* Fix: Ensure a few more strings are translatable.
+* Change: Code standards improvements.
+* Note: Tested up to WordPress 4.7.1.
+* Note: Tested up to WooCommerce v2.6.13.
+
+2016.12.15 - version 1.6.4
+* Full details: https://om4.io/?p=867
+* New: 'transaction_id' order data field.
+* Fix: Improved compatibility with WooCommerce Subscriptions v2.1.x.
+* Change: Subscription Created triggers now only use one parameter. This should minimize the likelihood of a "Serialization of 'SimpleXMLElement' is not allowed" error occurring when using "Subscription Created" trigger and the Authorize.net CIM Gateway.
+
+2016.08.19 - version 1.6.3
+* Full details: https://om4.io/?p=865
+* Fix: "New Order" trigger sending orders to Zapier twice for some payment gateways (such as PayPal).
+* Change: Send data to Zapier 10 seconds later, rather than immediately.
+* Change: Improved handling of existing Feeds after Subscriptions is deactivated.
+* Change: Improved handling of invalid Zapier Feeds.
+* Change: Tested up to WooCommerce v2.6.4.
+* Change: Tested up to WordPress 4.6.
+* New: Add new 'wc_zapier_scheduled_event' hook so that other plugins or code can act once customer/order/subscription data is scheduled to be sent to Zapier.
+
+2016.08.03 - version 1.6.2
+* Full details: https://om4.io/?p=852
+* Fix: Avoid "Serialization of 'SimpleXMLElement' is not allowed" error when using "Subscription Status Changed" trigger and the Authorize.net CIM Gateway.
+* Fix: If sending immediately/synchronously (rather than asynchronously), ensure the New Order trigger only fires once when using a payment gateway that uses the payment_complete() function.
+* Change: Subscription triggers now use the subscription ID instead of the WC_Subscription object.
+* New: Add new 'wc_zapier_data_sent_to_zapier_successfully' hook so that other plugins or code can act once customer/order/subscription data has been sent to Zapier.
+
+2016.07.21 - version 1.6.1
+* Full details: https://om4.io/?p=845
+* Fix: Ensure the "New Order" trigger fires correctly when WooCommerce Subscriptions is installed. This bug was causing Zaps that use the "New Order" trigger to not fire when WooCommerce Subscriptions was active.
+* Fix: Prevent PHP warning that could occur when WooCommerce subscriptions was installed and the "New Order" trigger event is used.
+* Change: readme.txt improvements.
+
+2016.06.10 - version 1.6.0
+ * Full details: https://om4.io/?p=833
+ * New: Compatibility with WooCommerce 2.6
+ * New: Add support for the WooCommerce Subscriptions extension (requires WooCommerce Subscriptions v2.0.12 or later).
+ * New: Add a "Subscription Created" Trigger Event (if the WooCommerce Subscriptions extension is active).
+ * New: Add a "Subscription Renewed" Trigger Event (if the WooCommerce Subscriptions extension is active).
+ * New: Add a "Subscription Renewal Failed" Trigger Event (if the WooCommerce Subscriptions extension is active).
+ * New: Add a "Subscription Status Changed" Trigger Event (if the WooCommerce Subscriptions extension is active).
+ * New: 'is_subscription_renewal' order data field (if the WooCommerce Subscriptions extension is active).
+ * New: 'subscription_id' order data field (if the WooCommerce Subscriptions extension is active).
+ * New: 'user_id' order data field.
+ * New: 'view_url' order data field.
+ * New: 'wc_zapier_send_asynchronously' filter so that other plugins or code can override how the data sent is to Zapier.
+ * Change: Zapier Order Notes: Include trigger name (not just the initiating hook).
+ * Fix: Prevent PHP notice that was occurring when an order did not have a billing country.
+ * Fix: Prevent "Invalid Webhook URL" error messages that were occurring when adding or saving a Zapier Feed.
+
+2016.03.24 - version 1.5.3
+ * Full details: https://om4.io/?p=828
+ * New: Add support for Zapier's new webhook URL format.
+ * Fix: Prevent "Invalid Webhook URL" error messages that were occurring when adding a new Zapier Feed.
+
+2016.01.27 - version 1.5.2
+ * Full details: https://om4.io/?p=796
+ * Fix: Ensure order data is sent to zapier in plain (text) form (rather than HTML encoded).
+ * Change: remove reliance on $woocommerce global.
+ * Change: readme.txt improvements.
+
+2015.12.18 - version 1.5.1
+ * Full details: https://om4.io/?p=774
+ * New: Compatibility with WooCommerce 2.4 and 2.5 beta 3 (and backwards compatible with WooCommerce 2.2.x).
+ * New: Compatibility with WordPress 4.4.
+ * Change: Orders: Don't use the woocommerce_get_filename_from_url() function (it is deprecated).
+ * Change: Orders: Use order currency rather than store-wide currency.
+
+2015.02.12 - version 1.5
+ * Full details: https://om4.io/?p=748
+ * New: Compatibility with WooCommerce 2.3 (and backwards compatible with WooCommerce 2.2.x).
+ * Change: Orders: The order.discount_total field now returns an empty string (because WooCommerce 2.3 no longer has a concept of after tax discounts), and this field will be removed entirely in a future version.
+ * Change: Orders: dollar amounts are now formatted to 2 decimal places. Fields: order.total, order.subtotal, order.discount_total, order.cart_discount, order.tax_total, order.shipping_total, order.shipping_tax
+ * Change: readme.txt improvements
+
+2014.09.10 - version 1.4
+ * Full details: https://om4.io/?p=728
+ * New: Compatibility with WooCommerce 2.2 (and backwards compatible with WooCommerce 2.1.x).
+ * New: 'subtotal' order data field (which requires WooCommerce 2.2 in order for this field to be populated).
+
+2014.07.21 - version 1.3
+ * Full details: https://om4.io/?p=694
+ * New: The "New Customer" trigger now includes billing/shipping address details if the customer has previously placed an order or added billing/shipping details via the my account page.
+ * New: Contextual documentation of the "New Customer" trigger on the Add/Edit Zapier feed screen.
+ * New: Display a warning message if using the "New Customer" trigger with user registration disabled.
+
+2014.06.05 - version 1.2.1
+ * Full details: https://om4.io/?p=687
+ * Change: Use a 10 second connection timeout instead of 5 when sending data to Zapier.
+ * Change: Add support for debugging/logging - useful for troubleshooting.
+
+2014.05.13 - version 1.2
+ * Full details: https://om4.io/?p=630
+ * New: The "New Order" trigger now also acts on orders that consist of only virtual & downloadable products (ie orders that skip the "processing" status and go straight to "completed").
+ * New: Compatibility with the Product Add-ons Extension: http://www.woothemes.com/products/product-add-ons/
+ * New: Compatibility with the Gravity Forms Add-ons Extension: http://www.woothemes.com/products/gravity-forms-add-ons/
+ * New: Order line item metadata is now sent to Zapier using the new line_items.item_meta array.
+ * Fix: Prevent "This Zapier Feed is inactive" warning from displaying when adding a new Zapier Feed.
+ * Change: Improved documentation on the Add/Edit Zapier feed screen.
+ * Change: Requires WooCommerce 2.1.0 or newer. WooCommerce 2.0.x is no longer supported.
+ * Change: Remove WooCommerce 2.0.x code.
+
+2014.04.10 - version 1.1.2
+ * Full details: https://om4.io/?p=648
+ * New: Add support for Zapier's new webhook URL format.
+ * Fix: Prevent "Invalid Webhook URL" error messages that were occurring when adding a new Zapier Feed.
+
+2014.01.20 - version 1.1.1
+ * Full details: https://om4.io/?p=632
+ * New: Compatibility with WooCommerce 2.1 and WooCommerce 2.0.x.
+ * New: Updated Zapier logo.
+ * Fix: Prevent PHP notice that was occurring when an order did not contain a shipping address.
+ * Change: Don't use the WC_Order::get_shipping() function (it is deprecated in WooCommerce v2.1).
+ * Change: Don't use the WC_Order::get_downloadable_file_urls() function (it is deprecated in WooCommerce v2.1).
+ * Change: Use the WC_Order::get_product_from_item() function instead of a manual check.
+ * Change: PHPDoc updates for WC_Zapier.
+
+2013.10.14 - version 1.1
+ * Full details: https://om4.io/?p=506
+ * New: Use your custom checkout fields in your Zaps! Compatibility with the WooCommerce Checkout Field Editor plugin. Checkout fields added by that plugin are now sent to Zapier.
+ * New: Compatibility with the Sequential Order Numbers Pro plugin.
+ * New: 'number' order data field.
+ * New: 'billing_country_name' order data field.
+ * New: 'shipping_country_name' order data field.
+ * New: 4 new filters (wc_zapier_data and wc_zapier_data_json) are available so that other plugins or code can override the data sent to Zapier.
+ * Fix: Order cancellations are now handled correctly when the user elects to cancel their order during the checkout/payment process.
+ * Change: "Test Data" is now known as "Sample Data".
+
+2013.09.12 - version 1.0
+ * Full details: https://om4.io/?p=87
+ * First Release

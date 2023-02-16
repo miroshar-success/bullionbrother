@@ -1,0 +1,250 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: File Manager Advanced\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-24 07:34+0000\n"
+"PO-Revision-Date: 2022-10-24 07:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: Afrikaans\n"
+"Language: af\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0.3\n"
+"X-Domain: file-manager-advanced"
+
+#: application/pages/main.php:19
+msgid ""
+"\">plugins</a> page then <a href=\"https://advancedfilemanager."
+"com/contact/\" target=\"_blank\">contact</a> with us."
+msgstr ""
+
+#: application/pages/main.php:27
+msgid ""
+"<strong>Advanced File Manager</strong>, we always support you and provide "
+"better features for you, please spend some seconds to review our plugin."
+msgstr ""
+"<strong>Gevorderde lêerbestuurder</strong>, ons ondersteun jou altyd en bied "
+"beter kenmerke vir jou, spandeer asseblief 'n paar sekondes om ons inprop te "
+"hersien.\n"
+
+#: application/pages/controls.php:41
+msgid "Administrator (Default)"
+msgstr "Administrateur (Standaard)"
+
+#: application/pages/main.php:12
+msgid "Advanced File Manager"
+msgstr "Gevorderde Lêer Bestuurder"
+
+#: application/pages/controls.php:127
+msgid "all"
+msgstr "all"
+
+#: application/pages/controls.php:63
+msgid "Bootstrap"
+msgstr "Bootstrap"
+
+#: application/pages/controls.php:11 application/pages/main.php:13
+msgid "Buy Shortcode Addon"
+msgstr "Koop Shortcode Addon"
+
+#: application/pages/buy_shortcode.php:6
+msgid "Congratulations,"
+msgstr "Baie geluk,"
+
+#. Description of the plugin
+msgid "Cpanel for files management in wordpress"
+msgstr "Cpanel vir lêers te bestuur in wordpress"
+
+#: application/pages/controls.php:60
+msgid "Dark"
+msgstr "Donker"
+
+#: application/pages/controls.php:109
+msgid "Deleted files will go to trash folder, you can restore later."
+msgstr "Verwyderde lêers sal gaan na die asblik gids, jy kan herstel later."
+
+#: application/pages/controls.php:114
+msgid "Display .htaccess?"
+msgstr "Vertoning .htaccess?"
+
+#: application/pages/buy_shortcode.php:3 application/pages/controls.php:11
+#: application/pages/main.php:44
+msgid "Documentation"
+msgstr "Dokumentasie"
+
+#: application/pages/controls.php:105
+msgid "Enable Trash?"
+msgstr "In Staat Stel Om Die Asblik?"
+
+#: application/pages/controls.php:126
+msgid ""
+"Enter Mimetypes allowed to upload, multiple comma(,) separated. Example: "
+"<code>image/vnd.adobe.photoshop,image/png</code>"
+msgstr ""
+"Voer Mimetipes in wat toegelaat word om op te laai, veelvuldige komma(,) "
+"geskei. Voorbeeld: <code>image/vnd.adobe.photoshop,image/png</code>"
+
+#: application/class_fma_admin_menus.php:26
+#: application/class_fma_admin_menus.php:27
+msgid "File Manager"
+msgstr "Lêer Bestuurder"
+
+#. Name of the plugin
+msgid "File Manager Advanced"
+msgstr "Lêer Bestuurder Gevorderde"
+
+#: application/pages/controls.php:91
+msgid ""
+"File Manager Advanced Files URL, you can change according to your choice."
+msgstr ""
+"Lêer Bestuurder Gevorderde Lêers URL, jy kan verander volgens jou keuse."
+
+#: application/pages/controls.php:83
+msgid ""
+"File Manager Advanced Root Path, you can change according to your choice."
+msgstr ""
+"Lêer Bestuurder Gevorderde Wortel Pad, jy kan verander volgens jou keuse."
+
+#: application/pages/controls.php:88
+msgid "Files URL"
+msgstr "Lêers URL"
+
+#: application/pages/controls.php:61
+msgid "Grey"
+msgstr "Grys"
+
+#: application/pages/controls.php:96
+msgid "Hide File Path on Preview ?"
+msgstr "Steek Lêer Pad op Voorskou ?"
+
+#: application/pages/controls.php:100
+msgid "Hide real path of file on preview."
+msgstr "Steek ware pad van die lêer op die voorskou."
+
+#. Author URI of the plugin
+msgid "https://advancedfilemanager.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/file-manager-advanced"
+msgstr ""
+
+#: application/pages/main.php:30
+msgid "I love your plugin!"
+msgstr "Ek is lief vir jou prop!"
+
+#: application/pages/controls.php:69
+msgid "Language"
+msgstr "Taal"
+
+#: application/pages/controls.php:59
+msgid "Light"
+msgstr "Lig"
+
+#: application/pages/controls.php:127
+msgid "MIME Types Help"
+msgstr "MIME Tipes Help"
+
+#: application/pages/controls.php:123
+msgid "Mimetypes allowed to upload"
+msgstr "Mimetypes toegelaat te laai"
+
+#. Author of the plugin
+msgid "modalweb"
+msgstr "modalweb"
+
+#: application/pages/controls.php:101 application/pages/controls.php:110
+#: application/pages/controls.php:119
+msgid "Not Enabled"
+msgstr "Nie In Staat Gestel Om"
+
+#: application/pages/main.php:31
+msgid "Not Now"
+msgstr "Nie Nou Nie"
+
+#: application/pages/controls.php:80
+msgid "Public Root Path"
+msgstr "Openbare Wortel Pad"
+
+#: application/pages/controls.php:14 application/pages/main.php:39
+msgid "Rate Us"
+msgstr "Ons Koers"
+
+#: application/class_fma_admin_menus.php:90
+msgid "Saving options, Please wait..."
+msgstr "Spaar opsies, wag Asseblief..."
+
+#: application/pages/controls.php:76
+msgid "Select file manager advanced language. Default: en (English)"
+msgstr "Kies die lêer bestuurder gevorderde taal. Standaard: en (engels)"
+
+#: application/pages/controls.php:65
+msgid "Select file manager advanced theme. Default: Light"
+msgstr "Kies die lêer bestuurder gevorderde tema. Verstek: Lig"
+
+#: application/pages/controls.php:11
+msgid "Settings"
+msgstr "Instellings"
+
+#: application/pages/buy_shortcode.php:3 application/pages/main.php:46
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: application/pages/main.php:45
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: application/pages/main.php:38
+msgid ""
+"Thank you for using <a href=\"https://wordpress.org/plugins/file-manager-"
+"advanced/\">Advanced File Manager</a>. If happy then "
+msgstr ""
+"Dankie dat jy <a href=\"https://wordpress.org/plugins/file-manager-"
+"advanced/\">Gevorderde Lêerbestuurder</a> gebruik. As gelukkig dan "
+
+#: application/pages/controls.php:13
+msgid ""
+"Thank you for using <a href=\"https://wordpress.org/plugins/file-manager-"
+"advanced/\">File Manager Advanced</a>. If happy then "
+msgstr ""
+"\n"
+"Dankie dat jy <a href=\"https://wordpress.org/plugins/file-manager-"
+"advanced/\">Lêerbestuurder Gevorderd</a> gebruik. As gelukkig dan "
+
+#: application/pages/controls.php:56
+msgid "Theme"
+msgstr "Tema"
+
+#: application/pages/buy_shortcode.php:10
+msgid ""
+"This is Pro Feature of Advanced File Manager, Please Buy <a href=\"https:"
+"//advancedfilemanager.com/pricing\" target=\"_blank\">Advanced File Manager "
+"Shortcode</a> Addon to make shortcode work for frontend. <a href=\"https:"
+"//advancedfilemanager.com/pricing\" target=\"_blank\" class=\"button button-"
+"primary\">Buy Now</a>"
+msgstr ""
+"Dit is Pro-kenmerk van Gevorderde Lêerbestuurder, Koop asseblief <a "
+"href=\"https://advancedfilemanager.com/pricing\" target=\"_blank\">"
+"Gevorderde Lêerbestuurder-kortkode</a>-byvoeging om kortkode vir frontend te "
+"laat werk. <a href=\"https://advancedfilemanager.com/pricing\" "
+"target=\"_blank\" class=\"button button-primary\">Koop Nou</a>"
+
+#: application/pages/controls.php:118
+msgid "Will Display .htaccess file (if exists) in file manager."
+msgstr ""
+"Sal Vertoon .htaccess lêer (indien dit bestaan) in die lêer bestuurder."
+
+#: application/pages/controls.php:62
+msgid "Windows 10"
+msgstr "Windows 10"
+
+#: application/pages/buy_shortcode.php:6
+msgid ""
+"You have Installed Advanced File Manager Shortcode Successfully. Start "
+"working with shortcode."
+msgstr ""
+"Jy het Geïnstalleer Gevorderde Lêer Bestuurder Shortcode Suksesvol. Begin "
+"werk met shortcode."

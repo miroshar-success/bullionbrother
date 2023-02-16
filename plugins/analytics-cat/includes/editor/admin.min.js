@@ -1,0 +1,1 @@
+jQuery(document).ready(function(t){t(".fca_ga_multiselect").select2(),t("#fca-ga-helptext").tooltipster({trigger:"custom",timer:6e3,maxWidth:350,theme:["tooltipster-borderless","tooltipster-fca-ga"]}),t("#fca_ga_main_form").show(),""!==t(".fca-ga-id").val()&&t("#fca-ga-setup-notice").hide()});

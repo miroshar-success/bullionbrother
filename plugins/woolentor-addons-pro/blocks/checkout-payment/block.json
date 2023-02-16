@@ -1,0 +1,467 @@
+{
+  "name": "woolentor/checkout-payment",
+  "category": "woolentor-checkout",
+  "title": "WL : Checkout Payment Method",
+  "description": "Display checkout payment method.",
+  "keywords": [
+    "woolentor",
+    "checkout",
+    "checkout payment",
+    "payment"
+  ],
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "blockUniqId": {
+      "type": "string",
+      "default": ""
+    },
+    "areaPadding": {
+      "type": "object",
+      "default": {
+        "device": "desktop"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} { padding: {{areaPadding}} !important; }"
+      }
+    },
+    "areaBGProperty": {
+      "type": "object",
+      "default": {
+        "imageId": null,
+        "imageUrl": "",
+        "position": "",
+        "attachment": "",
+        "repeat": "",
+        "size": ""
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}"
+      }
+    },
+    "areaContentSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment p { font-size: {{areaContentSize}}; }"
+      }
+    },
+    "areaContentColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment p { color: {{areaContentColor}}; }"
+      }
+    },
+    "areaContentLinkColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment a{ color: {{areaContentLinkColor}}; }"
+      }
+    },
+    "areaContentBGColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment { background-color: {{areaContentBGColor}}; }"
+      }
+    },
+    "areaContentAlignment": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment p { text-align: {{areaContentAlignment}}; }"
+      }
+    },
+    "areaContentBorderType": {
+      "type": "string",
+      "default": "",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment { border-style: {{areaContentBorderType}}; }"
+      }
+    },
+    "areaContentBorderWidth": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "areaContentBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment{ border-width: {{areaContentBorderWidth}}; }"
+      }
+    },
+    "areaContentBorderColor": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "areaContentBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment { border-color: {{areaContentBorderColor}}; }"
+      }
+    },
+    "areaContentBorderRadius": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment { border-radius: {{areaContentBorderRadius}}; }"
+      }
+    },
+    "areaContentPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment { padding: {{areaContentPadding}}; }"
+      }
+    },
+    "headingSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment .wc_payment_method label { font-size: {{headingSize}}; }"
+      }
+    },
+    "headingTextColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment .wc_payment_method label { color: {{headingTextColor}}; }"
+      }
+    },
+    "headingBorderType": {
+      "type": "string",
+      "default": "",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment ul.payment_methods.methods li { border-style: {{headingBorderType}}; }"
+      }
+    },
+    "headingBorderWidth": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "headingBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment ul.payment_methods.methods li { border-width: {{headingBorderWidth}}; }"
+      }
+    },
+    "headingBorderColor": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "headingBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment ul.payment_methods.methods li { border-color: {{headingBorderColor}}; }"
+      }
+    },
+    "headingBorderRadius": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment ul.payment_methods.methods li { border-radius: {{headingBorderRadius}}; }"
+      }
+    },
+    "headingPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment ul.payment_methods.methods li { padding: {{headingPadding}}; }"
+      }
+    },
+    "headingMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment ul.payment_methods.methods li { margin: {{headingMargin}}; }"
+      }
+    },
+    "headingAlignment": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment ul.payment_methods.methods li { text-align: {{headingAlignment}}; }"
+      }
+    },
+    "headingBackgroundColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment ul.payment_methods.methods li { background-color: {{headingBackgroundColor}}; }"
+      }
+    },
+    "contentSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment .payment_box { font-size: {{contentSize}}; }"
+      }
+    },
+    "contentColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment .payment_box { color: {{contentColor}}; }"
+      }
+    },
+    "contentAlignment": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment .payment_box { text-align: {{contentAlignment}}; }"
+      }
+    },
+    "contentMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment .payment_box { margin: {{contentMargin}}; }"
+      }
+    },
+    "contentBGColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment .payment_box { background-color: {{contentBGColor}}; } {{WOOLENTOR_WRAPPER}} #payment div.payment_box::before, {{WOOLENTOR_WRAPPER}} #payment div.payment_box::before{ border-color:transparent transparent {{contentBGColor}} }"
+      }
+    },
+    "contentBorderType": {
+      "type": "string",
+      "default": "",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment .payment_box { border-style: {{contentBorderType}}; }"
+      }
+    },
+    "contentBorderWidth": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "contentBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment .payment_box { border-width: {{contentBorderWidth}}; }"
+      }
+    },
+    "contentBorderColor": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "contentBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment .payment_box { border-color: {{contentBorderColor}}; }"
+      }
+    },
+    "contentBorderRadius": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment .payment_box { border-radius: {{contentBorderRadius}}; }"
+      }
+    },
+    "placeOrderBtnColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment #place_order { color: {{placeOrderBtnColor}}; }"
+      }
+    },
+    "placeOrderBtnBGColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment #place_order { background-color: {{placeOrderBtnBGColor}}; }"
+      }
+    },
+    "placeOrderBtnSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment #place_order { font-size: {{placeOrderBtnSize}}; }"
+      }
+    },
+    "placeOrderBtnBorderType": {
+      "type": "string",
+      "default": "",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment #place_order { border-style: {{placeOrderBtnBorderType}} !important; }"
+      }
+    },
+    "placeOrderBtnBorderWidth": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "placeOrderBtnBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment #place_order { border-width: {{placeOrderBtnBorderWidth}} !important; }"
+      }
+    },
+    "placeOrderBtnBorderColor": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "placeOrderBtnBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment #place_order { border-color: {{placeOrderBtnBorderColor}} !important; }"
+      }
+    },
+    "placeOrderBtnBorderRadius": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment #place_order { border-radius: {{placeOrderBtnBorderRadius}} !important; }"
+      }
+    },
+    "placeOrderBtnPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment #place_order { padding: {{placeOrderBtnPadding}}; }"
+      }
+    },
+    "placeOrderBtnHoverColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment #place_order:hover { color: {{placeOrderBtnHoverColor}}; }"
+      }
+    },
+    "placeOrderBtnHoverBGColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment #place_order:hover { background-color: {{placeOrderBtnHoverBGColor}}; }"
+      }
+    },
+    "placeOrderBtnHoverBorderColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_payment #payment #place_order:hover { border-color: {{placeOrderBtnHoverBorderColor}} !important; }"
+      }
+    }
+  }
+}

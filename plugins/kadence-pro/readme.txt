@@ -1,0 +1,268 @@
+=== Kadence Pro - Premium addon for the Kadence Theme ===
+Contributors: britner
+Tags: theme, blocks, hooks,
+Requires at least: 5.2
+Tested up to: 6.0
+Stable tag: 1.0.7
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Premium Addons for the Kadence Theme.
+
+== Description ==
+
+Premium Addons for the Kadence Theme.
+
+** Header Addons **
+* Account Icon with Dropdown/Modal (Login View, Logout View)
+* Search Bar (AJAX)
+* Contact Elements
+* Widget area.
+* Side Menu Toggle ( Widget Area )
+* Divider
+* Divider2
+* Divider3
+* HTML2
+* HTML3
+* Button2
+* Button3
+* Navigation3
+* Navigation4
+* Mobile Navigation2
+
+== Installation ==
+
+Install the plugin into the `/wp-content/plugins/` folder, and activate it. This plugin is an extension of Kadence Theme, you will be asked to install it if you do not have it installed already.
+
+== Changelog ==
+
+== 1.0.7 | 23rd September 2022 ==
+* Fix: Possible issue of css styles in blocks breaking when using quick enable/disable.
+
+== 1.0.6 | 22nd September 2022 ==
+* Add: Element Duplicate button.
+* Add: Element quick disable.
+* Update: Event Calendar Hooks.
+* Fix: Issues with js translations not working.
+* Fix: Issue with custom padding of extra navigation areas.
+* Fix: Issue with showing elements on taxonomies.
+* Fix: Issue with possible notice in admin with shortpixel.
+* Fix: Issue with color switch losing "current".
+* Fix: Issue with custom archive settings missing 4 column option.
+* Fix: Issue with custom width mega menu missing on hover animations.
+
+== 1.0.5 | 4th March 2022 ==
+* Add: Menu Item description options.
+* Update: Mega menu controls for 5.9
+* Update: Box shadow and border radius settings in second mobile button.
+* Fix: Issue where images in elements didn't load srcset.
+* Fix: Elements admin title styling.
+* Fix: Issue where template loop elements breaks infinite scroll.
+
+== 1.0.4 | 9th December 2021 ==
+* Add: Single Content Template Override.
+* Add: Single Loop Item Template Override.
+* Add: Taxonomy Column Control, you can now set different columns for specific categories in your blog.
+* Add: Editor width settings for elements.
+* Add: Language conditional to conditional header.
+* Add: Language conditional to elements.
+* Add: Mobile sticky add to cart.
+* Update: Add php filter for sticky add to cart so it can be changed on a per product.
+* Update: Learndash Lesson only dark mode.
+* Update: Add Learndash focus mode darkmode logo.
+* Update: Enqueue styles and scripts that are part of elements kadence blocks pro meta when elements are loaded.
+* Fix: Issue with single ajax add to cart and group products.
+* Fix: Infinite scroll from picking up the wrong posts.
+* Fix: Accessibility, focus for mega menu.
+* Fix: RTL darkmode styling issue.
+
+== 1.0.3 | 21st September 2021 ==
+* Add: Color Switch (Dark Mode).
+* Add: Filter for product single ajax add to cart.
+* Fix: WPML issue with missing strings.
+
+== 1.0.2 | 27th August 2021 ==
+* Add: Account dropdown direction.
+* Fix: Issue with ajax add to cart.
+* Fix: Issue with account logged in view color controls.
+* Fix: Issue with mega menu padding controls.
+
+== 1.0.1 | 26th August 2021 ==
+* Fix: Add header control cache.
+
+== 1.0.0 | 25th August 2021 ==
+* Add: Replace Hero Title Hook.
+* Add: Conditional Headers.
+* Add: Padding to Mega Menu Settings.
+* Fix: Issue where items hooked into the mini cart were not showing with single add to cart ajax enabled.
+
+== 0.9.17 | 23rd July 2021 ==
+* Fix: Transparent Header Toggle Widget color settings.
+
+== 0.9.16 | 15th June 2021 ==
+* Add: Apply Certain menu settings to widget navigation.
+* Add: New Progress Bar for free shipping in mini cart.
+
+== 0.9.15 | 9th June 2021 ==
+* Add: Mobile Secondary Navigation.
+* Add: Header Button 2 Shadow.
+* Add: Sticky header settings for contact element.
+* Add: New hooks for The Events Calendar in elements.
+* Add: Settings to apply element to Learndash lessons by assigned course.
+* Update: Element Hook injected into the content.
+* Fix: Issue with group product and ajax add.
+* Fix: HTML tag for sticky add to cart product title.
+
+== 0.9.14 | 11th May 2021 ==
+* Add: Option for menu icon to switch sides, have a custom size and color.
+* Add: Mega menu custom width option.
+* Add: Hook option for Archive Hero Title.
+* Update: Menu options admin css.
+* Fix: Issue with php log notice.
+* Fix: Issue with complex pages and hooking in inner content.
+* Fix: Issue with all product subscription addon and ajax add to cart.
+
+== 0.9.13 | 6th April 2021 ==
+* Update: Allow ithemes toolkit/agency activations.
+* Fix: Issue with php notice.
+* Fix: Issue with Brizy if not enabled for elements post type.
+
+== 0.9.12 | 18th March 2021 ==
+* Fix: Mobile Sticky Issue.
+
+== 0.9.11 | 2nd March 2021 ==
+* Add: Option for Product Sticky Add To Cart on Bottom.
+* Fix: Possible issue with variable products and ajax add to cart.
+* Fix: Issue with elementor on products.
+* Fix: Possible issue with elements and modal.
+
+== 0.9.10 | 25th February 2021 ==
+* Add: Option to hook into woocommerce search.
+* Fix: Missing Changelog
+* Fix: Issue with safari and infinite scroll.
+
+== 0.9.9 | 1st February 2021 ==
+* Fix: Paged issue for elements.
+* Tweek: Fixed Top element JS for mobile.
+
+== 0.9.8 | 27th January 2021 ==
+* Fix: Polylang issue.
+
+== 0.9.7 | 25th January 2021 ==
+* Fix: WPML issue with header inputs.
+* Update: Issue with link style off canvas widget area.
+
+== 0.9.6 | 1st January 2021 ==
+* Fix: issue with element expires not following timezone of the site.
+* Fix: issue with element hook after and before inner title not working.
+
+== 0.9.5 | 22nd December 2020 ==
+* Add: Inside the content hooks for adding after paragraphs, etc.
+* Add: Fixed element width, placement settings.
+* Add: Hook to replace sidebar (conditional sidebars now possible).
+* Update: Mobile Account labels.
+* Fix: Bug sticky add to cart and products with no price.
+* Fix: Change Single add to cart with ajax so it doesn’t run on none core products.
+* Fix: Issue with Infinite scroll and elements hooked into archive.
+
+== 0.9.0 | 17th November 2020 ==
+* Add: Archive featured image for custom archive page headers.
+* Add: Shortcode option to render Kadence breadcrumbs.
+* Update: Elements hooks with a few more hooks.
+* Fix: Possible issue where plugin would load when it shouldn't.
+* Fix: Infinite scroll js error if no pagination.
+* Fix: Sticky Bottom showing when it shouldn't.
+
+== 0.8.9 | 4th November 2020 ==
+* Add: Local Gravatars Addon.
+* Add: Element option for all must be true in show on settings.
+* Add: Elements can select for tutorLMS lessons as a show option.
+* Update: Plugin Updater.
+* Update: Sticky with modal fixes.
+* Update: Sticky add to cart, if variable product link to form.
+* Fix: Registration link priority.
+
+== 0.8.8 | 16th October 2020 ==
+* Add: Exclude options for Elements.
+* Update: Mobile Transparent Header Account colors.
+* Update: Add notice for unset element settings.
+* Fix: Mobile header html2 settings.
+* Fix: output of code element breaking some valid JS.
+
+== 0.8.7 | 14th October 2020 ==
+* Update: Beaver Builder Support in elements.
+* Update: Mobile Contact items vertical spacing controls. 
+
+== 0.8.6 | 6th October 2020 ==
+* Update: translation files.
+
+== 0.8.5 | 6th October 2020 ==
+* Fix: Bug with sticky add to cart in iPad Pro
+* Update: Obscure license email.
+* Update: Pot translation file.
+
+== 0.8.4 | 25th September 2020 ==
+* Fix: Bug with mega menu and fade animations.
+
+== 0.8.3 | 25th September 2020 ==
+* Add: Initial Woocommerce Single Product Page Sticky add to cart.
+* Add: Element can be Fixed to bottom on scroll.
+* Fix: Border showing on account toggle.
+
+== 0.8.2 | 21st September 2020 ==
+* Add: Element can be Fixed above transparent header.
+* Add: Element can be Fixed to bottom without adding spacing.
+* Fix: Mega Menu Dropdown issue with fade up.
+
+== 0.8.1 | 15th September 2020 ==
+* Update: license api.
+
+== 0.8.0 | 16th September 2020 ==
+* Add: Infinite Scroll.
+* Add: Fixed Elements.
+* Add: Author as a select by option for elements.
+* Add: Device display settings for elements.
+* Add: Ajax Add to cart for single product page.
+* Add: Option when selecting more then one group to force a must match all.
+* Add: Hook to Replace login modal in elements.
+* Add: Learn Dash hooks for elements.
+* Add: Before and After gallery hook for woocommerce.
+* Add: Before and After 404 inner content hook for elements.
+* Update: Rename 3 and 4 navigation labels.
+* Update: Sanitize Options.
+* Fix: Select Overlap in Elements when selecting terms.
+* Fix: Select Post styling if kadence blocks pro is not installed.
+* Fix: Issue with mega breaking columns.
+* Fix: Replace Footer hook not working.
+* Fix: Issue with menu fade up, and mega sub menus.
+
+== 0.7.0 ==
+* Add: Mega Menu.
+* Add: Replace 404 Element Hook.
+* Fix: issue with Header Account Links.
+* Fix: Scripts Labels.
+
+== 0.6.7 ==
+* Add: Auto Paragraph settings to html elements.
+* Add: Mobile Popout, login popup to elements display options.
+* Add: Header/Footer Scripts to customizer.
+* Fix: Brizy not showing how it should.
+* Fix: Blocks not loading google fonts in a hooked element.
+* Fix: shortcode not rendering in the sidebar.
+* Fix: Widget settings not loading in customizer until after reload.
+* Fix: Issue with hooked elements link.
+* Fix: Elements not showing active in single edit page.
+
+== 0.6.6 ==
+* Fix: PHP7.2 issue.
+* Fix: Filter popup settings not sticking.
+
+== 0.6.5 ==
+* Update Early Beta Release.
+* Fix some issues with Header Addons and add a couple more.
+* Add in hooked elements. (header builder for this coming)
+* Add in Woocommerce extras Cart Flyout when product added, custom shop page, filter sidebar for archives.
+* Add: Menu Addon ( Mega menu options coming )
+
+== 0.5.0 ==
+* Initial Early Beta Release.

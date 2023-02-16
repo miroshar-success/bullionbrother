@@ -1,0 +1,6 @@
+td.product-name .backorder_notification{
+    display: none;
+}
+td.product-name .woolentor-backorder-notification.backorder_notification{
+    display: block;
+}

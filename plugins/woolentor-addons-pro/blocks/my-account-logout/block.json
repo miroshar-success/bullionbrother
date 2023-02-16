@@ -1,0 +1,175 @@
+{
+  "name": "woolentor/my-account-logout",
+  "category": "woolentor-myaccount",
+  "title": "WL: My Account Logout",
+  "description": "Display My Account logout.",
+  "keywords": [
+    "woolentor",
+    "My Account",
+    "Account",
+    "Account logout",
+    "logout"
+  ],
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "blockUniqId": {
+      "type": "string",
+      "default": ""
+    },
+    "areaPadding": {
+      "type": "object",
+      "default": {
+        "device": "desktop"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} { padding: {{areaPadding}} !important; }"
+      }
+    },
+    "areaMargin": {
+      "type": "object",
+      "default": {
+        "device": "desktop"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} { margin: {{areaMargin}} !important; }"
+      }
+    },
+    "areaBGProperty": {
+      "type": "object",
+      "default": {
+        "imageId": null,
+        "imageUrl": "",
+        "position": "",
+        "attachment": "",
+        "repeat": "",
+        "size": ""
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}"
+      }
+    },
+    "buttonLabel": {
+      "type": "string"
+    },
+    "logoutBtnColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-customer-logout a { color: {{logoutBtnColor}}; }"
+      }
+    },
+    "logoutBtnBGColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-customer-logout a { background-color: {{logoutBtnBGColor}}; }"
+      }
+    },
+    "logoutBtnSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-customer-logout a { font-size: {{logoutBtnSize}}; }"
+      }
+    },
+    "logoutBtnBorderType": {
+      "type": "string",
+      "default": "",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-customer-logout a { border-style: {{logoutBtnBorderType}} !important; }"
+      }
+    },
+    "logoutBtnBorderWidth": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "logoutBtnBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-customer-logout a { border-width: {{logoutBtnBorderWidth}} !important; }"
+      }
+    },
+    "logoutBtnBorderColor": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "logoutBtnBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-customer-logout a { border-color: {{logoutBtnBorderColor}} !important; }"
+      }
+    },
+    "logoutBtnBorderRadius": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-customer-logout a { border-radius: {{logoutBtnBorderRadius}} !important; }"
+      }
+    },
+    "logoutBtnPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-customer-logout a { padding: {{logoutBtnPadding}}; }"
+      }
+    },
+    "logoutAlignment": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-customer-logout{ text-align: {{logoutAlignment}}; }"
+      }
+    },
+    "logoutBtnHoverColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-customer-logout a:hover{ color: {{logoutBtnHoverColor}}; }"
+      }
+    },
+    "logoutBtnHoverBGColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-customer-logout a:hover { background-color: {{logoutBtnHoverBGColor}}; }"
+      }
+    },
+    "logoutBtnHoverBorderColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-customer-logout a:hover { border-color: {{logoutBtnHoverBorderColor}} !important; }"
+      }
+    }
+  }
+}

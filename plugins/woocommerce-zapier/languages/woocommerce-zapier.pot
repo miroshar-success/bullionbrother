@@ -1,0 +1,744 @@
+# Copyright (C) 2022 OM4 Software
+# This file is distributed under the same license as the WooCommerce Zapier plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Zapier 2.3.1\n"
+"Report-Msgid-Bugs-To: pluginsupport@om4.io\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-10-13T07:42:22+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: woocommerce-zapier\n"
+
+#. Plugin Name of the plugin
+#: src/AdminUI.php:193
+#: src/AdminUI.php:208
+#: src/Privacy.php:21
+#: src/Settings.php:74
+#: src/SystemStatus/UI.php:102
+msgid "WooCommerce Zapier"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://woocommerce.com/products/woocommerce-zapier/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Integrates WooCommerce with <a href=\"https://zapier.com/\" target=\"_blank\">Zapier</a>. Send WooCommerce data to 5000+ cloud services. Create or update WooCommerce data from 5000+ cloud services via Zaps."
+msgstr ""
+
+#. Author of the plugin
+msgid "OM4 Software"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://om4.io/"
+msgstr ""
+
+#: legacy/Admin/FeedUI.php:62
+msgid "To configure your Legacy Zapier Feed, complete the information below."
+msgstr ""
+
+#. Translators: %s: URL of the WooCommerce Zapier documentation.
+#: legacy/Admin/FeedUI.php:64
+msgid "Note: The setup process is quite involved, so we recommend <a href=\"%s\" target=\"_blank\" title=\"(Opens in a new window)\">reading the documentation</a>."
+msgstr ""
+
+#. Translators: %s: URL of the Triggers feature in the documentation.
+#: legacy/Admin/FeedUI.php:66
+msgid "<a href=\"%s\" target=\"_blank\" title=\"(Opens in a new window)\">Please click here for a description of each Trigger</a>."
+msgstr ""
+
+#: legacy/Admin/FeedUI.php:71
+msgid "Trigger"
+msgstr ""
+
+#: legacy/Admin/FeedUI.php:79
+msgid "Webhook URL"
+msgstr ""
+
+#. Translators: $s: Webhook URL Example.
+#: legacy/Admin/FeedUI.php:81
+msgid "The URL to your Zapier webhook. This information is provided by Zapier when you create a new Zap on the Zapier website.<br />Example: <code>%s</code>"
+msgstr ""
+
+#: legacy/Admin/FeedUI.php:89
+msgid "Title"
+msgstr ""
+
+#: legacy/Admin/FeedUI.php:90
+msgid "Descriptive title/name of this Zapier Feed.<br />Should typically match the name of your Zap on the Zapier website."
+msgstr ""
+
+#: legacy/Admin/FeedUI.php:120
+#: legacy/Admin/FeedUI.php:501
+#: legacy/Plugin.php:154
+msgid "Legacy Feeds"
+msgstr ""
+
+#: legacy/Admin/FeedUI.php:131
+#: legacy/Plugin.php:157
+msgid "Edit Legacy Feed"
+msgstr ""
+
+#: legacy/Admin/FeedUI.php:146
+msgid "Legacy Feed Details"
+msgstr ""
+
+#: legacy/Admin/FeedUI.php:219
+msgid "This Zapier Feed is active and ready to receive real data."
+msgstr ""
+
+#: legacy/Admin/FeedUI.php:222
+msgid "This Zapier Feed is inactive. No real data will be sent to this feed until it is made active (published)."
+msgstr ""
+
+#: legacy/Admin/FeedUI.php:302
+msgid "This Zapier Feed cannot be activated until this issue is resolved."
+msgid_plural "This Zapier Feed cannot be made active until these issues are resolved."
+msgstr[0] ""
+msgstr[1] ""
+
+#. Translators: %1$d: number of Zapier cron tasks. %2$s: URL of the WooCommerce Zapier documentation.
+#: legacy/Admin/SystemStatus.php:57
+msgid "%1$d pending Legacy cron task. Your WordPress cron may not be working correctly. Please see <a href=\"%2$s\">here for troubleshooting steps</a>."
+msgstr ""
+
+#. Translators: %1$d: number of Zapier cron tasks. %2$s: URL of the WooCommerce Zapier documentation.
+#: legacy/Admin/SystemStatus.php:62
+msgid "%1$d pending Legacy cron tasks. Your WordPress cron may not be working correctly. Please see <a href=\"%2$s\">here for troubleshooting steps</a>."
+msgstr ""
+
+#: legacy/Admin/SystemStatus.php:66
+msgid "Legacy Cron Tasks"
+msgstr ""
+
+#: legacy/Admin/SystemStatus.php:75
+msgid "Active Legacy Feeds"
+msgstr ""
+
+#. Translators: 1: Count of the active Legacy Zapier Feeds. 2: Migration Deadline. 3: Opening Link HTML Tag. 4: Closing Link HTML Tag.
+#: legacy/Admin/SystemStatus.php:78
+msgid "%1$d active Legacy Feed(s) need to be migrated before %2$s. %3$sMigrate Your Zaps Now%4$s"
+msgstr ""
+
+#. Translators: %d: Number of the current Zapier Feed.
+#: legacy/Admin/SystemStatus.php:93
+msgid "Legacy Feed #%d"
+msgstr ""
+
+#. Translators: 1: Feed Name. 2: Trigger Name. 3: Webhook URL.
+#: legacy/Admin/SystemStatus.php:96
+msgid ""
+"%1$s<br />\n"
+"- Trigger: %2$s<br />\n"
+"- Webhook URL: %3$s"
+msgstr ""
+
+#: legacy/Feed/Feed.php:315
+msgid "<strong>Title:</strong> A title is required."
+msgstr ""
+
+#: legacy/Feed/Feed.php:319
+msgid "<strong>Title:</strong> Another Zapier Feed with this title already exists. Please choose a unique Title."
+msgstr ""
+
+#: legacy/Feed/Feed.php:323
+msgid "Invalid Trigger."
+msgstr ""
+
+#. Translators: %s: URL of the example WebbHook.
+#: legacy/Feed/Feed.php:328
+msgid "<strong>Webhook URL:</strong> Invalid Webhook URL. Zapier Webhook URLs should be in the following format: <code>%s</code>"
+msgstr ""
+
+#: legacy/Feed/Feed.php:334
+msgid "Another Zapier Feed with this Trigger and Webhook URL already exists."
+msgstr ""
+
+#. Translators: %1$s: URL of the Zapier WebbHook. %2$s: Incoming error message. %3$s: URL of the WooCommerce Zapier.
+#: legacy/Feed/Feed.php:344
+msgid "There was an error communicating with your Zapier Webhook (%1$s).<br />Error Message: %2$s<br />Please try again, and see <a href=\"%3$s\">here for troubleshooting steps</a>."
+msgstr ""
+
+#: legacy/Plugin.php:155
+msgid "Legacy Feed"
+msgstr ""
+
+#: legacy/Plugin.php:156
+msgid "Add New Legacy Feed"
+msgstr ""
+
+#: legacy/Plugin.php:158
+msgid "New Legacy Feed"
+msgstr ""
+
+#: legacy/Plugin.php:159
+msgid "View Legacy Feed"
+msgstr ""
+
+#: legacy/Plugin.php:160
+msgid "Search Legacy Feeds"
+msgstr ""
+
+#: legacy/Plugin.php:161
+msgid "No Legacy Feeds found"
+msgstr ""
+
+#: legacy/Plugin.php:162
+msgid "No Legacy Feeds found in Trash"
+msgstr ""
+
+#. Translators: %1$d: HTTP response code. %2$s: HTTP response message.
+#: legacy/Trigger/Base.php:402
+msgid "HTTP %1$d (%2$s)"
+msgstr ""
+
+#: legacy/Trigger/Base.php:676
+msgid "Asynchronous sending is no longer supported and will be removed in a future version"
+msgstr ""
+
+#: legacy/Trigger/Customer/NewCustomer.php:27
+msgid "New Customer"
+msgstr ""
+
+#: legacy/Trigger/Customer/NewCustomer.php:32
+msgid "Triggers if a customer chooses to register for an account."
+msgstr ""
+
+#: legacy/Trigger/Customer/NewCustomer.php:34
+msgid "<br />Occurs if a customer registers during the checkout process when placing an order."
+msgstr ""
+
+#: legacy/Trigger/Customer/NewCustomer.php:38
+msgid "<br />Occurs if a customer registers via the my account page."
+msgstr ""
+
+#. Translators: %s: URL of the WooCommerce Settings page.
+#: legacy/Trigger/Customer/NewCustomer.php:44
+msgid "<br />Warning: this trigger can only occur if your <a href=\"%s\">WooCommerce settings</a> have the <em>Enable registration on the \"Checkout\" page</em> and/or <em>Enable registration on the \"My Account\" page</em> setting(s) enabled."
+msgstr ""
+
+#. Translators: %1$s: The URL that of the Edit Feed screen. %2$s: The Title/Name of this Zapier Feed.
+#: legacy/Trigger/Order/Base.php:443
+msgid "Order sent to Zapier via the <a href=\"%1$s\">%2$s</a> Zapier feed."
+msgstr ""
+
+#. Translators: %1$s: The URL that of the Edit Feed screen. %2$s: The Title/Name of this Zapier Feed.
+#: legacy/Trigger/Order/Base.php:447
+msgid "Order sent to Zapier via the <a href=\"%1$s\">%2$s</a> Zapier feed after %3$d attempts."
+msgstr ""
+
+#. Translators: %1$s: The title of this trigger. %2$s: Name of this action.
+#: legacy/Trigger/Order/Base.php:451
+msgctxt "Order trigger details."
+msgid "<br ><br />Trigger:<br />%1$s<br />%2$s"
+msgstr ""
+
+#: legacy/Trigger/Order/NewOrder.php:39
+msgid "New Order"
+msgstr ""
+
+#: legacy/Trigger/Order/NewOrder.php:41
+msgid "Triggers when an order's payment is completed, or when an order has its status changed to Processing."
+msgstr ""
+
+#: legacy/Trigger/Order/StatusChange.php:27
+msgid "New Order Status Change"
+msgstr ""
+
+#. Translators: %1$s: URL of the Advanced usage in the WooCommerce Zapier documentation.
+#: legacy/Trigger/Order/StatusChange.php:30
+msgid "Advanced: triggers every time an order changes status.<br />Consider using with a Filter.<br />See the <a href=\"%1$s\" target=\"_blank\">Advanced Zaps documentation</a> for more information."
+msgstr ""
+
+#. Translators: %1$s: URL that of the Edit Feed screen. %2$s: Title/Name of this Zapier Feed.
+#: legacy/Trigger/Subscription/Base.php:159
+msgid "Subscription sent to Zapier via the <a href=\"%1$s\">%2$s</a> Zapier feed."
+msgstr ""
+
+#. Translators: %1$s: URL that of the Edit Feed screen. %2$s: Title/Name of this Zapier Feed.
+#: legacy/Trigger/Subscription/Base.php:163
+msgid "Subscription sent to Zapier via the <a href=\"%1$s\">%2$s</a> Zapier feed after %3$d attempts."
+msgstr ""
+
+#. Translators: %1$s: Title of this trigger. %2$s: Name of this Zapier Action.
+#: legacy/Trigger/Subscription/Base.php:167
+msgctxt "Subscription trigger details."
+msgid "<br ><br />Trigger:<br />%1$s<br />%2$s"
+msgstr ""
+
+#: legacy/Trigger/Subscription/NewSubscription.php:20
+msgid "Subscription Created"
+msgstr ""
+
+#: legacy/Trigger/Subscription/NewSubscription.php:22
+msgid "Triggers when a subscription is created."
+msgstr ""
+
+#: legacy/Trigger/Subscription/Renewal.php:20
+msgid "Subscription Renewed"
+msgstr ""
+
+#: legacy/Trigger/Subscription/Renewal.php:22
+msgid "Triggers when a subscription renewal payment completes successfully."
+msgstr ""
+
+#: legacy/Trigger/Subscription/RenewalFailed.php:20
+msgid "Subscription Renewal Failed"
+msgstr ""
+
+#: legacy/Trigger/Subscription/RenewalFailed.php:22
+msgid "Triggers when a subscription renewal payment fails."
+msgstr ""
+
+#: legacy/Trigger/Subscription/StatusChange.php:21
+msgid "Subscription Status Changed"
+msgstr ""
+
+#. Translators: %1$s: URL of the Advanced configuration on the WooCommerce Zapier documentation.
+#: legacy/Trigger/Subscription/StatusChange.php:24
+msgid "Advanced: triggers every time a subscription changes status.<br />Consider using with a Filter.<br />See the <a href=\"%1$s\" target=\"_blank\">Advanced Zaps documentation</a> for more information."
+msgstr ""
+
+#: src/AdminUI.php:100
+#: src/AdminUI.php:193
+#: src/Settings.php:31
+msgid "Zapier"
+msgstr ""
+
+#: src/AdminUI.php:259
+#: src/Plugin.php:181
+msgid "Task History"
+msgstr ""
+
+#: src/API/Controller/PingController.php:88
+msgid "Sorry, SSL is not configured correctly."
+msgstr ""
+
+#: src/API/Controller/PingController.php:101
+#: src/Auth/SessionAuthenticate.php:185
+msgid "This user does not have the correct permissions."
+msgstr ""
+
+#: src/API/Controller/PingController.php:109
+#: src/API/Controller/WebhookTopicsController.php:133
+msgid "Sorry, you cannot list resources."
+msgstr ""
+
+#: src/API/Controller/WebhookController.php:67
+msgid "Webhook topic is required and must be valid."
+msgstr ""
+
+#: src/API/Controller/WebhookTopicsController.php:78
+msgid "The resource type."
+msgstr ""
+
+#: src/API/Controller/WebhookTopicsController.php:107
+msgid "The unique key (identifier) for the webhook topic."
+msgstr ""
+
+#: src/API/Controller/WebhookTopicsController.php:112
+msgid "A friendly name for the webhook topic."
+msgstr ""
+
+#: src/Auth/SessionAuthenticate.php:168
+msgid "The username and/or password you supplied is incorrect."
+msgstr ""
+
+#: src/Auth/SessionAuthenticate.php:231
+msgid "405 Method not Allowed"
+msgstr ""
+
+#: src/Auth/SessionAuthenticate.php:240
+#: src/Auth/SessionAuthenticate.php:252
+#: src/Auth/SessionAuthenticate.php:264
+#: src/Auth/SessionAuthenticate.php:276
+#: src/Auth/SessionAuthenticate.php:288
+msgid "400 Bad Request"
+msgstr ""
+
+#: src/Plugin.php:180
+msgid "Settings"
+msgstr ""
+
+#: src/Plugin.php:182
+msgid "Docs"
+msgstr ""
+
+#: src/Plugin.php:183
+msgid "Support"
+msgstr ""
+
+#: src/Plugin.php:207
+msgid "WooCommerce Zapier requires WooCommerce. Please install and activate WooCommerce and try again."
+msgstr ""
+
+#. Translators: %s: WooCommerce Version.
+#: src/Plugin.php:224
+msgid "WooCommerce Zapier requires WooCommerce version %s or later. Please update WooCommerce."
+msgstr ""
+
+#. Translators: 1: Plugin Name. 2: Supported Version Number. 3: Plugin Name.
+#: src/Plugin/Base.php:135
+msgid "WooCommerce Zapier is only compatible with %1$s version %2$s or later. Please update %3$s."
+msgstr ""
+
+#: src/Plugin/Bookings/BookingResource.php:60
+msgid "Booking"
+msgstr ""
+
+#: src/Plugin/Bookings/BookingResource.php:109
+msgid "Booking created"
+msgstr ""
+
+#: src/Plugin/Bookings/BookingResource.php:125
+msgid "Booking ordered"
+msgstr ""
+
+#: src/Plugin/Bookings/BookingResource.php:141
+msgid "Booking deleted"
+msgstr ""
+
+#: src/Plugin/Bookings/BookingResource.php:157
+msgid "Booking restored"
+msgstr ""
+
+#: src/Plugin/Bookings/BookingResource.php:173
+msgid "Booking status changed"
+msgstr ""
+
+#: src/Plugin/Bookings/BookingResource.php:189
+msgid "Booking cancelled"
+msgstr ""
+
+#: src/Plugin/Bookings/BookingResource.php:207
+msgid "Booking updated"
+msgstr ""
+
+#: src/Plugin/Subscriptions/SubscriptionResource.php:42
+msgid "Subscription"
+msgstr ""
+
+#: src/Plugin/Subscriptions/SubscriptionResource.php:86
+msgid "Subscription status changed"
+msgstr ""
+
+#: src/Plugin/Subscriptions/SubscriptionResource.php:92
+msgid "Subscription renewed"
+msgstr ""
+
+#: src/Plugin/Subscriptions/SubscriptionResource.php:98
+msgid "Subscription renewal failed"
+msgstr ""
+
+#: src/Privacy.php:31
+msgid "By using this extension, you may be sharing personal data with an external service (Zapier). Customer information provided during the purchase (checkout) process is sent to Zapier if you have one or more Zapier Feeds configured."
+msgstr ""
+
+#: src/Privacy.php:32
+msgid "Please see the <a href=\"https://zapier.com/privacy/\">Zapier Privacy Policy</a> for more details."
+msgstr ""
+
+#: src/Privacy.php:33
+msgid "Once this personal information is sent to Zapier, it is then sent to various third party services. You should list the service(s) that are used in the Action part(s) of your WooCommerce Zaps, so that your customers understand which third party services their personal data is sent to after it is sent to Zapier."
+msgstr ""
+
+#: src/Settings.php:76
+msgid "Configure your WooCommerce Zapier integration here."
+msgstr ""
+
+#: src/Settings.php:80
+msgid "Logging"
+msgstr ""
+
+#: src/Settings.php:81
+msgid "Enable Detailed Logging"
+msgstr ""
+
+#: src/Settings.php:82
+msgid "By default, only unexpected errors are logged.<br />Enabling this option will log additional information that can assist in troubleshooting problems or issues."
+msgstr ""
+
+#: src/SystemStatus/UI.php:138
+msgid "Database Version"
+msgstr ""
+
+#: src/SystemStatus/UI.php:143
+msgid "Detailed Logging Enabled"
+msgstr ""
+
+#. Translators: 1: Opening Link HTML Tag. 2: Closing Link HTML Tag.
+#: src/SystemStatus/UI.php:144
+#: src/SystemStatus/UI.php:150
+#: src/SystemStatus/UI.php:169
+msgid "Yes"
+msgstr ""
+
+#: src/SystemStatus/UI.php:144
+#: src/SystemStatus/UI.php:150
+msgid "No"
+msgstr ""
+
+#: src/SystemStatus/UI.php:148
+msgid "Legacy Mode Disabled"
+msgstr ""
+
+#: src/SystemStatus/UI.php:165
+msgid "SSL"
+msgstr ""
+
+#: src/SystemStatus/UI.php:166
+msgid "Whether or not your store passes the WordPress is_ssl() check. This is required in order for authentication to work correctly."
+msgstr ""
+
+#. Translators: 1: Opening Link HTML Tag. 2: Closing Link HTML Tag.
+#: src/SystemStatus/UI.php:169
+msgid "No. Authentication will not work until SSL is configured correctly. Please %1$ssee here for details on how to fix this%2$s."
+msgstr ""
+
+#: src/SystemStatus/UI.php:174
+msgid "REST API Authentication Key(s)"
+msgstr ""
+
+#: src/SystemStatus/UI.php:175
+msgid "The number of Zapier-specific WooCommerce REST API Authentication Keys."
+msgstr ""
+
+#: src/SystemStatus/UI.php:190
+msgid "Task History Record Count"
+msgstr ""
+
+#: src/SystemStatus/UI.php:191
+msgid "Indicates how many times that data has been sent to from WooCommerce to a Zapier Zap, and how many times data has been sent to WooCommerce from a Zapier Zap."
+msgstr ""
+
+#. Translators: 1: Webhook ID.
+#: src/SystemStatus/UI.php:221
+msgid "Webhook #%1$s"
+msgstr ""
+
+#. Translators: 1: Webhook Name. 2: Webhook Status. 3: Webhook Topic. 4: Webhook Delivery Count.
+#: src/SystemStatus/UI.php:225
+msgid ""
+"%1$s<br />\n"
+"- Status: %2$s<br />\n"
+"- Trigger: %3$s<br />\n"
+"- Delivery Count: %4$s"
+msgstr ""
+
+#: src/SystemStatus/UI.php:248
+msgid "Deleted Webhook Delivery Count"
+msgstr ""
+
+#. Translators: 1: Resource Name.
+#: src/SystemStatus/UI.php:269
+msgid "%1$s Action Count"
+msgstr ""
+
+#. Translators: 1: Resource Name.
+#: src/SystemStatus/UI.php:272
+msgid "The number of times that a %1$s has been created or updated in WooCommerce from a Zapier Zap."
+msgstr ""
+
+#: src/TaskHistory/Listener/APIListenerTrait.php:38
+msgid "Created via Zapier"
+msgstr ""
+
+#: src/TaskHistory/Listener/APIListenerTrait.php:62
+msgid "Deleted via Zapier"
+msgstr ""
+
+#: src/TaskHistory/Listener/APIListenerTrait.php:83
+msgid "Updated via Zapier"
+msgstr ""
+
+#. Translators: 1: Error Code. 2: Error Message.
+#: src/TaskHistory/Listener/TriggerListener.php:104
+msgid "Error sending to Zapier. Error Code: %1$s. Error Message: %2$s"
+msgstr ""
+
+#. Translators: 1: Trigger Rule Name.
+#: src/TaskHistory/Listener/TriggerListener.php:117
+msgid "Sent to Zapier successfully via the <em>%1$s</em> trigger."
+msgstr ""
+
+#: src/TaskHistory/ListTable.php:170
+msgid "Date/Time"
+msgstr ""
+
+#: src/TaskHistory/ListTable.php:172
+msgid "Resource"
+msgstr ""
+
+#: src/TaskHistory/ListTable.php:174
+msgid "Message"
+msgstr ""
+
+#. Translators: Date/time column output for a Task. 1: Date Format, 2: Time Format.
+#: src/TaskHistory/ListTable.php:216
+msgctxt "Task date/time."
+msgid "%1$s %2$s"
+msgstr ""
+
+#. Translators: 1: Message. 2: Webhook Topic Name.
+#: src/TaskHistory/ListTable.php:238
+msgid "%1$s via the <em>%2$s</em> trigger"
+msgstr ""
+
+#. Translators: 1: Resource Edit URL. 2: Resource Name. 3: Resource ID. 4: Resource Description.
+#: src/TaskHistory/ListTable.php:276
+msgid "<a href=\"%1$s\">%2$s #%3$d (%4$s)</a>"
+msgstr ""
+
+#. Translators: 1: Resource Name. 2: Resource ID.
+#: src/TaskHistory/ListTable.php:280
+msgid "%1$s #%2$d"
+msgstr ""
+
+#: src/TaskHistory/ListTable.php:330
+msgid "No history records found."
+msgstr ""
+
+#: src/TaskHistory/TaskDataStore.php:85
+msgid "Invalid task history: no ID."
+msgstr ""
+
+#: src/TaskHistory/TaskDataStore.php:98
+msgid "Invalid task history record: not found."
+msgstr ""
+
+#: src/TaskHistory/UI.php:85
+msgid "WooCommerce Zapier History"
+msgstr ""
+
+#. Translators: Days for storing Zapier Task History.
+#: src/TaskHistory/UI.php:104
+msgid "This screen shows a history of your WooCommerce store's integration with Zapier."
+msgstr ""
+
+#. Translators: Days for storing Zapier Task History.
+#: src/TaskHistory/UI.php:105
+msgid "This includes any time that your WooCommerce store's data is sent to one of your Zapier Zaps, or any time that Zapier creates or updates data in your WooCommerce store via one of your Zaps."
+msgstr ""
+
+#. Translators: URL to Zapier Task History.
+#: src/TaskHistory/UI.php:107
+msgid "You can also <a href=\"%s\">view your Task History at zapier.com</a>"
+msgstr ""
+
+#: src/WooCommerceResource/Coupon/CouponResource.php:35
+msgid "Coupon"
+msgstr ""
+
+#: src/WooCommerceResource/Customer/CustomerResource.php:22
+msgid "Customer"
+msgstr ""
+
+#. Translators: WooCommerce customer name. 1: Customer First Name. 2: Customer Last Name.
+#: src/WooCommerceResource/Customer/CustomerResource.php:52
+msgctxt "Resource definition description."
+msgid "%1$s %2$s"
+msgstr ""
+
+#: src/WooCommerceResource/Order/OrderResource.php:23
+msgid "Order"
+msgstr ""
+
+#: src/WooCommerceResource/Order/OrderResource.php:34
+msgid "Order status changed"
+msgstr ""
+
+#: src/WooCommerceResource/Order/OrderResource.php:40
+msgid "Order paid"
+msgstr ""
+
+#: src/WooCommerceResource/Product/ProductResource.php:22
+msgid "Product"
+msgstr ""
+
+#: templates/notices/legacy-feeds-deleted.php:14
+msgid "Congratulations"
+msgstr ""
+
+#: templates/notices/legacy-feeds-deleted.php:15
+msgid "You have just deleted your last Legacy Zapier Feed."
+msgstr ""
+
+#: templates/notices/legacy-feeds-deleted.php:16
+#: templates/notices/upgraded-to-version-2.php:25
+msgid "Next Steps"
+msgstr ""
+
+#: templates/notices/legacy-feeds-deleted.php:17
+msgid "After clicking the button below, the Legacy Feeds interface will no longer be available. You will then manage your Zaps entirely via the Zapier.com Zap editor."
+msgstr ""
+
+#: templates/notices/legacy-feeds-deleted.php:22
+msgid "OK"
+msgstr ""
+
+#: templates/notices/new-user.php:14
+msgid "Welcome to WooCommerce Zapier"
+msgstr ""
+
+#: templates/notices/new-user.php:15
+msgid "The next step is to create your first Zap. Please click the button below to get started."
+msgstr ""
+
+#: templates/notices/new-user.php:22
+msgid "Learn how to Create a Zap"
+msgstr ""
+
+#: templates/notices/upgraded-to-version-2.php:14
+msgid "Welcome to WooCommerce Zapier 2.0"
+msgstr ""
+
+#: templates/notices/upgraded-to-version-2.php:15
+msgid "Thank you for updating to the latest version of WooCommerce Zapier."
+msgstr ""
+
+#: templates/notices/upgraded-to-version-2.php:16
+msgid "What's New?"
+msgstr ""
+
+#: templates/notices/upgraded-to-version-2.php:18
+msgid "<strong>Two-Way Integration:</strong> Now with 15 brand new Actions and Searches. You can now use Zaps to create new and update existing Coupon, Customer, Product, Order or Subscription data in WooCommerce."
+msgstr ""
+
+#: templates/notices/upgraded-to-version-2.php:19
+msgid "<strong>New Triggers:</strong> Four times (4x) the number of available trigger events. This gives you four times as many reasons to send your WooCommerce store data to Zapier."
+msgstr ""
+
+#: templates/notices/upgraded-to-version-2.php:20
+msgid "<strong>Simplified Zap Creation:</strong> Zaps are now created entirely in the Zapier.com Zap editor interface. No need to create Zap specific Zapier Feeds in WooCommerce. "
+msgstr ""
+
+#: templates/notices/upgraded-to-version-2.php:21
+msgid "<strong>New Data Types:</strong> Adds support for Products, Coupons and Bookings, in addition to the already supported Orders, Customers and Subscriptions"
+msgstr ""
+
+#: templates/notices/upgraded-to-version-2.php:22
+msgid "<strong>Powered by the REST API:</strong> Giving you access to many more data fields as well as more robust and reliable data delivery."
+msgstr ""
+
+#: templates/notices/upgraded-to-version-2.php:26
+msgid "Using Legacy Zapier Feeds is no longer supported."
+msgstr ""
+
+#: templates/notices/upgraded-to-version-2.php:27
+msgid " Your existing Zaps and Feeds need to be re-built using new REST API based Zaps."
+msgstr ""
+
+#: templates/notices/upgraded-to-version-2.php:34
+msgid "Learn how to Migrate a Zap"
+msgstr ""
+
+#. Translators: 1: Minimum supported PHP Version. 2: Currently running PHP version.
+#: woocommerce-zapier.php:51
+msgid "WooCommerce Zapier is disabled because it is only compatible with PHP version %1$s or later. Please contact your web host to upgrade from PHP version %2$s to a newer version. We recommend using PHP 7.4 or greater."
+msgstr ""

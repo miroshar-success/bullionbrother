@@ -1,0 +1,26 @@
+<wpml-config>
+    <admin-texts>
+        <key name="woolentor_woo_template_tabs">
+            <key name="singleproductpage"/>
+            <key name="productarchivepage"/>
+            <key name="productallarchivepage"/>
+            <key name="productcartpage"/>
+            <key name="productemptycartpage"/>
+            <key name="productcheckoutpage"/>
+            <key name="productcheckouttoppage"/>
+            <key name="productthankyoupage"/>
+            <key name="productmyaccountpage"/>
+            <key name="productmyaccountloginpage"/>
+            <key name="productquickview"/>
+            <key name="mini_cart_layout"/>
+        </key>
+        <key name="woolentor_rename_label_tabs">
+            <key name="wl_shop_add_to_cart_txt"/>
+            <key name="wl_add_to_cart_txt"/>
+            <key name="wl_description_tab_menu_title"/>
+            <key name="wl_additional_information_tab_menu_title"/>
+            <key name="wl_reviews_tab_menu_title"/>
+            <key name="wl_checkout_placeorder_btn_txt"/>
+        </key>
+    </admin-texts>
+</wpml-config>

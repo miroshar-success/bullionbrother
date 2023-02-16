@@ -1,0 +1,579 @@
+{
+  "name": "woolentor/checkout-login-form",
+  "category": "woolentor-checkout",
+  "title": "WL : Checkout Login Form",
+  "description": "Display Checkout Login Form.",
+  "keywords": [
+    "woolentor",
+    "checkout form",
+    "login form",
+    "login field",
+    "checkout"
+  ],
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "blockUniqId": {
+      "type": "string",
+      "default": ""
+    },
+    "areaPadding": {
+      "type": "object",
+      "default": {
+        "device": "desktop"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} { padding: {{areaPadding}} !important; }"
+      }
+    },
+    "areaBGProperty": {
+      "type": "object",
+      "default": {
+        "imageId": null,
+        "imageUrl": "",
+        "position": "",
+        "attachment": "",
+        "repeat": "",
+        "size": ""
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}"
+      }
+    },
+    "togglerSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_login_form .woocommerce-form-login-toggle .woocommerce-info { font-size: {{togglerSize}}; }"
+      }
+    },
+    "togglerTextColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_login_form .woocommerce-form-login-toggle .woocommerce-info { color: {{togglerTextColor}}; }"
+      }
+    },
+    "togglerLinkColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_login_form .woocommerce-form-login-toggle .woocommerce-info a { color: {{togglerLinkColor}}; }"
+      }
+    },
+    "togglerLinkHoverColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_login_form .woocommerce-form-login-toggle .woocommerce-info a:hover { color: {{togglerLinkHoverColor}}; }"
+      }
+    },
+    "togglerLeftIconColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_login_form .woocommerce-form-login-toggle .woocommerce-info::before { color: {{togglerLeftIconColor}}; }"
+      }
+    },
+    "togglerTopBorderColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_login_form .woocommerce-form-login-toggle .woocommerce-info { border-top-color: {{togglerTopBorderColor}}; }"
+      }
+    },
+    "togglerBorderType": {
+      "type": "string",
+      "default": "",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_login_form .woocommerce-form-login-toggle .woocommerce-info { border-style: {{togglerBorderType}}; }"
+      }
+    },
+    "togglerBorderWidth": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "togglerBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_login_form .woocommerce-form-login-toggle .woocommerce-info { border-width: {{togglerBorderWidth}}; }"
+      }
+    },
+    "togglerBorderColor": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "togglerBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_login_form .woocommerce-form-login-toggle .woocommerce-info { border-color: {{togglerBorderColor}}; }"
+      }
+    },
+    "togglerBorderRadius": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_login_form .woocommerce-form-login-toggle .woocommerce-info { border-radius: {{togglerBorderRadius}}; }"
+      }
+    },
+    "togglerPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_login_form .woocommerce-form-login-toggle .woocommerce-info { padding: {{togglerPadding}}; }"
+      }
+    },
+    "togglerMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_login_form .woocommerce-form-login-toggle .woocommerce-info { margin: {{togglerMargin}}; }"
+      }
+    },
+    "togglerAlignment": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_login_form .woocommerce-form-login-toggle .woocommerce-info { text-align: {{togglerAlignment}}; }{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_login_form .woocommerce-form-login-toggle .woocommerce-info::before{ position: static;margin-right:10px; }"
+      }
+    },
+    "togglerBackgroundColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_login_form .woocommerce-form-login-toggle .woocommerce-info { background-color: {{togglerBackgroundColor}}; }"
+      }
+    },
+    "descriptionColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_login_form .woocommerce-form-login p:not(.form-row,.lost_password) { color: {{descriptionColor}}; }"
+      }
+    },
+    "descriptionSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_login_form .woocommerce-form-login p:not(.form-row,.lost_password) { font-size: {{descriptionSize}}; }"
+      }
+    },
+    "descriptionAlignment": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_login_form .woocommerce-form-login p:not(.form-row,.lost_password) { text-align: {{descriptionAlignment}}; }"
+      }
+    },
+    "descriptionMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_login_form .woocommerce-form-login p:not(.form-row,.lost_password) { margin: {{descriptionMargin}}; }"
+      }
+    },
+    "formBorderType": {
+      "type": "string",
+      "default": "",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_login_form .login.woocommerce-form-login { border-style: {{formBorderType}}; }"
+      }
+    },
+    "formBorderWidth": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "formBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_login_form .login.woocommerce-form-login { border-width: {{formBorderWidth}}; }"
+      }
+    },
+    "formBorderColor": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "formBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_login_form .login.woocommerce-form-login { border-color: {{formBorderColor}}; }"
+      }
+    },
+    "formBorderRadius": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_login_form .login.woocommerce-form-login { border-radius: {{formBorderRadius}}; }"
+      }
+    },
+    "formPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_login_form .login.woocommerce-form-login { padding: {{formPadding}}; }"
+      }
+    },
+    "formMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_login_form .login.woocommerce-form-login { margin: {{formMargin}}; }"
+      }
+    },
+    "labelColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_login_form .login.woocommerce-form-login .form-row label { color: {{labelColor}}; }"
+      }
+    },
+    "labelRequiredColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_login_form .login.woocommerce-form-login .form-row label .required { color: {{labelRequiredColor}}; }"
+      }
+    },
+    "labelSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_login_form .login.woocommerce-form-login .form-row label { font-size: {{labelSize}}; }"
+      }
+    },
+    "labelAlignment": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_login_form .login.woocommerce-form-login .form-row label { text-align: {{labelAlignment}}; }"
+      }
+    },
+    "labelMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_checkout_login_form .login.woocommerce-form-login .form-row label { margin: {{labelMargin}}; }"
+      }
+    },
+    "inputBoxBGColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .login.woocommerce-form-login input.input-text { background-color: {{inputBoxBGColor}}; }"
+      }
+    },
+    "inputBoxColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .login.woocommerce-form-login input.input-text,{{WOOLENTOR_WRAPPER}} .login.woocommerce-form-login input.input-text::-webkit-input-placeholder { color: {{inputBoxColor}}; }"
+      }
+    },
+    "inputBoxSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .login.woocommerce-form-login input.input-text { font-size: {{inputBoxSize}}; }"
+      }
+    },
+    "inputBoxHeight": {
+      "type": "number",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .login.woocommerce-form-login input.input-text { height: {{inputBoxHeight}}px; }"
+      }
+    },
+    "inputBoxWidth": {
+      "type": "number",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .login.woocommerce-form-login input.input-text { width: {{inputBoxWidth}}px; }"
+      }
+    },
+    "inputBoxBorderType": {
+      "type": "string",
+      "default": "",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .login.woocommerce-form-login input.input-text { border-style: {{inputBoxBorderType}}!important; }"
+      }
+    },
+    "inputBoxBorderWidth": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "inputBoxBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} .login.woocommerce-form-login input.input-text { border-width: {{inputBoxBorderWidth}}!important; }"
+      }
+    },
+    "inputBoxBorderColor": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "inputBoxBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} .login.woocommerce-form-login input.input-text { border-color: {{inputBoxBorderColor}}!important; }"
+      }
+    },
+    "inputBoxBorderRadius": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .login.woocommerce-form-login input.input-text { border-radius: {{inputBoxBorderRadius}}; }"
+      }
+    },
+    "inputBoxPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .login.woocommerce-form-login input.input-text { padding: {{inputBoxPadding}}; }"
+      }
+    },
+    "inputBoxMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .login.woocommerce-form-login input.input-text { margin: {{inputBoxMargin}}!important; }"
+      }
+    },
+    "inputBoxFocusColor": {
+      "type": "string",
+      "default": "",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .login.woocommerce-form-login input.input-text:focus { color: {{inputBoxFocusColor}}; }"
+      }
+    },
+    "inputBoxFocusBorderColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .login.woocommerce-form-login input.input-text:focus { border-color: {{inputBoxFocusBorderColor}}!important; }"
+      }
+    },
+    "loginBtnColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .login.woocommerce-form-login button.button { color: {{loginBtnColor}}; }"
+      }
+    },
+    "loginBtnBGColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .login.woocommerce-form-login button.button { background-color: {{loginBtnBGColor}}; }"
+      }
+    },
+    "loginBtnSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .login.woocommerce-form-login button.button { font-size: {{loginBtnSize}}; }"
+      }
+    },
+    "loginBtnBorderType": {
+      "type": "string",
+      "default": "",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .login.woocommerce-form-login button.button { border-style: {{loginBtnBorderType}} !important; }"
+      }
+    },
+    "loginBtnBorderWidth": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "loginBtnBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} .login.woocommerce-form-login button.button { border-width: {{loginBtnBorderWidth}} !important; }"
+      }
+    },
+    "loginBtnBorderColor": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "loginBtnBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} .login.woocommerce-form-login button.button { border-color: {{loginBtnBorderColor}} !important; }"
+      }
+    },
+    "loginBtnBorderRadius": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .login.woocommerce-form-login button.button { border-radius: {{loginBtnBorderRadius}} !important; }"
+      }
+    },
+    "loginBtnPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .login.woocommerce-form-login button.button { padding: {{loginBtnPadding}}; }"
+      }
+    },
+    "loginBtnHoverColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .login.woocommerce-form-login button.button:hover { color: {{loginBtnHoverColor}}; }"
+      }
+    },
+    "loginBtnHoverBGColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .login.woocommerce-form-login button.button:hover { background-color: {{loginBtnHoverBGColor}}; }"
+      }
+    },
+    "loginBtnHoverBorderColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .login.woocommerce-form-login button.button:hover { border-color: {{loginBtnHoverBorderColor}} !important; }"
+      }
+    }
+  }
+}

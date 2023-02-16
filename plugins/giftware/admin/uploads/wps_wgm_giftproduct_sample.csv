@@ -1,0 +1,4 @@
+Product Image URL,Giftcard Name,Giftcard Price,Giftcard Codes,"Giftcard Expiry (in Days, i.e 2,3)",Giftcard Template Name
+http://your_URL/your_image_name.png,Giftcard-Import1,20,WPS-CUSTOM1,2,Happy Diwali
+http://your_URL/your_image_name.png,Giftcard-Import2,40,WPS-CUSTOM2,3,Happy Eid
+http://your_URL/your_image_name.png,Giftcard-Import3,60,WPS-CUSTOM3,4,Happy Rakhi

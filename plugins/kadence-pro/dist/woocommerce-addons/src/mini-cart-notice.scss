@@ -1,0 +1,29 @@
+#cart-drawer.popup-drawer .drawer-header {
+    background: var(--global-palette8);
+}
+.kadence-mini-cart-shipping {
+    text-align: center;
+    padding: 0 1.5em 1.5em;
+    margin: -1em -1.5em 1em;
+    background: var(--global-palette8);
+	.kadence-mini-cart-shipping-message {
+		font-size: 80%;
+	}
+}
+.kadence-mini-cart-shipping-progress-wrap {
+    display: block;
+    margin-top: 1rem;
+    background: var(--global-gray-400);
+    height: 10px;
+    border-radius: 3px;
+    overflow: hidden;
+    .kadence-mini-cart-shipping-progress {
+        background: var(--global-palette-highlight);
+        height: 100%;
+        display: block;
+    }
+}
+.menu-item-kadence-cart-dropdown .kadence-mini-cart-shipping {
+    margin: 0 0 1em;
+    padding: 1em;
+}

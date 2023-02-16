@@ -1,0 +1,304 @@
+{
+  "name": "woolentor/special-day-offer",
+  "category": "woolentor-blocks",
+  "title": "Special Day Offer",
+  "attributes": {
+    "blockUniqId": {
+      "type": "string",
+      "default": ""
+    },
+    "contentPosition": {
+      "type": "string",
+      "default": "center"
+    },
+    "bannerImage": {
+      "type": "object",
+      "default": {
+        "id": null,
+        "url": ""
+      }
+    },
+    "title": {
+      "type": "string",
+      "default": "Banner Title"
+    },
+    "subTitle": {
+      "type": "string",
+      "default": "Banner Sub Title"
+    },
+    "bannerDescription": {
+      "type": "string",
+      "default": "Banner Description"
+    },
+    "offerAmount": {
+      "type": "string"
+    },
+    "offerTagLine": {
+      "type": "string"
+    },
+    "bannerLink": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "badgeImage": {
+      "type": "object",
+      "default": {
+        "id": null,
+        "url": ""
+      }
+    },
+    "badgeHorizontalPos": {
+      "type": "number",
+      "default": 25,
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .wlbanner-badgeimage { left: {{badgeHorizontalPos}}%; }"
+      }
+    },
+    "badgeVerticlePos": {
+      "type": "number",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .wlbanner-badgeimage { top: {{badgeVerticlePos}}%; }"
+      }
+    },
+    "titleColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .banner-content h2 { color: {{titleColor}}; }"
+      }
+    },
+    "titleSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .banner-content h2 { font-size: {{titleSize}}; }"
+      }
+    },
+    "titleMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .banner-content h2 { margin: {{titleMargin}}; }"
+      }
+    },
+    "titlePadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .banner-content h2 { padding: {{titlePadding}}; }"
+      }
+    },
+    "titleSubColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .banner-content h6 { color: {{titleSubColor}}; }"
+      }
+    },
+    "titleSubSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .banner-content h6 { font-size: {{titleSubSize}}; }"
+      }
+    },
+    "subTitleMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .banner-content h6 { margin: {{subTitleMargin}}; }"
+      }
+    },
+    "subTitlePadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .banner-content h6 { padding: {{subTitlePadding}}; }"
+      }
+    },
+    "contentAlignment": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .banner-content { text-align: {{contentAlignment}}; }"
+      }
+    },
+    "contentAreaPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .banner-content { padding: {{contentAreaPadding}}; }"
+      }
+    },
+    "contentAreaMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .banner-content { margin: {{contentAreaMargin}}; }"
+      }
+    },
+    "desColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .banner-content p{ color: {{desColor}}; }"
+      }
+    },
+    "desSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .banner-content p{ font-size: {{desSize}}; }"
+      }
+    },
+    "desMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .banner-content p{ margin: {{desMargin}}; }"
+      }
+    },
+    "desPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .banner-content p{ padding: {{desPadding}}; }"
+      }
+    },
+    "offerColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .banner-content h5{ color: {{offerColor}}; }"
+      }
+    },
+    "offerSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .banner-content h5{ font-size: {{offerSize}}; }"
+      }
+    },
+    "offerMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .banner-content h5{ margin: {{offerMargin}}; }"
+      }
+    },
+    "offerTagColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .banner-content h5 span{ color: {{offerTagColor}}; }"
+      }
+    },
+    "offerTagSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .banner-content h5 span{ font-size: {{offerTagSize}}; }"
+      }
+    },
+    "offerTagMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .banner-content h5 span{ margin: {{offerTagMargin}}; }"
+      }
+    },
+    "buttonColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .banner-content a{ color: {{buttonColor}}; }"
+      }
+    },
+    "buttonHoverColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .banner-content a:hover{ color: {{buttonHoverColor}}; }"
+      }
+    },
+    "buttonSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .banner-content a{ font-size: {{buttonSize}}; }"
+      }
+    },
+    "buttonMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .banner-content a{ margin: {{buttonMargin}}; }"
+      }
+    }
+  }
+}

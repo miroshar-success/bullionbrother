@@ -1,0 +1,198 @@
+{
+  "name": "woolentor/product-tab",
+  "category": "woolentor-blocks",
+  "title": "Product Tab",
+  "attributes": {
+    "blockUniqId": {
+      "type": "string",
+      "default": ""
+    },
+    "areaPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} { padding: {{areaPadding}}; }"
+      }
+    },
+    "areaBGProperty": {
+      "type": "object",
+      "default": {
+        "imageId": null,
+        "imageUrl": "",
+        "position": "",
+        "attachment": "",
+        "repeat": "",
+        "size": ""
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}"
+      }
+    },
+    "style": {
+      "type": "string",
+      "default": "1"
+    },
+    "columns": {
+      "type": "object",
+      "default": {
+        "desktop": 4
+      }
+    },
+    "rows": {
+      "type": "number",
+      "default": 1
+    },
+    "productTab": {
+      "type": "boolean",
+      "default": false
+    },
+    "slider": {
+      "type": "boolean",
+      "default": false
+    },
+    "productFilterType": {
+      "type": "string",
+      "default": "recent"
+    },
+    "perPage": {
+      "type": "number",
+      "default": 4
+    },
+    "customOrder": {
+      "type": "boolean",
+      "default": false
+    },
+    "orderBy": {
+      "type": "string",
+      "default": "none"
+    },
+    "order": {
+      "type": "string",
+      "default": "DESC"
+    },
+    "selectedCategories": {
+      "type": "array",
+      "default": []
+    },
+    "slitems": {
+      "type": "number",
+      "default": 4
+    },
+    "slarrows": {
+      "type": "boolean",
+      "default": true
+    },
+    "sldots": {
+      "type": "boolean",
+      "default": false
+    },
+    "slpauseOnHover": {
+      "type": "boolean",
+      "default": true
+    },
+    "slautolay": {
+      "type": "boolean",
+      "default": false
+    },
+    "slautoplaySpeed": {
+      "type": "number",
+      "default": 3000
+    },
+    "slanimationSpeed": {
+      "type": "number",
+      "default": 300
+    },
+    "slscrollItem": {
+      "type": "number",
+      "default": 3
+    },
+    "sltabletDisplayColumns": {
+      "type": "number",
+      "default": 2
+    },
+    "sltabletScrollColumns": {
+      "type": "number",
+      "default": 2
+    },
+    "sltabletWidth": {
+      "type": "number",
+      "default": 750
+    },
+    "slMobileDisplayColumns": {
+      "type": "number",
+      "default": 1
+    },
+    "slMobileScrollColumns": {
+      "type": "number",
+      "default": 1
+    },
+    "slMobileWidth": {
+      "type": "number",
+      "default": 480
+    },
+    "titleColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .product-item .product-inner .content .title a{ color: {{titleColor}}; }"
+      }
+    },
+    "titleHoverColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .product-item .product-inner .content .title a:hover{ color: {{titleHoverColor}}; }"
+      }
+    },
+    "titleAlign": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .product-item .product-inner .content .title{ text-align: {{titleAlign}}; }"
+      }
+    },
+    "priceColor": {
+      "type": "string",
+      "selector": ".product-item .product-inner .content .price",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .product-item .product-inner .content .price,{{WOOLENTOR_WRAPPER}} .product-item .product-inner .content .price .amount{ color: {{priceColor}}; }"
+      }
+    },
+    "actionBtnColor": {
+      "type": "string",
+      "selector": ".product-item .actions a",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .product-item .actions a,{{WOOLENTOR_WRAPPER}} .product-item .woocommerce.compare-button a.button,{{WOOLENTOR_WRAPPER}} .product-item .actions a::before{ color: {{actionBtnColor}}; }"
+      }
+    },
+    "actionBtnBgColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .product-item .actions{ background-color: {{actionBtnBgColor}}; }"
+      }
+    },
+    "actionBtnHoverColor": {
+      "type": "string",
+      "selector": ".product-item .actions a:hover",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .product-item .actions a:hover,{{WOOLENTOR_WRAPPER}} .product-item .woocommerce.compare-button a.button:hover,{{WOOLENTOR_WRAPPER}} .product-item .actions a:hover::before{ color: {{actionBtnHoverColor}}; }"
+      }
+    },
+    "actionBtnHoverBgColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .product-item .actions:hover{ background-color: {{actionBtnHoverBgColor}}; }"
+      }
+    },
+    "contentAlign": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .product-item .product-inner .content{ text-align: {{contentAlign}}; }"
+      }
+    }
+  }
+}

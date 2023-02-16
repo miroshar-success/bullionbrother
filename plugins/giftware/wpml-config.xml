@@ -1,0 +1,24 @@
+<wpml-config>
+	<admin-texts>
+		<key name="wps_wgm_mail_settings" >
+		<key name="wps_wgm_mail_setting_receive_subject" />
+		<key name="wps_wgm_mail_setting_receive_message" />
+		<key name="wps_wgm_mail_setting_giftcard_subject_downloadable" />
+		<key name="wps_wgm_mail_setting_giftcard_subject_shipping" />
+		<key name="wps_wgm_mail_setting_receive_coupon_subject" />
+		<key name="wps_wgm_mail_setting_receive_coupon_message" />
+		</key>
+
+		<key name="wps_wgm_other_settings" >
+		<key name="wps_wgm_terms_condition_content" />
+		</key>
+
+		<key name="wps_wgm_thankyou_order_settings" >
+		<key name="wps_wgm_thankyou_message" />
+		</key>
+		
+		<key name="wps_wgm_notification_settings" >
+		<key name="wps_wgm_whatsapp_message" />
+		</key>
+	</admin-texts>
+</wpml-config>

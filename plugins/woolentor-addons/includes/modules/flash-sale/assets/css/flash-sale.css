@@ -1,0 +1,540 @@
+/* Cart page */
+.woocommerce dt.variation-woolentor_cart_flash_sale_label{
+    display: none !important;
+}
+.woolentor-flashsale-label{
+    font-size: 12px;
+    padding: 3px 5px;
+    border-radius: 3px;
+    border: 1px dashed red;
+    margin-top: 3px;
+    display: inline-block;
+    line-height: 1;
+}
+ /*Product Flash Sale Start */
+ .woolentor-flash-product {
+    border-radius: 5px;
+    background-color: #FAFAFA;
+  }
+  .woolentor-flash-product-thumb {
+    position: relative;
+    display: block;
+    padding: 10px;
+    padding-bottom: 0;
+  }
+  .woolentor-flash-product-thumb .woolentor-countdown {
+    position: absolute;
+    z-index: 99;
+    bottom: 0;
+    left: 10px;
+    display: none;
+    width: calc(100% - 20px);
+    padding: 10px;
+    background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.25) 100%);
+  }
+  .woolentor-flash-product-thumb .woolentor-flash-product-action {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    left: 10px;
+    display: flex;
+    visibility: hidden;
+    margin-top: 20px;
+    padding: 0;
+    transform: translateY(-50%);
+    opacity: 0;
+    background-color: transparent;
+  }
+  @media only screen and (max-width: 767px) {
+    .woolentor-flash-product-thumb .woolentor-flash-product-action {
+      display: none;
+    }
+  }
+  .woolentor-flash-product-image {
+    display: flex;
+    overflow: hidden;
+    transition: all 0.3s ease 0s;
+    border-radius: 5px;
+  }
+  .woolentor-flash-product-image img {
+    width: 100%;
+  }
+  .woolentor-flash-product-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .woolentor-flash-product-offer-timer {
+    margin: 0 -20px 20px;
+    padding: 0 20px 20px;
+    border-bottom: 1px solid #E5E5E5;
+  }
+  .woolentor-flash-product-offer-timer-text {
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #000000;
+  }
+  .woolentor-flash-product-progress {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .woolentor-flash-product-progress-total {
+    width: 100%;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #B6FAFF;
+  }
+  .woolentor-flash-product-progress-sold {
+    height: 100%;
+    border-radius: 10px;
+    background-color: #32C1CD;
+  }
+  .woolentor-flash-product-progress-label,
+  .woolentor-flash-product .woolentor-stock-message {
+    font-size: 13px;
+    line-height: 1.538;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+  .woolentor-flash-product .woolentor-stock-message{
+    display: inline-block;
+    text-align: center;
+  }
+  .woolentor-flash-product-title,
+  .woolentor-flash-product-title a {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.444;
+    max-width: 260px;
+    margin: 0 auto 15px;
+    text-align: center;
+  }
+  .woolentor-flash-product-title a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: #000000;
+  }
+  .woolentor-flash-product-title a:hover {
+    text-decoration: underline;
+  }
+  .woolentor-flash-product-price-rating {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .woolentor-flash-product-price-rating i{
+    color: #ecb804;
+  }
+  .woolentor-flash-product-price .price {
+    display: flex;
+    align-items: center;
+    color: #000000;
+    gap: 10px;
+  }
+  .woolentor-flash-product-price span {
+    line-height: 1;
+  }
+  .woolentor-flash-product-price .price{
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .woolentor-flash-product-price .price ins{
+    margin-left: 0;
+    order: 0;
+  }
+  .woolentor-flash-product-price .price del {
+    font-size: 16px;
+    text-decoration: line-through;
+    color: #666666;
+    margin-left: 0;
+    order: 1;
+  }
+  .woolentor-flash-product-rating {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .woolentor-flash-product-price-rating.woolentor-product-has-no-rating{
+    justify-content: center;
+  }
+  .woolentor-flash-product-rating span {
+    transform: translateY(1px);
+  }
+  .woolentor-flash-product-action {
+    z-index: 111;
+    display: none;
+    justify-content: center;
+    order: 12;
+    padding-top: 20px;
+    transition: all 0.3s ease 0s;
+    gap: 5px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  @media only screen and (max-width: 767px) {
+    .woolentor-flash-product-action {
+      display: flex;
+    }
+  }
+  .woolentor-flash-product-action-btn.added{
+    display: none;
+  }
+  .woolentor-flash-product-action .yith-wcwl-add-to-wishlist i{
+    margin: 0;
+  }
+  .woolentor-flash-product-action a,
+  .woolentor-flash-product-action .added_to_cart {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: #FFFFFF;
+    border-radius: 50%;
+    background-color: #272626;
+    position: relative;
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
+    .woolentor-flash-product-action-btn {
+      font-size: 14px;
+      width: 40px;
+      height: 40px;
+    }
+  }
+  @media only screen and (max-width: 575px) {
+    .woolentor-flash-product-action-btn {
+      font-size: 16px;
+      width: 50px;
+      height: 50px;
+    }
+  }
+  .woolentor-flash-product-action a:hover {
+    color: #FFFFFF;
+    background-color: #DC9A0E;
+  }
+  .woolentor-flash-product:hover .woolentor-flash-product-action {
+    visibility: visible;
+    margin-top: 0;
+    opacity: 1;
+  }
+  /*Action buttons adjustment*/
+  .woolentor-flash-product-action a.added_to_cart.wc-forward {
+      text-indent: -9999px;
+      position: relative;
+      text-align: center;
+  }
+  .woolentor-flash-product-action-btn.loading{
+    position: relative;
+  }
+  .woolentor-flash-product-action-btn.loading i{
+    display: none;
+  }
+  .woolentor-flash-product-action a.added_to_cart.wc-forward:after {
+      position: absolute;
+      text-indent: 0;
+      content: "\e017";
+      font-family: WooCommerce;
+      left: 0;
+      right: 0;
+      font-size: 18px;
+      margin: 0;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+  .woolentor-flash-product-action-btn.loading::after{
+      font-family: WooCommerce;
+      content: '\e01c';
+      vertical-align: top;
+      -webkit-font-smoothing: antialiased;
+      font-weight: 400;
+      position: absolute;
+      top: auto;
+      right: 1em;
+      animation: spin 2s linear infinite;
+  }
+  .woolentor-flash-product-action .woolentor-compare.compare::before{
+    align-items: center;
+    line-height: unset;
+  }
+  .woolentor-flash-product-action .woolentor-compare.added i::before{
+    content: "\f00c";
+  }
+  
+  .woolentor-flash-product-offer-pos-c-bottom .woolentor-flash-product-offer-timer {
+    order: 11;
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 0;
+    border-top: 1px solid #E5E5E5;
+    border-bottom: 0;
+  }
+  .woolentor-flash-product-offer-pos-t-bottom .woolentor-flash-product-offer-timer {
+    display: none;
+  }
+  .woolentor-flash-product-offer-pos-t-bottom .woolentor-flash-product-thumb .woolentor-countdown {
+    display: flex;
+  }
+  .woolentor-flash-product-offer-pos-t-left .woolentor-flash-product-offer-timer {
+    display: none;
+  }
+  .woolentor-flash-product-offer-pos-t-left .woolentor-flash-product-thumb .woolentor-countdown {
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    background-image: linear-gradient(to left, transparent 0%, rgba(0, 0, 0, 0.25) 100%);
+  }
+  .woolentor-flash-product-offer-pos-t-right .woolentor-flash-product-offer-timer {
+    display: none;
+  }
+  .woolentor-flash-product-offer-pos-t-right .woolentor-flash-product-thumb .woolentor-countdown {
+    top: 10px;
+    right: 10px;
+    left: auto;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    background-image: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.25) 100%);
+  }
+  
+  .woolentor-countdown-flip{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  .woolentor-countdown-flip .woolentor-time .woolentor-time-inner {
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 50px;
+    transform: translateZ(0);
+    transform: translate3d(0, 0, 0);
+    text-align: center;
+    border-radius: 5px;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    perspective: 479px;
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .woolentor-countdown-flip .woolentor-time .woolentor-time-inner {
+      width: 52px;
+      height: 36px;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .woolentor-countdown-flip .woolentor-time .woolentor-time-inner {
+      height: 46px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .woolentor-countdown-flip .woolentor-time .woolentor-time-inner {
+      width: 40px;
+      height: 28px;
+    }
+  }
+  @media only screen and (max-width: 575px) {
+    .woolentor-countdown-flip .woolentor-time .woolentor-time-inner {
+      width: 60px;
+      height: 46px;
+    }
+  }
+  .woolentor-countdown-flip .woolentor-time .woolentor-time-inner .woolentor-count {
+    font-size: 36px;
+    line-height: 50px;
+    position: absolute;
+    top: 0;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    width: 100%;
+    transform: translateZ(0);
+    color: #FFFFFF;
+    background-color: #272626;
+    transform-style: flat;
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .woolentor-countdown-flip .woolentor-time .woolentor-time-inner .woolentor-count {
+      font-size: 24px;
+      line-height: 36px;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .woolentor-countdown-flip .woolentor-time .woolentor-time-inner .woolentor-count {
+      line-height: 46px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .woolentor-countdown-flip .woolentor-time .woolentor-time-inner .woolentor-count {
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
+  @media only screen and (max-width: 575px) {
+    .woolentor-countdown-flip .woolentor-time .woolentor-time-inner .woolentor-count {
+      font-size: 36px;
+      line-height: 50px;
+    }
+  }
+  .woolentor-countdown-flip .woolentor-time .woolentor-time-inner .woolentor-count.woolentor-top {
+    height: 50%;
+    transform-origin: 50% 100%;
+    border-radius: 5px 5px 0 0;
+  }
+  .woolentor-countdown-flip .woolentor-time .woolentor-time-inner .woolentor-count.woolentor-top.woolentor-curr {
+    z-index: 3;
+    transform: rotateX(0deg);
+  }
+  .woolentor-countdown-flip .woolentor-time .woolentor-time-inner .woolentor-count.woolentor-bottom {
+    line-height: 0;
+    top: 50%;
+    height: 50%;
+    transform-origin: 50% 0;
+    border-top: 1px solid #FFFFFF;
+    border-radius: 0 0 5px 5px;
+  }
+  .woolentor-countdown-flip .woolentor-time .woolentor-time-inner .woolentor-count.woolentor-bottom.woolentor-next {
+    z-index: 2;
+    transform: rotateX(90deg);
+  }
+  .woolentor-countdown-flip .woolentor-time.woolentor-flip .woolentor-time-inner .woolentor-count.woolentor-top.woolentor-curr {
+    transition: all 250ms ease-in-out;
+    transform: rotateX(-90deg);
+  }
+  .woolentor-countdown-flip .woolentor-time.woolentor-flip .woolentor-time-inner .woolentor-count.woolentor-bottom.woolentor-next {
+    transition: all 250ms ease-in-out 250ms;
+    transform: rotateX(0deg);
+  }
+  .woolentor-countdown-flip .woolentor-time .woolentor-label {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.25;
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    text-align: center;
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
+    .woolentor-countdown-flip .woolentor-time .woolentor-label {
+      margin-top: 4px;
+    }
+  }
+  
+  .woolentor-countdown-default {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 5px;
+  }
+  .woolentor-countdown-default .woolentor-time .woolentor-count {
+    font-size: 36px;
+    line-height: 50px;
+    display: flex;
+    justify-content: center;
+    width: 60px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    background-color: #272626;
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .woolentor-countdown-default .woolentor-time .woolentor-count {
+      font-size: 24px;
+      line-height: 36px;
+      width: 52px;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .woolentor-countdown-default .woolentor-time .woolentor-count {
+      line-height: 46px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .woolentor-countdown-default .woolentor-time .woolentor-count {
+      font-size: 20px;
+      line-height: 28px;
+      width: 40px;
+    }
+  }
+  @media only screen and (max-width: 575px) {
+    .woolentor-countdown-default .woolentor-time .woolentor-count {
+      font-size: 36px;
+      line-height: 46px;
+      width: 60px;
+    }
+  }
+  .woolentor-countdown-default .woolentor-time .woolentor-label {
+      font-family: "Montserrat", sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 1.25;
+      display: block;
+      width: 100%;
+      margin-top: 8px;
+      text-align: center;
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
+    .woolentor-countdown-default .woolentor-time .woolentor-label {
+      margin-top: 4px;
+    }
+  }
+  
+  /*Sale flash*/
+  .woolentor-flash-product-image span {
+      display: none;
+      background-color: #23252a;
+      border-radius: 3px;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 500;
+      right: 15px;
+      top: 15px;
+      line-height: 1 !important;
+      min-height: inherit !important;
+      min-width: inherit !important;
+      padding: 5px 10px;
+      position: absolute;
+  }
+  .woolentor-flash-product-image span.ht-stockout{
+      display: inline-block;
+      background-color: #f05b64;
+      color: #fff;
+  }
+  
+  /*Single product*/
+  .single-product .woolentor-flash-product-countdown{
+      margin-bottom: 20px;
+  }
+  .single-product .woolentor-flash-product-countdown .woolentor-countdown{
+      justify-content: initial;
+  }
+  .single-product .woolentor-flash-product-offer-timer-text{
+      text-align: left;
+      margin-bottom: 10px;
+      display: inline-block;
+      background-color: #272626;
+      color: #fff;
+      padding: 2px 15px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+  }
+  .single-product .woolentor-flash-product-countdown .woolentor-time{
+      margin-right: 10px;
+  }
+  /* Product Flash Sale End */

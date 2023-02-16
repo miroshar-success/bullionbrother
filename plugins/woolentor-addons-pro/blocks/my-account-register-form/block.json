@@ -1,0 +1,445 @@
+{
+  "name": "woolentor/my-account-register-form",
+  "category": "woolentor-myaccount",
+  "title": "WL: My Account Register Form",
+  "description": "Display My Account Register Form.",
+  "keywords": [
+    "woolentor",
+    "My Account",
+    "Account",
+    "Account register",
+    "Register Form",
+    "register"
+  ],
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "blockUniqId": {
+      "type": "string",
+      "default": ""
+    },
+    "areaPadding": {
+      "type": "object",
+      "default": {
+        "device": "desktop"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} { padding: {{areaPadding}} !important; }"
+      }
+    },
+    "areaMargin": {
+      "type": "object",
+      "default": {
+        "device": "desktop"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} { margin: {{areaMargin}} !important; }"
+      }
+    },
+    "areaBGProperty": {
+      "type": "object",
+      "default": {
+        "imageId": null,
+        "imageUrl": "",
+        "position": "",
+        "attachment": "",
+        "repeat": "",
+        "size": ""
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}"
+      }
+    },
+    "heading": {
+      "type": "string",
+      "default": "Register"
+    },
+    "headingColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register h2 { color:{{headingColor}} }"
+      }
+    },
+    "headingSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register h2 { font-size: {{headingSize}}; }"
+      }
+    },
+    "headingAlignment": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register h2 { text-align: {{headingAlignment}}; }"
+      }
+    },
+    "headingMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register h2 { margin: {{headingMargin}}; }"
+      }
+    },
+    "formAreaBorderType": {
+      "type": "string",
+      "default": "",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register form.woocommerce-form-register { border-style: {{formAreaBorderType}} !important; }"
+      }
+    },
+    "formAreaBorderWidth": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "formAreaBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register form.woocommerce-form-register { border-width: {{formAreaBorderWidth}} !important; }"
+      }
+    },
+    "formAreaBorderColor": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "formAreaBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register form.woocommerce-form-register { border-color: {{formAreaBorderColor}} !important; }"
+      }
+    },
+    "formAreaBorderRadius": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register form.woocommerce-form-register { border-radius: {{formAreaBorderRadius}} !important; }"
+      }
+    },
+    "formAreaMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register form.woocommerce-form-register { margin: {{formAreaMargin}}; }"
+      }
+    },
+    "formAreaPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register form.woocommerce-form-register { padding: {{formAreaPadding}}; }"
+      }
+    },
+    "labelColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register form.woocommerce-form-register .form-row label { color: {{labelColor}}; }"
+      }
+    },
+    "labelRequiredColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register form.woocommerce-form-register .form-row label .required { color: {{labelRequiredColor}}; }"
+      }
+    },
+    "labelSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register form.woocommerce-form-register .form-row label { font-size: {{labelSize}}; }"
+      }
+    },
+    "labelAlignment": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register form.woocommerce-form-register .form-row label { text-align: {{labelAlignment}}; }"
+      }
+    },
+    "labelMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register form.woocommerce-form-register .form-row label { margin: {{labelMargin}}; }"
+      }
+    },
+    "inputBoxBGColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register form.woocommerce-form-register input.input-text { background-color: {{inputBoxBGColor}}; }"
+      }
+    },
+    "inputBoxColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register form.woocommerce-form-register input.input-text { color: {{inputBoxColor}}; }"
+      }
+    },
+    "inputBoxSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register form.woocommerce-form-register input.input-text { font-size: {{inputBoxSize}}; }"
+      }
+    },
+    "inputBoxHeight": {
+      "type": "number",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register form.woocommerce-form-register input.input-text { height: {{inputBoxHeight}}px; }"
+      }
+    },
+    "inputBoxBorderType": {
+      "type": "string",
+      "default": "",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register form.woocommerce-form-register input.input-text { border-style: {{inputBoxBorderType}}; }"
+      }
+    },
+    "inputBoxBorderWidth": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "inputBoxBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register form.woocommerce-form-register input.input-text { border-width: {{inputBoxBorderWidth}}; }"
+      }
+    },
+    "inputBoxBorderColor": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "inputBoxBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register form.woocommerce-form-register input.input-text { border-color: {{inputBoxBorderColor}}; }"
+      }
+    },
+    "inputBoxBorderRadius": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register form.woocommerce-form-register input.input-text { border-radius: {{inputBoxBorderRadius}}; }"
+      }
+    },
+    "inputBoxPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register form.woocommerce-form-register input.input-text { padding: {{inputBoxPadding}}; }"
+      }
+    },
+    "inputBoxMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register form.woocommerce-form-register .form-row { margin: {{inputBoxMargin}}!important; }"
+      }
+    },
+    "submitBtnColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register button { color: {{submitBtnColor}}; }"
+      }
+    },
+    "submitBtnBGColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register button { background-color: {{submitBtnBGColor}}; }"
+      }
+    },
+    "submitBtnSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register button { font-size: {{submitBtnSize}}; }"
+      }
+    },
+    "submitBtnBorderType": {
+      "type": "string",
+      "default": "",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register button { border-style: {{submitBtnBorderType}} !important; }"
+      }
+    },
+    "submitBtnBorderWidth": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "submitBtnBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register button { border-width: {{submitBtnBorderWidth}} !important; }"
+      }
+    },
+    "submitBtnBorderColor": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "submitBtnBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register button { border-color: {{submitBtnBorderColor}} !important; }"
+      }
+    },
+    "submitBtnBorderRadius": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register button { border-radius: {{submitBtnBorderRadius}} !important; }"
+      }
+    },
+    "submitBtnPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register button { padding: {{submitBtnPadding}}; }"
+      }
+    },
+    "buttonAlignment": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register form.woocommerce-form-register .woocommerce-FormRow { text-align: {{buttonAlignment}}; }"
+      }
+    },
+    "submitBtnHoverColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register button:hover { color: {{submitBtnHoverColor}}; }"
+      }
+    },
+    "submitBtnHoverBGColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register button:hover { background-color: {{submitBtnHoverBGColor}}; }"
+      }
+    },
+    "submitBtnHoverBorderColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woolentor-myaccount-form-register button:hover { border-color: {{submitBtnHoverBorderColor}} !important; }"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+<wpml-config>
+
+  <admin-texts>
+
+    <key name="xoo-el-gl-options">
+      <key name="m-red-logout" />
+      <key name="m-red-register" />
+      <key name="m-red-login" />
+      <key name="m-ep-success" />
+    </key>
+
+  </admin-texts>
+
+</wpml-config>

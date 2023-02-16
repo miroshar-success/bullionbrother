@@ -1,0 +1,174 @@
+{
+  "name": "woolentor/thankyou-order",
+  "category": "woolentor-checkout",
+  "title": "WL: Thank You Order",
+  "description": "Display order information.",
+  "keywords": [
+    "woolentor",
+    "Thank you order",
+    "Order information",
+    "Thank you order",
+    "Thankyou"
+  ],
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "blockUniqId": {
+      "type": "string",
+      "default": ""
+    },
+    "areaPadding": {
+      "type": "object",
+      "default": {
+        "device": "desktop"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} { padding: {{areaPadding}} !important; }"
+      }
+    },
+    "areaMargin": {
+      "type": "object",
+      "default": {
+        "device": "desktop"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} { margin: {{areaMargin}} !important; }"
+      }
+    },
+    "areaBGProperty": {
+      "type": "object",
+      "default": {
+        "imageId": null,
+        "imageUrl": "",
+        "position": "",
+        "attachment": "",
+        "repeat": "",
+        "size": ""
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}"
+      }
+    },
+    "thankyoumessage": {
+      "type": "string",
+      "default": "Thank you. Your order has been received."
+    },
+    "thankMessageColor": {
+      "type": "string",
+      "default": "",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-thankyou-order-received,{{WOOLENTOR_WRAPPER}} .woocommerce-thankyou-order-payment-info-message p{ color: {{thankMessageColor}}; }"
+      }
+    },
+    "thankMessageSize": {
+      "type": "string",
+      "default": "",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-thankyou-order-received,{{WOOLENTOR_WRAPPER}} .woocommerce-thankyou-order-payment-info-message p{ font-size: {{thankMessageSize}}; }"
+      }
+    },
+    "thankMessageMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-thankyou-order-received { margin: {{thankMessageMargin}}; }"
+      }
+    },
+    "thankBottomMessageMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-thankyou-order-payment-info-message p { margin: {{thankBottomMessageMargin}}; }"
+      }
+    },
+    "thankMessageAlignment": {
+      "type": "string",
+      "default": "",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-thankyou-order-received,{{WOOLENTOR_WRAPPER}} .woocommerce-thankyou-order-payment-info-message p{ text-align: {{thankMessageAlignment}}; }"
+      }
+    },
+    "labelColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.order_details li { color: {{labelColor}}; }"
+      }
+    },
+    "labelSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.order_details li { font-size: {{labelSize}}; }"
+      }
+    },
+    "labelAlignment": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.order_details li { text-align: {{labelAlignment}}; }"
+      }
+    },
+    "labelMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.order_details li { margin: {{labelMargin}}; }"
+      }
+    },
+    "orderInfoColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.order_details li strong { color: {{orderInfoColor}}; }"
+      }
+    },
+    "orderInfoSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.order_details li strong { font-size: {{orderInfoSize}}; }"
+      }
+    },
+    "orderInfoAlignment": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.order_details li strong { text-align: {{orderInfoAlignment}}; }"
+      }
+    },
+    "orderInfoMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.order_details li strong { margin: {{orderInfoMargin}}; }"
+      }
+    }
+  }
+}

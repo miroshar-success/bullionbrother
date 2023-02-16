@@ -1,0 +1,60 @@
+.woolentor-pre-order-area {
+    margin-bottom: 20px;
+}
+span.woolentor-pre-order-price-area {
+    overflow: hidden;
+    display: block;
+}
+.woolentor-pre-order-countdown{
+    max-width: 275px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.woolentor-countdown-single{
+    -webkit-box-flex: 1;
+  -webkit-flex: 1 0 25%;
+      -ms-flex: 1 0 25%;
+          flex: 1 0 25%;
+  max-width: 25%;
+  margin-right: 7px;
+}
+.woolentor-countdown-single:last-child{
+    margin-right: 0;
+}
+.woolentor-countdown-single-inner{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.75);
+    text-align: center;
+    border-radius: 5px;
+}
+.woolentor-countdown-single-inner h3 {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 0 2px;
+    color: #ffffff;
+}
+  
+.woolentor-countdown-single-inner p {
+    font-size: 12px;
+    color: #ffffff;
+    margin: 0 !important;
+}
+.woolentor-availability-date-inner {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    padding: 2px 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.woolentor-pre-order-availability-date-cart {
+    color: #ec5858;
+}
+dt.variation-woolentor_cart_availability{
+    display: none !important;
+}
+.woocommerce td.product-name .wc-item-meta{
+    margin: 0;
+}

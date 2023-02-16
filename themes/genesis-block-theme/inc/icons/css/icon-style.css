@@ -1,0 +1,74 @@
+@font-face {
+	font-family: gbicons;
+	src:
+		url(../webfonts/gbicons.woff2?61820902) format("woff2"),
+		url(../webfonts/gbicons.woff?61820902) format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+[class^="gbicon-"],
+[class*=" gbicon-"] {
+	font-family: gbicons !important; /* stylelint-disable-line font-family-no-missing-generic-family-keyword */
+	speak: never;
+	font-style: normal;
+	font-weight: 400;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.gbi {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	text-rendering: auto;
+	line-height: 1;
+}
+
+.gbicon-exclamation-circle::before {
+	content: "\e90a";
+}
+
+.gbicon-search::before {
+	content: "\e900";
+}
+
+.gbicon-times::before {
+	content: "\e901";
+}
+
+.gbicon-bars::before {
+	content: "\e902";
+}
+
+.gbicon-arrow-circle-right::before {
+	content: "\e903";
+}
+
+.gbicon-arrow-circle-left::before {
+	content: "\e904";
+}
+
+.gbicon-angle-left::before {
+	content: "\e905";
+}
+
+.gbicon-angle-right::before {
+	content: "\e906";
+}
+
+.gbicon-angle-down::before {
+	content: "\e907";
+}
+
+.gbicon-angle-up::before {
+	content: "\e908";
+}

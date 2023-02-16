@@ -1,0 +1,351 @@
+/*
+Admin post styles.
+
+Table of contents:
+==================
+1. General
+2. Back button
+3. Editor button
+4. Popup
+5. Copy
+*/
+
+/* 1. General
+================================================== */
+.wlea-icon {
+    font-family: dashicons;
+    display: inline-block;
+    line-height: 1;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: inherit;
+    text-transform: none;
+    text-rendering: auto;
+    vertical-align: top;
+    text-align: center;
+    transition: color .1s ease-in;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.button .wlea-icon {
+    line-height: inherit;
+}
+.wlea-icon::before {
+    content: "\f120";
+}
+.wlea-icon-undo::before {
+    content: "\f171";
+}
+.wlea-icon-copy::before,
+.wlea-icon-insert::before {
+    content: "\f105";
+}
+.wlea-hidden {
+    display: none !important;
+}
+.wlea-hidden-f {
+    display: none !important;
+    width: 0;
+    left: 0;
+    overflow: hidden;
+    visibility: hidden;
+    opacity: 0;
+}
+.wlea-clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+/* 2. Back button
+================================================== */
+.wlea-page-title-action {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.wlea-page-title-action .wlea-icon {
+    margin-right: 4px;
+}
+
+/* 3. Editor button
+================================================== */
+.mce-container .mce-toolbar .mce-btn.mce-wlea-placeholders-btn,
+.mce-container .mce-toolbar .mce-btn-group .mce-btn.mce-wlea-placeholders-btn {
+    background: #f0f0f1;
+    border: 1px solid #dcdcde;
+}
+.mce-container .mce-toolbar .mce-btn.mce-wlea-placeholders-btn:hover,
+.mce-container .mce-toolbar .mce-btn.mce-wlea-placeholders-btn.mce-active,
+.mce-container .mce-toolbar .mce-btn-group .mce-btn.mce-wlea-placeholders-btn:hover,
+.mce-container .mce-toolbar .mce-btn-group .mce-btn.mce-wlea-placeholders-btn.mce-active {
+    border-color: #1d2327;
+}
+.mce-container .mce-toolbar .mce-btn.mce-wlea-placeholders-btn button,
+.mce-container .mce-toolbar .mce-btn-group .mce-btn.mce-wlea-placeholders-btn button {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.mce-container .mce-toolbar .mce-btn.mce-wlea-placeholders-btn .mce-ico,
+.mce-container .mce-toolbar .mce-btn-group .mce-btn.mce-wlea-placeholders-btn .mce-ico {
+    font-family: dashicons;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: inherit;
+    text-transform: none;
+    text-rendering: auto;
+    vertical-align: top;
+    text-align: center;
+    transition: color .1s ease-in;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-right: 4px;
+}
+.mce-container .mce-toolbar .mce-btn.mce-wlea-placeholders-btn .mce-ico::before,
+.mce-container .mce-toolbar .mce-btn-group .mce-btn.mce-wlea-placeholders-btn .mce-ico::before {
+    content: "\f170";
+}
+.mce-container .mce-toolbar .mce-btn.mce-wlea-placeholders-btn .mce-txt,
+.mce-container .mce-toolbar .mce-btn-group .mce-btn.mce-wlea-placeholders-btn .mce-txt {
+    font-weight: 500;
+    padding-right: 2px;
+}
+
+/* 4. Popup
+======================================================= */
+#wlea-admin-popup {
+    display: none !important;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+}
+#wlea-admin-popup-wrapper {
+    height: auto;
+    max-height: 80vh;
+    overflow: hidden auto;
+}
+#wlea-admin-popup-content {
+    padding: 30px;
+}
+
+/* Thickbox */
+#TB_overlay {
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    opacity: 0;
+}
+#TB_overlay.wlea-admin-popup-overlay {
+    background: #0b0b0b;
+    opacity: 0.8;
+}
+#TB_window #TB_ajaxContent {
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+    opacity:  0;
+}
+#TB_window.wlea-admin-popup-window #TB_ajaxContent {
+    opacity: 1;
+}
+#TB_window.wlea-admin-popup-window {
+    width: 430px !important;
+    max-width: calc( 100% - 100px ) !important;
+    height: auto !important;
+    max-height: 80vh !important;
+    background-color: transparent;
+    padding: 0 !important;
+    margin: 0 !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+#TB_window.wlea-admin-popup-window #TB_title {
+    background: transparent;
+    border-bottom: none;
+    height: 0;
+}
+#TB_window.wlea-admin-popup-window #TB_ajaxContent {
+    background-color: #fff;
+    border-radius: 4px;
+    width: 100% !important;
+    height: auto !important;
+    max-height: 80vh !important;
+    overflow: hidden;
+    padding: 0;
+}
+#TB_window.wlea-admin-popup-window #TB_ajaxContent,
+#TB_window.wlea-admin-popup-window #TB_ajaxContent *,
+#TB_window.wlea-admin-popup-window #TB_ajaxContent *::before,
+#TB_window.wlea-admin-popup-window #TB_ajaxContent *::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#TB_window.wlea-admin-popup-window #TB_closeAjaxWindow,
+#TB_window.wlea-admin-popup-window #TB_closeWindow {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    right: auto;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba( 255, 255, 255, 0.65 );
+    height: 29px;
+    width: 29px;
+    padding: 0;
+    margin: 0 0 0 6px;
+    float: none;
+}
+#TB_window.wlea-admin-popup-window #TB_closeAjaxWindow #TB_closeWindowButton,
+#TB_window.wlea-admin-popup-window #TB_closeWindow #TB_closeWindowButton {
+    padding: 0;
+    margin: 0;
+}
+#TB_window.wlea-admin-popup-window #TB_closeAjaxWindow #TB_closeWindowButton .tb-close-icon,
+#TB_window.wlea-admin-popup-window #TB_closeWindow #TB_closeWindowButton .tb-close-icon {
+    color: rgba( 255, 255, 255, 0.65 );
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    outline: 0;
+}
+#TB_window.wlea-admin-popup-window #TB_closeAjaxWindow #TB_closeWindowButton .tb-close-icon::before,
+#TB_window.wlea-admin-popup-window #TB_closeWindow #TB_closeWindowButton .tb-close-icon::before {
+    content: "\f158";
+    font-family: 'dashicons' !important;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 29px;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#TB_window.wlea-admin-popup-window #TB_closeAjaxWindow #TB_closeWindowButton .tb-close-icon:hover,
+#TB_window.wlea-admin-popup-window #TB_closeAjaxWindow #TB_closeWindowButton .tb-close-icon:focus,
+#TB_window.wlea-admin-popup-window #TB_closeWindow #TB_closeWindowButton .tb-close-icon:hover,
+#TB_window.wlea-admin-popup-window #TB_closeWindow #TB_closeWindowButton .tb-close-icon:focus {
+    color: #fff;
+    text-decoration: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    outline: 0;
+}
+
+/* Placeholders */
+.wlea-admin-popup-content .wlea-placeholders-title {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #1d2327;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    padding: 0 0 15px 0;
+    margin: 0 0 15px 0;
+}
+.wlea-admin-popup-content .wlea-placeholders-list {
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+.wlea-admin-popup-content .wlea-placeholders-list + .wlea-placeholders-list {
+    margin-top: 30px;
+}
+.wlea-admin-popup-content .wlea-placeholders-head {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #3c434a;
+    padding: 11px 10px;
+    text-align: center;
+}
+.wlea-admin-popup-content .wlea-placeholder-item {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+	-ms-flex-align: center;
+    align-items: center;
+    padding: 10px;
+}
+.wlea-admin-popup-content .wlea-placeholders-head + .wlea-placeholder-item,
+.wlea-admin-popup-content .wlea-placeholder-item + .wlea-placeholder-item {
+    border-top: 1px solid #eee;
+}
+.wlea-admin-popup-content .wlea-placeholder-content {
+    -ms-flex-preferred-size: 0;
+	flex-basis: 0;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	max-width: 100%;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #3c434a;
+    padding-right: 15px;
+}
+.wlea-admin-popup-content .wlea-placeholder-action {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+	min-height: 1px;
+}
+.wlea-admin-popup-content .wlea-placeholder-copy,
+.wlea-admin-popup-content .wlea-placeholder-insert {
+    font-size: 14px;
+    line-height: 24px;
+    background: #2271b1;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 0 6px;
+    margin: 0;
+    cursor: pointer;
+}
+.wlea-admin-popup-content .wlea-placeholder-copy-success,
+.wlea-admin-popup-content .wlea-placeholder-insert-success {
+    background: #4fb845;
+    color: #fff;
+}
+.wlea-admin-popup-content .wlea-placeholder-copy-error,
+.wlea-admin-popup-content .wlea-placeholder-insert-error {
+    background: #ed6f6f;
+    color: #fff;
+}
+.wlea-admin-popup-content .wlea-placeholder-copy:hover,
+.wlea-admin-popup-content .wlea-placeholder-insert:hover {
+    background: #135e96;
+    color: #fff;
+}
+.wlea-admin-popup-content .wlea-placeholder-copy-success:hover,
+.wlea-admin-popup-content .wlea-placeholder-insert-success:hover {
+    background: #4fb845;
+    color: #fff;
+}
+.wlea-admin-popup-content .wlea-placeholder-copy .wlea-icon,
+.wlea-admin-popup-content .wlea-placeholder-insert .wlea-icon {
+    line-height: inherit;
+}
+.wlea-admin-popup-content .wlea-placeholder-copy-success .wlea-icon-copy::before,
+.wlea-admin-popup-content .wlea-placeholder-insert-success .wlea-icon-insert::before {
+    content: "\f15e";
+}

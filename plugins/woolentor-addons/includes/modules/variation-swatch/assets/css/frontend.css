@@ -1,0 +1,526 @@
+/*
+Frontend style.
+Contain all frontend style of the plugin.
+
+/* 1. General
+======================================================= */
+.swatchly-type-wrap *,
+.swatchly-type-wrap *::after,
+.swatchly-type-wrap *::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.swatchly_d_none,
+.single-product .variations_form .variations tr.swatchly_d_none {
+    display: none !important;
+}
+
+
+/* Swatch Alignment */
+.swatchly_align_center .swatchly-type-wrap{
+    justify-content: center;
+}
+.swatchly_align_right .swatchly-type-wrap{
+    justify-content: flex-end;
+}
+
+.swatchly_pl_show_swatches_label_1 .swatchly_loop_variation_form tr,
+.single-product .variations_form .variations tr{
+    display: grid !important;
+    grid-auto-columns: auto;
+    grid-auto-rows: auto;
+    justify-content: flex-start;
+    text-align: left;
+    grid-template-columns: auto;
+    grid-gap: 0;
+    width: 100%;
+    max-width: 100%;
+    border: unset !important;
+    margin-bottom: 10px;
+    height: auto !important;
+}
+.swatchly_pl_show_swatches_label_1 .swatchly_loop_variation_form td,
+.single-product .variations_form .variations td{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    border: unset;
+    padding: 0;
+    margin: 0;
+}
+.swatchly_pl_show_swatches_label_1 .swatchly_loop_variation_form .reset_variations{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+/* 2. Swatch design
+======================================================= */
+.swatchly-type-wrap img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.swatchly-type-wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.swatchly-swatch {
+    margin: 5px 5px 5px 0;
+    position: relative;
+    background-size: cover;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+/*Width & Height controll*/
+.swatchly-swatch {
+    min-width: 33px;
+    min-height: 33px;
+}
+
+.swatchly-type-image .swatchly-swatch {
+    width: 35px;
+    height: 35px;
+}
+
+/* border controll */
+.swatchly-swatch{
+    border: 1px solid #d8d8d8;
+}
+
+
+.swatchly-swatch:last-child {
+    margin-right: 0;
+}
+
+.swatchly-swatch:focus {
+    display: none;
+}
+
+.swatchly-swatch .swatchly-content {
+    position: relative;
+    border: none;
+    text-align: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0px 7px;
+    border-radius: 0px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: transparent;
+}
+
+.swatchly-inset .swatchly-swatch:before {
+    content: "";
+    position: absolute;
+    border: 2px solid #fff;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*Swatch Types*/
+.swatchly-type-image .swatchly-swatch:not(.swatchly-disabled) .swatchly-content {
+    padding: 0;
+}
+
+.swatchly-type-image .swatchly-content img {
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*Shapes*/
+.swatchly-shape-type-rounded .swatchly-swatch {
+    border-radius: 3px;
+}
+
+.swatchly-shape-type-rounded .swatchly-content img {
+    border-radius: 3px;
+}
+
+.swatchly-shape-type-rounded.swatchly-type-image .swatchly-content {
+    display: inline-block;
+    height: 100%;
+    border-radius: 3px;
+}
+
+.swatchly-shape-type-circle .swatchly-swatch {
+    border-radius: 5000px;
+}
+
+.swatchly-shape-type-circle .swatchly-content {
+    text-align: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.swatchly-shape-type-circle .swatchly-content img {
+    border-radius: 5000px;
+}
+
+.swatchly-shape-type-circle.swatchly-type-image .swatchly-swatch .swatchly-content {
+    border-radius: 50000px;
+    text-align: center;
+}
+
+.swatchly-shape-type-circle.swatchly-type-image .swatchly-content img {
+    border-radius: 5000px;
+    vertical-align: middle;
+}
+
+
+/*Inset*/
+.swatchly-shape-type-rounded.swatchly-inset .swatchly-swatch:before {
+    border-radius: 3px;
+}
+
+.swatchly-shape-type-circle.swatchly-inset .swatchly-swatch:before {
+    border-radius: 5000px;
+}
+
+/*Hover & Selected*/
+.swatchly-swatch:hover,
+.swatchly-swatch.swatchly-selected,
+.swatchly-swatch.swatchly-more-button {
+    border-color: #000;
+}
+
+.swatchly-swatch.swatchly-more-button {
+    background-color: #000;
+    color: #ffffff;
+}
+
+.swatchly-shape-type-circle .swatchly-selected,
+.swatchly-type-image .swatchly-shape-type-circle .swatchly-selected .swatchly-content {
+    border-radius: 5000px;
+}
+
+.swatchly-swatch.swatchly-selected.swatchly-content {
+    border: 1px solid #000 !important;
+}
+
+
+/*Disabled*/
+.swatchly-swatch.swatchly-disabled {
+    position: relative;
+    pointer-events: none;
+    cursor: not-allowed;
+    overflow: hidden;
+    opacity: .7;
+}
+
+.swatchly-swatch.swatchly-disabled .swatchly-content:after,
+.swatchly-type-image .swatchly-swatch.swatchly-disabled .swatchly-content:after {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.swatchly-swatch.swatchly-disabled .swatchly-content:before,
+.swatchly-type-image .swatchly-swatch.swatchly-disabled .swatchly-content:before {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.swatchly-swatch.swatchly-disabled .swatchly-content::after,
+.swatchly-swatch.swatchly-disabled .swatchly-content::before,
+.swatchly-type-image .swatchly-swatch.swatchly-disabled .swatchly-content::after,
+.swatchly-type-image .swatchly-swatch.swatchly-disabled .swatchly-content::before {
+    position: absolute;
+    content: "";
+    opacity: 1;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    min-width: auto;
+    width: 100%;
+    height: 1px;
+    background: #fd2727;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 50%;
+    visibility: visible;
+}
+
+.swatchly-blur-without-cross .swatchly-disabled .swatchly-content::before,
+.swatchly-blur-without-cross .swatchly-disabled .swatchly-content::after,
+.swatchly-blur .swatchly-disabled .swatchly-content::before,
+.swatchly-blur .swatchly-disabled .swatchly-content::after {
+    display: none;
+}
+
+.swatchly-blur-with-cross .swatchly-disabled,
+.swatchly-blur .swatchly-disabled {
+    opacity: .3;
+}
+
+.swatchly-hide .swatchly-disabled {
+    display: none;
+}
+
+
+/* 3. Tooltip
+======================================================= */
+.swatchly-swatch .swatchly-tooltip {
+    position: absolute;
+    background: #000;
+    text-align: center;
+    z-index: 999;
+    border: 2px solid #000;
+    align-items: center;
+    max-width: 150px;
+    width: max-content;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity .6s, margin .3s;
+    -o-transition: opacity .6s, margin .3s;
+    transition: opacity .6s, margin .3s;
+    font-size: 13px;
+    line-height: 14px;
+    bottom: calc(100% + 10px);
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    color: #fff;
+    border-radius: 2px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.swatchly-swatch .swatchly-tooltip::after {
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #000;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    content: "";
+    height: 0;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    width: 0;
+    bottom: -9px;
+    -webkit-transform: translateX(-50%) rotate(90deg);
+    -ms-transform: translateX(-50%) rotate(90deg);
+    transform: translateX(-50%) rotate(90deg);
+}
+
+.swatchly-swatch .swatchly-tooltip-text {
+    white-space: normal;
+    padding: 7px 7px;
+}
+
+.swatchly-swatch .swatchly-tooltip-image {
+    background-color: #ffffff;
+    padding: 5px;
+    max-width: 80px;
+    width: 100%;
+    min-width: 50px;
+}
+
+.swatchly-swatch .swatchly-tooltip img {
+    /* Remove theme default margin */
+    margin: 0 !important;
+}
+
+.swatchly-swatch:hover .swatchly-tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+.woocommerce.single-product div.product form.cart .variations td.label,
+.woocommerce.single-product div.product form.cart .variations td.value {
+    width: auto;
+    display: block;
+}
+
+
+/* 4. Archive Page
+======================================================= */
+.swatchly-more-button a {
+    color: #333;
+    text-decoration: none;
+}
+
+.swatchly-swatch.swatchly-more-button .swatchly-content::after {
+    content: '';
+    left: 50%;
+    top: 50%;
+    height: 18px;
+    width: 1px;
+    background-color: #fff;
+    position: absolute;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.swatchly-swatch.swatchly-more-button .swatchly-content::before {
+    content: '';
+    left: 50%;
+    top: 50%;
+    height: 1px;
+    width: 18px;
+    background-color: #fff;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+/*Loop variation form*/
+.swatchly_loop_variation_form table {
+    border: none;
+    margin-bottom: 0px;
+    background: transparent !important;
+}
+
+.swatchly_loop_variation_form table td {
+    border: unset;
+    padding: 0 5px 0 0 !important;
+}
+
+.swatchly_loop_variation_form td.value {
+    padding-bottom: 5px;
+}
+
+/*center align*/
+.swatchly_pl_show_swatches_label_1 .swatchly_loop_variation_form.swatchly_align_center tr,
+.swatchly_pl_show_swatches_label_1 .swatchly_loop_variation_form.swatchly_align_center td{
+    text-align: center;
+    justify-content: center;
+}
+.swatchly_loop_variation_form.swatchly_align_center td{
+    text-align: center;
+}
+
+/*right align*/
+.swatchly_pl_show_swatches_label_1 .swatchly_loop_variation_form.swatchly_align_right tr,
+.swatchly_pl_show_swatches_label_1 .swatchly_loop_variation_form.swatchly_align_right td{
+    text-align: right;
+    justify-content: flex-end;
+}
+.swatchly_loop_variation_form.swatchly_align_right td{
+    text-align: right;
+}
+
+.swatchly_loop_variation_form.swatchly_align_right td.value,
+.swatchly_loop_variation_form.swatchly_align_right .swatchly-type-wrap {
+    text-align: right;
+    justify-content: flex-end;
+}
+
+.swatchly_loop_variation_form.swatchly_align_right .reset_variations {
+    display: inline-block;
+    text-align: right;
+}
+.swatchly_pl.swatchly_out_of_stock p {
+    margin-bottom: 0;
+    color: red;
+}
+
+.swatchly_default_select {
+    display: none !important;
+}
+
+/*Notice*/
+#TB_window #TB_title {
+    background: transparent;
+    border-bottom: none;
+}
+
+#TB_window #TB_ajaxContent {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #fff;
+    width: 100% !important;
+    height: auto !important;
+    max-height: 80vh !important;
+    overflow: auto;
+    padding: 0 15px;
+}
+
+/* 5. Theme Support
+======================================================= */
+
+/* Hello elementor */
+.theme-hello-elementor table.variations tbody>tr>td,
+.theme-hello-elementor table.variations tbody>tr>th{
+    background: transparent;
+}
+
+/* Woodmart */
+.theme-woodmart.single-product .variations label:after{
+    display: none;
+}
+.theme-woodmart .swatchly_loop_variation_form .reset_variations{
+    visibility: visible !important;
+    opacity: 1 !important;
+    pointer-events: auto;
+}
+
+/* Salient  */
+body.theme-salient.swatchly_pl_show_clear_link_1 .swatchly_loop_variation_form .reset_variations {
+    display: inline-block !important;
+}
+
+/* Woolentor */
+.quick-cart-loaded .swatchly_loop_variation_form{
+    display: none;
+}

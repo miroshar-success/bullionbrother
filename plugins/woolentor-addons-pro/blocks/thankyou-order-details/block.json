@@ -1,0 +1,183 @@
+{
+  "name": "woolentor/thankyou-order-details",
+  "category": "woolentor-checkout",
+  "title": "WL: Order Details",
+  "description": "Display Customer Order Details.",
+  "keywords": [
+    "woolentor",
+    "Thank you",
+    "order",
+    "Customer order",
+    "Order details"
+  ],
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "blockUniqId": {
+      "type": "string",
+      "default": ""
+    },
+    "areaPadding": {
+      "type": "object",
+      "default": {
+        "device": "desktop"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} { padding: {{areaPadding}} !important; }"
+      }
+    },
+    "areaMargin": {
+      "type": "object",
+      "default": {
+        "device": "desktop"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} { margin: {{areaMargin}} !important; }"
+      }
+    },
+    "areaBGProperty": {
+      "type": "object",
+      "default": {
+        "imageId": null,
+        "imageUrl": "",
+        "position": "",
+        "attachment": "",
+        "repeat": "",
+        "size": ""
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}"
+      }
+    },
+    "headingColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-order-details .woocommerce-order-details__title { color: {{headingColor}}; }"
+      }
+    },
+    "headingSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-order-details .woocommerce-order-details__title { font-size: {{headingSize}}; }"
+      }
+    },
+    "headingMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-order-details .woocommerce-order-details__title { margin: {{headingMargin}}; }"
+      }
+    },
+    "headingPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-order-details .woocommerce-order-details__title { padding: {{headingPadding}}; }"
+      }
+    },
+    "headingBGColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-order-details .woocommerce-order-details__title { background-color: {{headingBGColor}}; }"
+      }
+    },
+    "headingAlignment": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-order-details .woocommerce-order-details__title { text-align: {{headingAlignment}}; }"
+      }
+    },
+    "tableHeadingColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-order-details .order_details th,{{WOOLENTOR_WRAPPER}} .woocommerce-order-details .order_details tfoot td { color: {{tableHeadingColor}}; }"
+      }
+    },
+    "tableHeadingBGColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-order-details .order_details th,{{WOOLENTOR_WRAPPER}} .woocommerce-order-details .order_details tfoot td{ background-color: {{tableHeadingBGColor}}; }"
+      }
+    },
+    "tableHeadingFontSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-order-details .order_details th,{{WOOLENTOR_WRAPPER}} .woocommerce-order-details .order_details tfoot td { font-size: {{tableHeadingFontSize}}; }"
+      }
+    },
+    "tableHeadingPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-order-details .order_details th,{{WOOLENTOR_WRAPPER}} .woocommerce-order-details .order_details tfoot td { padding: {{tableHeadingPadding}}; }"
+      }
+    },
+    "tableHeadingAlignment": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-order-details .order_details th,{{WOOLENTOR_WRAPPER}} .woocommerce-order-details .order_details tfoot td { text-align: {{tableHeadingAlignment}}; }"
+      }
+    },
+    "tableContentColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-order-details .order_details td { color: {{tableContentColor}}; }"
+      }
+    },
+    "tableContentFontSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-order-details .order_details td { font-size: {{tableContentFontSize}}; }"
+      }
+    },
+    "tableContentLinkColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-order-details .order_details td a,{{WOOLENTOR_WRAPPER}} .woocommerce-order-details .order_details td strong { color: {{tableContentLinkColor}}; }"
+      }
+    },
+    "tableContentLinkHoverColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-order-details .order_details td a:hover { color: {{tableContentLinkHoverColor}}; }"
+      }
+    },
+    "tableContentBorderColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-order-details .order_details,{{WOOLENTOR_WRAPPER}} .woocommerce-order-details .order_details td,{{WOOLENTOR_WRAPPER}} .woocommerce-order-details .order_details th { border-color: {{tableContentBorderColor}}!important; }"
+      }
+    },
+    "tableContentAlignment": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-order-details .order_details,{{WOOLENTOR_WRAPPER}} .woocommerce-order-details .order_details td,{{WOOLENTOR_WRAPPER}} .woocommerce-order-details .order_details th { text-align: {{tableContentAlignment}}; }"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+
+.update-nag.wps_gw_admin_notices {
+    display: block;
+    margin-right: 20px !important;
+}
+.update-nag.wps_gw_admin_notices p {
+    float: left;
+}
+.update-nag.wps_gw_admin_notices > a {
+    float: right;
+    margin-top: 11px;
+}
+.update-nag.wps_gw_admin_notices:after {
+    clear: both;
+    display: block;
+    content: '';
+}
+#update-nag, .update-nag{
+	padding: 5px 15px;
+}

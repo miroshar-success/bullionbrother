@@ -1,0 +1,224 @@
+.woo-pr-clear {
+	clear: both;
+}
+.woo-pr-float-left{
+	float: left;
+}
+.woo-pr-float-right{
+	float: right;
+}
+.woo-pr-login-error,
+.woo-pr-login-loader{
+	display:none;
+}
+.woo-pr-login-error{
+	clear: both;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #F1ACAC;
+	border: 1px solid #EE4B4B;
+	margin-bottom: 1.650em;
+	box-shadow: 0px 2px 2px 2px #ccc;
+	padding: 8px 5px 8px 8px;
+}
+.woo-pr-login-error span{
+	display: block;
+}
+.woo-pr-social-wrap img{
+	outline: 0;
+}
+.woo-pr-social-container a {
+	text-decoration: none !important;
+}
+.woo-pr-login-wrapper {
+	float: left;
+	margin-right: 5px;
+}
+.woo-pr-login-wrapper a {
+	outline: 0;
+}
+.woo-pr-clear {
+	clear: both;
+}
+.woo-pr-social-container {
+	border: 1px solid #eee;
+	padding: 1.387em;
+	margin: 0 0 21px;
+}
+.woo-pr-social-container legend {
+	display: block;
+	font-size: 120%;
+	line-height: 1;
+	font-weight: 700;
+	width: 100%;
+	margin: 0 0 21px;
+	padding: 0;
+}
+.woo-pr-widget-content .woo-pr-login-wrapper {
+	margin-bottom: 5px;
+}
+.woo-pr-social-container.woo-pr-widget-content{
+	border:none !important;
+}
+
+#doaction, #doaction2, #post-query-submit {
+    margin: 1px 8px 0 0;
+}
+.point-list table{
+	border : 2px solid #EDEDED !important;
+}
+.point-list table tr{
+	padding:10px !important;
+}
+.point-list table th,.point-list table td{
+	padding:8px !important;
+} 
+.woo-pr-redeem-points-wrap form {
+	float: right;
+	margin: 0px;
+}
+.woo-pr-product-message {
+	padding-bottom:10px;
+}
+/** Redeem points CSS Start **/
+.woo-pr-redeem-message {
+	padding:3px;
+}
+.woo-pr-apply-discount-button {
+	float:right;
+	font-weight:bold;
+	clear:both;
+}
+/** Redeem points CSS End **/
+
+/************************************** Pagination CSS Start *****************************************/
+.woo-pr-paging {
+	clear: both;
+	margin-top: 10px;
+    text-align: center;
+}
+.woo-pr-paging .woo-pr-tablenav-pages {
+    color: #636363;
+}
+.woo-pr-paging .woo-pr-tablenav-pages .dots {
+	color: #636363 !important;
+	font-weight: bold !important;
+}
+.woo-pr-paging .woo-pr-tablenav-pages {
+    cursor: default;
+    display: block; 
+    line-height: 10px;
+}
+.woo-pr-paging .woo-pr-tablenav-pages a, .woo-pr-tablenav-pages span.disabled {
+	color: #636363 !important;
+	background-color: #F5F5F5;
+}
+.woo-pr-paging .woo-pr-tablenav-pages  a, 
+.woo-pr-tablenav-pages span.current, .woo-pr-tablenav-pages span.disabled{
+    padding: 3px 6px;
+    text-decoration: none;
+    margin: 0px 2.5px;
+    border: 1px solid #e7e7e7;
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px 0px #CCCCCC;
+    background: linear-gradient(to bottom, #f9f9f9 0%,#efefef 44%,#e7e7e7 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#e7e7e7',GradientType=0 ); /* IE6-9 */
+}
+.woo-pr-paging .woo-pr-tablenav-pages .current {
+    font-weight: bold;
+    background-color:#F5F5F5;
+}
+.woo-pr-tablenav-pages a {
+    font-weight: normal;
+    padding: 0px 2px;
+}
+.woo-pr-sales-loader img{
+	box-shadow: none !important;
+}
+.woo-pr-cartdetails-loader,
+.woo-pr-sales-loader {
+	display: none;
+	margin-top: -5px;
+    text-align: center;
+}
+.woo-pr-paging .woo-pr-tablenav-pages a:hover, 
+.woo-pr-tablenav-pages span.current:hover, 
+.woo-pr-woo-pr-tablenav-pages span.disabled:hover {
+    background: #e7e7e7;
+}
+
+/****/
+.woo-pr-user-points {
+	overflow-x:auto;
+}
+.woo-pr-details {
+	min-width: 350px;
+}
+
+
+/************************************** Pagination CSS End *****************************************/
+
+
+.woo-pr-details td > label.unlimited-expiry {
+    text-align: center;
+    display: block;
+    font-size: 20px;
+}
+
+.woopr-expiry-points-table{
+	border: 1px solid #5e5e5e;
+}
+.woopr-expiry-points-table tr{
+	text-align:center;
+}
+.woopr-expiry-points-table tr.woopr-head{
+	background:black;
+	color:white;
+	text-align: center;
+}
+.woopr-expiry-points-table tr.woopr-head th {
+    color: white;
+    text-align: center;
+}
+.woopr-expiry-points-table tr td {
+    text-align: center;
+}
+table.woopr-expiry-points-table{
+	border-bottom: 1px solid grey !important;
+}
+
+
+.tooltip {      
+      cursor: default;
+      text-decoration: none !important;
+      position: relative;
+      border: none;
+    }
+    .tooltip span {
+      margin-left: -999em;
+      position: absolute;
+    }
+    .tooltip:hover span {
+      border-radius: 5px 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; 
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+      font-family: Calibri, Tahoma, Geneva, sans-serif;
+      position: absolute; left: 1em; top: 2em; z-index: 99;
+      margin-left: 0; width: 250px;
+    }
+    .tooltip:hover img {
+      border: 0; margin: -10px 0 0 -55px;
+      float: left; position: absolute;
+    }
+    .tooltip:hover em {
+      font-family: Candara, Tahoma, Geneva, sans-serif; font-size: 1.2em; font-weight: bold;
+      display: block; padding: 0.2em 0 0.6em 0;
+    }
+    .classic { padding: 0.8em 1em; }
+    .custom { padding: 0.5em 0.8em 0.8em 2em; }
+    * html a:hover { background: transparent; }
+    .classic {background: #FFFFAA; border: 1px solid #FFAD33; }
+    .critical { background: #FFCCAA; border: 1px solid #FF3334; }
+    .help { background: #9FDAEE; border: 1px solid #2BB0D7; }
+    .info { background: #9FDAEE; border: 1px solid #2BB0D7; }
+    .warning { background: #FFFFAA; border: 1px solid #FFAD33; }

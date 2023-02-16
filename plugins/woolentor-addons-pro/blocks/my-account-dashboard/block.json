@@ -1,0 +1,88 @@
+{
+  "name": "woolentor/my-account-dashboard",
+  "category": "woolentor-myaccount",
+  "title": "WL: My Account Dashboard",
+  "description": "Display My Account dashboard.",
+  "keywords": [
+    "woolentor",
+    "My Account",
+    "Account",
+    "Account dashboard",
+    "Dashboard content",
+    "Dashboard"
+  ],
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "blockUniqId": {
+      "type": "string",
+      "default": ""
+    },
+    "areaPadding": {
+      "type": "object",
+      "default": {
+        "device": "desktop"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} { padding: {{areaPadding}} !important; }"
+      }
+    },
+    "areaMargin": {
+      "type": "object",
+      "default": {
+        "device": "desktop"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} { margin: {{areaMargin}} !important; }"
+      }
+    },
+    "areaBGProperty": {
+      "type": "object",
+      "default": {
+        "imageId": null,
+        "imageUrl": "",
+        "position": "",
+        "attachment": "",
+        "repeat": "",
+        "size": ""
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}"
+      }
+    },
+    "contentColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_my_account_dashboard { color: {{contentColor}}; }"
+      }
+    },
+    "contentLinkColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_my_account_dashboard a { color: {{contentLinkColor}}; }"
+      }
+    },
+    "contentLinkHoverColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_my_account_dashboard a:hover { color: {{contentLinkHoverColor}}; }"
+      }
+    },
+    "contentSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_my_account_dashboard { font-size: {{contentSize}}; }"
+      }
+    },
+    "contentAlignment": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_my_account_dashboard { text-align: {{contentAlignment}}; }"
+      }
+    }
+  }
+}

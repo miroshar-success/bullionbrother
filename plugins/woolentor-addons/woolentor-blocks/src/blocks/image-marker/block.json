@@ -1,0 +1,181 @@
+{
+  "name": "woolentor/image-marker",
+  "category": "woolentor-blocks",
+  "title": "Image Marker",
+  "attributes": {
+    "blockUniqId": {
+      "type": "string",
+      "default": ""
+    },
+    "bgProperty": {
+      "type": "object",
+      "default": {
+        "imageId": null,
+        "imageUrl": "",
+        "position": "",
+        "attachment": "",
+        "repeat": "",
+        "size": ""
+      }
+    },
+    "style": {
+      "type": "string",
+      "default": "1"
+    },
+    "markerList": {
+      "type": "array",
+      "default": [
+        {
+          "title": "Marker One",
+          "content": "Lorem ipsum pisaci volupt atem accusa saes ntisdumtiu loperm asaerks.",
+          "horizontal": 50,
+          "verticle": 15
+        },
+        {
+          "title": "Marker Two",
+          "content": "Lorem ipsum pisaci volupt atem accusa saes ntisdumtiu loperm asaerks.",
+          "horizontal": 40,
+          "verticle": 20
+        },
+        {
+          "title": "Marker Three",
+          "content": "Lorem ipsum pisaci volupt atem accusa saes ntisdumtiu loperm asaerks.",
+          "horizontal": 60,
+          "verticle": 30
+        }
+      ]
+    },
+    "markerColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .wlb_image_pointer::before { color: {{markerColor}}; }"
+      }
+    },
+    "markerBGColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .wlb_image_pointer { background-color: {{markerBGColor}}; }"
+      }
+    },
+    "markerBorderColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .wlb_image_pointer { border-color: {{markerBorderColor}}; }"
+      }
+    },
+    "markerBorderRadius": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .wlb_image_pointer { border-radius: {{markerBorderRadius}}; }"
+      }
+    },
+    "markerPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .wlb_image_pointer { padding: {{markerPadding}}; }"
+      }
+    },
+    "markerContentBGColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .wlb_image_pointer .wlb_pointer_box { background-color: {{markerContentBGColor}}; }"
+      }
+    },
+    "markerContentBorderRadius": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .wlb_image_pointer .wlb_pointer_box { border-radius: {{markerContentBorderRadius}}; }"
+      }
+    },
+    "markerContentPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .wlb_image_pointer .wlb_pointer_box { padding: {{markerContentPadding}}; }"
+      }
+    },
+    "markerTitleColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .wlb_image_pointer .wlb_pointer_box h4 { color: {{markerTitleColor}}; }"
+      }
+    },
+    "markerTitleSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .wlb_image_pointer .wlb_pointer_box h4 { font-size: {{markerTitleSize}}; }"
+      }
+    },
+    "markerTitleMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .wlb_image_pointer .wlb_pointer_box h4 { margin: {{markerTitleMargin}}; }"
+      }
+    },
+    "markerDescriptionColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .wlb_image_pointer .wlb_pointer_box p { color: {{markerDescriptionColor}}; }"
+      }
+    },
+    "markerDescriptionSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .wlb_image_pointer .wlb_pointer_box p { font-size: {{markerDescriptionSize}}; }"
+      }
+    },
+    "markerDescriptionMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .wlb_image_pointer .wlb_pointer_box p { margin: {{markerDescriptionMargin}}; }"
+      }
+    }
+  }
+}

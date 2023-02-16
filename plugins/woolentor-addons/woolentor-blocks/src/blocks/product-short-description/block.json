@@ -1,0 +1,85 @@
+{
+  "name": "woolentor/product-short-description",
+  "category": "woolentor-single-product",
+  "title": "Product Short Description",
+  "attributes": {
+    "blockUniqId": {
+      "type": "string",
+      "default": ""
+    },
+    "areaPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} { padding: {{areaPadding}}; }"
+      }
+    },
+    "areaMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} { margin: {{areaMargin}}; }"
+      }
+    },
+    "areaBGProperty": {
+      "type": "object",
+      "default": {
+        "imageId": null,
+        "imageUrl": "",
+        "position": "",
+        "attachment": "",
+        "repeat": "",
+        "size": ""
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}"
+      }
+    },
+    "textColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-product-details__short-description, {{WOOLENTOR_WRAPPER}} .woocommerce-product-details__short-description p{ color: {{textColor}} !important; }"
+      }
+    },
+    "textSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-product-details__short-description, {{WOOLENTOR_WRAPPER}} .woocommerce-product-details__short-description p{ font-size: {{textSize}} !important; }"
+      }
+    },
+    "textAlignment": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-product-details__short-description, {{WOOLENTOR_WRAPPER}} .woocommerce-product-details__short-description p{ text-align: {{textAlignment}} !important; }"
+      }
+    },
+    "textMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-product-details__short-description, {{WOOLENTOR_WRAPPER}} .woocommerce-product-details__short-description p{ margin: {{textMargin}}; }"
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "name": "woolentor/product-rating",
+  "category": "woolentor-single-product",
+  "title": "Product Rating",
+  "attributes": {
+    "blockUniqId": {
+      "type": "string",
+      "default": ""
+    },
+    "areaPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} { padding: {{areaPadding}}; }"
+      }
+    },
+    "areaMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} { margin: {{areaMargin}}; }"
+      }
+    },
+    "areaBGProperty": {
+      "type": "object",
+      "default": {
+        "imageId": null,
+        "imageUrl": "",
+        "position": "",
+        "attachment": "",
+        "repeat": "",
+        "size": ""
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}"
+      }
+    },
+    "ratingColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .star-rating,{{WOOLENTOR_WRAPPER}} .star-rating::before, {{WOOLENTOR_WRAPPER}} .woocommerce-product-rating,{{WOOLENTOR_WRAPPER}} .woocommerce-product-rating::before{ color: {{ratingColor}} !important; }"
+      }
+    },
+    "linkColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} a.woocommerce-review-link{ color: {{linkColor}} !important; }"
+      }
+    },
+    "linkSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} a.woocommerce-review-link{ font-size: {{linkSize}} !important; }"
+      }
+    }
+  }
+}

@@ -1,0 +1,304 @@
+.wps-cgw-main-container a:hover,.wps-cgw-main-container a:focus{
+	text-decoration: none;
+	outline: 0;
+}
+.wps-cgw-main-container ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #777777;
+}
+.wps-cgw-main-container ::-moz-placeholder { /* Firefox 19+ */
+  color: #777777;
+}
+.wps-cgw-main-container :-ms-input-placeholder { /* IE 10+ */
+  color: #777777;
+}
+.wps-cgw-main-container :-moz-placeholder { /* Firefox 18- */
+  color: #777777;
+}
+.wps-cgw-main-container {
+	box-sizing: border-box;
+	margin: 0 auto;
+	max-width: 1170px;
+	width: 100%;
+}
+.wps-cgw-wrapper img {
+	height: auto;
+	width: 100%;
+	margin:0 auto;
+	vertical-align: middle;
+}
+.clearfix::after {
+	clear: both;
+	content: "";
+	display: block;
+}
+.wps-cgw-wrapper * {
+	box-sizing: border-box;
+}
+.wps-cgw-product-image{
+	float: left;
+	width: 20%;
+}
+.wps-cgw-gift-details{
+	float: left;
+	width: 25%;
+}
+.wps-cgw-preview {
+	float: left;
+	width: 55%;
+}
+.wps-cgw-product-image.wps-cgw-column ul {
+	margin: 0;
+	padding: 0;
+}
+.wps-cgw-product-image.wps-cgw-column ul li {
+	list-style-type: none;
+	margin-bottom: 15px;
+	position: relative;
+}
+.wps-cgw-image-upload {
+	background-color: #e0d7d7;
+	border-radius: 4px;
+	color: #777;
+	display: block;
+	left: 0;
+	padding: 20px 30px;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	width: 100%;
+	font-size: 18px;
+	font-weight: bold;
+}
+.wps-cgw-text-upload {
+	cursor: pointer;
+	height: 110px;
+	opacity: 0;
+	position: relative;
+	width: 100%;
+	z-index: 1;
+}
+.wps-cgw-image-upload span {
+	display: block;
+	font-size: 30px;
+}
+.wps-cgw-column {
+	margin: 30px 0;
+	padding: 0 15px;
+}
+.wps-cgw-column p{
+	margin: 0 0 15px 0;
+}
+.wps-cgw-column label{
+	font-weight: bold;
+}
+.wps-cgw-wrapper-row {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.wps-cgw-product-image-wrapper {
+	background-color: #ffffff;
+	border: 1px solid #e4dada;
+	padding: 38px 20px;
+}
+.wps-cgw-image {
+	display: block;
+	padding: 3px;
+	border: 1px solid #ddd;
+	background-color: #fff;
+	border-radius: 4px;
+}
+.wps-cgw-image:focus {
+	box-shadow: 2px 3px 10px rgba(0,0,0,0.44);
+}
+.wps-cgw-image img{
+	border-radius: 4px;
+}
+.wps-cgw-preview-wrapper {
+	background-color: #ffffff;
+	box-shadow: 2px 3px 10px rgba(0,0,0,0.22);
+	padding: 15px 20px;
+	border: 1px solid #e4dada;
+}
+.wps-cgw-gift-details-wrapper {
+	background-color: #ffffff;
+	padding: 15px;
+	border: 1px solid #e4dada;
+}
+.wps-cgw-heading {
+	border-bottom: 1px solid #e0d3d3;
+	font-size: 20px;
+	margin-top: 0;
+	padding-bottom: 10px;
+	position: relative;
+	margin-bottom: 20px;
+}
+h4.wps-cgw-heading:before {
+	content: "";
+	position: absolute;
+	width: 30px;
+	height: 3px;
+	background-color: #e33b3b;
+	bottom: -2px;
+}
+.wps-cgw-text {
+	background-color: #ffffff;
+	border-radius: 4px;
+	border: 1px solid #ddd;
+	color: #777777;
+	font-size: 16px;
+	margin-top: 10px;
+	padding: 8px 10px;
+	width: 100%;
+}
+.wps-cgw-text:focus{
+	border-color: #e33b3b;
+	outline: none;
+}
+textarea.wps-cgw-text {
+	/* height: 100%; */
+	margin-top: 0;
+}
+.wps-cgw-price span {
+	color: 00000;
+}
+.wps-cgw-price {
+	font-size: 20px;
+}
+.wps-cgw-radio {
+	position: relative;
+}
+.wps-cgw-radio input[type="radio"] {
+	cursor: pointer;
+	height: auto;
+	margin: 0;
+	opacity: 1;
+	vertical-align: middle;
+	width: auto;
+}
+.wps-cgw-radio label {
+	padding-left: 10px;
+	position: relative;
+}
+.wps-cgw-text.wps-cgw-price-field {
+	width: 75%;
+	display: inline-block;
+	font-size: 20px;
+	margin: 0;
+	vertical-align: middle;
+}
+.wps-cgw-radio input[type="radio"]:not(:checked) + label::after {
+	-webkit-transform: scale(0);
+	opacity: 0;
+	transform: scale(0);
+}
+.wps-cgw-radio input[type="radio"]:checked + label::after {
+	-webkit-transform: scale(1);
+	opacity: 1;
+	transform: scale(1);
+}
+.wps-cgw-coupon-code-preview {
+	background-color: #e33b3b;
+	color: #fff;
+	padding: 20px 15px;
+}
+.wps-cgw-from-name {
+	background-color: #f1f1f1;
+	padding: 20px 15px;
+	text-align: center;
+}
+.wps-cgw-name {
+	text-align: right;
+	font-size: 21px;
+}
+.wps-cgw-coupon {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+.wps-cgw-coupon span {
+	border: 2px solid #fff;
+	padding: 8px 40px;
+	display: inline-block;
+	background-color: #ffffFF;
+	border-radius: 5px;
+	color: #000;
+}
+.wps-cgw-coupon-code-preview .wps-cgw-expiry {
+	float: left;
+}
+.wps-cgw-coupon-code-preview .wps-cgw-coupon-price {
+	float: right;
+}
+.wps-cgw-coupon-code-preview .wps-cgw-coupon-price,
+.wps-cgw-coupon-code-preview .wps-cgw-expiry{
+	font-size: 22px;
+	margin: 0;
+}
+.wps-cgw-desclaimer {
+	background-color: #9b9090;
+	color: #ffffff;
+	padding: 30px 10px;
+	text-align: center;
+}
+.wps-cgw-gift-details-wrapper.wps-cgw-button-wrapper {
+	 margin-top: 20px;
+	 text-align: center;
+}
+.wps-cgw-gift-button {
+	background-color: #e33b3b;
+	color: #fff;
+	text-decoration: navajowhite;
+	padding: 10px;
+	display: block;
+	text-align: center;
+	border-radius: 4px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.wps-cgw-gift-button:hover{
+	color: #ffffff;
+}
+.wps_cgc_price_button {
+	background-color: #9B9090 !important;
+	border: none;
+	color: #ffffff;
+	cursor: pointer;
+	margin-right: 3px !important;
+	min-width: 40px !important;
+	padding: 10px !important;
+	margin-top: 3px !important;
+}
+.wps_cgc_price_button.active {
+	background: #e33b3b !important;
+}
+.wps_active{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.wps-cgw-gift-details-wrapper.wps-cgw-button-wrapper button.single_add_to_cart_button.button.alt.support_cart {
+   background-color: #e33b3b;
+   width: 100%;
+}
+.wps-cgw-description {
+	display: block;
+	margin-top: 50px;
+}
+.product_title.entry-title.wps_cgw_title {
+	text-align: center !important;
+}
+
+@media screen and (max-width: 767px) {
+	.wps-cgw-product-image,.wps-cgw-preview,.wps-cgw-gift-details{
+		float: none;
+		width: 100%;
+	}
+	.wps-cgw-wrapper-row {
+		display: flex;
+		flex-direction: column;
+	}
+	.wps-cgw-preview {
+		order: 3;
+	}
+	.wps-cgw-gift-details {
+		order: 2;
+	}
+}

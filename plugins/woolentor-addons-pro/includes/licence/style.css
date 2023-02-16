@@ -1,0 +1,64 @@
+.el-license-container .el-license-field {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.el-license-container .el-license-field input {
+    font-size: 200%;
+    padding: 8px 10px 10px;
+}
+
+.el-license-container .el-license-field label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.el-license-container .el-license-active-btn {
+    margin-top: 25px;
+}
+
+.el-license-container {
+    margin-top: 20px;
+    padding: 35px;
+    background: #fff;
+    border-radius: 4px;
+}
+.el-license-container .notice-error, .el-license-container div.error {
+    background: rgba(220, 50, 50, 0.11);
+    margin: 0;
+}
+.el-license-container .el-license-title{
+    margin-top: 0;
+    font-size: 30px;
+}
+.el-license-info li {
+    list-style: none;
+    padding: 0;
+}
+
+.el-license-info-title {
+    width: 150px;
+    display: inline-block;
+    position: relative;
+    padding-right: 5px;
+}
+
+.el-license-info-title:after {
+    content: ':';
+    position: absolute;
+    right: 2px;
+}
+
+.el-license-valid, .el-license-invalid {
+    padding: 0px 5px 2px;
+    color: #fff;
+    background-color: #8fcc77;
+    border-radius: 3px;
+}
+.el-license-invalid {
+    background-color: #f44336;
+}
+.el-license-key {
+    font-weight: 700;
+    opacity: 0.8;
+}

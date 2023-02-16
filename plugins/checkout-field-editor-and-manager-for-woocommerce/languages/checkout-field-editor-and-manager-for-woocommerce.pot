@@ -1,0 +1,63 @@
+# Copyright (C) 2022 Acowebs
+# This file is distributed under the same license as the Checkout Field Editor and Manager for WooCommerce plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Checkout Field Editor and Manager for WooCommerce 2.2.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/checkout-field-editor-and-manager-for-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-10-28T04:55:06+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.3.0\n"
+"X-Domain: checkout-field-editor-and-manager-for-woocommerce\n"
+
+#. Plugin Name of the plugin
+msgid "Checkout Field Editor and Manager for WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+msgid "WooCommerce checkout field editor and manager helps to manage checkout fields in WooCommerce"
+msgstr ""
+
+#. Author of the plugin
+msgid "Acowebs"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://acowebs.com"
+msgstr ""
+
+#: includes/class-awcfe-backend.php:185
+msgid "WooCommerce Checkout Fields Editor"
+msgstr ""
+
+#: includes/class-awcfe-backend.php:186
+#: includes/class-awcfe-backend.php:200
+msgid "Checkout Fields"
+msgstr ""
+
+#: includes/class-awcfe-backend.php:201
+msgid "Upgrade to PRO"
+msgstr ""
+
+#: includes/class-awcfe-fields.php:584
+msgid "Fields"
+msgstr ""
+
+#: includes/class-awcfe-front-end.php:165
+#: includes/class-awcfe-front-end.php:209
+msgid "Extra Fields"
+msgstr ""
+
+#: includes/class-awcfe-front-end.php:552
+#: includes/class-awcfe-front-end.php:561
+msgid "Billing extra fields"
+msgstr ""
+
+#: includes/class-awcfe-front-end.php:603
+#: includes/class-awcfe-front-end.php:615
+msgid "Order extra fields"
+msgstr ""

@@ -1,0 +1,133 @@
+.postbox .hndle {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: normal;
+    padding-top: 7px;
+    padding-right: 10px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    line-height: 1;
+}
+
+#far-sb {
+    padding-top: 50px;
+    width: 300px;
+    float: left;
+}
+
+.left {
+    display: block;
+    float: left;
+}
+
+#far-items {
+    width: 750px;
+    float: left;
+}
+
+#far-items ul {
+    padding: 10px 0;
+    clear: both;
+    width: 750px;
+    display: block;
+}
+
+#far-items li {
+    width: 700px;
+    display: block;
+    float: left;
+    margin: 0px;
+    padding: 10px;
+	border-top-color: #dfdfdf;
+	border-right-color: #dfdfdf;
+	border-bottom-color: #dfdfdf;
+	border-left-color: #dfdfdf;
+	box-shadow: #ffffff;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	background-color: #f5f5f5;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-position: 0% 0%;
+	background-clip: border-box;
+	background-origin: padding-box;
+	background-size: auto auto;
+	background-image: #f5f5f5;
+}
+
+#far-items li {
+    background-image: url(draggable.png);
+    background-repeat: no-repeat;
+    background-position: 5px 45px;
+    padding-left: 30px;
+    overflow: auto;
+    border: 1px solid #d5d5d5;
+}
+
+#far-items textarea {
+    width: 200px;
+    min-height: 115px;
+    margin-right: 5px;
+    resize: vertical;
+}
+
+.side-label {
+    display: inline-block;
+    width: 80px;
+}
+
+.side-label-long {
+    display: inline-block;
+}
+
+.checkbox {
+	position: relative;
+    display: inline-block;
+    top: 2px;
+    left: 1px;
+}
+
+.textbox {
+    width: 200px;
+    display: inline-block;
+}
+
+#far-items select {
+    width: 200px;
+}
+
+.findh {
+    display: inline-block;
+    float: left;
+    padding: 0px;
+    font-size: 12pt;
+    font-weight: bold;
+    padding-top: 10px;
+    padding: 20px 0 0 30px;
+}
+
+.replaceh {
+    display: inline-block;
+    float: left;
+    padding: 0px;
+    font-size: 12pt;
+    font-weight: bold;
+    padding-top: 10px;
+    padding: 20px 0 0 200px;
+}
+
+.clearpad { 
+	clear: both;
+	padding: 10px;
+}

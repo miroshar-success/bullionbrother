@@ -1,0 +1,11 @@
+.woolentor-backorder-fields p{
+    display: none;
+}
+.wl_manage_stock--no.wl_stock_status--onbackorder p,
+.wl_manage_stock--yes.wl_allow_backorder--yes p,
+.wl_manage_stock--yes.wl_allow_backorder--notify p{
+    display: block;
+}
+#_woolentor_backorder_availability_date{
+    float: left;
+}

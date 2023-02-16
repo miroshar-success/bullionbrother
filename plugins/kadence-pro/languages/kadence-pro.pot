@@ -1,0 +1,3561 @@
+# Copyright (C) 2022 Kadence WP
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kadence Pro - Premium addon for the Kadence Theme 1.0.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/kadence-pro\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-09-21T23:01:17+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: kadence-pro\n"
+
+#. Plugin Name of the plugin
+msgid "Kadence Pro - Premium addon for the Kadence Theme"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://www.kadencewp.com/kadence-theme/premium/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Extends the Kadence theme with premium features and addons."
+msgstr ""
+
+#. Author of the plugin
+msgid "Kadence WP"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.kadencewp.com/"
+msgstr ""
+
+#: class-kadence-theme-pro.php:55
+#: class-kadence-theme-pro.php:65
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#. translators: %s is a link to kadence theme.
+#: class-kadence-theme-pro.php:231
+#: kadence-pro.php:165
+msgid "Kadence Theme Pro requires the %s to be active for it to work."
+msgstr ""
+
+#: dist/archive-meta.php:60
+#: dist/conditional-headers.php:587
+#: dist/dark-mode.php:70
+#: dist/elements/elements-init.php:84
+#: dist/header-addons.php:86
+#: dist/infinite-scroll.php:55
+#: dist/mega-menu/mega-menu.php:52
+#: dist/scripts-addon.php:55
+#: dist/woocommerce-addons.php:76
+msgid "Cloning instances of the class is Forbidden"
+msgstr ""
+
+#: dist/archive-meta.php:70
+#: dist/conditional-headers.php:597
+#: dist/dark-mode.php:80
+#: dist/elements/elements-init.php:94
+#: dist/header-addons.php:96
+#: dist/infinite-scroll.php:65
+#: dist/mega-menu/mega-menu.php:62
+#: dist/scripts-addon.php:65
+#: dist/woocommerce-addons.php:86
+msgid "Unserializing instances of the class is forbidden"
+msgstr ""
+
+#: dist/archive-meta.php:214
+#: dist/archive-meta.php:232
+msgid "Above Header Background Image"
+msgstr ""
+
+#: dist/archive-meta.php:218
+#: dist/archive-meta.php:245
+msgid "Add Image"
+msgstr ""
+
+#: dist/archive-meta.php:219
+#: dist/archive-meta.php:246
+msgid "Remove Image"
+msgstr ""
+
+#: dist/archive-meta.php:255
+msgid "Archive Columns"
+msgstr ""
+
+#: dist/archive-meta.php:261
+#: dist/conditional-headers/conditional-header-options.php:14
+#: dist/elements/elements-init.php:3590
+#: dist/header-addons/header-toggle-widget-options.php:104
+#: dist/woocommerce-addons/product-archive-options.php:178
+msgid "Default"
+msgstr ""
+
+#: dist/archive-meta.php:263
+msgid "1 Column"
+msgstr ""
+
+#: dist/archive-meta.php:265
+msgid "2 Columns"
+msgstr ""
+
+#: dist/archive-meta.php:267
+msgid "3 Columns"
+msgstr ""
+
+#: dist/archive-meta.php:269
+msgid "4 Columns"
+msgstr ""
+
+#: dist/archive-meta.php:353
+#: dist/scripts-addon.php:112
+msgid "Custom Scripts"
+msgstr ""
+
+#: dist/conditional-headers.php:630
+msgid "Error removing settings, Missing option information."
+msgstr ""
+
+#: dist/conditional-headers.php:641
+#: dist/conditional-headers.php:663
+msgid "Security Error, Reload Page"
+msgstr ""
+
+#: dist/conditional-headers.php:645
+#: dist/conditional-headers.php:675
+#: dist/conditional-headers.php:787
+msgid "Error importing settings, Missing option information."
+msgstr ""
+
+#: dist/conditional-headers.php:687
+msgid "Error importing settings file! Please try again."
+msgstr ""
+
+#: dist/conditional-headers.php:708
+#: dist/conditional-headers.php:712
+msgid "Error importing settings! Please check that you uploaded a customizer export file."
+msgstr ""
+
+#: dist/conditional-headers.php:716
+msgid "Error importing settings! The settings you uploaded are not for the Kadence Theme Conditional Header."
+msgstr ""
+
+#: dist/conditional-headers.php:873
+msgid ""
+"Attention! This will remove all customizations to this header!\n"
+"\n"
+"This action is irreversible!"
+msgstr ""
+
+#: dist/conditional-headers.php:874
+msgid "Please choose a file to import."
+msgstr ""
+
+#: dist/conditional-headers.php:954
+#: dist/elements/elements-init.php:2538
+msgid "Assigned Course"
+msgstr ""
+
+#: dist/conditional-headers.php:1009
+#: dist/elements/elements-init.php:2232
+#: dist/header-addons/header-account-options.php:21
+#: dist/header-addons/header-account-options.php:38
+#: dist/header-addons/header-button2-options.php:22
+#: dist/header-addons/header-button2-options.php:39
+#: dist/header-addons/header-contact-options.php:21
+#: dist/header-addons/header-contact-options.php:38
+#: dist/header-addons/header-html2-options.php:21
+#: dist/header-addons/header-html2-options.php:38
+#: dist/header-addons/header-mobile-account-options.php:21
+#: dist/header-addons/header-mobile-account-options.php:38
+#: dist/header-addons/header-mobile-button2-options.php:22
+#: dist/header-addons/header-mobile-button2-options.php:39
+#: dist/header-addons/header-mobile-contact-options.php:21
+#: dist/header-addons/header-mobile-contact-options.php:38
+#: dist/header-addons/header-mobile-html2-options.php:21
+#: dist/header-addons/header-mobile-html2-options.php:38
+#: dist/header-addons/header-mobile-nav2-options.php:21
+#: dist/header-addons/header-mobile-nav2-options.php:38
+#: dist/header-addons/header-mobile-search-bar-options.php:21
+#: dist/header-addons/header-mobile-search-bar-options.php:38
+#: dist/header-addons/header-quaternary-navigation-options.php:22
+#: dist/header-addons/header-quaternary-navigation-options.php:39
+#: dist/header-addons/header-search-bar-options.php:21
+#: dist/header-addons/header-search-bar-options.php:38
+#: dist/header-addons/header-tertiary-navigation-options.php:22
+#: dist/header-addons/header-tertiary-navigation-options.php:39
+#: dist/header-addons/header-toggle-widget-options.php:21
+#: dist/header-addons/header-toggle-widget-options.php:38
+#: dist/header-addons/header-toggle-widget-options.php:313
+#: dist/header-addons/header-widget-area-options.php:16
+#: dist/woocommerce-addons/product-archive-options.php:476
+msgid "General"
+msgstr ""
+
+#: dist/conditional-headers.php:1013
+#: dist/elements/elements-init.php:2236
+msgid "Entire Site"
+msgstr ""
+
+#: dist/conditional-headers.php:1017
+#: dist/elements/elements-init.php:2240
+msgid "Front Page"
+msgstr ""
+
+#: dist/conditional-headers.php:1021
+#: dist/elements/elements-init.php:2244
+msgid "Blog Page"
+msgstr ""
+
+#: dist/conditional-headers.php:1025
+#: dist/elements/elements-init.php:2248
+msgid "Search Results"
+msgstr ""
+
+#: dist/conditional-headers.php:1029
+#: dist/elements/elements-init.php:2252
+msgid "Not Found (404)"
+msgstr ""
+
+#: dist/conditional-headers.php:1033
+#: dist/elements/elements-init.php:2256
+msgid "All Singular"
+msgstr ""
+
+#: dist/conditional-headers.php:1037
+#: dist/elements/elements-init.php:2260
+msgid "All Archives"
+msgstr ""
+
+#: dist/conditional-headers.php:1041
+#: dist/elements/elements-init.php:2264
+msgid "Author Archives"
+msgstr ""
+
+#: dist/conditional-headers.php:1045
+#: dist/elements/elements-init.php:2268
+msgid "Date Archives"
+msgstr ""
+
+#: dist/conditional-headers.php:1049
+#: dist/elements/elements-init.php:2272
+msgid "Paged"
+msgstr ""
+
+#: dist/conditional-headers.php:1069
+#: dist/conditional-headers.php:1112
+#: dist/elements/elements-init.php:2292
+#: dist/elements/elements-init.php:2335
+msgid "Single"
+msgstr ""
+
+#. translators: %1$s: taxonomy singular label.
+#: dist/conditional-headers.php:1078
+#: dist/elements/elements-init.php:2301
+msgid "%1$s Archives"
+msgstr ""
+
+#. translators: %1$s: post type plural label
+#: dist/conditional-headers.php:1086
+#: dist/elements/elements-init.php:2309
+msgid "%1$s Archive"
+msgstr ""
+
+#. translators: %1$s: post type plural label
+#: dist/conditional-headers.php:1093
+#: dist/elements/elements-init.php:2316
+msgid "%1$s Search"
+msgstr ""
+
+#: dist/conditional-headers.php:1130
+#: dist/elements/elements-init.php:2193
+msgid "Basic"
+msgstr ""
+
+#: dist/conditional-headers.php:1134
+#: dist/elements/elements-init.php:2197
+msgid "All Users"
+msgstr ""
+
+#: dist/conditional-headers.php:1138
+#: dist/elements/elements-init.php:2201
+msgid "Logged out Users"
+msgstr ""
+
+#: dist/conditional-headers.php:1142
+#: dist/elements/elements-init.php:2205
+msgid "Logged in Users"
+msgstr ""
+
+#: dist/conditional-headers.php:1156
+#: dist/elements/elements-init.php:2219
+msgid "Specific Role"
+msgstr ""
+
+#: dist/conditional-headers.php:1561
+#: dist/conditional-headers/conditional-header-options.php:57
+#: build/dashboard.js:1
+msgid "Conditional Headers"
+msgstr ""
+
+#: dist/conditional-headers/conditional-header-options.php:31
+msgid "Previewing Header:"
+msgstr ""
+
+#: dist/conditional-headers/conditional-header-options.php:38
+msgid "Conditional Header"
+msgstr ""
+
+#: dist/conditional-headers/conditional-header-options.php:48
+msgid "Current Previewing Header"
+msgstr ""
+
+#: dist/dark-mode.php:235
+#: dist/dark-mode.php:297
+#: dist/dark-mode.php:334
+#: dist/dark-mode.php:371
+#: dist/dark-mode/dark-mode-options.php:34
+msgid "Light"
+msgstr ""
+
+#: dist/dark-mode.php:236
+#: dist/dark-mode.php:298
+#: dist/dark-mode.php:335
+#: dist/dark-mode.php:372
+#: dist/dark-mode/dark-mode-options.php:37
+msgid "Dark"
+msgstr ""
+
+#: dist/dark-mode.php:667
+#: dist/dark-mode.php:672
+#: dist/dark-mode.php:677
+#: dist/dark-mode.php:682
+msgid "Color Switch (Dark Mode)"
+msgstr ""
+
+#: dist/dark-mode.php:716
+#: dist/dark-mode.php:720
+#: dist/dark-mode.php:724
+msgid "Dark Mode Toggle"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:19
+msgid "Enable Color Palette Switch (Dark Mode)?"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:21
+msgid "Please Note, this simply allows your users to switch which color palette is active. This will not automatically convert your site to have a dark mode version."
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:30
+msgid "Default Color Palette"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:49
+msgid "Use users computer settings to choose default palette"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:51
+msgid "OS Aware"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:59
+msgid "Dark Color Palette"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:63
+msgid "Palette 1"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:66
+msgid "Palette 2"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:69
+msgid "Palette 3"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:80
+msgid "Different Logo for Dark Mode?"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:99
+#: dist/dark-mode/dark-mode-options.php:144
+msgid "Dark Mode Header Logo"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:120
+msgid "Different Logo for Mobile?"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:169
+msgid "Fixed Switch"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:177
+msgid "Show Fixed Switch?"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:185
+#: dist/dark-mode/footer-dark-mode-options.php:106
+#: dist/dark-mode/header-dark-mode-options.php:34
+#: dist/dark-mode/mobile-dark-mode-options.php:34
+msgid "Switch Type"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:189
+#: dist/dark-mode/footer-dark-mode-options.php:110
+#: dist/dark-mode/header-dark-mode-options.php:38
+#: dist/dark-mode/mobile-dark-mode-options.php:38
+msgid "Icons"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:192
+#: dist/dark-mode/footer-dark-mode-options.php:113
+#: dist/dark-mode/header-dark-mode-options.php:41
+#: dist/dark-mode/mobile-dark-mode-options.php:41
+msgid "Text"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:195
+#: dist/dark-mode/footer-dark-mode-options.php:116
+#: dist/dark-mode/header-dark-mode-options.php:44
+#: dist/dark-mode/mobile-dark-mode-options.php:44
+msgid "Icons and Text"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:217
+#: dist/dark-mode/footer-dark-mode-options.php:131
+#: dist/dark-mode/header-dark-mode-options.php:59
+#: dist/dark-mode/mobile-dark-mode-options.php:59
+msgid "Switch Style"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:221
+#: dist/dark-mode/footer-dark-mode-options.php:135
+#: dist/dark-mode/header-dark-mode-options.php:63
+#: dist/dark-mode/mobile-dark-mode-options.php:63
+#: dist/header-addons.php:1868
+#: dist/header-addons.php:1950
+msgid "Button"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:224
+#: dist/dark-mode/footer-dark-mode-options.php:138
+#: dist/dark-mode/header-dark-mode-options.php:66
+#: dist/dark-mode/mobile-dark-mode-options.php:66
+msgid "Switch"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:249
+msgid "Switch Align"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:268
+#: dist/header-addons/header-account-options.php:230
+#: dist/header-addons/header-account-options.php:794
+#: dist/header-addons/header-toggle-widget-options.php:554
+#: dist/woocommerce-addons/product-archive-options.php:717
+#: build/mega-menu.js:5
+#: build/meta.js:1
+msgid "Left"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:272
+#: dist/header-addons/header-account-options.php:233
+#: dist/header-addons/header-account-options.php:797
+#: dist/header-addons/header-toggle-widget-options.php:559
+#: dist/woocommerce-addons/product-archive-options.php:722
+#: build/mega-menu.js:5
+#: build/meta.js:1
+msgid "Right"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:283
+msgid "Side Offset"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:335
+msgid "Bottom Offset"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:381
+#: dist/dark-mode/footer-dark-mode-options.php:156
+#: dist/dark-mode/header-dark-mode-options.php:84
+#: dist/dark-mode/mobile-dark-mode-options.php:84
+msgid "Light Mode Icon"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:414
+#: dist/dark-mode/footer-dark-mode-options.php:182
+#: dist/dark-mode/header-dark-mode-options.php:110
+#: dist/dark-mode/mobile-dark-mode-options.php:110
+msgid "Dark Mode Icon"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:446
+#: dist/dark-mode/footer-dark-mode-options.php:207
+#: dist/dark-mode/header-dark-mode-options.php:135
+#: dist/dark-mode/mobile-dark-mode-options.php:135
+#: dist/header-addons/header-account-options.php:350
+#: dist/header-addons/header-contact-options.php:132
+#: dist/header-addons/header-mobile-account-options.php:295
+#: dist/header-addons/header-mobile-contact-options.php:159
+#: dist/header-addons/header-toggle-widget-options.php:144
+#: dist/woocommerce-addons/product-archive-options.php:226
+#: build/mega-menu.js:5
+msgid "Icon Size"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:488
+#: dist/dark-mode/footer-dark-mode-options.php:242
+#: dist/dark-mode/header-dark-mode-options.php:170
+#: dist/dark-mode/mobile-dark-mode-options.php:170
+msgid "Switch Colors"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:509
+#: dist/dark-mode/footer-dark-mode-options.php:263
+#: dist/dark-mode/header-dark-mode-options.php:191
+#: dist/dark-mode/mobile-dark-mode-options.php:191
+msgid "Light Color"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:513
+#: dist/dark-mode/footer-dark-mode-options.php:267
+#: dist/dark-mode/header-dark-mode-options.php:195
+#: dist/dark-mode/mobile-dark-mode-options.php:195
+msgid "Dark Color"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:530
+#: dist/dark-mode/footer-dark-mode-options.php:277
+#: dist/dark-mode/header-dark-mode-options.php:205
+#: dist/dark-mode/mobile-dark-mode-options.php:205
+msgid "Text Label Font"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:569
+#: dist/dark-mode/footer-dark-mode-options.php:309
+#: dist/dark-mode/header-dark-mode-options.php:237
+msgid "Enable Tooltip?"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:598
+#: dist/dark-mode/footer-dark-mode-options.php:333
+#: dist/dark-mode/header-dark-mode-options.php:261
+#: dist/dark-mode/mobile-dark-mode-options.php:237
+msgid "Light Palette Title"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:618
+#: dist/dark-mode/footer-dark-mode-options.php:346
+#: dist/dark-mode/header-dark-mode-options.php:274
+#: dist/dark-mode/mobile-dark-mode-options.php:250
+msgid "Dark Palette Title"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:638
+msgid "Visibility"
+msgstr ""
+
+#. translators: %s: color hex code e.g: "#f00".
+#: dist/dark-mode/dark-mode-options.php:654
+#: build/mega-menu.js:5
+#: build/meta.js:1
+msgid "Desktop"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:658
+#: build/mega-menu.js:5
+#: build/meta.js:1
+msgid "Tablet"
+msgstr ""
+
+#: dist/dark-mode/dark-mode-options.php:662
+#: build/mega-menu.js:5
+#: build/meta.js:1
+msgid "Mobile"
+msgstr ""
+
+#: dist/dark-mode/footer-dark-mode-options.php:17
+msgid "Content Align"
+msgstr ""
+
+#: dist/dark-mode/footer-dark-mode-options.php:35
+msgid "Left Align"
+msgstr ""
+
+#: dist/dark-mode/footer-dark-mode-options.php:39
+msgid "Center Align"
+msgstr ""
+
+#: dist/dark-mode/footer-dark-mode-options.php:43
+msgid "Right Align"
+msgstr ""
+
+#: dist/dark-mode/footer-dark-mode-options.php:53
+msgid "Content Vertical Align"
+msgstr ""
+
+#: dist/dark-mode/footer-dark-mode-options.php:71
+msgid "Top Align"
+msgstr ""
+
+#: dist/dark-mode/footer-dark-mode-options.php:75
+msgid "Middle Align"
+msgstr ""
+
+#: dist/dark-mode/footer-dark-mode-options.php:79
+msgid "Bottom Align"
+msgstr ""
+
+#: dist/dark-mode/footer-dark-mode-options.php:90
+#: dist/dark-mode/header-dark-mode-options.php:18
+#: dist/dark-mode/mobile-dark-mode-options.php:18
+msgid "*You must Enable Dark Mode"
+msgstr ""
+
+#: dist/dark-mode/footer-dark-mode-options.php:91
+#: dist/dark-mode/header-dark-mode-options.php:19
+#: dist/dark-mode/mobile-dark-mode-options.php:19
+msgid "To view the color switcher you must enable dark mode under General then Color Switch (Dark Mode)"
+msgstr ""
+
+#: dist/dark-mode/footer-dark-mode-options.php:359
+#: dist/dark-mode/header-dark-mode-options.php:287
+#: dist/dark-mode/mobile-dark-mode-options.php:263
+#: dist/header-addons/header-account-options.php:564
+#: dist/header-addons/header-account-options.php:1106
+#: dist/header-addons/header-button2-options.php:425
+#: dist/header-addons/header-contact-options.php:249
+#: dist/header-addons/header-divider-options.php:70
+#: dist/header-addons/header-divider2-options.php:70
+#: dist/header-addons/header-divider3-options.php:70
+#: dist/header-addons/header-html2-options.php:159
+#: dist/header-addons/header-mobile-account-options.php:509
+#: dist/header-addons/header-mobile-account-options.php:954
+#: dist/header-addons/header-mobile-button2-options.php:388
+#: dist/header-addons/header-mobile-contact-options.php:276
+#: dist/header-addons/header-mobile-divider-options.php:70
+#: dist/header-addons/header-mobile-divider2-options.php:70
+#: dist/header-addons/header-mobile-html2-options.php:159
+#: dist/header-addons/header-mobile-search-bar-options.php:231
+#: dist/header-addons/header-search-bar-options.php:231
+#: dist/header-addons/header-widget-area-options.php:160
+msgid "Margin"
+msgstr ""
+
+#: dist/dark-mode/hooks.php:118
+msgid "Change site color palette"
+msgstr ""
+
+#: dist/dark-mode/learndash-focus-header-options.php:19
+msgid "Enable Dark Mode Switch in LearnDash Focus Mode Header?"
+msgstr ""
+
+#: dist/dark-mode/learndash-focus-header-options.php:27
+msgid "Only show dark mode in Lessons?"
+msgstr ""
+
+#: dist/dark-mode/learndash-focus-header-options.php:44
+msgid "LearnDash Focus Mode Dark Mode Logo"
+msgstr ""
+
+#: dist/dashboard/class-kadence-pro-dashboard.php:248
+msgid "Getting Started"
+msgstr ""
+
+#: dist/dashboard/class-kadence-pro-dashboard.php:249
+msgid "API License Activation"
+msgstr ""
+
+#: dist/dashboard/class-kadence-pro-dashboard.php:250
+msgid "Deactivation"
+msgstr ""
+
+#: dist/dashboard/class-kadence-pro-dashboard.php:279
+#: dist/mega-menu/mega-menu.php:608
+msgid "Security Error, please reload the page."
+msgstr ""
+
+#: dist/dashboard/class-kadence-pro-dashboard.php:461
+#: kadence-pro.php:148
+msgid "Authorization failed. Please refresh the page and try again."
+msgstr ""
+
+#. translators: %1$s and %2$s refer to an internal link markup
+#: dist/dashboard/class-kadence-pro-dashboard.php:481
+msgid "The Pro Kadence Theme has not been activated! %1$sClick here%2$s to activate the license key."
+msgstr ""
+
+#. translators: %1$s and %2$s refer to an internal link markup
+#. translators: %s is a link to kadence theme.
+#: dist/dashboard/class-kadence-pro-dashboard.php:482
+#: kadence-pro.php:166
+msgid "hide"
+msgstr ""
+
+#. translators: %1$s  refers to product name. %2$s refer to host information and %3$s an internal link markup
+#: dist/dashboard/class-kadence-pro-dashboard.php:500
+msgid "Warning! You're blocking external requests which means you won't be able to get %1$s updates. Please add %2$s to %3$s."
+msgstr ""
+
+#: dist/dashboard/class-kadence-pro-dashboard.php:574
+msgid "Use iThemes Toolkit/Agency License"
+msgstr ""
+
+#: dist/dashboard/class-kadence-pro-dashboard.php:617
+msgid "Activate"
+msgstr ""
+
+#: dist/dashboard/class-kadence-pro-dashboard.php:697
+msgid "Deactivate"
+msgstr ""
+
+#: dist/dashboard/class-kadence-pro-dashboard.php:763
+msgid "Pro activated."
+msgstr ""
+
+#: dist/dashboard/class-kadence-pro-dashboard.php:775
+msgid "Connection failed to the License Key API server. Make sure your host servers php version has the curl module installed and enabled."
+msgstr ""
+
+#: dist/dashboard/class-kadence-pro-dashboard.php:872
+msgid "The license could not be deactivated. Please try again."
+msgstr ""
+
+#: dist/dashboard/class-kadence-pro-dashboard.php:922
+#: dist/dashboard/class-kadence-pro-dashboard.php:1010
+msgid "Pro license deactivated. "
+msgstr ""
+
+#: dist/elements/duplicate-elements.php:52
+msgid "Make a duplicate from this."
+msgstr ""
+
+#: dist/elements/duplicate-elements.php:53
+msgid "Duplicate"
+msgstr ""
+
+#: dist/elements/duplicate-elements.php:63
+msgid "No post to duplicate has been supplied!"
+msgstr ""
+
+#. translators: %s: product id
+#: dist/elements/duplicate-elements.php:73
+msgid "Post creation failed, could not find original post: %s"
+msgstr ""
+
+#: dist/elements/duplicate-elements.php:92
+msgid "%s (Copy)"
+msgstr ""
+
+#: dist/elements/elements-init.php:185
+#: dist/elements/elements-init.php:3572
+msgid "Draft"
+msgstr ""
+
+#: dist/elements/elements-init.php:186
+#: dist/elements/elements-init.php:3572
+msgid "Published"
+msgstr ""
+
+#: dist/elements/elements-init.php:198
+msgid "Error: No post information was retrieved."
+msgstr ""
+
+#: dist/elements/elements-init.php:282
+msgid "All Element Items"
+msgstr ""
+
+#: dist/elements/elements-init.php:287
+msgid "Sections"
+msgstr ""
+
+#: dist/elements/elements-init.php:290
+msgid "Fixed Items"
+msgstr ""
+
+#: dist/elements/elements-init.php:293
+#: dist/elements/elements-init.php:2455
+msgid "Templates"
+msgstr ""
+
+#: dist/elements/elements-init.php:296
+msgid "HTML code"
+msgstr ""
+
+#: dist/elements/elements-init.php:335
+#: build/meta.js:1
+msgid "Element Settings"
+msgstr ""
+
+#: dist/elements/elements-init.php:456
+msgid "Elements"
+msgstr ""
+
+#: dist/elements/elements-init.php:2105
+msgid "Latest Post"
+msgstr ""
+
+#: dist/elements/elements-init.php:2353
+#: build/meta.js:1
+msgid "Fixed"
+msgstr ""
+
+#: dist/elements/elements-init.php:2357
+msgid "Fixed On Top"
+msgstr ""
+
+#: dist/elements/elements-init.php:2361
+msgid "Fixed Above Transparent Header"
+msgstr ""
+
+#: dist/elements/elements-init.php:2365
+msgid "Fixed Top After Scroll"
+msgstr ""
+
+#: dist/elements/elements-init.php:2369
+msgid "Fixed Bottom After Scroll (no space below footer)"
+msgstr ""
+
+#: dist/elements/elements-init.php:2373
+msgid "Fixed Bottom After Scroll"
+msgstr ""
+
+#: dist/elements/elements-init.php:2377
+msgid "Fixed On Bottom"
+msgstr ""
+
+#: dist/elements/elements-init.php:2381
+msgid "Fixed Bottom (no space below footer)"
+msgstr ""
+
+#: dist/elements/elements-init.php:2428
+msgid "Scripts"
+msgstr ""
+
+#: dist/elements/elements-init.php:2432
+msgid "Header - Inside <head> tag"
+msgstr ""
+
+#: dist/elements/elements-init.php:2436
+msgid "After <body> tag open"
+msgstr ""
+
+#: dist/elements/elements-init.php:2440
+msgid "Footer - Before </body> tag close"
+msgstr ""
+
+#: dist/elements/elements-init.php:2459
+#: dist/elements/elements-init.php:2598
+msgid "Replace Header"
+msgstr ""
+
+#: dist/elements/elements-init.php:2463
+#: dist/elements/elements-init.php:2628
+msgid "Replace Above Content Hero"
+msgstr ""
+
+#: dist/elements/elements-init.php:2467
+msgid "Replace Single Post Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:2475
+msgid "Replace Archive Loop Item Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:2483
+#: dist/elements/elements-init.php:2649
+msgid "Replace Sidebar"
+msgstr ""
+
+#: dist/elements/elements-init.php:2487
+#: dist/elements/elements-init.php:2770
+msgid "Replace Footer"
+msgstr ""
+
+#: dist/elements/elements-init.php:2491
+#: dist/elements/elements-init.php:2787
+msgid "Replace 404 Page Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:2573
+msgid "Body"
+msgstr ""
+
+#: dist/elements/elements-init.php:2577
+msgid "Before Site Wrapper"
+msgstr ""
+
+#: dist/elements/elements-init.php:2581
+msgid "After Site Wrapper"
+msgstr ""
+
+#: dist/elements/elements-init.php:2586
+msgid "Header"
+msgstr ""
+
+#: dist/elements/elements-init.php:2590
+msgid "Before Header"
+msgstr ""
+
+#: dist/elements/elements-init.php:2594
+msgid "After Header"
+msgstr ""
+
+#: dist/elements/elements-init.php:2603
+msgid "Content Wrap"
+msgstr ""
+
+#: dist/elements/elements-init.php:2607
+msgid "Before All Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:2611
+msgid "After All Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:2616
+msgid "Above Content Hero Title"
+msgstr ""
+
+#: dist/elements/elements-init.php:2620
+msgid "SINGLE: Above Title Content (Use Priority for Before/After Placement)"
+msgstr ""
+
+#: dist/elements/elements-init.php:2624
+msgid "ARCHIVE: Above Title Content (Use Priority for Before/After Placement)"
+msgstr ""
+
+#: dist/elements/elements-init.php:2633
+msgid "Content and Sidebar"
+msgstr ""
+
+#: dist/elements/elements-init.php:2637
+msgid "Before Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:2641
+msgid "After Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:2645
+msgid "Before Sidebar"
+msgstr ""
+
+#: dist/elements/elements-init.php:2653
+msgid "After Sidebar"
+msgstr ""
+
+#: dist/elements/elements-init.php:2658
+msgid "Single Inner Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:2662
+msgid "Before Inner Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:2666
+msgid "Before Inner Title Area"
+msgstr ""
+
+#: dist/elements/elements-init.php:2670
+msgid "Before Inner Title"
+msgstr ""
+
+#: dist/elements/elements-init.php:2674
+msgid "After Inner Title"
+msgstr ""
+
+#: dist/elements/elements-init.php:2678
+msgid "After Inner Title Area"
+msgstr ""
+
+#: dist/elements/elements-init.php:2682
+msgid "Before Entry Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:2686
+msgid "After Entry Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:2690
+msgid "After Inner Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:2695
+msgid "Inside the Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:2699
+msgid "Before First Heading Tag"
+msgstr ""
+
+#: dist/elements/elements-init.php:2703
+msgid "After First Heading Tag"
+msgstr ""
+
+#: dist/elements/elements-init.php:2707
+msgid "After First Paragraph"
+msgstr ""
+
+#: dist/elements/elements-init.php:2711
+msgid "After Second Paragraph"
+msgstr ""
+
+#: dist/elements/elements-init.php:2715
+msgid "After Third Paragraph"
+msgstr ""
+
+#: dist/elements/elements-init.php:2719
+msgid "After Fourth Paragraph"
+msgstr ""
+
+#: dist/elements/elements-init.php:2724
+msgid "Comments"
+msgstr ""
+
+#: dist/elements/elements-init.php:2728
+msgid "Before Comments"
+msgstr ""
+
+#: dist/elements/elements-init.php:2732
+msgid "Before Comments List"
+msgstr ""
+
+#: dist/elements/elements-init.php:2736
+msgid "After Comments List"
+msgstr ""
+
+#: dist/elements/elements-init.php:2740
+msgid "After Comments"
+msgstr ""
+
+#: dist/elements/elements-init.php:2745
+msgid "Archive Inner Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:2749
+msgid "Before Archive Inner Title"
+msgstr ""
+
+#: dist/elements/elements-init.php:2753
+msgid "After Archive Inner Title"
+msgstr ""
+
+#: dist/elements/elements-init.php:2758
+msgid "Footer"
+msgstr ""
+
+#: dist/elements/elements-init.php:2762
+msgid "Before Footer"
+msgstr ""
+
+#: dist/elements/elements-init.php:2766
+msgid "After Footer"
+msgstr ""
+
+#: dist/elements/elements-init.php:2775
+msgid "404 Page"
+msgstr ""
+
+#: dist/elements/elements-init.php:2779
+msgid "Before 404 Page Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:2783
+msgid "After 404 Page Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:2792
+msgid "Mobile Menu Off Canvas Area"
+msgstr ""
+
+#: dist/elements/elements-init.php:2796
+msgid "Before Mobile Off Canvas Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:2800
+msgid "After Mobile Off Canvas Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:2805
+msgid "Header Account Login Modal"
+msgstr ""
+
+#: dist/elements/elements-init.php:2809
+msgid "Left of Login Form"
+msgstr ""
+
+#: dist/elements/elements-init.php:2813
+msgid "Before Login Form"
+msgstr ""
+
+#: dist/elements/elements-init.php:2817
+msgid "After Login Form"
+msgstr ""
+
+#: dist/elements/elements-init.php:2821
+msgid "Right of Login Form"
+msgstr ""
+
+#: dist/elements/elements-init.php:2825
+msgid "Replace Login Modal"
+msgstr ""
+
+#: dist/elements/elements-init.php:2833
+msgid "Woocommerce Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:2837
+msgid "Before Woocommerce Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:2841
+msgid "After Woocommerce Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:2846
+msgid "Woocommerce Product"
+msgstr ""
+
+#: dist/elements/elements-init.php:2850
+msgid "Before Single Product"
+msgstr ""
+
+#: dist/elements/elements-init.php:2854
+msgid "Single Product Image"
+msgstr ""
+
+#: dist/elements/elements-init.php:2858
+msgid "Before Single Product Image"
+msgstr ""
+
+#: dist/elements/elements-init.php:2862
+msgid "After Single Product Image"
+msgstr ""
+
+#: dist/elements/elements-init.php:2866
+msgid "Single Product Summary"
+msgstr ""
+
+#: dist/elements/elements-init.php:2870
+msgid "Before Add to Cart Form"
+msgstr ""
+
+#: dist/elements/elements-init.php:2874
+msgid "After Add to Cart Form"
+msgstr ""
+
+#: dist/elements/elements-init.php:2878
+msgid "Single Product Share"
+msgstr ""
+
+#: dist/elements/elements-init.php:2882
+msgid "Single Product Tabs"
+msgstr ""
+
+#: dist/elements/elements-init.php:2886
+msgid "After Single Product"
+msgstr ""
+
+#: dist/elements/elements-init.php:2891
+msgid "Woocommerce Archive"
+msgstr ""
+
+#: dist/elements/elements-init.php:2895
+msgid "Before Shop Loop"
+msgstr ""
+
+#: dist/elements/elements-init.php:2899
+msgid "Before Loop Item"
+msgstr ""
+
+#: dist/elements/elements-init.php:2903
+msgid "Loop Item Image"
+msgstr ""
+
+#: dist/elements/elements-init.php:2907
+msgid "Loop Item Title"
+msgstr ""
+
+#: dist/elements/elements-init.php:2911
+msgid "Loop Item Price"
+msgstr ""
+
+#: dist/elements/elements-init.php:2915
+msgid "After Shop Loop Item"
+msgstr ""
+
+#: dist/elements/elements-init.php:2919
+msgid "After Shop Loop"
+msgstr ""
+
+#: dist/elements/elements-init.php:2924
+msgid "Woocommerce Account"
+msgstr ""
+
+#: dist/elements/elements-init.php:2928
+msgid "Before Login Form (Logged Out View)"
+msgstr ""
+
+#: dist/elements/elements-init.php:2932
+msgid "After Login Form (Logged Out View)"
+msgstr ""
+
+#: dist/elements/elements-init.php:2936
+msgid "Before Account Navigation"
+msgstr ""
+
+#: dist/elements/elements-init.php:2940
+msgid "After Account Navigation"
+msgstr ""
+
+#: dist/elements/elements-init.php:2944
+msgid "Account Content (Logged In View)"
+msgstr ""
+
+#: dist/elements/elements-init.php:2948
+msgid "Account Dashboard"
+msgstr ""
+
+#: dist/elements/elements-init.php:2953
+msgid "Woocommerce Cart"
+msgstr ""
+
+#: dist/elements/elements-init.php:2957
+msgid "Before Cart Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:2961
+msgid "Before Cart Table"
+msgstr ""
+
+#: dist/elements/elements-init.php:2965
+msgid "After Cart Table"
+msgstr ""
+
+#: dist/elements/elements-init.php:2969
+msgid "Cart Totals"
+msgstr ""
+
+#: dist/elements/elements-init.php:2973
+msgid "After Cart Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:2978
+msgid "Woocommerce Side Cart"
+msgstr ""
+
+#: dist/elements/elements-init.php:2982
+msgid "Before Side Cart Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:2986
+msgid "Before Side Cart List Items"
+msgstr ""
+
+#: dist/elements/elements-init.php:2990
+msgid "After Side Cart List Items"
+msgstr ""
+
+#: dist/elements/elements-init.php:2994
+msgid "Before Side Cart Buttons"
+msgstr ""
+
+#: dist/elements/elements-init.php:2998
+msgid "After Side Cart Buttons"
+msgstr ""
+
+#: dist/elements/elements-init.php:3002
+msgid "After Side Cart Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:3007
+msgid "Woocommerce Checkout"
+msgstr ""
+
+#: dist/elements/elements-init.php:3011
+#: dist/elements/elements-init.php:3039
+msgid "Before Checkout Form"
+msgstr ""
+
+#: dist/elements/elements-init.php:3015
+msgid "Before Customer Details"
+msgstr ""
+
+#: dist/elements/elements-init.php:3019
+msgid "After Customer Details"
+msgstr ""
+
+#: dist/elements/elements-init.php:3023
+msgid "Order Review"
+msgstr ""
+
+#: dist/elements/elements-init.php:3027
+msgid "After Order Review Contents"
+msgstr ""
+
+#: dist/elements/elements-init.php:3031
+msgid "Before Order Review Total"
+msgstr ""
+
+#: dist/elements/elements-init.php:3035
+msgid "After Order Review Total"
+msgstr ""
+
+#: dist/elements/elements-init.php:3044
+msgid "Woocommerce Order Received"
+msgstr ""
+
+#: dist/elements/elements-init.php:3048
+msgid "Before Order Received Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:3052
+msgid "After Order Received Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:3057
+msgid "Shop Widget Toggle Off Canvas Area"
+msgstr ""
+
+#: dist/elements/elements-init.php:3061
+msgid "Before Widget Toggle Off Canvas Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:3065
+msgid "After Widget Toggle Off Canvas Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:3075
+msgid "LearnDash Focus Mode"
+msgstr ""
+
+#: dist/elements/elements-init.php:3079
+msgid "Focus Mode: Before Sidebar Nav"
+msgstr ""
+
+#: dist/elements/elements-init.php:3083
+msgid "Focus Mode: After Sidebar Nav"
+msgstr ""
+
+#: dist/elements/elements-init.php:3087
+msgid "Focus Mode: Before Title"
+msgstr ""
+
+#: dist/elements/elements-init.php:3091
+msgid "Focus Mode: Before Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:3095
+msgid "Focus Mode: After Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:3100
+msgid "LearnDash Course Page"
+msgstr ""
+
+#: dist/elements/elements-init.php:3104
+msgid "Before Course Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:3108
+msgid "After Course Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:3113
+msgid "LearnDash Group Page"
+msgstr ""
+
+#: dist/elements/elements-init.php:3117
+msgid "Before Group Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:3121
+msgid "After Group Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:3131
+msgid "The Events Calendar"
+msgstr ""
+
+#: dist/elements/elements-init.php:3135
+msgid "Events: Before Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:3139
+msgid "Events: After Content"
+msgstr ""
+
+#: dist/elements/elements-init.php:3143
+msgid "Single Event: Before Inner Content (Classic Mode Only)"
+msgstr ""
+
+#: dist/elements/elements-init.php:3147
+msgid "Single Event: After Inner Content (Classic Mode Only)"
+msgstr ""
+
+#: dist/elements/elements-init.php:3151
+msgid "Single Event: Before Meta (Classic Mode Only)"
+msgstr ""
+
+#: dist/elements/elements-init.php:3155
+msgid "Single Event: After Meta (Classic Mode Only)"
+msgstr ""
+
+#: dist/elements/elements-init.php:3164
+#: dist/header-addons/header-button2-options.php:187
+msgid "Custom"
+msgstr ""
+
+#: dist/elements/elements-init.php:3168
+#: build/meta.js:1
+msgid "Custom Hook"
+msgstr ""
+
+#: dist/elements/elements-init.php:3523
+msgid "Type"
+msgstr ""
+
+#: dist/elements/elements-init.php:3524
+#: build/meta.js:1
+msgid "Placement"
+msgstr ""
+
+#: dist/elements/elements-init.php:3525
+msgid "Display On"
+msgstr ""
+
+#: dist/elements/elements-init.php:3526
+msgid "Visible To"
+msgstr ""
+
+#: dist/elements/elements-init.php:3527
+msgid "Shortcode"
+msgstr ""
+
+#: dist/elements/elements-init.php:3528
+msgid "Status"
+msgstr ""
+
+#: dist/elements/elements-init.php:3649
+#: dist/elements/elements-init.php:3665
+#: dist/elements/elements-init.php:3668
+msgid "[UNSET]"
+msgstr ""
+
+#: dist/elements/elements-init.php:3661
+msgid "Visible to:"
+msgstr ""
+
+#: dist/elements/post-select-rest-controller.php:222
+msgid "Limit results to items of an object type."
+msgstr ""
+
+#: dist/elements/post-select-rest-controller.php:233
+msgid "Limit results to items that match search query."
+msgstr ""
+
+#: dist/elements/post-select-rest-controller.php:238
+msgid "Include posts by ID."
+msgstr ""
+
+#: dist/elements/post-select-rest-controller.php:245
+msgid "Number of results to return."
+msgstr ""
+
+#: dist/elements/post-select-rest-controller.php:252
+msgid "Page of results to return."
+msgstr ""
+
+#. translators: %s: taxonomy name
+#: dist/elements/post-select-rest-controller.php:263
+msgid "Limit result set to all items that have the specified term assigned in the %s taxonomy."
+msgstr ""
+
+#: dist/header-addons.php:908
+msgid "Third"
+msgstr ""
+
+#: dist/header-addons.php:909
+msgid "Fourth"
+msgstr ""
+
+#: dist/header-addons.php:910
+msgid "Mobile Secondary"
+msgstr ""
+
+#: dist/header-addons.php:911
+msgid "Logged Out Account"
+msgstr ""
+
+#: dist/header-addons.php:912
+msgid "Logged In Account"
+msgstr ""
+
+#: dist/header-addons.php:1126
+#: dist/header-addons.php:1152
+msgid "Insert HTML here"
+msgstr ""
+
+#: dist/header-addons.php:1185
+#: dist/header-addons.php:1303
+#: dist/header-addons/hooks.php:387
+#: dist/header-addons/hooks.php:737
+msgid "Login"
+msgstr ""
+
+#: dist/header-addons.php:1232
+#: dist/header-addons.php:1349
+#: dist/header-addons.php:2132
+#: dist/header-addons.php:2140
+#: dist/header-addons/hooks.php:303
+#: dist/header-addons/hooks.php:338
+#: dist/header-addons/hooks.php:433
+#: dist/header-addons/hooks.php:543
+#: dist/header-addons/hooks.php:705
+#: dist/header-addons/hooks.php:783
+msgid "Account"
+msgstr ""
+
+#: dist/header-addons.php:2136
+#: dist/header-addons.php:2252
+#: dist/header-addons.php:2257
+msgid "Mobile Navigation 2"
+msgstr ""
+
+#: dist/header-addons.php:2144
+#: dist/header-addons.php:2148
+msgid "HTML 2"
+msgstr ""
+
+#: dist/header-addons.php:2152
+#: dist/header-addons.php:2272
+#: dist/header-addons.php:2277
+msgid "Third Navigation"
+msgstr ""
+
+#: dist/header-addons.php:2156
+#: dist/header-addons.php:2282
+#: dist/header-addons.php:2287
+msgid "Fourth Navigation"
+msgstr ""
+
+#: dist/header-addons.php:2160
+#: dist/header-addons.php:2172
+#: dist/header-addons.php:2292
+#: dist/header-addons/header-divider-options.php:17
+#: dist/header-addons/header-divider2-options.php:17
+#: dist/header-addons/header-divider3-options.php:17
+msgid "Divider"
+msgstr ""
+
+#: dist/header-addons.php:2164
+#: dist/header-addons.php:2176
+msgid "Divider 2"
+msgstr ""
+
+#: dist/header-addons.php:2168
+msgid "Divider 3"
+msgstr ""
+
+#: dist/header-addons.php:2180
+#: dist/header-addons.php:2208
+#: dist/header-addons.php:2317
+#: dist/header-addons.php:2327
+msgid "Search Bar"
+msgstr ""
+
+#: dist/header-addons.php:2184
+msgid "Widget area"
+msgstr ""
+
+#: dist/header-addons.php:2188
+#: dist/header-addons.php:2204
+#: dist/header-addons.php:2337
+msgid "Contact"
+msgstr ""
+
+#: dist/header-addons.php:2192
+#: dist/header-addons.php:2200
+#: dist/header-addons.php:2357
+msgid "Button 2"
+msgstr ""
+
+#: dist/header-addons.php:2196
+#: dist/header-addons.php:2347
+msgid "Toggle Widget Area"
+msgstr ""
+
+#: dist/header-addons.php:2222
+#: dist/header-addons.php:2227
+#: dist/header-addons.php:2232
+#: dist/header-addons.php:2237
+msgid "Header Account"
+msgstr ""
+
+#: dist/header-addons.php:2242
+#: dist/header-addons.php:2247
+#: dist/header-addons.php:2262
+#: dist/header-addons.php:2267
+msgid "Header HTML2"
+msgstr ""
+
+#: dist/header-addons.php:2297
+msgid "Divider2"
+msgstr ""
+
+#: dist/header-addons.php:2302
+msgid "Divider3"
+msgstr ""
+
+#: dist/header-addons.php:2307
+#: dist/header-addons/header-mobile-divider-options.php:17
+msgid "Mobile Divider"
+msgstr ""
+
+#: dist/header-addons.php:2312
+msgid "Mobile Divider2"
+msgstr ""
+
+#: dist/header-addons.php:2322
+#: dist/header-addons.php:2332
+msgid "Search Bar Design"
+msgstr ""
+
+#: dist/header-addons.php:2342
+msgid "Contact Design"
+msgstr ""
+
+#: dist/header-addons.php:2352
+msgid "Toggle Widget Area Design"
+msgstr ""
+
+#: dist/header-addons.php:2362
+msgid "Button 2 Design"
+msgstr ""
+
+#: dist/header-addons.php:2367
+msgid "Mobile Button 2"
+msgstr ""
+
+#: dist/header-addons.php:2372
+msgid "Mobile Button 2 Design"
+msgstr ""
+
+#: dist/header-addons.php:2377
+msgid "Mobile Contact"
+msgstr ""
+
+#: dist/header-addons.php:2382
+msgid "Mobile Contact Design"
+msgstr ""
+
+#: dist/header-addons.php:2393
+msgid "Header Area"
+msgstr ""
+
+#: dist/header-addons.php:2394
+msgid "Header Off Canvas"
+msgstr ""
+
+#: dist/header-addons.php:2404
+#: dist/woocommerce-addons.php:348
+msgid "Add widgets here."
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:25
+#: dist/header-addons/header-account-options.php:42
+#: dist/header-addons/header-button2-options.php:26
+#: dist/header-addons/header-button2-options.php:43
+#: dist/header-addons/header-contact-options.php:25
+#: dist/header-addons/header-contact-options.php:42
+#: dist/header-addons/header-html2-options.php:25
+#: dist/header-addons/header-html2-options.php:42
+#: dist/header-addons/header-mobile-account-options.php:25
+#: dist/header-addons/header-mobile-account-options.php:42
+#: dist/header-addons/header-mobile-button2-options.php:26
+#: dist/header-addons/header-mobile-button2-options.php:43
+#: dist/header-addons/header-mobile-contact-options.php:25
+#: dist/header-addons/header-mobile-contact-options.php:42
+#: dist/header-addons/header-mobile-html2-options.php:25
+#: dist/header-addons/header-mobile-html2-options.php:42
+#: dist/header-addons/header-mobile-nav2-options.php:25
+#: dist/header-addons/header-mobile-nav2-options.php:42
+#: dist/header-addons/header-mobile-search-bar-options.php:25
+#: dist/header-addons/header-mobile-search-bar-options.php:42
+#: dist/header-addons/header-quaternary-navigation-options.php:26
+#: dist/header-addons/header-quaternary-navigation-options.php:43
+#: dist/header-addons/header-search-bar-options.php:25
+#: dist/header-addons/header-search-bar-options.php:42
+#: dist/header-addons/header-tertiary-navigation-options.php:26
+#: dist/header-addons/header-tertiary-navigation-options.php:43
+#: dist/header-addons/header-toggle-widget-options.php:25
+#: dist/header-addons/header-toggle-widget-options.php:42
+msgid "Design"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:52
+#: dist/header-addons/header-mobile-account-options.php:52
+msgid "Preview/Customize"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:57
+#: dist/header-addons/header-mobile-account-options.php:57
+msgid "Logged in view"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:60
+#: dist/header-addons/header-mobile-account-options.php:60
+msgid "Logged out view"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:70
+#: dist/header-addons/header-account-options.php:337
+#: dist/header-addons/header-mobile-account-options.php:70
+#: dist/header-addons/header-mobile-account-options.php:282
+msgid "Logged Out Options"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:84
+#: dist/header-addons/header-account-options.php:602
+#: dist/header-addons/header-mobile-account-options.php:84
+#: dist/header-addons/header-mobile-account-options.php:547
+msgid "Account Style"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:100
+#: dist/header-addons/header-account-options.php:618
+#: dist/header-addons/header-button2-options.php:54
+#: dist/header-addons/header-mobile-account-options.php:100
+#: dist/header-addons/header-mobile-account-options.php:563
+#: dist/header-addons/header-mobile-button2-options.php:112
+msgid "Label"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:103
+#: dist/header-addons/header-account-options.php:621
+#: dist/header-addons/header-mobile-account-options.php:103
+#: dist/header-addons/header-mobile-account-options.php:566
+msgid "Icon"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:106
+#: dist/header-addons/header-account-options.php:624
+#: dist/header-addons/header-mobile-account-options.php:106
+#: dist/header-addons/header-mobile-account-options.php:569
+msgid "Label + Icon"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:109
+#: dist/header-addons/header-account-options.php:627
+#: dist/header-addons/header-mobile-account-options.php:109
+#: dist/header-addons/header-mobile-account-options.php:572
+msgid "Icon + Label"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:121
+#: dist/header-addons/header-account-options.php:657
+#: dist/header-addons/header-mobile-account-options.php:121
+#: dist/header-addons/header-mobile-account-options.php:596
+msgid "Account Label"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:147
+#: dist/header-addons/header-account-options.php:683
+#: dist/header-addons/header-mobile-account-options.php:147
+#: dist/header-addons/header-mobile-account-options.php:622
+msgid "Account Icon"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:184
+#: dist/header-addons/header-account-options.php:720
+#: dist/header-addons/header-mobile-account-options.php:184
+msgid "Account Action"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:196
+#: dist/header-addons/header-account-options.php:732
+#: dist/header-addons/header-mobile-account-options.php:196
+msgid "Link"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:199
+#: dist/header-addons/header-account-options.php:735
+msgid "Dropdown Menu"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:202
+#: dist/header-addons/header-mobile-account-options.php:199
+msgid "Modal Login"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:213
+#: dist/header-addons/header-account-options.php:777
+msgid "Dropdown Direction"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:256
+#: dist/header-addons/header-mobile-account-options.php:222
+msgid "Show registration link below login?"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:263
+#: dist/header-addons/header-mobile-account-options.php:229
+msgid "Registration Link"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:293
+#: dist/header-addons/header-account-options.php:808
+#: dist/header-addons/header-mobile-account-options.php:259
+#: dist/header-addons/header-mobile-account-options.php:682
+msgid "Account Item Link"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:317
+#: dist/header-addons/header-account-options.php:827
+#: dist/header-addons/header-mobile-nav2-options.php:53
+#: dist/header-addons/header-quaternary-navigation-options.php:54
+#: dist/header-addons/header-tertiary-navigation-options.php:54
+msgid "Select Menu"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:396
+#: dist/header-addons/header-account-options.php:943
+#: dist/header-addons/header-mobile-account-options.php:341
+#: dist/header-addons/header-mobile-account-options.php:791
+msgid "Account Colors"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:424
+#: dist/header-addons/header-account-options.php:964
+#: dist/header-addons/header-account-options.php:1159
+#: dist/header-addons/header-account-options.php:1234
+#: dist/header-addons/header-button2-options.php:244
+#: dist/header-addons/header-button2-options.php:285
+#: dist/header-addons/header-button2-options.php:319
+#: dist/header-addons/header-contact-options.php:187
+#: dist/header-addons/header-html2-options.php:144
+#: dist/header-addons/header-mobile-account-options.php:369
+#: dist/header-addons/header-mobile-account-options.php:812
+#: dist/header-addons/header-mobile-account-options.php:1007
+#: dist/header-addons/header-mobile-account-options.php:1082
+#: dist/header-addons/header-mobile-button2-options.php:207
+#: dist/header-addons/header-mobile-button2-options.php:248
+#: dist/header-addons/header-mobile-button2-options.php:282
+#: dist/header-addons/header-mobile-contact-options.php:214
+#: dist/header-addons/header-mobile-html2-options.php:144
+#: dist/header-addons/header-mobile-nav2-options.php:89
+#: dist/header-addons/header-mobile-search-bar-options.php:106
+#: dist/header-addons/header-mobile-search-bar-options.php:140
+#: dist/header-addons/header-mobile-search-bar-options.php:194
+#: dist/header-addons/header-mobile-search-bar-options.php:276
+#: dist/header-addons/header-mobile-search-bar-options.php:317
+#: dist/header-addons/header-mobile-search-bar-options.php:358
+#: dist/header-addons/header-quaternary-navigation-options.php:266
+#: dist/header-addons/header-search-bar-options.php:106
+#: dist/header-addons/header-search-bar-options.php:140
+#: dist/header-addons/header-search-bar-options.php:194
+#: dist/header-addons/header-search-bar-options.php:276
+#: dist/header-addons/header-search-bar-options.php:317
+#: dist/header-addons/header-search-bar-options.php:358
+#: dist/header-addons/header-tertiary-navigation-options.php:266
+#: dist/header-addons/header-toggle-widget-options.php:199
+#: dist/header-addons/header-toggle-widget-options.php:413
+#: dist/header-addons/header-toggle-widget-options.php:657
+#: dist/header-addons/header-widget-area-options.php:116
+#: dist/woocommerce-addons/product-archive-options.php:297
+#: dist/woocommerce-addons/product-archive-options.php:381
+#: dist/woocommerce-addons/product-archive-options.php:576
+#: dist/woocommerce-addons/product-archive-options.php:820
+msgid "Initial Color"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:428
+#: dist/header-addons/header-account-options.php:968
+#: dist/header-addons/header-account-options.php:1163
+#: dist/header-addons/header-account-options.php:1238
+#: dist/header-addons/header-button2-options.php:248
+#: dist/header-addons/header-button2-options.php:289
+#: dist/header-addons/header-button2-options.php:323
+#: dist/header-addons/header-button2-options.php:495
+#: dist/header-addons/header-button2-options.php:574
+#: dist/header-addons/header-contact-options.php:191
+#: dist/header-addons/header-html2-options.php:148
+#: dist/header-addons/header-mobile-account-options.php:373
+#: dist/header-addons/header-mobile-account-options.php:816
+#: dist/header-addons/header-mobile-account-options.php:1011
+#: dist/header-addons/header-mobile-account-options.php:1086
+#: dist/header-addons/header-mobile-button2-options.php:211
+#: dist/header-addons/header-mobile-button2-options.php:252
+#: dist/header-addons/header-mobile-button2-options.php:286
+#: dist/header-addons/header-mobile-contact-options.php:218
+#: dist/header-addons/header-mobile-html2-options.php:148
+#: dist/header-addons/header-mobile-nav2-options.php:93
+#: dist/header-addons/header-quaternary-navigation-options.php:270
+#: dist/header-addons/header-tertiary-navigation-options.php:270
+#: dist/header-addons/header-toggle-widget-options.php:203
+#: dist/header-addons/header-toggle-widget-options.php:417
+#: dist/header-addons/header-toggle-widget-options.php:661
+#: dist/header-addons/header-toggle-widget-options.php:724
+#: dist/header-addons/header-toggle-widget-options.php:802
+#: dist/header-addons/header-widget-area-options.php:120
+#: dist/woocommerce-addons/product-archive-options.php:301
+#: dist/woocommerce-addons/product-archive-options.php:385
+#: dist/woocommerce-addons/product-archive-options.php:580
+#: dist/woocommerce-addons/product-archive-options.php:824
+msgid "Hover Color"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:437
+#: dist/header-addons/header-account-options.php:984
+#: dist/header-addons/header-mobile-account-options.php:382
+#: dist/header-addons/header-mobile-account-options.php:832
+msgid "Account Background"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:465
+#: dist/header-addons/header-account-options.php:1012
+#: dist/header-addons/header-account-options.php:1200
+#: dist/header-addons/header-account-options.php:1282
+#: dist/header-addons/header-mobile-account-options.php:410
+#: dist/header-addons/header-mobile-account-options.php:860
+#: dist/header-addons/header-mobile-account-options.php:1048
+#: dist/header-addons/header-mobile-account-options.php:1130
+#: dist/header-addons/header-mobile-nav2-options.php:135
+#: dist/header-addons/header-quaternary-navigation-options.php:311
+#: dist/header-addons/header-tertiary-navigation-options.php:311
+#: dist/header-addons/header-toggle-widget-options.php:233
+#: dist/woocommerce-addons/product-archive-options.php:339
+msgid "Initial Background"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:469
+#: dist/header-addons/header-account-options.php:1016
+#: dist/header-addons/header-account-options.php:1204
+#: dist/header-addons/header-account-options.php:1286
+#: dist/header-addons/header-mobile-account-options.php:414
+#: dist/header-addons/header-mobile-account-options.php:864
+#: dist/header-addons/header-mobile-account-options.php:1052
+#: dist/header-addons/header-mobile-account-options.php:1134
+#: dist/header-addons/header-mobile-nav2-options.php:139
+#: dist/header-addons/header-quaternary-navigation-options.php:315
+#: dist/header-addons/header-tertiary-navigation-options.php:315
+#: dist/header-addons/header-toggle-widget-options.php:237
+#: dist/woocommerce-addons/product-archive-options.php:343
+msgid "Hover Background"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:479
+#: dist/header-addons/header-account-options.php:1026
+#: dist/header-addons/header-button2-options.php:353
+#: dist/header-addons/header-mobile-account-options.php:424
+#: dist/header-addons/header-mobile-account-options.php:874
+#: dist/header-addons/header-mobile-button2-options.php:316
+msgid "Border Radius"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:503
+#: dist/header-addons/header-mobile-account-options.php:448
+msgid "Label Font"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:539
+#: dist/header-addons/header-account-options.php:1081
+#: dist/header-addons/header-button2-options.php:199
+#: dist/header-addons/header-mobile-account-options.php:484
+#: dist/header-addons/header-mobile-account-options.php:929
+#: dist/header-addons/header-toggle-widget-options.php:457
+#: dist/woocommerce-addons/product-archive-options.php:620
+msgid "Padding"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:588
+#: dist/header-addons/header-account-options.php:852
+#: dist/header-addons/header-mobile-account-options.php:533
+#: dist/header-addons/header-mobile-account-options.php:700
+msgid "Logged In Options"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:630
+#: dist/header-addons/header-mobile-account-options.php:575
+msgid "Avatar + Label"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:633
+#: dist/header-addons/header-mobile-account-options.php:578
+msgid "Label + Avatar"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:636
+#: dist/header-addons/header-mobile-account-options.php:581
+msgid "Avatar + User Name"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:639
+#: dist/header-addons/header-mobile-account-options.php:584
+msgid "User Name + Avatar"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:642
+msgid "Icon + User Name"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:645
+msgid "User Name + Icon"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:746
+msgid "Dropdown Source"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:763
+msgid "Navigation Menu"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:766
+msgid "Woocommerce Account Menu"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:865
+#: dist/header-addons/header-mobile-account-options.php:713
+msgid "Icon/Image Size"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:914
+#: dist/header-addons/header-mobile-account-options.php:762
+msgid "Avatar Border Radius"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:1050
+#: dist/header-addons/header-mobile-account-options.php:898
+msgid "Label/Name Font"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:1131
+#: dist/header-addons/header-mobile-account-options.php:979
+msgid "Logged out Account Colors"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:1172
+#: dist/header-addons/header-mobile-account-options.php:1020
+msgid "Logged out Account Background"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:1213
+#: dist/header-addons/header-mobile-account-options.php:1061
+msgid "Logged in Account Colors"
+msgstr ""
+
+#: dist/header-addons/header-account-options.php:1254
+#: dist/header-addons/header-mobile-account-options.php:1102
+msgid "Logged in Account Background"
+msgstr ""
+
+#: dist/header-addons/header-button2-options.php:69
+#: dist/header-addons/header-mobile-button2-options.php:127
+msgid "URL"
+msgstr ""
+
+#: dist/header-addons/header-button2-options.php:83
+#: dist/header-addons/header-mobile-button2-options.php:141
+msgid "Open in New Tab?"
+msgstr ""
+
+#: dist/header-addons/header-button2-options.php:90
+#: dist/header-addons/header-mobile-button2-options.php:148
+msgid "Set link to nofollow?"
+msgstr ""
+
+#: dist/header-addons/header-button2-options.php:97
+#: dist/header-addons/header-mobile-button2-options.php:155
+msgid "Set link attribute Sponsored?"
+msgstr ""
+
+#: dist/header-addons/header-button2-options.php:104
+msgid "Set link to Download?"
+msgstr ""
+
+#: dist/header-addons/header-button2-options.php:111
+#: dist/header-addons/header-mobile-button2-options.php:54
+msgid "Button Style"
+msgstr ""
+
+#: dist/header-addons/header-button2-options.php:123
+#: dist/header-addons/header-mobile-button2-options.php:66
+msgid "Filled"
+msgstr ""
+
+#: dist/header-addons/header-button2-options.php:126
+#: dist/header-addons/header-mobile-button2-options.php:69
+msgid "Outline"
+msgstr ""
+
+#: dist/header-addons/header-button2-options.php:138
+#: dist/header-addons/header-mobile-button2-options.php:162
+msgid "Button Visibility"
+msgstr ""
+
+#: dist/header-addons/header-button2-options.php:147
+#: dist/header-addons/header-mobile-button2-options.php:171
+msgid "Everyone"
+msgstr ""
+
+#: dist/header-addons/header-button2-options.php:150
+#: dist/header-addons/header-mobile-button2-options.php:174
+msgid "Logged Out Only"
+msgstr ""
+
+#: dist/header-addons/header-button2-options.php:153
+#: dist/header-addons/header-mobile-button2-options.php:177
+msgid "Logged In Only"
+msgstr ""
+
+#: dist/header-addons/header-button2-options.php:164
+#: dist/header-addons/header-mobile-button2-options.php:81
+msgid "Button Size"
+msgstr ""
+
+#: dist/header-addons/header-button2-options.php:176
+msgid "Sm"
+msgstr ""
+
+#: dist/header-addons/header-button2-options.php:179
+msgid "Md"
+msgstr ""
+
+#: dist/header-addons/header-button2-options.php:183
+msgid "Lg"
+msgstr ""
+
+#: dist/header-addons/header-button2-options.php:223
+#: dist/header-addons/header-contact-options.php:166
+#: dist/header-addons/header-mobile-button2-options.php:186
+#: dist/header-addons/header-mobile-contact-options.php:193
+#: dist/header-addons/header-mobile-nav2-options.php:61
+msgid "Colors"
+msgstr ""
+
+#: dist/header-addons/header-button2-options.php:257
+#: dist/header-addons/header-mobile-button2-options.php:220
+msgid "Background Colors"
+msgstr ""
+
+#: dist/header-addons/header-button2-options.php:298
+#: dist/header-addons/header-mobile-button2-options.php:261
+msgid "Border Colors"
+msgstr ""
+
+#: dist/header-addons/header-button2-options.php:332
+#: dist/header-addons/header-button2-options.php:507
+#: dist/header-addons/header-button2-options.php:586
+#: dist/header-addons/header-mobile-button2-options.php:295
+#: dist/header-addons/header-mobile-search-bar-options.php:153
+#: dist/header-addons/header-search-bar-options.php:153
+#: dist/header-addons/header-toggle-widget-options.php:736
+#: dist/header-addons/header-toggle-widget-options.php:814
+msgid "Border"
+msgstr ""
+
+#: dist/header-addons/header-button2-options.php:370
+#: dist/header-addons/header-contact-options.php:224
+#: dist/header-addons/header-html2-options.php:77
+#: dist/header-addons/header-mobile-button2-options.php:333
+#: dist/header-addons/header-mobile-contact-options.php:251
+#: dist/header-addons/header-mobile-html2-options.php:77
+#: dist/header-addons/header-mobile-nav2-options.php:181
+#: dist/header-addons/header-mobile-search-bar-options.php:207
+#: dist/header-addons/header-search-bar-options.php:207
+msgid "Font"
+msgstr ""
+
+#: dist/header-addons/header-button2-options.php:393
+#: dist/header-addons/header-mobile-button2-options.php:356
+msgid "Button Shadow"
+msgstr ""
+
+#: dist/header-addons/header-button2-options.php:408
+#: dist/header-addons/header-mobile-button2-options.php:371
+msgid "Button Hover State Shadow"
+msgstr ""
+
+#: dist/header-addons/header-button2-options.php:442
+#: dist/header-addons/header-button2-options.php:520
+msgid "Button2 Colors"
+msgstr ""
+
+#: dist/header-addons/header-button2-options.php:491
+#: dist/header-addons/header-button2-options.php:570
+#: dist/header-addons/header-contact-options.php:288
+#: dist/header-addons/header-contact-options.php:322
+#: dist/header-addons/header-divider-options.php:101
+#: dist/header-addons/header-divider2-options.php:101
+#: dist/header-addons/header-divider3-options.php:101
+#: dist/header-addons/header-html2-options.php:204
+#: dist/header-addons/header-mobile-contact-options.php:314
+#: dist/header-addons/header-mobile-divider-options.php:101
+#: dist/header-addons/header-mobile-divider2-options.php:101
+#: dist/header-addons/header-toggle-widget-options.php:720
+#: dist/header-addons/header-toggle-widget-options.php:798
+#: dist/header-addons/header-widget-area-options.php:217
+msgid "Color"
+msgstr ""
+
+#: dist/header-addons/header-button2-options.php:499
+#: dist/header-addons/header-button2-options.php:578
+#: dist/header-addons/header-mobile-nav2-options.php:107
+#: dist/header-addons/header-toggle-widget-options.php:728
+#: dist/header-addons/header-toggle-widget-options.php:806
+msgid "Background"
+msgstr ""
+
+#: dist/header-addons/header-button2-options.php:503
+#: dist/header-addons/header-button2-options.php:582
+#: dist/header-addons/header-toggle-widget-options.php:732
+#: dist/header-addons/header-toggle-widget-options.php:810
+msgid "Background Hover"
+msgstr ""
+
+#: dist/header-addons/header-button2-options.php:511
+#: dist/header-addons/header-button2-options.php:590
+#: dist/header-addons/header-toggle-widget-options.php:740
+#: dist/header-addons/header-toggle-widget-options.php:818
+msgid "Border Hover"
+msgstr ""
+
+#: dist/header-addons/header-contact-options.php:53
+#: dist/header-addons/header-mobile-contact-options.php:53
+msgid "Contact Items"
+msgstr ""
+
+#: dist/header-addons/header-contact-options.php:63
+msgid "Item Spacing"
+msgstr ""
+
+#: dist/header-addons/header-contact-options.php:201
+#: dist/header-addons/header-html2-options.php:100
+#: dist/header-addons/header-mobile-contact-options.php:228
+#: dist/header-addons/header-mobile-html2-options.php:100
+#: dist/header-addons/header-toggle-widget-options.php:427
+#: dist/header-addons/header-widget-area-options.php:130
+#: dist/woocommerce-addons/product-archive-options.php:590
+msgid "Link Style"
+msgstr ""
+
+#: dist/header-addons/header-contact-options.php:205
+#: dist/header-addons/header-html2-options.php:104
+#: dist/header-addons/header-mobile-contact-options.php:232
+#: dist/header-addons/header-mobile-html2-options.php:104
+#: dist/header-addons/header-quaternary-navigation-options.php:169
+#: dist/header-addons/header-tertiary-navigation-options.php:169
+#: dist/header-addons/header-toggle-widget-options.php:431
+#: dist/header-addons/header-widget-area-options.php:134
+#: dist/woocommerce-addons/product-archive-options.php:594
+msgid "Underline"
+msgstr ""
+
+#: dist/header-addons/header-contact-options.php:208
+#: dist/header-addons/header-html2-options.php:107
+#: dist/header-addons/header-mobile-contact-options.php:235
+#: dist/header-addons/header-mobile-html2-options.php:107
+#: dist/header-addons/header-toggle-widget-options.php:434
+#: dist/header-addons/header-widget-area-options.php:137
+#: dist/woocommerce-addons/product-archive-options.php:597
+msgid "No Underline"
+msgstr ""
+
+#: dist/header-addons/header-contact-options.php:266
+#: dist/header-addons/header-contact-options.php:301
+#: dist/header-addons/header-mobile-contact-options.php:293
+msgid "Contact Colors"
+msgstr ""
+
+#: dist/header-addons/header-contact-options.php:292
+#: dist/header-addons/header-contact-options.php:326
+#: dist/header-addons/header-mobile-contact-options.php:318
+msgid "Hover"
+msgstr ""
+
+#: dist/header-addons/header-divider-options.php:36
+#: dist/header-addons/header-divider2-options.php:36
+#: dist/header-addons/header-divider3-options.php:36
+msgid "Divider Height"
+msgstr ""
+
+#: dist/header-addons/header-divider-options.php:87
+msgid "Divider Color"
+msgstr ""
+
+#: dist/header-addons/header-divider2-options.php:87
+msgid "Divider 2 Color"
+msgstr ""
+
+#: dist/header-addons/header-divider3-options.php:87
+msgid "Divider 3 Color"
+msgstr ""
+
+#: dist/header-addons/header-html2-options.php:67
+#: dist/header-addons/header-mobile-html2-options.php:67
+msgid "Automatically Add Paragraphs"
+msgstr ""
+
+#: dist/header-addons/header-html2-options.php:123
+#: dist/header-addons/header-mobile-html2-options.php:123
+#: dist/header-addons/header-toggle-widget-options.php:386
+#: dist/header-addons/header-widget-area-options.php:89
+#: dist/woocommerce-addons/product-archive-options.php:549
+msgid "Link Colors"
+msgstr ""
+
+#: dist/header-addons/header-html2-options.php:176
+msgid "HTML2 Colors"
+msgstr ""
+
+#: dist/header-addons/header-html2-options.php:208
+#: dist/header-addons/header-widget-area-options.php:221
+msgid "Link Color"
+msgstr ""
+
+#: dist/header-addons/header-html2-options.php:212
+#: dist/header-addons/header-widget-area-options.php:225
+msgid "Link Hover"
+msgstr ""
+
+#: dist/header-addons/header-mobile-button2-options.php:93
+msgid "Small"
+msgstr ""
+
+#: dist/header-addons/header-mobile-button2-options.php:96
+msgid "Medium"
+msgstr ""
+
+#: dist/header-addons/header-mobile-button2-options.php:100
+msgid "Large"
+msgstr ""
+
+#: dist/header-addons/header-mobile-contact-options.php:63
+msgid "Item Horizontal Spacing"
+msgstr ""
+
+#: dist/header-addons/header-mobile-contact-options.php:118
+msgid "Item Vertical Spacing"
+msgstr ""
+
+#: dist/header-addons/header-mobile-divider-options.php:36
+#: dist/header-addons/header-mobile-divider2-options.php:36
+msgid "Mobile Divider Height"
+msgstr ""
+
+#: dist/header-addons/header-mobile-divider-options.php:87
+msgid "Mobile Divider Color"
+msgstr ""
+
+#: dist/header-addons/header-mobile-divider2-options.php:17
+msgid "Mobile Divider 2"
+msgstr ""
+
+#: dist/header-addons/header-mobile-divider2-options.php:87
+msgid "Mobile Divider 2 Color"
+msgstr ""
+
+#: dist/header-addons/header-mobile-nav2-options.php:97
+#: dist/header-addons/header-quaternary-navigation-options.php:274
+#: dist/header-addons/header-tertiary-navigation-options.php:274
+msgid "Active Color"
+msgstr ""
+
+#: dist/header-addons/header-mobile-nav2-options.php:143
+#: dist/header-addons/header-quaternary-navigation-options.php:319
+#: dist/header-addons/header-tertiary-navigation-options.php:319
+msgid "Active Background"
+msgstr ""
+
+#: dist/header-addons/header-mobile-nav2-options.php:153
+msgid "Item Divider"
+msgstr ""
+
+#: dist/header-addons/header-mobile-nav2-options.php:205
+msgid "Items Vertical Spacing"
+msgstr ""
+
+#: dist/header-addons/header-mobile-nav2-options.php:252
+msgid "Collapse sub menu items?"
+msgstr ""
+
+#: dist/header-addons/header-mobile-nav2-options.php:265
+msgid "Entire parent menu item expands sub menu"
+msgstr ""
+
+#: dist/header-addons/header-mobile-search-bar-options.php:51
+#: dist/header-addons/header-search-bar-options.php:51
+msgid "Search Bar Width"
+msgstr ""
+
+#: dist/header-addons/header-mobile-search-bar-options.php:85
+#: dist/header-addons/header-search-bar-options.php:85
+msgid "Input Text Colors"
+msgstr ""
+
+#: dist/header-addons/header-mobile-search-bar-options.php:110
+#: dist/header-addons/header-mobile-search-bar-options.php:144
+#: dist/header-addons/header-mobile-search-bar-options.php:198
+#: dist/header-addons/header-mobile-search-bar-options.php:280
+#: dist/header-addons/header-mobile-search-bar-options.php:321
+#: dist/header-addons/header-mobile-search-bar-options.php:362
+#: dist/header-addons/header-search-bar-options.php:110
+#: dist/header-addons/header-search-bar-options.php:144
+#: dist/header-addons/header-search-bar-options.php:198
+#: dist/header-addons/header-search-bar-options.php:280
+#: dist/header-addons/header-search-bar-options.php:321
+#: dist/header-addons/header-search-bar-options.php:362
+msgid "Focus Color"
+msgstr ""
+
+#: dist/header-addons/header-mobile-search-bar-options.php:119
+#: dist/header-addons/header-search-bar-options.php:119
+msgid "Input Background"
+msgstr ""
+
+#: dist/header-addons/header-mobile-search-bar-options.php:173
+#: dist/header-addons/header-search-bar-options.php:173
+msgid "Input Border Color"
+msgstr ""
+
+#: dist/header-addons/header-mobile-search-bar-options.php:248
+#: dist/header-addons/header-search-bar-options.php:248
+msgid "Search Bar Input Colors"
+msgstr ""
+
+#: dist/header-addons/header-mobile-search-bar-options.php:289
+#: dist/header-addons/header-search-bar-options.php:289
+msgid "Search Bar Input Background"
+msgstr ""
+
+#: dist/header-addons/header-mobile-search-bar-options.php:330
+#: dist/header-addons/header-search-bar-options.php:330
+msgid "Search Bar Border Color"
+msgstr ""
+
+#: dist/header-addons/header-mobile-search-bar-options.php:378
+#: dist/header-addons/header-search-bar-options.php:378
+msgid "Search only Products?"
+msgstr ""
+
+#: dist/header-addons/header-quaternary-navigation-options.php:63
+#: dist/header-addons/header-tertiary-navigation-options.php:63
+msgid "Items Spacing"
+msgstr ""
+
+#: dist/header-addons/header-quaternary-navigation-options.php:109
+#: dist/header-addons/header-tertiary-navigation-options.php:109
+msgid "Stretch Menu?"
+msgstr ""
+
+#: dist/header-addons/header-quaternary-navigation-options.php:124
+#: dist/header-addons/header-tertiary-navigation-options.php:124
+msgid "Fill and Center Menu Items?"
+msgstr ""
+
+#: dist/header-addons/header-quaternary-navigation-options.php:146
+#: dist/header-addons/header-tertiary-navigation-options.php:146
+msgid "Navigation Style"
+msgstr ""
+
+#: dist/header-addons/header-quaternary-navigation-options.php:158
+#: dist/header-addons/header-quaternary-navigation-options.php:159
+#: dist/header-addons/header-tertiary-navigation-options.php:158
+#: dist/header-addons/header-tertiary-navigation-options.php:159
+#: build/customizer.js:1
+msgid "Standard"
+msgstr ""
+
+#: dist/header-addons/header-quaternary-navigation-options.php:163
+#: dist/header-addons/header-tertiary-navigation-options.php:163
+msgid "Menu items are full height"
+msgstr ""
+
+#: dist/header-addons/header-quaternary-navigation-options.php:164
+#: dist/header-addons/header-tertiary-navigation-options.php:164
+msgid "Full Height"
+msgstr ""
+
+#: dist/header-addons/header-quaternary-navigation-options.php:168
+#: dist/header-addons/header-tertiary-navigation-options.php:168
+msgid "Underline Hover/Active"
+msgstr ""
+
+#: dist/header-addons/header-quaternary-navigation-options.php:173
+#: dist/header-addons/header-tertiary-navigation-options.php:173
+msgid "Full Height Underline Hover/Active"
+msgstr ""
+
+#: dist/header-addons/header-quaternary-navigation-options.php:174
+#: dist/header-addons/header-tertiary-navigation-options.php:174
+msgid "Full Height Underline"
+msgstr ""
+
+#: dist/header-addons/header-quaternary-navigation-options.php:185
+#: dist/header-addons/header-tertiary-navigation-options.php:185
+msgid "Items Top and Bottom Padding"
+msgstr ""
+
+#: dist/header-addons/header-quaternary-navigation-options.php:238
+#: dist/header-addons/header-tertiary-navigation-options.php:238
+msgid "Navigation Colors"
+msgstr ""
+
+#: dist/header-addons/header-quaternary-navigation-options.php:283
+#: dist/header-addons/header-tertiary-navigation-options.php:283
+msgid "Navigation Background"
+msgstr ""
+
+#: dist/header-addons/header-quaternary-navigation-options.php:328
+#: dist/header-addons/header-tertiary-navigation-options.php:328
+msgid "Navigation Font"
+msgstr ""
+
+#: dist/header-addons/header-quaternary-navigation-options.php:352
+#: dist/header-addons/header-quaternary-navigation-options.php:360
+#: dist/header-addons/header-tertiary-navigation-options.php:352
+#: dist/header-addons/header-tertiary-navigation-options.php:360
+msgid "Dropdown Options"
+msgstr ""
+
+#: dist/header-addons/header-toggle-widget-options.php:53
+msgid "Trigger Label"
+msgstr ""
+
+#: dist/header-addons/header-toggle-widget-options.php:67
+msgid "Trigger Icon"
+msgstr ""
+
+#: dist/header-addons/header-toggle-widget-options.php:92
+msgid "Trigger Style"
+msgstr ""
+
+#: dist/header-addons/header-toggle-widget-options.php:107
+#: dist/woocommerce-addons/product-archive-options.php:181
+msgid "Bordered"
+msgstr ""
+
+#: dist/header-addons/header-toggle-widget-options.php:116
+msgid "Trigger Border"
+msgstr ""
+
+#: dist/header-addons/header-toggle-widget-options.php:178
+#: dist/woocommerce-addons/product-archive-options.php:268
+#: dist/woocommerce-addons/product-archive-options.php:352
+msgid "Trigger Colors"
+msgstr ""
+
+#: dist/header-addons/header-toggle-widget-options.php:212
+#: dist/woocommerce-addons/product-archive-options.php:310
+msgid "Trigger Background"
+msgstr ""
+
+#: dist/header-addons/header-toggle-widget-options.php:246
+#: dist/woocommerce-addons/product-archive-options.php:395
+msgid "Trigger Font"
+msgstr ""
+
+#: dist/header-addons/header-toggle-widget-options.php:277
+#: dist/woocommerce-addons/product-archive-options.php:432
+msgid "Trigger Padding"
+msgstr ""
+
+#: dist/header-addons/header-toggle-widget-options.php:294
+msgid "Widget Items"
+msgstr ""
+
+#: dist/header-addons/header-toggle-widget-options.php:301
+#: dist/woocommerce-addons/product-archive-options.php:465
+msgid "Add Widget Items"
+msgstr ""
+
+#: dist/header-addons/header-toggle-widget-options.php:330
+#: dist/header-addons/header-widget-area-options.php:33
+#: dist/woocommerce-addons/product-archive-options.php:493
+msgid "Widget Titles"
+msgstr ""
+
+#: dist/header-addons/header-toggle-widget-options.php:358
+#: dist/header-addons/header-widget-area-options.php:61
+#: dist/woocommerce-addons/product-archive-options.php:521
+msgid "Widget Content"
+msgstr ""
+
+#: dist/header-addons/header-toggle-widget-options.php:480
+#: dist/woocommerce-addons/product-archive-options.php:643
+msgid "Popup Area Settings"
+msgstr ""
+
+#: dist/header-addons/header-toggle-widget-options.php:493
+#: dist/woocommerce-addons/product-archive-options.php:656
+msgid "Layout"
+msgstr ""
+
+#: dist/header-addons/header-toggle-widget-options.php:511
+#: dist/woocommerce-addons/product-archive-options.php:674
+msgid "Reveal as Fullwidth"
+msgstr ""
+
+#: dist/header-addons/header-toggle-widget-options.php:512
+#: dist/woocommerce-addons/product-archive-options.php:675
+#: build/customizer.js:1
+msgid "Fullwidth"
+msgstr ""
+
+#: dist/header-addons/header-toggle-widget-options.php:516
+#: dist/woocommerce-addons/product-archive-options.php:679
+msgid "Reveal as Side Panel"
+msgstr ""
+
+#: dist/header-addons/header-toggle-widget-options.php:517
+#: dist/woocommerce-addons/product-archive-options.php:680
+msgid "Side Panel"
+msgstr ""
+
+#: dist/header-addons/header-toggle-widget-options.php:528
+#: dist/woocommerce-addons/product-archive-options.php:691
+msgid "Slide-Out Side"
+msgstr ""
+
+#: dist/header-addons/header-toggle-widget-options.php:553
+#: dist/woocommerce-addons/product-archive-options.php:716
+msgid "Reveal from Left"
+msgstr ""
+
+#: dist/header-addons/header-toggle-widget-options.php:558
+#: dist/woocommerce-addons/product-archive-options.php:721
+msgid "Reveal from Right"
+msgstr ""
+
+#: dist/header-addons/header-toggle-widget-options.php:569
+#: dist/woocommerce-addons/product-archive-options.php:732
+msgid "Popup Content Max Width"
+msgstr ""
+
+#: dist/header-addons/header-toggle-widget-options.php:606
+#: dist/header-addons/header-toggle-widget-options.php:624
+#: dist/woocommerce-addons/product-archive-options.php:769
+#: dist/woocommerce-addons/product-archive-options.php:787
+msgid "Popup Background"
+msgstr ""
+
+#: dist/header-addons/header-toggle-widget-options.php:630
+#: dist/woocommerce-addons/product-archive-options.php:793
+msgid "Close Toggle Colors"
+msgstr ""
+
+#: dist/header-addons/header-toggle-widget-options.php:670
+#: dist/header-addons/header-toggle-widget-options.php:749
+msgid "Toggle Widget Colors"
+msgstr ""
+
+#: dist/header-addons/header-widget-area-options.php:183
+msgid "Widget Area Colors"
+msgstr ""
+
+#: dist/header-addons/hooks.php:17
+msgid "Secondary Mobile Navigation"
+msgstr ""
+
+#: dist/header-addons/hooks.php:46
+#: dist/header-addons/hooks.php:79
+msgid "Menu"
+msgstr ""
+
+#: dist/header-addons/hooks.php:49
+#: dist/header-addons/hooks.php:82
+#: dist/header-addons/hooks.php:119
+#: dist/header-addons/hooks.php:143
+#: dist/header-addons/hooks.php:164
+#: dist/header-addons/hooks.php:185
+#: dist/header-addons/hooks.php:201
+#: dist/header-addons/hooks.php:217
+#: dist/header-addons/hooks.php:233
+#: dist/header-addons/hooks.php:249
+#: dist/header-addons/hooks.php:269
+#: dist/header-addons/hooks.php:298
+#: dist/header-addons/hooks.php:428
+#: dist/header-addons/hooks.php:700
+#: dist/header-addons/hooks.php:778
+#: dist/header-addons/hooks.php:934
+#: dist/header-addons/hooks.php:993
+msgid "Click to edit this element."
+msgstr ""
+
+#: dist/header-addons/hooks.php:368
+#: dist/header-addons/hooks.php:647
+msgid "Expand child menu"
+msgstr ""
+
+#: dist/header-addons/hooks.php:888
+msgid "Close Login"
+msgstr ""
+
+#: dist/header-addons/hooks.php:912
+msgid "Lost your password?"
+msgstr ""
+
+#: dist/header-addons/hooks.php:920
+msgid "Don't have an account yet?"
+msgstr ""
+
+#: dist/header-addons/hooks.php:920
+msgid "Sign up"
+msgstr ""
+
+#: dist/header-addons/hooks.php:1157
+#: dist/woocommerce-addons/hooks.php:33
+msgid "Open panel"
+msgstr ""
+
+#: dist/header-addons/hooks.php:1218
+#: dist/woocommerce-addons/hooks.php:82
+msgid "Close panel"
+msgstr ""
+
+#: dist/infinite-scroll.php:99
+msgid "End of content"
+msgstr ""
+
+#: dist/infinite-scroll.php:123
+#: build/dashboard.js:1
+msgid "Infinite Scroll"
+msgstr ""
+
+#: dist/infinite-scroll/infinite-options.php:19
+msgid "Infinite Scroll for Blog?"
+msgstr ""
+
+#: dist/infinite-scroll/infinite-options.php:21
+msgid "This will use apply to all post archives."
+msgstr ""
+
+#: dist/infinite-scroll/infinite-options.php:41
+msgid "Infinite Scroll for Search?"
+msgstr ""
+
+#: dist/infinite-scroll/infinite-options.php:49
+msgid "Infinite Scroll for Products?"
+msgstr ""
+
+#: dist/infinite-scroll/infinite-options.php:57
+msgid "Infinite Scroll for Custom Post Types?"
+msgstr ""
+
+#: dist/infinite-scroll/infinite-options.php:59
+msgid "This will use apply to all custom post archives."
+msgstr ""
+
+#: dist/infinite-scroll/infinite-options.php:68
+msgid "End of Content Text"
+msgstr ""
+
+#: dist/mega-menu/mega-menu.php:554
+msgid "Security Error, Please reload the page."
+msgstr ""
+
+#: dist/mega-menu/mega-menu.php:644
+msgid "Mega Menu - Container Settings"
+msgstr ""
+
+#: dist/scripts-addon/scripts-options.php:20
+msgid "Add scripts into your header"
+msgstr ""
+
+#: dist/scripts-addon/scripts-options.php:28
+msgid "Add scripts right after opening body tag"
+msgstr ""
+
+#: dist/scripts-addon/scripts-options.php:36
+msgid "Add scripts into your footer"
+msgstr ""
+
+#: dist/woocommerce-addons.php:338
+msgid "Catalog Off Canvas Sidebar"
+msgstr ""
+
+#: dist/woocommerce-addons.php:556
+msgid "Filter"
+msgstr ""
+
+#: dist/woocommerce-addons.php:666
+msgid "Add to Cart Behavior"
+msgstr ""
+
+#: dist/woocommerce-addons/cart-notice-options.php:14
+msgid "You must add or remove a product from your active cart to see your settings for this take place."
+msgstr ""
+
+#: dist/woocommerce-addons/cart-notice-options.php:15
+msgid "Use {cart_difference} placeholder in message to output the amount needed for free shipping."
+msgstr ""
+
+#: dist/woocommerce-addons/cart-notice-options.php:27
+msgid "Show amount left in order to receive free shipping in cart Popout"
+msgstr ""
+
+#: dist/woocommerce-addons/cart-notice-options.php:57
+msgid "Amount needed for Free Shipping."
+msgstr ""
+
+#: dist/woocommerce-addons/cart-notice-options.php:73
+msgid "Cart Notice Message"
+msgstr ""
+
+#: dist/woocommerce-addons/cart-show-options.php:19
+msgid "Show the cart popout on add to cart?"
+msgstr ""
+
+#: dist/woocommerce-addons/cart-show-options.php:27
+msgid "Single Product Ajax Add to Cart"
+msgstr ""
+
+#: dist/woocommerce-addons/hooks.php:115
+msgid "Remove all filters"
+msgstr ""
+
+#: dist/woocommerce-addons/product-archive-options.php:19
+msgid "Custom Shop Page"
+msgstr ""
+
+#: dist/woocommerce-addons/product-archive-options.php:27
+msgid "Custom Content For Shop Page?"
+msgstr ""
+
+#: dist/woocommerce-addons/product-archive-options.php:29
+msgid "This will use the page content of your shop page instead of the WoooCommerce archive loop."
+msgstr ""
+
+#: dist/woocommerce-addons/product-archive-options.php:37
+msgid "Archive Active Filters"
+msgstr ""
+
+#: dist/woocommerce-addons/product-archive-options.php:45
+msgid "Add Active Filters to top of Shop?"
+msgstr ""
+
+#: dist/woocommerce-addons/product-archive-options.php:53
+msgid "Show Button to Remove all Filters?"
+msgstr ""
+
+#: dist/woocommerce-addons/product-archive-options.php:67
+#: dist/woocommerce-addons/product-archive-options.php:144
+msgid "Off Canvas Sidebar"
+msgstr ""
+
+#: dist/woocommerce-addons/product-archive-options.php:75
+msgid "Add Off Canvas Widget Area?"
+msgstr ""
+
+#: dist/woocommerce-addons/product-archive-options.php:82
+msgid "Toggle Icon"
+msgstr ""
+
+#: dist/woocommerce-addons/product-archive-options.php:122
+msgid "Toggle Label"
+msgstr ""
+
+#: dist/woocommerce-addons/product-archive-options.php:158
+msgid "Toggle Style"
+msgstr ""
+
+#: dist/woocommerce-addons/product-archive-options.php:191
+msgid "Toggle Border"
+msgstr ""
+
+#: dist/woocommerce-addons/single-product-options.php:19
+msgid "Sticky Add To Cart"
+msgstr ""
+
+#: dist/woocommerce-addons/single-product-options.php:27
+msgid "Enabled Sticky Add to Cart"
+msgstr ""
+
+#: dist/woocommerce-addons/single-product-options.php:29
+msgid "Adds a Sticky Bar with add to cart when you scroll down the product page."
+msgstr ""
+
+#: dist/woocommerce-addons/single-product-options.php:37
+msgid "Sticky Placement"
+msgstr ""
+
+#: dist/woocommerce-addons/single-product-options.php:57
+#: dist/woocommerce-addons/single-product-options.php:111
+#: build/mega-menu.js:5
+msgid "Top"
+msgstr ""
+
+#: dist/woocommerce-addons/single-product-options.php:60
+#: dist/woocommerce-addons/single-product-options.php:114
+#: build/mega-menu.js:5
+msgid "Bottom"
+msgstr ""
+
+#: dist/woocommerce-addons/single-product-options.php:72
+msgid "Enabled for mobile"
+msgstr ""
+
+#: dist/woocommerce-addons/single-product-options.php:86
+msgid "Mobile Placement"
+msgstr ""
+
+#: build/ace-html.js:1
+msgid "Preview"
+msgstr ""
+
+#: build/ace-html.js:1
+msgid "Write Code"
+msgstr ""
+
+#: build/ace-html.js:1
+msgid "Write HTML…"
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid "Filter by Post Type"
+msgstr ""
+
+#: build/customizer.js:1
+msgid "Filter Posts"
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid "No results found."
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid "Close modal"
+msgstr ""
+
+#: build/customizer.js:1
+msgid "Select a post"
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid "None"
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid "Remove Rule"
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid "Select"
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid "By:"
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid "All"
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid "Group"
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid "Author"
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid "Individually"
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid "Select Items"
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid "Selected"
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid "Select Author"
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid "No Groups for this post type."
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid "Select Taxonomy"
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid "Select Terms"
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid "Must Match all Groups"
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid " Archive By:"
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid "No terms for this archive."
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid "Add Rule"
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid "Remove Role"
+msgstr ""
+
+#: build/customizer.js:1
+msgid "Extra Header"
+msgstr ""
+
+#: build/customizer.js:1
+msgid "Expand Item Controls"
+msgstr ""
+
+#: build/customizer.js:1
+msgid "Header Label"
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid "Display Settings [UNSET]"
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid "Display Settings"
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid "Show On"
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid "All show rules must be true?"
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid "Exclude Settings"
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid "Hide On"
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid "User Settings [UNSET]"
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid "User Settings"
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid "Visible to"
+msgstr ""
+
+#: build/customizer.js:1
+msgid "Exclude Visibility Settings"
+msgstr ""
+
+#: build/customizer.js:1
+msgid "Hide visibility to"
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid "Target Language"
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid "Display on language:"
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid "All Languages"
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid "Expires Settings"
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid "Enable Expires"
+msgstr ""
+
+#: build/customizer.js:1
+#: build/meta.js:1
+msgid "Expires"
+msgstr ""
+
+#: build/customizer.js:1
+msgid "Note, This will permanently remove all the header settings connected to this conditional header."
+msgstr ""
+
+#: build/customizer.js:1
+msgid "Confirm, Remove Header"
+msgstr ""
+
+#: build/customizer.js:1
+msgid "Remove Header"
+msgstr ""
+
+#: build/customizer.js:1
+msgid "Export Header"
+msgstr ""
+
+#: build/customizer.js:1
+msgid "Start Basic"
+msgstr ""
+
+#: build/customizer.js:1
+msgid "Copy Default"
+msgstr ""
+
+#: build/customizer.js:1
+msgid "Import"
+msgstr ""
+
+#: build/customizer.js:1
+msgid "Copy Default Header"
+msgstr ""
+
+#: build/customizer.js:1
+msgid "Import and Create New"
+msgstr ""
+
+#: build/customizer.js:1
+msgid "Add Header"
+msgstr ""
+
+#: build/customizer.js:1
+msgid "Contained"
+msgstr ""
+
+#: build/customizer.js:1
+msgid "Reset Value"
+msgstr ""
+
+#: build/customizer.js:1
+msgid "Previewing another header requires reloading the customizer in a preview mode. Click confirm below to save your settings and enter into preview mode."
+msgstr ""
+
+#: build/customizer.js:1
+msgid "Confirm, Save Settings"
+msgstr ""
+
+#: build/customizer.js:1
+msgid "Confirm, Exit Preview Mode"
+msgstr ""
+
+#: build/dashboard.js:1
+msgid "Header Addons"
+msgstr ""
+
+#: build/dashboard.js:1
+msgid "Adds 19 elements to the header builder."
+msgstr ""
+
+#: build/dashboard.js:1
+msgid "Build Extra Headers to display conditionally."
+msgstr ""
+
+#: build/dashboard.js:1
+msgid "Ultimate Menu"
+msgstr ""
+
+#: build/dashboard.js:1
+msgid "Adds menu options for mega menus, highlight tags, icons and more."
+msgstr ""
+
+#: build/dashboard.js:1
+msgid "Header/Footer Scripts"
+msgstr ""
+
+#: build/dashboard.js:1
+msgid "Adds Options into the customizer to add header and footer scripts"
+msgstr ""
+
+#: build/dashboard.js:1
+msgid "Hooked Elements"
+msgstr ""
+
+#: build/dashboard.js:1
+msgid "Add content anywhere into your site conditionally."
+msgstr ""
+
+#: build/dashboard.js:1
+msgid "WooCommerce Addons"
+msgstr ""
+
+#: build/dashboard.js:1
+msgid "Adds new options into the customizer for WooCommerce stores."
+msgstr ""
+
+#: build/dashboard.js:1
+msgid "Adds Infinite Scroll for archives."
+msgstr ""
+
+#: build/dashboard.js:1
+msgid "Color Palette Switch (Dark Mode)"
+msgstr ""
+
+#: build/dashboard.js:1
+msgid "Adds a color palette switch so you can create a \"dark\" mode for your website."
+msgstr ""
+
+#: build/dashboard.js:1
+msgid "Local Gravatars"
+msgstr ""
+
+#: build/dashboard.js:1
+msgid "Loads Gravatars from your servers to improve site performance."
+msgstr ""
+
+#: build/dashboard.js:1
+msgid "Archive Custom Settings"
+msgstr ""
+
+#: build/dashboard.js:1
+msgid "Allows you to assign custom display settings for taxonomies."
+msgstr ""
+
+#: build/dashboard.js:1
+msgid "Pro Addons"
+msgstr ""
+
+#: build/dashboard.js:1
+msgid "Customize"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Reset Device Values"
+msgstr ""
+
+#: build/mega-menu.js:5
+#: build/meta.js:1
+msgid "Reset Values"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Unit"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Please reload page, data can not be saved."
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Label Settings"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Mega Settings"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Menu Item Settings"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Editing:"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Close Dialog"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Mega Menu"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Use a Custom Element"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Mega Menu Width"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Content"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Menu Container Width"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Full Width"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Custom Width"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Mega Menu Custom Width"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Mega Menu Columns"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Mega Menu Column Layout"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Column Heading Item Divider"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Mega DropDown Background"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Mega DropDown Padding"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Mega DropDown Item Colors"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Links Item Divider"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Link Padding"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Menu Item"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Hide Text Label"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Disable Link"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Enable Description"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Menu Item Icon"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Icon Side"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "right"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Size is percent of label size. e.g. 200 is twice the label size"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Highlight Label"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Highlight Icon"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Highlight Label Color"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Highlight Label Background"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Save"
+msgstr ""
+
+#: build/mega-menu.js:5
+msgid "Save and Close"
+msgstr ""
+
+#: build/meta.js:1
+msgid "Search"
+msgstr ""
+
+#: build/meta.js:1
+msgid "Unset"
+msgstr ""
+
+#: build/meta.js:1
+msgid "Content Section"
+msgstr ""
+
+#: build/meta.js:1
+msgid "Fixed Section"
+msgstr ""
+
+#: build/meta.js:1
+msgid "Template"
+msgstr ""
+
+#: build/meta.js:1
+msgid "HTML Editor"
+msgstr ""
+
+#: build/meta.js:1
+msgid "HTML Element"
+msgstr ""
+
+#: build/meta.js:1
+msgid "Element Setup"
+msgstr ""
+
+#: build/meta.js:1
+msgid "Choose Element Type"
+msgstr ""
+
+#: build/meta.js:1
+msgid "Element Type"
+msgstr ""
+
+#: build/meta.js:1
+msgid "Preview Settings"
+msgstr ""
+
+#: build/meta.js:1
+msgid "Preview Setup"
+msgstr ""
+
+#: build/meta.js:1
+msgid "Editor Width (px)"
+msgstr ""
+
+#: build/meta.js:1
+msgid "Optionally set a max width for the editor so your preview is more accurate to what you are creating."
+msgstr ""
+
+#: build/meta.js:1
+msgid "Dynamic Preview Posts"
+msgstr ""
+
+#: build/meta.js:1
+msgid "Optionally define which post is used for dynamic content while previewing in the gutenberg editor."
+msgstr ""
+
+#: build/meta.js:1
+msgid "Select Preview Posts Type:"
+msgstr ""
+
+#: build/meta.js:1
+msgid "Preview Post:"
+msgstr ""
+
+#: build/meta.js:1
+msgid "Select Preview Post"
+msgstr ""
+
+#: build/meta.js:1
+msgid "Close"
+msgstr ""
+
+#: build/meta.js:1
+msgid "Priority"
+msgstr ""
+
+#: build/meta.js:1
+msgid "Scroll Down Distance till Appear"
+msgstr ""
+
+#: build/meta.js:1
+msgid "Width"
+msgstr ""
+
+#: build/meta.js:1
+msgid "100%"
+msgstr ""
+
+#: build/meta.js:1
+msgid "Auto"
+msgstr ""
+
+#: build/meta.js:1
+msgid "Width (px)"
+msgstr ""
+
+#: build/meta.js:1
+msgid "Position"
+msgstr ""
+
+#: build/meta.js:1
+msgid "X Distance from Edge"
+msgstr ""
+
+#: build/meta.js:1
+msgid "Y Distance from Edge"
+msgstr ""
+
+#: build/meta.js:1
+msgid "Please Note: WPML and Polylang have their own methods for display by language and this will not override those. This setting is useful if you have setup the Elements to display on all languages in those plugins."
+msgstr ""
+
+#: build/meta.js:1
+msgid "Device Settings"
+msgstr ""
+
+#: build/meta.js:1
+msgid "Show on Device"
+msgstr ""

@@ -1,0 +1,172 @@
+{
+	"name": "woolentor/return-to-shop",
+    "category": "woolentor-cart",
+    "title": "Return To Shop",
+    "attributes": {
+        "blockUniqId":{
+            "type": "string",
+            "default": ""
+        },
+        "areaPadding": {
+            "type": "object",
+            "default": {
+                "device": "desktop"
+            },
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} { padding: {{areaPadding}} !important; }"
+            }
+        },
+        "areaBGProperty":{
+            "type": "object",
+            "default": {
+                "imageId": null,
+                "imageUrl":"",
+                "position": "",
+                "attachment": "",
+                "repeat": "",
+                "size": ""
+            },
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}}"
+            }
+        },
+        "buttonText":{
+            "type": "string",
+            "default": ""
+        },
+        "buttonLink":{
+            "type": "string",
+            "default": ""
+        },
+
+        "returnBtnColor":{
+            "type":"string",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} a.button.wc-backward{ color: {{returnBtnColor}}; }"
+            }
+        },
+        "returnBtnBGColor":{
+            "type":"string",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} a.button.wc-backward{ background-color: {{returnBtnBGColor}}; }"
+            }
+        },
+        "returnBtnBorderType": {
+            "type": "string",
+            "default": "",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} a.button.wc-backward{ border-style: {{returnBtnBorderType}}; }"
+            }
+        },
+        "returnBtnBorderWidth":{
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            },
+            "style" : {
+                "dependency": [
+                    [
+                        {
+                            "key": "returnBtnBorderType", 
+                            "condition": "!=", 
+                            "value": ""
+                        }
+                    ]
+                ],
+                "selector":"{{WOOLENTOR_WRAPPER}} a.button.wc-backward{ border-width: {{returnBtnBorderWidth}}; }"
+            }
+        },
+        "returnBtnBorderColor":{
+            "type":"string",
+            "style" : {
+                "dependency": [
+                    [
+                        {
+                            "key": "returnBtnBorderType", 
+                            "condition": "!=", 
+                            "value": ""
+                        }
+                    ]
+                ],
+                "selector":"{{WOOLENTOR_WRAPPER}} a.button.wc-backward{ border-color: {{returnBtnBorderColor}}; }"
+            }
+        },
+        "returnBtnBorderRadius":{
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            },
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} a.button.wc-backward{ border-radius: {{returnBtnBorderRadius}}; }"
+            }
+        },
+        "returnBtnSize":{
+            "type":"string",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} a.button.wc-backward{ font-size: {{returnBtnSize}}; }"
+            }
+        },
+        "returnBtnPadding":{
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            },
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} a.button.wc-backward{ padding: {{returnBtnPadding}}; }"
+            }
+        },
+        "returnBtnMargin":{
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            },
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} a.button.wc-backward{ margin: {{returnBtnMargin}}; }"
+            }
+        },
+        "returnBtnHoverColor":{
+            "type":"string",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} a.button.wc-backward:hover{ color: {{returnBtnHoverColor}}; }"
+            }
+        },
+        "returnBtnHoverBGColor":{
+            "type":"string",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} a.button.wc-backward:hover{ background-color: {{returnBtnHoverBGColor}}; }"
+            }
+        },
+        "returnBtnHoverBorderColor":{
+            "type":"string",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} a.button.wc-backward:hover{ border-color: {{returnBtnHoverBorderColor}}; }"
+            }
+        },
+        "buttonAlignment":{
+            "type":"string",
+            "style" : {
+                "selector":"{{WOOLENTOR_WRAPPER}} .return-to-shop { text-align: {{buttonAlignment}}; }"
+            }
+        }
+    }
+}

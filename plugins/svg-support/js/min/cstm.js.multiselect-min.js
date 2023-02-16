@@ -1,0 +1,1 @@
+jQuery(document).ready((function($){function i(){var i;$("#sanitize_svg_option input").is(":checked")?$("#sanitize_svg_option_sction").slideDown("slow"):$("#sanitize_svg_option_sction").slideUp("slow")}i(),$("#sanitize_svg_option input").change((function(){i()}))}));

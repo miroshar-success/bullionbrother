@@ -1,0 +1,62 @@
+/**
+ * checkout-fees-admin.css.
+ *
+ * @version 2.3.1
+ */
+
+div.alg_checkout_fees .tabs input[type=radio] {
+	display:none;
+}
+
+div.alg_checkout_fees .tabs {
+	width: 90%;
+	float: none;
+	list-style: none;
+	padding: 0;
+}
+
+div.alg_checkout_fees .tabs li {
+	display: block;
+	margin: 0px;
+}
+
+div.alg_checkout_fees .labels:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+div.alg_checkout_fees .tabs label {
+	display: inline-block;
+	float: left;
+	padding: 10px 20px;
+	color: #000000;
+	font-size: 18px;
+	font-weight: normal;
+	background: #FFFFFF;
+	cursor: pointer;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: #ccc;
+	margin: 0px 1px 1px 0px;
+}
+
+div.alg_checkout_fees .tabs label:hover {
+	background: #eee;
+}
+
+div.alg_checkout_fees .tab-content {
+	display: none;
+	width: 100%;
+	padding: 15px;
+	border:1px solid #ccc;
+	background-color:#ffffff;
+}
+
+div.alg_checkout_fees [id^=tab]:checked ~ div[id^=tab-content] {
+	display: block;
+}
+
+div.alg_checkout_fees .alg-clicked {
+	background: #ccc !important;
+}

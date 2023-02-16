@@ -1,0 +1,560 @@
+{
+  "name": "woolentor/shop-archive-default",
+  "category": "woolentor-shop",
+  "title": "Shop Archive Default",
+  "attributes": {
+    "blockUniqId": {
+      "type": "string",
+      "default": ""
+    },
+    "areaPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} { padding: {{areaPadding}}; }"
+      }
+    },
+    "areaBGProperty": {
+      "type": "object",
+      "default": {
+        "imageId": null,
+        "imageUrl": "",
+        "position": "",
+        "attachment": "",
+        "repeat": "",
+        "size": ""
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}"
+      }
+    },
+    "columns": {
+      "type": "object",
+      "default": {
+        "desktop": 4
+      }
+    },
+    "rows": {
+      "type": "number",
+      "default": 4
+    },
+    "paginate": {
+      "type": "boolean",
+      "default": true
+    },
+    "allowOrder": {
+      "type": "boolean",
+      "default": true
+    },
+    "showResultCount": {
+      "type": "boolean",
+      "default": true
+    },
+    "orderBy": {
+      "type": "string",
+      "default": "none"
+    },
+    "order": {
+      "type": "string",
+      "default": "DESC"
+    },
+    "itemBorderType": {
+      "type": "string",
+      "default": "",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.products li.product { border-style: {{itemBorderType}}; }"
+      }
+    },
+    "itemBorderWidth": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "itemBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.products li.product { border-width: {{itemBorderWidth}}; }"
+      }
+    },
+    "itemBorderColor": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "itemBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.products li.product { border-color: {{itemBorderColor}}; }"
+      }
+    },
+    "itemBorderRadius": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.products li.product { border-radius: {{itemBorderRadius}}; }"
+      }
+    },
+    "itemPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.products li.product { padding: {{itemPadding}}; }"
+      }
+    },
+    "contentAlignment": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.products li.product { text-align: {{contentAlignment}}; }"
+      }
+    },
+    "imageBorderType": {
+      "type": "string",
+      "default": "",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .attachment-woocommerce_thumbnail { border-style: {{imageBorderType}}; }"
+      }
+    },
+    "imageBorderWidth": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "imageBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} .attachment-woocommerce_thumbnail { border-width: {{imageBorderWidth}}; }"
+      }
+    },
+    "imageBorderColor": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "imageBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} .attachment-woocommerce_thumbnail { border-color: {{imageBorderColor}}; }"
+      }
+    },
+    "imageBorderRadius": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .attachment-woocommerce_thumbnail { border-radius: {{imageBorderRadius}}; }"
+      }
+    },
+    "imageMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .attachment-woocommerce_thumbnail { margin: {{imageMargin}}; }"
+      }
+    },
+    "titleColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.products li.product .woocommerce-loop-product__title,{{WOOLENTOR_WRAPPER}} ul.products li.product .title a { color: {{titleColor}}!important; }"
+      }
+    },
+    "titleHoverColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.products li.product .woocommerce-loop-product__title:hover,{{WOOLENTOR_WRAPPER}} ul.products li.product .title a:hover { color: {{titleHoverColor}}!important; }"
+      }
+    },
+    "titleSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.products li.product .woocommerce-loop-product__title,{{WOOLENTOR_WRAPPER}} ul.products li.product .title a { font-size: {{titleSize}}!important; }"
+      }
+    },
+    "titleMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.products li.product .woocommerce-loop-product__title,{{WOOLENTOR_WRAPPER}} ul.products li.product .title a { margin: {{titleMargin}}!important; }"
+      }
+    },
+    "salePriceColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.products li.product .price,{{WOOLENTOR_WRAPPER}} ul.products li.product .price ins,{{WOOLENTOR_WRAPPER}} ul.products li.product .price ins .amount,{{WOOLENTOR_WRAPPER}} ul.products li.product .price .amount{ color: {{salePriceColor}}!important; }"
+      }
+    },
+    "salePriceSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.products li.product .price{ font-size: {{salePriceSize}}!important; }"
+      }
+    },
+    "regularPriceColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.products li.product .price del,{{WOOLENTOR_WRAPPER}} ul.products li.product .price del .amount,{{WOOLENTOR_WRAPPER}} .price del .amount{ color: {{regularPriceColor}}!important; }"
+      }
+    },
+    "regularPriceSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.products li.product .price del .amount,{{WOOLENTOR_WRAPPER}} ul.products li.product .price del{ font-size: {{regularPriceSize}}!important; }"
+      }
+    },
+    "ratingColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.products li.product .star-rating{ color: {{ratingColor}}; }"
+      }
+    },
+    "emptyRatingColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.products li.product .star-rating::before{ color: {{emptyRatingColor}}; }"
+      }
+    },
+    "ratingSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.products li.product .star-rating{ font-size: {{ratingSize}}; }"
+      }
+    },
+    "ratingMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.products li.product .star-rating{ margin: {{ratingMargin}}; }"
+      }
+    },
+    "cartBtnColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.products li.product .button{ color: {{cartBtnColor}}; }"
+      }
+    },
+    "cartBtnBGColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.products li.product .button{ background-color: {{cartBtnBGColor}}; }"
+      }
+    },
+    "cartBtnBorderType": {
+      "type": "string",
+      "default": "",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.products li.product .button{ border-style: {{cartBtnBorderType}}; }"
+      }
+    },
+    "cartBtnBorderWidth": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "cartBtnBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.products li.product .button{ border-width: {{cartBtnBorderWidth}}; }"
+      }
+    },
+    "cartBtnBorderColor": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "cartBtnBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.products li.product .button{ border-color: {{cartBtnBorderColor}}; }"
+      }
+    },
+    "cartBtnBorderRadius": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.products li.product .button{ border-radius: {{cartBtnBorderRadius}}; }"
+      }
+    },
+    "cartBtnSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.products li.product .button{ font-size: {{cartBtnSize}}; }"
+      }
+    },
+    "cartBtnPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.products li.product .button{ padding: {{cartBtnPadding}}; }"
+      }
+    },
+    "cartBtnMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.products li.product .button{ margin: {{cartBtnMargin}}; }"
+      }
+    },
+    "cartBtnHoverColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.products li.product .button:hover{ color: {{cartBtnHoverColor}}; }"
+      }
+    },
+    "cartBtnHoverBGColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.products li.product .button:hover{ background-color: {{cartBtnHoverBGColor}}; }"
+      }
+    },
+    "cartBtnHoverBorderColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.products li.product .button:hover{ border-color: {{cartBtnHoverBorderColor}}; }"
+      }
+    },
+    "paginationColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} nav.woocommerce-pagination ul li a{ color: {{paginationColor}}; }"
+      }
+    },
+    "paginationBGColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} nav.woocommerce-pagination ul li a{ background-color: {{paginationBGColor}}; }"
+      }
+    },
+    "paginationBorderColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} nav.woocommerce-pagination ul{ border-color: {{paginationBorderColor}}; }{{WOOLENTOR_WRAPPER}} nav.woocommerce-pagination ul li{ border-right-color: {{paginationBorderColor}}; }"
+      }
+    },
+    "PaginationPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} nav.woocommerce-pagination ul li a,{{WOOLENTOR_WRAPPER}} nav.woocommerce-pagination ul li span{ padding: {{PaginationPadding}}; }"
+      }
+    },
+    "paginationHoverColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} nav.woocommerce-pagination ul li a:hover,{{WOOLENTOR_WRAPPER}} nav.woocommerce-pagination ul li span.current{ color: {{paginationHoverColor}}; }"
+      }
+    },
+    "paginationHoverBGColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} nav.woocommerce-pagination ul li a:hover,{{WOOLENTOR_WRAPPER}} nav.woocommerce-pagination ul li span.current{ background-color: {{paginationHoverBGColor}}; }"
+      }
+    },
+    "saleTagShow": {
+      "type": "boolean",
+      "default": true
+    },
+    "saleTextColor": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "saleTagShow",
+              "condition": "==",
+              "value": true
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.products li.product span.onsale{ color: {{saleTextColor}}; }"
+      }
+    },
+    "saleTagBGColor": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "saleTagShow",
+              "condition": "==",
+              "value": true
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.products li.product span.onsale{ background-color: {{saleTagBGColor}}; }"
+      }
+    },
+    "saleTagPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "saleTagShow",
+              "condition": "==",
+              "value": true
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.products li.product span.onsale{ padding: {{saleTagPadding}}; }"
+      }
+    },
+    "saleTagBorderRadius": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "saleTagShow",
+              "condition": "==",
+              "value": true
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} ul.products li.product span.onsale{ border-radius: {{saleTagBorderRadius}}; }"
+      }
+    },
+    "saleTagPosition": {
+      "type": "string",
+      "default": ""
+    }
+  }
+}

@@ -1,0 +1,120 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ .product-type-wgm_gift_card .price {
+  margin: 0 !important;
+}
+.product-type-wgm_gift_card .price ~ .cart {
+  padding-top: 0 !important;
+}
+ .wps_wgm_added_wrapper {
+	margin-bottom: 20px ;
+ }
+ .wps_wgm_added_wrapper .wps_wgm_section .wps_wgc_label {
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+ }
+#TB_window {
+  left: 0 !important;
+  margin: 0 auto !important;
+  max-width: 600px !important;
+  right: 0 !important;
+  top: 10% !important;
+  width: 95% !important;
+  /*IOS issue(Mobile device)*/
+  -webkit-overflow-scrolling: touch!important;
+  z-index: 9999999;
+}
+#TB_window iframe#TB_iframeContent {
+  margin: 0 auto;
+  max-width: 600px;
+  width: 100% !important;
+  height: 480px!important;
+}
+@media only screen and (max-width: 640px){
+  #TB_window > iframe#TB_iframeContent {
+  height: 400px !important;
+  }
+  /*IOS issue(Mobile device)*/
+  #TB_window {
+   height: 80vh;
+   overflow-y: scroll;
+ }
+}
+#wps_wgm_from_name {
+	width: 99%;
+}
+#wps_wgm_to_download {
+	width: 99%;
+}
+#wps_wgm_to_email {
+	width: 99%;
+  margin-bottom: 10px  !important;
+}
+#wps_wgm_message {
+	width: 99%;
+}
+/* custom css for redeem iframe*/
+.wps_redeem_embed {
+  width: 100%;
+  height: 610px;
+  display: block;
+}
+/*css for single product page on front end */
+.wps_wgm_send_giftcard {
+  margin-right: 5px;
+}
+.wps_wgm_msg_info {
+ display: block;
+ font-size: 13px;
+}
+#wps_wgm_to_name_optional {
+	width: 99%;
+	display:none;
+}
+.wps_wgm_delivery_method {
+	border: 1px solid #f1f1f1;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.12);
+	margin-bottom: 25px;
+	padding: 20px;
+}
+.wps_wgm_featured_img {
+	margin-right: 12px;
+	margin-bottom: 10px;
+	border: solid 3px #d2d2d2;
+	background-color: #00897b;
+  float:left;
+}
+.wps_wgm_pre_selected_temp {
+	border: 3px solid #2c2726 !important;
+	border-radius: 5px;
+	margin-right: 12px;
+}
+#wps_wgm_price{
+  width:99%;
+}
+#mwg_wgm_preview_email {
+	font-weight: bold;
+	letter-spacing: 1px;
+  display: block;
+  width:99%;
+  cursor: pointer;
+}
+.wps_wgm_selected_template {
+    overflow: auto;
+}
+
+#wps_recharge_wallet_giftcard {
+  width: unset !important; 
+  color: #fff !important;
+}
+.wps_wgm_min_user_price{
+  display: none;
+  color: red;
+}
+.wps_wgm_section select, .wps_wgm_section input[type=text], .wps_wgm_section textarea {
+  min-height: 33px;
+  color: #333333;
+}

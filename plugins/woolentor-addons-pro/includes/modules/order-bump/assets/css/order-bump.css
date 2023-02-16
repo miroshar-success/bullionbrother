@@ -1,0 +1,552 @@
+/* Order Bump Module CSS
+======================================================= */
+.woolentor-order-bump {
+	--cb-main-color: #ffffff;
+	--cb-color-2: #000;
+}
+
+/* Bump Item */
+.woocommerce div.woolentor-order-bump{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.woolentor-order-bump .woolentor-order-bump-info {
+	border-top: 1px solid #E6EBFC;
+	border-left: 1px solid #E6EBFC;
+	border-right: 1px solid #E6EBFC;
+	background-color: #FAFAFA;
+	border-radius: 10px 10px 0 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding: 15px;
+}
+
+.woolentor-order-bump .wl-image {
+	-ms-flex-preferred-size: 130px;
+	flex-basis: 130px;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	border-radius: 10px;
+	margin-right: 15px;
+}
+
+.woolentor-order-bump .wl-image img {
+	width: 100%;
+	max-width: 100%;;
+	border-radius: 10px;
+	display: block;
+}
+
+#customer_details .woolentor-order-bump .wl-title, /* Override for astra theme */
+.woolentor-order-bump .wl-title{
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
+	color: #333333;
+	margin: 0;
+	margin-bottom: 3px;
+	padding: 0;
+	border: none;
+}
+
+/* Bump Item - Price */
+/* Remove old price range from other areas except order bump */
+.wl-price-range-old{
+	display: none;
+}
+
+/* Price - Common */
+body div.woolentor-order-bump .wl-price span.price {
+	font-size: 15px;
+	line-height: 22px;
+	margin-top: 5px;
+    display: block;
+}
+body .woolentor-order-bump .wl-price-range-old{
+	display: inline-block;
+	text-decoration: line-through;
+	margin-right: 10px;
+	opacity: .5;
+	font-weight: normal;
+}
+body .woolentor-order-bump .wl-price span.price ins {
+	text-decoration: none;
+}
+body div.product .woolentor-order-bump-content span.price{
+	color:#333;
+}
+
+/* Price - Inside action */
+body div.product .woolentor-order-bump-action span.price{
+	color:#fff;
+}
+
+.woolentor-order-bump .wl-desc p{
+	color: #363636;
+	margin-top: 10px;
+	margin-bottom: 0;
+	padding: 0
+}
+
+.woolentor-order-bump .woolentor-order-bump-action {
+	background: #42D284;
+	border-radius: 0px 0px 10px 10px;
+	padding: 14px 15px;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 20px;
+	color: #FFFFFF;
+	margin-top: 0px;
+}
+
+.woolentor-order-bump .woolentor-order-bump-select-options{
+	color: #fff;
+}
+
+.woolentor-order-bump .woolentor-order-bump-info .woolentor-order-bump-select-options{
+	color: #333;
+}
+
+.woolentor-order-bump .woolentor-order-bump-action .wl-checkbox-wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.woolentor-order-bump .woolentor-order-bump-action input[type=checkbox] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background-color: var(--cb-main-color);
+	margin: 0;
+	font: inherit;
+	width: 16px;
+	height: 16px;
+	border: 0.1em solid var(--cb-main-color);
+	border-radius: 0;
+	-webkit-transform: translateY(-0.035em);
+	transform: translateY(-0.035em);
+	display: -ms-grid;
+	display: grid;
+	place-content: center;
+	cursor: pointer;
+}
+
+.woolentor-order-bump .woolentor-order-bump-action label{
+	padding-left: 10px;
+	cursor: pointer;
+}
+
+.woolentor-order-bump .woolentor-order-bump-action input[type=checkbox]:before {
+	content: "";
+	width: 0.65em;
+	height: 0.65em;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	-webkit-transform-origin: bottom left;
+	transform-origin: bottom left;
+	-webkit-transition: 120ms -webkit-transform ease-in-out;
+	transition: 120ms -webkit-transform ease-in-out;
+	transition: 120ms transform ease-in-out;
+	transition: 120ms transform ease-in-out, 120ms -webkit-transform ease-in-out;
+	box-shadow: inset 1em 1em var(--cb-color-2);
+	transform-origin: bottom left;
+	-webkit-clip-path: polygon(20% 40%, 0 40%, 44% 100%, 100% 16%, 90% 0%, 40% 60%);
+	clip-path: polygon(20% 40%, 0 40%, 44% 100%, 100% 16%, 90% 0%, 40% 60%);
+}
+
+.woolentor-order-bump .woolentor-order-bump-action input[type=checkbox]:checked:before {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+/* Style - 2 */
+.woolentor-order-bump.wl-style-2 {
+	border: 1px solid #2B2D42;
+	border-radius: 10px;
+	padding: 15px 15px 0 15px;
+}
+
+.woolentor-order-bump.wl-style-2 .woolentor-order-bump-info {
+	background-color: transparent;
+	padding: 0;
+	border: 1px solid transparent;
+}
+
+.woolentor-order-bump.wl-style-2 .wl-image {
+	-ms-flex-preferred-size: 138px;
+	flex-basis: 138px;
+	border-radius: 10px;
+}
+
+.woolentor-order-bump.wl-style-2 .wl-title {
+	color: #333;
+}
+
+.woolentor-order-bump.wl-style-2 .wl-price {
+	color: #333;
+}
+
+.woolentor-order-bump.wl-style-2 .wl-desc {
+	color: #363636;
+}
+
+.woolentor-order-bump.wl-style-2 .woolentor-order-bump-action {
+	background: #EF233C;
+	border-radius: 10px 10px 0px 0px;
+	margin-top: 25px;
+}
+
+/* Style - 3 */
+.woolentor-order-bump.wl-style-3 {
+	border-radius: 10px;
+}
+
+.woolentor-order-bump.wl-style-3 .woolentor-order-bump-info {
+	border: 1px solid #CBDFBD;
+	background: transparent;
+}
+
+.woolentor-order-bump.wl-style-3 .wl-image {
+	-ms-flex-preferred-size: 138px;
+	flex-basis: 138px;
+	border-radius: 10px;
+}
+
+.woolentor-order-bump.wl-style-3 .wl-title {
+	color: #4B7F52;
+}
+
+.woolentor-order-bump.wl-style-3 .wl-price {
+	color: #333;
+}
+
+.woolentor-order-bump.wl-style-3 .wl-desc {
+	color: #363636;
+}
+
+.woolentor-order-bump.wl-style-3 .woolentor-order-bump-action {
+	background: #588157;
+	border-radius: 0px 0px 10px 10px;
+}
+
+/* Style - 4 */
+.woolentor-order-bump.wl-style-4 {
+	border: 2px dashed #f16135;
+	border-radius: 12px;
+}
+
+.woolentor-order-bump.wl-style-4 .woolentor-order-bump-info {
+	border: 1px solid transparent;
+	background-color: transparent;
+}
+
+.woolentor-order-bump.wl-style-4 .wl-image {
+	-ms-flex-preferred-size: 138px;
+	flex-basis: 138px;
+	border-radius: 10px;
+}
+
+.woolentor-order-bump.wl-style-4 .wl-title {
+	color: #001219;
+}
+
+.woolentor-order-bump.wl-style-4 .wl-price {
+	color: #333;
+}
+
+.woolentor-order-bump.wl-style-4 .wl-desc {
+	color: #363636;
+}
+
+.woolentor-order-bump.wl-style-4 .woolentor-order-bump-action {
+	background: #f15d31;
+	border-radius: 0px 0px 10px 10px;
+}
+
+.woolentor-order-bump.wl-style-5 .woolentor-order-bump-info {
+	background-color: transparent;
+	border: 1px solid #FCA311;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.woolentor-order-bump.wl-style-5 .wl-image {
+	-ms-flex-preferred-size: 132px;
+	flex-basis: 132px;
+	border-radius: 10px;
+}
+
+.woolentor-order-bump.wl-style-5 .wl-title {
+	margin-top: 10px;
+	color: #001219;
+}
+
+/* Style - 5 */
+body .woolentor-order-bump.wl-style-5 .woolentor-order-bump-action span.price del,
+body .woolentor-order-bump.wl-style-5 .wl-price-range-old {
+    opacity: .8;
+}
+
+.woolentor-order-bump.wl-style-5 .woolentor-order-bump-action {
+	background: #FCA311;
+	border-radius: 0px 0px 10px 10px;
+	margin-top: 0px;
+}
+
+/* Style - 6 */
+.woolentor-order-bump.wl-style-6 .woolentor-order-bump-info {
+	background-color: transparent;
+	padding: 0;
+	border: transparent;
+	border-radius: 10px 10px 0px 0px;
+	-webkit-box-align: inherit;
+	-ms-flex-align: inherit;
+	-ms-grid-row-align: inherit;
+	align-items: inherit;
+}
+
+.woolentor-order-bump.wl-style-6 .wl-image {
+	-ms-flex-preferred-size: 144px;
+	flex-basis: 144px;
+	border-radius: 10px 0 0 10px;
+	margin-right: 0;
+}
+
+.woolentor-order-bump.wl-style-6 .wl-image img {
+	height: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+	-o-object-position: center;
+	object-position: center;
+	border-radius: 10px 0 0 10px;
+}
+
+.woolentor-order-bump.wl-style-6 .woolentor-order-bump-content {
+	border-top: 1px solid #E6EBFC;
+	border-right: 1px solid #E6EBFC;
+	border-bottom: 1px solid #E6EBFC;
+	background-color: #FAFAFA;
+	border-radius: 0 10px 10px 0;
+	padding: 25px 20px 25px 20px;
+	margin-left: 0px;
+	flex-grow: 1;
+}
+
+.woolentor-order-bump.wl-style-6 .wl-price {
+	color: #333;
+	margin-right: 20px;
+}
+
+.woolentor-order-bump.wl-style-6 .wl-desc {
+	color: #363636;
+}
+
+.woolentor-order-bump.wl-style-6 .woolentor-order-bump-action {
+	background: transparent;
+	padding: 0 0;
+	margin-top: 15px;
+	color: var(--cb-main-color);
+}
+.woolentor-order-bump.wl-style-6{
+	--cb-main-color:#f15d31;
+	--cb-color-2:#fff;
+}
+.woolentor-order-bump.wl-style-6 .woolentor-order-bump-action input[type=checkbox] {
+	background-color: transparent;
+	border-color: var(--cb-main-color);
+}
+.woolentor-order-bump.wl-style-6 .woolentor-order-bump-action input[type=checkbox]:checked {
+	background-color: var(--cb-main-color);
+}
+.woolentor-order-bump.wl-style-6  .woolentor-order-bump-action input[type=checkbox]:before {
+    box-shadow: inset 1em 1em var(--cb-color-2);
+}
+/* End of bump item */
+
+/* Variations popup */
+#woolentor-order-bump-variations-popup {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 9999;
+	opacity: 0;
+	visibility: hidden;
+	background-color: transparent;
+	overflow-y: auto;
+}
+
+#woolentor-order-bump-variations-popup.woolentor-order-bump-variations-popup-open {
+	opacity: 1;
+	visibility: visible;
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+#woolentor-order-bump-variations-popup .woolentor-order-bump-close {
+	background: transparent none repeat scroll 0 0;
+	color: #000;
+	height: inherit;
+	line-height: inherit;
+	padding: 0;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	cursor: pointer;
+	display: none;
+}
+
+#woolentor-order-bump-variations-popup .woolentor-order-bump-close:hover {
+	color: red;
+	background: transparent;
+}
+
+.woolentor-order-bump-placeholder-remove {
+	display: none !important;
+}
+
+#woolentor-order-bump-variations-popup .woolentor-order-bump-modal-dialog {
+	max-width: 960px;
+	padding: 35px;
+	width: 100%;
+	position: relative;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.3s ease 0s;
+	border-radius: 10px;
+}
+
+#woolentor-order-bump-variations-popup.woolentor-order-bump-variations-popup-open .woolentor-order-bump-modal-dialog {
+	opacity: 1;
+	visibility: visible;
+	transition: all 0.3s ease 0.3s
+}
+
+.woolentor-order-bump-variations-popup-large-img {
+	margin-bottom: 15px;
+}
+
+#woolentor-order-bump-variations-popup.woocommerce div.product .product_title {
+	color: #010101;
+	font-size: 24px;
+	line-height: 1;
+	margin: 0;
+	margin-bottom: 7px;
+}
+
+.content-woolentor-order-bump-variations-popup.entry-summary {
+	margin: 0;
+	max-height: 450px;
+	overflow-y: auto;
+}
+
+#woolentor-order-bump-variations-popup.woocommerce div.product p.price,
+#woolentor-order-bump-variations-popup.woocommerce div.product span.price {
+	color: #444444;
+	font-size: 1.25em;
+	margin-bottom: 15px;
+}
+
+#woolentor-order-bump-variations-popup.woocommerce div.product .woocommerce-product-rating {
+	margin: 15px 0;
+}
+
+#woolentor-order-bump-variations-popup .variations_button {
+	display: flex;
+	gap: 7px;
+}
+
+#woolentor-order-bump-variations-popup .variations_button input[type=number]:focus {
+	box-shadow: none;
+}
+
+#woolentor-order-bump-variations-popup div.quantity {
+	max-width: 100px;
+	margin: 0;
+	padding: 0;
+}
+
+#woolentor-order-bump-variations-popup div.quantity,
+#woolentor-order-bump-variations-popup div.quantity input[type="number"] {
+	height: 40px;
+}
+
+#woolentor-order-bump-variations-popup .variations_button .button {
+	margin: 0;
+	padding: 10px 15px;
+	width: auto;
+	height: 40px;
+}
+
+#woolentor-order-bump-variations-popup.woocommerce .ht-qwick-view-left .images {
+	float: left !important;
+}
+
+.woolentor-order-bump-variations-popup-thumbnails .woolentor-order-bump-variations-popup-thumb-single {
+	cursor: pointer;
+	padding: 0 2px;
+}
+
+.woolentor-order-bump-variations-popup-thumbnails .slick-slide img {
+	width: 100%;
+	border: 1px solid #cccccc;
+}
+
+.woolentor-order-bump-variations-popup-thumbnails .slick-arrow {
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: 20px;
+	height: 30px;
+	border: none;
+	background-color: transparent !important;
+	text-align: center;
+	padding: 0;
+	cursor: pointer;
+	z-index: 99;
+	color: #444444;
+}
+
+.woolentor-order-bump-variations-popup-thumbnails .slick-arrow.woolentor-slick-prev {
+	left: 0;
+}
+
+.woolentor-order-bump-variations-popup-thumbnails .slick-arrow.woolentor-slick-next {
+	right: 0;
+}
+
+#woolentor-order-bump-variations-popup.woocommerce .product_meta {
+	margin-top: 20px;
+}
+
+#woolentor-order-bump-variations-popup .star-rating {
+	float: left;
+	margin-right: 10px;
+	margin-top: 4px;
+}
+
+#woolentor-order-bump-variations-popup.woocommerce div.product div.images {
+	margin-bottom: 5px;
+}
+
+#woolentor-order-bump-variations-popup.woocommerce div.product .woocommerce-product-gallery__image {
+	padding-right: 1px;
+}
+
+#woolentor-order-bump-variations-popup.woocommerce div.product .woocommerce-product-gallery__image img {
+	border: 1px solid #ccc;
+	width: 100%;
+}
+/* End of Variations popup */

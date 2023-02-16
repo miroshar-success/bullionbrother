@@ -1,0 +1,205 @@
+body.woolentor_mini_cart_open .woolentor_body_opacity {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background: #000000;
+    z-index: 99999;
+    opacity: 0.8;
+    cursor: crosshair;
+}
+.elementor-widget-wl-mini-cart{
+    margin-bottom: 0 !important;
+}
+.woolentor_mini_cart_header {
+    padding: 15px 15px;
+    border-bottom: 1px solid #ccc;
+}
+.woolentor_mini_cart_header h2 {
+    margin: 0;
+    display: inline-block;
+    font-size: 20px;
+    color: #000;
+}
+.woolentor_mini_cart_icon_area {
+    cursor: pointer;
+    position: fixed;
+    bottom: 80px;
+    left: 10px;
+    z-index: 999999;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    transition: 0.4s;
+    border: 1px solid #ccc;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.woolentor_mini_cart_counter {
+    position: absolute;
+    top: -20px;
+    right: -10px;
+    background: #B83164;
+    border-radius: 50%;
+    position: absolute;
+    font-size: 13px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    overflow: hidden;
+    color: #fff;
+}
+.woolentor_mini_cart_icon {
+    font-size: 32px;
+}
+.woolentor_cart_content_container {
+    width: 300px;
+    left: -300px;
+    position: fixed;
+    z-index: 999999;
+    background: #fff;
+    top: 0;
+    bottom: 0;
+    transition: 0.4s;
+}
+.woolentor_mini_cart_open .woolentor_cart_content_container{
+    left:0;
+}
+.woolentor_mini_cart_content {
+    padding: 0 15px;
+    margin-top: 15px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.woolentor_mini_cart_content ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.woolentor_mini_cart_close {
+    float: right;
+    cursor:pointer;
+    font-size: 18px;
+    transition: 0.4s;
+}
+.woolentor_mini_cart_close:hover{
+    color: #FF0000;
+}
+.woolentor_mini_cart_content ul li {
+    display: flex;
+    margin-bottom: 10px;
+}
+.woolentor_mini_cart_content ul li .woolentor_mini_cart_img{
+    width: 30%;
+    position: relative;
+}
+.woolentor_mini_cart_content ul li .woolentor_cart_single_content {
+    width: 70%;
+    padding-left: 15px;
+}
+.woolentor_mini_cart_content ul li .woolentor_mini_title h3 {
+    margin: 0 0 5px 0;
+    font-size: 16px;
+}
+.woolentor_mini_cart_content ul li .woolentor_del {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 12px;
+    background: #ccc;
+    padding: 3px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 15px;
+    display: none;
+    border:0;
+    color: red;
+}
+.woolentor_mini_cart_content ul li a.woolentor_del.remove:hover {
+    color: #fff;
+    background: #FF0000;
+}
+.woolentor_mini_cart_content ul li:hover .woolentor_del{
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.woolentor_mini_cart_footer {
+    padding: 20px 0 30px 0px;
+    border-top: 1px solid #e3e3e3;
+}
+.woolentor_sub_total {
+    padding: 0px 15px 15px 15px;
+    display: block;
+    text-align: right;
+    font-size: 18px;
+}
+.woolentor-alignment-left span.woolentor_sub_total {
+    padding-left: 0;
+}
+.woolentor_button_area {
+    display: flex;
+    justify-content: space-between;
+}
+.woolentor_button_area a {
+    display: block !important;
+    text-align: center;
+    width: 50%;
+    background: #e3e3e3 none repeat scroll 0 0;
+    color: #5d5d5d;
+    margin-right: 10px !important;
+    padding: 10px 10px !important;
+    transform: perspective(1px) translateZ(0px);
+    transition-duration: 0.3s;
+    transition-property: color;
+    position: relative;
+}
+.woolentor_button_area a:last-child {
+    margin-right: 0;
+}
+.woolentor_button_area a:hover{
+    color: white;
+}
+.woolentor_button_area a:hover::before{
+    transform: scaleX(1);
+}
+.woolentor_button_area a::before {
+    background: #ee3333 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50% 0;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+    z-index: -1;
+}
+.woolentor_empty_cart_body {
+    margin: 0;
+}
+
+/* Position Right */
+.woolentor_mini_cart_pos_right .woolentor_mini_cart_icon_area {
+    left: auto;
+    right: 10px;
+}
+.woolentor_mini_cart_pos_right .woolentor_cart_content_container{
+    left: auto;
+    right: -300px;
+}
+.woolentor_mini_cart_open .woolentor_mini_cart_pos_right .woolentor_cart_content_container {
+    right: 0;
+    left: auto;
+}

@@ -1,0 +1,96 @@
+.wp-embed-responsive .wp-block{
+    outline: 0;
+}
+/*My Account Page*/
+.woolentor_myaccount_page {
+    overflow: hidden;
+}
+.woolentor_myaccount_page .woocommerce-MyAccount-content .form-row {
+    display: block;
+}
+.woolentor-user-area {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.woolentor-user-image {
+    margin-right: 20px;
+}
+.woolentor-user-image img {
+    border-radius: 100% !important;
+}
+.woolentor-user-info span {
+    display: block;
+}
+.woolentor-username {
+    font-size: 20px;
+}
+.woolentor-logout {
+    font-size: 14px;
+}
+.woolentor_myaccount_page .woocommerce-MyAccount-navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-top: 1px solid #ddd;
+}
+.woolentor_myaccount_page .woocommerce-MyAccount-navigation ul li {
+    border-bottom: 1px solid #ddd;
+    padding: 12px 0;
+    line-height: 1.5;
+}
+.woolentor_myaccount_page .woocommerce-MyAccount-navigation ul li a{
+    transition: 0.4s;
+}
+  
+.woocommerce-account .woolentor_myaccount_menu_pos_vtop .woocommerce-MyAccount-navigation,.woocommerce-account .woolentor_myaccount_menu_pos_vbottom .woocommerce-MyAccount-navigation{
+    width: 100%;
+    float: none;
+}
+.woolentor_myaccount_menu_pos_vtop .woocommerce-MyAccount-navigation ul,.woolentor_myaccount_menu_pos_vbottom .woocommerce-MyAccount-navigation ul{
+    border:none;
+}
+.woolentor_myaccount_menu_pos_vtop .woocommerce-MyAccount-navigation ul li,.woolentor_myaccount_menu_pos_vbottom .woocommerce-MyAccount-navigation ul li{
+    display: inline-block;
+    border-bottom: 0;
+    padding: 12px 10px;
+}
+  
+.woocommerce-account .woolentor_myaccount_menu_pos_vtop .woocommerce-MyAccount-content,.woocommerce-account .woolentor_myaccount_menu_pos_vbottom .woocommerce-MyAccount-content{
+    width: 100%;
+    float: none;
+}
+  
+.woocommerce-account .woolentor_myaccount_menu_pos_hright .woocommerce-MyAccount-navigation,.woolentor_myaccount_menu_pos_hleft .woocommerce-MyAccount-content{
+    float: right;
+}
+  
+.woocommerce-account .woolentor_myaccount_menu_pos_hright .woocommerce-MyAccount-content,.woolentor_myaccount_menu_pos_hleft .woocommerce-MyAccount-navigation{
+    float: left;
+}
+.woolentor_block_my_account,.woolentor_block_my_account_navigation{
+    overflow: hidden;
+}
+
+.woolentor_block_my_account_navigation .woocommerce-MyAccount-navigation {
+    width: 100% !important;
+    float: none !important;
+}
+.woolentor_myaccount_menu_type_vertical ul li{
+    display: inline-block;
+    border: none !important;
+}
+.woolentor_myaccount_menu_type_vertical ul{
+    border-top: 0 !important;
+}
+.woolentor_block_my_account_navigation .woolentor-user-area:not(:first-child){
+    display: none;
+}
+.woolentor-customer-logout a{
+    display: inline-block;
+}
+
+/* Product Grid */
+.woolentor_block_product_grid .ht-product-ratting i {
+    font-family: 'FontAwesome';
+}

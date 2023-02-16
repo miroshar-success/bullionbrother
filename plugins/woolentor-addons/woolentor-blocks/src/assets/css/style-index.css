@@ -1,0 +1,623 @@
+#wp-admin-bar-woolentor_template_builder > .ab-item {
+    display: flex !important;
+    align-items: center;
+}
+#wp-admin-bar-woolentor_template_builder .ab-item img {
+    width: 16px;
+    margin-right: 3px;
+}
+.wlb-marker-wrapper .wlb_image_pointer .wlb_pointer_box h4{
+    margin: 0 0 7px 0;
+}
+.editor-styles-wrapper .ht-feature-content h4,.editor-styles-wrapper .ht-feature-content p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+[class*="woolentor-"] i{
+    font-style: normal;
+}
+
+.woolentor-text-align-left{
+    text-align: left !important;
+}
+.woolentor-text-align-right{
+    text-align: right !important;
+}
+.woolentor-text-align-center{
+    text-align: center !important;
+}
+[class*="woolentor"] a{
+    text-decoration: none !important;
+}
+
+/* Alignment support */
+[class*="woolentor"].alignfull {
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    max-width: 100vw;
+    width: 100vw;
+    padding: 0 15px;
+}
+[class*="woolentor"].alignwide {
+    margin-left: -100px;
+    margin-right: -100px;
+    max-width: unset;
+    width: unset;
+}
+
+[class*="woolentor"].alignfull .alignfull,
+[class*="woolentor"].alignfull .alignwide {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+[class*="woolentor"].alignwide .alignfull,
+[class*="woolentor"].alignwide .alignwide {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.wp-block-column [class*="woolentor"].alignfull,
+.wp-block-column [class*="woolentor"].alignwide {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+    [class*="woolentor"].alignfull {
+      margin-left: -2.4em;
+      margin-right: -2.4em;
+    }
+}
+  
+@media (max-width: 768px) {
+    [class*="woolentor"].alignfull {
+      margin-left: -2.14em;
+      margin-right: -2.14em;
+    }
+}
+  
+@media (max-width: 544px) {
+    [class*="woolentor"].alignfull {
+      margin-left: -1em;
+      margin-right: -1em;
+    }
+}
+[class*="woolentor"].alignwide {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.wp-block-column [class*="woolentor"].alignfull,
+.wp-block-column [class*="woolentor"].alignwide {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/* 
+* Builder Addon Style 
+*/
+.woolentor-product-image{
+    position: relative;
+}
+
+/* Shortcode product loop before*/
+.woolentor-before-shop {
+    display: block;
+    overflow: hidden;
+}
+.woolentor-archive-sale-badge-hide ul.products li.product span.onsale{
+    display: none !important;
+}
+.woolentor-archive-sale-badge-left ul.products li.product span.onsale{
+    right: auto;
+    left: 0;
+}
+.woolentor-archive-sale-badge-right ul.products li.product span.onsale{
+    left: auto;
+    right: 0;
+}
+
+/*Column Default style*/
+[class*="woolentor-products-columns-"] ul.products{
+    display: grid;
+    column-gap: 20px;
+}
+.woocommerce [class*="woolentor-products-columns-"] ul.products::before{
+    display: none !important;
+}
+.edit-post-visual-editor [class*="woolentor-products-columns-"] img{
+    width: 100%;
+}
+.woocommerce [class*="woolentor-products-columns-"] ul.products li.product, .woocommerce-page [class*="woolentor-products-columns-"] ul.products li.product {
+    float: none;
+    width: 100%;
+    margin-right: 0 !important;
+}
+[class*="woolentor-products-columns-"] ul.products li.product.first{
+    clear: none !important;
+}
+.woolentor-products-columns-1 ul.products{
+    grid-template-columns: repeat(1,1fr) !important;
+}
+.woolentor-products-columns-2 ul.products{
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+}
+.woolentor-products-columns-3 ul.products{
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+}
+.woolentor-products-columns-4 ul.products{
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+}
+.woolentor-products-columns-5 ul.products{
+    grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+}
+.woolentor-products-columns-6 ul.products{
+    grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
+}
+.woolentor-products-columns-7 ul.products{
+    grid-template-columns: repeat(7, minmax(0, 1fr)) !important;
+}
+.woolentor-products-columns-8 ul.products{
+    grid-template-columns: repeat(8, minmax(0, 1fr)) !important;
+}
+.woolentor-products-columns-9 ul.products{
+    grid-template-columns: repeat(9, minmax(0, 1fr)) !important;
+}
+.woolentor-products-columns-10 ul.products{
+    grid-template-columns: repeat(10, minmax(0, 1fr)) !important;
+}
+
+/* WooLentor Column Grid style */
+.woolentor-grid:not(.woolentor-grid-slider){
+    display: grid;
+    column-gap: 20px;
+}
+/* For Slick Slider End */
+.woolentor-grid-slider{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.woolentor-grid-slider .woolentor-grid-column{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* Slick Slider End */
+
+.woolentor-grid.woolentor-no-gutters,.woolentor-grid.wlno-gutters{
+    column-gap: 0px;
+    row-gap: 0px;
+}
+.woocommerce.woolentor-grid::before{
+    display: none !important;
+}
+.woolentor-grid-columns-1 .woolentor-grid{
+    grid-template-columns: repeat(1,1fr) !important;
+}
+.woolentor-grid-columns-2 .woolentor-grid{
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+}
+.woolentor-grid-columns-3 .woolentor-grid{
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+}
+.woolentor-grid-columns-4 .woolentor-grid{
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+}
+.woolentor-grid-columns-5 .woolentor-grid{
+    grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+}
+.woolentor-grid-columns-6 .woolentor-grid{
+    grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
+}
+.woolentor-grid-columns-7 .woolentor-grid{
+    grid-template-columns: repeat(7, minmax(0, 1fr)) !important;
+}
+.woolentor-grid-columns-8 .woolentor-grid{
+    grid-template-columns: repeat(8, minmax(0, 1fr)) !important;
+}
+.woolentor-grid-columns-9 .woolentor-grid{
+    grid-template-columns: repeat(9, minmax(0, 1fr)) !important;
+}
+.woolentor-grid-columns-10 .woolentor-grid{
+    grid-template-columns: repeat(10, minmax(0, 1fr)) !important;
+}
+
+/* Product Slider Control */
+.woolentor-row .product-slider [class*="woolentor-col-"] {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.product-slider .slick-arrow {
+    background: transparent none repeat scroll 0 0;
+    border: 2px solid #ddd;
+    color: #ddd;
+    font-size: 20px;
+    height: 40px;
+    left: -30px;
+    line-height: inherit;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    z-index: 99;
+    transition: 0.4s;
+}
+.product-slider .slick-arrow.slick-next{
+    right: -30px;
+    left: auto;
+}
+.product-slider .slick-arrow:hover{
+    border-color: #333;
+    color: #333;
+}
+.product-slider .slick-dots {
+    bottom: 0px;
+    display: flex;
+    left: 50%;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    transform: translateX(-50%);
+}
+.product-slider .slick-dots li {
+    line-height: 12px;
+    margin: 0 4px;
+}
+.product-slider .slick-dots li button {
+    background-color: transparent;
+    border: 1px solid #4e4f4f;
+    border-radius: 50px;
+    height: 13px;
+    padding: 0;
+    text-indent: -9999px;
+    width: 13px;
+    line-height: 13px;
+}
+.product-slider .slick-dots li.slick-active button {
+    background-color: #282828;
+    border-color: #282828;
+}
+
+/* Universal Product */
+[class*="woolentorblock-"] .ht-products .wishsuite-button.wishlist{
+    line-height: 35px;
+}
+[class*="woolentorblock-"] .ht-products .wishsuite-button.wishlist span.wishsuite-btn-text{
+    position: absolute;
+  left: 100%;
+  top: 50%;
+  display: block;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 10px;
+  line-height: 1;
+  color: #f1f1f1;
+  background-color: #282828;
+  padding: 5px 10px;
+  border-radius: 50px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  margin-left: -10px;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  z-index: 99;
+}
+[class*="woolentorblock-"] .ht-products .wishsuite-button.wishlist span.wishsuite-btn-text{
+    margin-right: -10px;
+    -webkit-transform: translateY(-65%);
+        -ms-transform: translateY(-65%);
+            transform: translateY(-65%);
+}
+
+.ht-product-inner .ht-product-categories.hide-category-before{
+    padding-left: 0 !important;
+}
+.ht-product-inner .ht-product-categories.hide-category-before::before{
+    display: none !important;
+}
+
+/** Product Grid **/
+.woolentor_block_product_grid [class*="woolentor-"] i.fa-heart{
+    font-family: 'FontAwesome';
+}
+.woolentor_block_product_grid [class*="woolentor-"] i.far.fa-heart:before {
+    content: "\f08a";
+}
+
+/* Cart table */
+.woocommerce-page .woolentor_block_cart_table table.shop_table .variation dt{
+    float: none;
+}
+.woocommerce-page .woolentor_block_cart_table table.shop_table .variation dd{
+    display: inline-block;
+}
+
+/* Cross Sells */
+.woocommerce .woolentor_block_cross_sell .products .star-rating,.woocommerce .woolentor_block_archive_default .products .star-rating{
+    display: inline-block;
+}
+.woolentor-content-align-center .wishsuite-button{
+    justify-content: center;
+}
+.woolentor-content-align-right .wishsuite-button{
+    justify-content: flex-end;
+}
+
+/* Checkout Payment */
+.woolentor-heading-right #payment div.payment_box::before{
+    right: 0;
+    left: auto !important;
+}
+/* Checkout Order review */
+.woocommerce-page.woocommerce-checkout form .woolentor_block_checkout_order_review #order_review {
+    float: none;
+    width: 100%;
+}
+.woocommerce-page.woocommerce-checkout form .woolentor_block_checkout_order_review #order_review_heading {
+    float: none;
+    width: auto;
+}
+
+/*
+* OceanWP Theme
+*/
+.woolentor_current_theme_oceanwp [class*="woolentor-products-columns-"] ul.products.grid{
+    display: grid !important;
+}
+.woolentor_current_theme_oceanwp [class*="woolentor-products-columns-"] ul.products.list{
+    display: block !important;
+}
+
+/* Normal  :1366px. */
+@media (min-width: 1200px) and (max-width: 1400px) {
+
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    /*Default Product column*/
+    [class*="woolentor-products-columns-"] ul.products{
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    }
+    .woolentor-products-columns-laptop-1 ul.products{
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .woolentor-products-columns-laptop-2 ul.products{
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+    .woolentor-products-columns-laptop-3 ul.products{
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    }
+    .woolentor-products-columns-laptop-4 ul.products{
+        grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    }
+    .woolentor-products-columns-laptop-5 ul.products{
+        grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+    }
+    .woolentor-products-columns-laptop-6 ul.products{
+        grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
+    }
+    .woolentor-products-columns-laptop-7 ul.products{
+        grid-template-columns: repeat(7, minmax(0, 1fr)) !important;
+    }
+    .woolentor-products-columns-laptop-8 ul.products{
+        grid-template-columns: repeat(8, minmax(0, 1fr)) !important;
+    }
+    .woolentor-products-columns-laptop-9 ul.products{
+        grid-template-columns: repeat(9, minmax(0, 1fr)) !important;
+    }
+    .woolentor-products-columns-laptop-10 ul.products{
+        grid-template-columns: repeat(10, minmax(0, 1fr)) !important;
+    }
+    [class*="woolentor-products-columns-laptop-"] ul.products li.product.first{
+        clear: none !important;
+    }
+
+    /*Column Grid */
+    [class*="woolentor-grid-columns-"] .woolentor-grid{
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    }
+    .woolentor-grid-columns-laptop-1 .woolentor-grid{
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .woolentor-grid-columns-laptop-2 .woolentor-grid{
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+    .woolentor-grid-columns-laptop-3 .woolentor-grid{
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    }
+    .woolentor-grid-columns-laptop-4 .woolentor-grid{
+        grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    }
+    .woolentor-grid-columns-laptop-5 .woolentor-grid{
+        grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+    }
+    .woolentor-grid-columns-laptop-6 .woolentor-grid{
+        grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
+    }
+    .woolentor-grid-columns-laptop-7 .woolentor-grid{
+        grid-template-columns: repeat(7, minmax(0, 1fr)) !important;
+    }
+    .woolentor-grid-columns-laptop-8 .woolentor-grid{
+        grid-template-columns: repeat(8, minmax(0, 1fr)) !important;
+    }
+    .woolentor-grid-columns-laptop-9 .woolentor-grid{
+        grid-template-columns: repeat(9, minmax(0, 1fr)) !important;
+    }
+    .woolentor-grid-columns-laptop-10 .woolentor-grid{
+        grid-template-columns: repeat(10, minmax(0, 1fr)) !important;
+    }
+
+}
+
+/* Tablet device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /*Default Product column*/
+    [class*="woolentor-products-columns-"] ul.products{
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+    .woolentor-products-columns-tablet-1 ul.products{
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .woolentor-products-columns-tablet-2 ul.products{
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+    .woolentor-products-columns-tablet-3 ul.products{
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    }
+    .woolentor-products-columns-tablet-4 ul.products{
+        grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    }
+    .woolentor-products-columns-tablet-5 ul.products{
+        grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+    }
+    .woolentor-products-columns-tablet-6 ul.products{
+        grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
+    }
+    .woolentor-products-columns-tablet-7 ul.products{
+        grid-template-columns: repeat(7, minmax(0, 1fr)) !important;
+    }
+    .woolentor-products-columns-tablet-8 ul.products{
+        grid-template-columns: repeat(8, minmax(0, 1fr)) !important;
+    }
+    .woolentor-products-columns-tablet-9 ul.products{
+        grid-template-columns: repeat(9, minmax(0, 1fr)) !important;
+    }
+    .woolentor-products-columns-tablet-10 ul.products{
+        grid-template-columns: repeat(10, minmax(0, 1fr)) !important;
+    }
+    [class*="woolentor-products-columns-tablet-"] ul.products li.product.first{
+        clear: none !important;
+    }
+
+    /*Column Grid */
+    [class*="woolentor-grid-columns-"] .woolentor-grid{
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+    .woolentor-grid-columns-tablet-1 .woolentor-grid{
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .woolentor-grid-columns-tablet-2 .woolentor-grid{
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+    .woolentor-grid-columns-tablet-3 .woolentor-grid{
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    }
+    .woolentor-grid-columns-tablet-4 .woolentor-grid{
+        grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    }
+    .woolentor-grid-columns-tablet-5 .woolentor-grid{
+        grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+    }
+    .woolentor-grid-columns-tablet-6 .woolentor-grid{
+        grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
+    }
+    .woolentor-grid-columns-tablet-7 .woolentor-grid{
+        grid-template-columns: repeat(7, minmax(0, 1fr)) !important;
+    }
+    .woolentor-grid-columns-tablet-8 .woolentor-grid{
+        grid-template-columns: repeat(8, minmax(0, 1fr)) !important;
+    }
+    .woolentor-grid-columns-tablet-9 .woolentor-grid{
+        grid-template-columns: repeat(9, minmax(0, 1fr)) !important;
+    }
+    .woolentor-grid-columns-tablet-10 .woolentor-grid{
+        grid-template-columns: repeat(10, minmax(0, 1fr)) !important;
+    }
+    
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+    /*Default Product column*/
+    [class*="woolentor-products-columns-"] ul.products{
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .woolentor-products-columns-mobile-1 ul.products{
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .woolentor-products-columns-mobile-2 ul.products{
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+    .woolentor-products-columns-mobile-3 ul.products{
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    }
+    .woolentor-products-columns-mobile-4 ul.products{
+        grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    }
+    .woolentor-products-columns-mobile-5 ul.products{
+        grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+    }
+    .woolentor-products-columns-mobile-6 ul.products{
+        grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
+    }
+    .woolentor-products-columns-mobile-7 ul.products{
+        grid-template-columns: repeat(7, minmax(0, 1fr)) !important;
+    }
+    .woolentor-products-columns-mobile-8 ul.products{
+        grid-template-columns: repeat(8, minmax(0, 1fr)) !important;
+    }
+    .woolentor-products-columns-mobile-9 ul.products{
+        grid-template-columns: repeat(9, minmax(0, 1fr)) !important;
+    }
+    .woolentor-products-columns-mobile-10 ul.products{
+        grid-template-columns: repeat(10, minmax(0, 1fr)) !important;
+    }
+    [class*="woolentor-products-columns-mobile-"] ul.products li.product.first{
+        clear: none !important;
+    }
+
+    /*Column Grid */
+    [class*="woolentor-grid-columns-"] .woolentor-grid{
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .woolentor-grid-columns-mobile-1 .woolentor-grid{
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .woolentor-grid-columns-mobile-2 .woolentor-grid{
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+    .woolentor-grid-columns-mobile-3 .woolentor-grid{
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    }
+    .woolentor-grid-columns-mobile-4 .woolentor-grid{
+        grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    }
+    .woolentor-grid-columns-mobile-5 .woolentor-grid{
+        grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+    }
+    .woolentor-grid-columns-mobile-6 .woolentor-grid{
+        grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
+    }
+    .woolentor-grid-columns-mobile-7 .woolentor-grid{
+        grid-template-columns: repeat(7, minmax(0, 1fr)) !important;
+    }
+    .woolentor-grid-columns-mobile-8 .woolentor-grid{
+        grid-template-columns: repeat(8, minmax(0, 1fr)) !important;
+    }
+    .woolentor-grid-columns-mobile-9 .woolentor-grid{
+        grid-template-columns: repeat(9, minmax(0, 1fr)) !important;
+    }
+    .woolentor-grid-columns-mobile-10 .woolentor-grid{
+        grid-template-columns: repeat(10, minmax(0, 1fr)) !important;
+    }
+
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+}

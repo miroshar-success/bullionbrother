@@ -1,0 +1,344 @@
+{
+  "name": "woolentor/my-account-order",
+  "category": "woolentor-myaccount",
+  "title": "WL: My Account Order",
+  "description": "Display My Account Order.",
+  "keywords": [
+    "woolentor",
+    "My Account",
+    "Account",
+    "Account order",
+    "Order"
+  ],
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "blockUniqId": {
+      "type": "string",
+      "default": ""
+    },
+    "areaPadding": {
+      "type": "object",
+      "default": {
+        "device": "desktop"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} { padding: {{areaPadding}} !important; }"
+      }
+    },
+    "areaMargin": {
+      "type": "object",
+      "default": {
+        "device": "desktop"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} { margin: {{areaMargin}} !important; }"
+      }
+    },
+    "areaBGProperty": {
+      "type": "object",
+      "default": {
+        "imageId": null,
+        "imageUrl": "",
+        "position": "",
+        "attachment": "",
+        "repeat": "",
+        "size": ""
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}"
+      }
+    },
+    "headingColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .shop_table thead th { color: {{headingColor}}; }"
+      }
+    },
+    "headingBGColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .shop_table thead th { background-color: {{headingBGColor}}; }"
+      }
+    },
+    "headingSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .shop_table thead th { font-size: {{headingSize}}; }"
+      }
+    },
+    "headingPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .shop_table thead th { padding: {{headingPadding}}; }"
+      }
+    },
+    "headingBorderType": {
+      "type": "string",
+      "default": "",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .shop_table thead th { border-style: {{headingBorderType}}!important; }"
+      }
+    },
+    "headingBorderWidth": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "headingBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} .shop_table thead th { border-width: {{headingBorderWidth}}!important; }"
+      }
+    },
+    "headingBorderColor": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "headingBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} .shop_table thead th { border-color: {{headingBorderColor}}!important; }"
+      }
+    },
+    "headingAlignment": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .shop_table thead th { text-align: {{headingAlignment}}; }"
+      }
+    },
+    "tableCellColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-orders-table tr.woocommerce-orders-table__row td.woocommerce-orders-table__cell { color: {{tableCellColor}}; }"
+      }
+    },
+    "tableCellLinkColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-orders-table tr.woocommerce-orders-table__row td.woocommerce-orders-table__cell a { color: {{tableCellLinkColor}}; }"
+      }
+    },
+    "tableCellLinkHoverColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-orders-table tr.woocommerce-orders-table__row td.woocommerce-orders-table__cell a:hover { color: {{tableCellLinkHoverColor}}; }"
+      }
+    },
+    "tableCellBGColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-orders-table tr.woocommerce-orders-table__row td.woocommerce-orders-table__cell { background-color: {{tableCellBGColor}}; }"
+      }
+    },
+    "tableCellSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-orders-table tr.woocommerce-orders-table__row td.woocommerce-orders-table__cell { font-size: {{tableCellSize}}; }"
+      }
+    },
+    "tableCellBorderType": {
+      "type": "string",
+      "default": "",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-orders-table tr.woocommerce-orders-table__row td.woocommerce-orders-table__cell { border-style: {{tableCellBorderType}}!important; }"
+      }
+    },
+    "tableCellBorderWidth": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "tableCellBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-orders-table tr.woocommerce-orders-table__row td.woocommerce-orders-table__cell { border-width: {{tableCellBorderWidth}}!important; }"
+      }
+    },
+    "tableCellBorderColor": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "tableCellBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-orders-table tr.woocommerce-orders-table__row td.woocommerce-orders-table__cell { border-color: {{tableCellBorderColor}}!important; }"
+      }
+    },
+    "tableCellPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-orders-table tr.woocommerce-orders-table__row td.woocommerce-orders-table__cell { padding: {{tableCellPadding}}; }"
+      }
+    },
+    "tableCellAlignment": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-orders-table tr.woocommerce-orders-table__row td.woocommerce-orders-table__cell { text-align: {{tableCellAlignment}}; }"
+      }
+    },
+    "submitBtnColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-orders-table tr.woocommerce-orders-table__row td.woocommerce-orders-table__cell a.woocommerce-button,.woocommerce {{WOOLENTOR_WRAPPER}} .woocommerce-button--next { color: {{submitBtnColor}}; }"
+      }
+    },
+    "submitBtnBGColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-orders-table tr.woocommerce-orders-table__row td.woocommerce-orders-table__cell a.woocommerce-button,.woocommerce {{WOOLENTOR_WRAPPER}} .woocommerce-button--next { background-color: {{submitBtnBGColor}}; }"
+      }
+    },
+    "submitBtnSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-orders-table tr.woocommerce-orders-table__row td.woocommerce-orders-table__cell a.woocommerce-button,.woocommerce {{WOOLENTOR_WRAPPER}} .woocommerce-button--next { font-size: {{submitBtnSize}}; }"
+      }
+    },
+    "submitBtnBorderType": {
+      "type": "string",
+      "default": "",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-orders-table tr.woocommerce-orders-table__row td.woocommerce-orders-table__cell a.woocommerce-button,.woocommerce {{WOOLENTOR_WRAPPER}} .woocommerce-button--next { border-style: {{submitBtnBorderType}} !important; }"
+      }
+    },
+    "submitBtnBorderWidth": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "submitBtnBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-orders-table tr.woocommerce-orders-table__row td.woocommerce-orders-table__cell a.woocommerce-button,.woocommerce {{WOOLENTOR_WRAPPER}} .woocommerce-button--next { border-width: {{submitBtnBorderWidth}} !important; }"
+      }
+    },
+    "submitBtnBorderColor": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "submitBtnBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-orders-table tr.woocommerce-orders-table__row td.woocommerce-orders-table__cell a.woocommerce-button,.woocommerce {{WOOLENTOR_WRAPPER}} .woocommerce-button--next { border-color: {{submitBtnBorderColor}} !important; }"
+      }
+    },
+    "submitBtnBorderRadius": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-orders-table tr.woocommerce-orders-table__row td.woocommerce-orders-table__cell a.woocommerce-button,.woocommerce {{WOOLENTOR_WRAPPER}} .woocommerce-button--next { border-radius: {{submitBtnBorderRadius}} !important; }"
+      }
+    },
+    "submitBtnPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-orders-table tr.woocommerce-orders-table__row td.woocommerce-orders-table__cell a.woocommerce-button,.woocommerce {{WOOLENTOR_WRAPPER}} .woocommerce-button--next { padding: {{submitBtnPadding}}; }"
+      }
+    },
+    "submitBtnHoverColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-orders-table tr.woocommerce-orders-table__row td.woocommerce-orders-table__cell a.woocommerce-button:hover,.woocommerce {{WOOLENTOR_WRAPPER}} .woocommerce-button--next:hover { color: {{submitBtnHoverColor}}; }"
+      }
+    },
+    "submitBtnHoverBGColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-orders-table tr.woocommerce-orders-table__row td.woocommerce-orders-table__cell a.woocommerce-button:hover,.woocommerce {{WOOLENTOR_WRAPPER}} .woocommerce-button--next:hover { background-color: {{submitBtnHoverBGColor}}; }"
+      }
+    },
+    "submitBtnHoverBorderColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-orders-table tr.woocommerce-orders-table__row td.woocommerce-orders-table__cell a.woocommerce-button:hover,.woocommerce {{WOOLENTOR_WRAPPER}} .woocommerce-button--next:hover { border-color: {{submitBtnHoverBorderColor}} !important; }"
+      }
+    }
+  }
+}

@@ -1,0 +1,617 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ .wps_import_templates.button:hover {
+ color: #0073aa ;
+ background: #fff;
+}
+.wps_import_templates.button {
+ -moz-border-bottom-colors: none;
+ -moz-border-left-colors: none;
+ -moz-border-right-colors: none;
+ -moz-border-top-colors: none;
+ background: #0073aa none repeat scroll 0 0;
+ border-bottom: medium none;
+ border-image: none;
+ border-left: medium none;
+ border-top: medium none;
+ color: #eeeeee ;
+}
+.wps_wgm_error{
+  border:1px solid red !important;
+}
+#wps_wgm_add_offline{
+  margin: 0px;
+  padding: 0px 0px 0px 20px !important;
+  border-bottom: 3px solid rgb(204, 204, 204);
+}
+#wps_wgm_add_offline h3{
+  float: left;
+}
+#wps_wgm_add_new_card_heading {
+  float: left;
+}
+#wps_wgm_add_new_card_button {
+  float: right;
+  margin: 13px 0 0;
+}
+.wps_wgm_import_giftcoupons {
+  overflow-y: auto;
+}
+.wps_wgm_import_giftcoupons,.wps_wgm_import_giftproducts {
+	border: 1px solid #D6D6D6;
+	margin: 10px 0;
+	padding: 0;
+	overflow-y: auto;
+ }
+ .wps_wgm_import_giftcoupons > h3, .wps_wgm_import_giftproducts > h3 {
+	background: #f4f4f4 none repeat scroll 0 0;
+	margin: 0;
+	padding: 20px 10px;
+ }
+ .wps_wgm_import_giftcoupons .wps_wgm_general_setting h3,.wps_wgm_import_giftproducts .wps_wgm_general_setting h3{
+	margin-top: 0;
+ }
+ #wps_wgm_add_offline a{
+  float: right;
+  margin: 11px 15px 0px 0px;
+}
+.wps_sample_export img {
+  left: 10px;
+  max-width: 30px;
+  position: relative;
+  top: 4px;
+}
+textarea#wps_wgm_offline_gift_message {
+  display: inline-block !important;
+}
+.wps_wgm_discount_tbody {
+	overflow: auto;
+	display: block;
+}
+#wps_uwgc_coupon_mail_setting_wrapper {
+	display: none;
+}
+#wps_wgm_exclude_per_product + span,#wps_wgm_exclude_per_category + span{
+  width: 50% !important;
+}
+#wps_wgm_include_per_product + span,#wps_wgm_include_per_category + span{
+  width: 50% !important;
+}
+.select2-container.select2-container-multi.wps_wgm_exclude_per_product {
+ width: 50% !important;
+}
+.select2-container.select2-container-multi.wps_wgm_include_per_product {
+ width: 50% !important;
+}
+/*Customizable loader*/
+#wps_uwgc_loader {
+  background-color: rgba(255, 255, 255, 0.6);
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+}
+#wps_uwgc_loader img {
+  display: block;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  top: 40%;
+}
+.wps_uwgc_customize_remove_email_template_image_para{
+   display:none;
+}
+.wps_upload_email_template_div .wps_uwgc_customize_remove_email_template_image_para ,
+#wps_wgm_customize_remove_giftcard_para .wps_wgm_customize_remove_giftcard_para{
+	margin-top: 15px;
+}
+.wps_uwgc_customize_remove_email_template_image_span {
+  background-color: #ef5350;
+  border-radius: 100%;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 18px;
+  height: 25px;
+  line-height: 24px;
+  position: absolute;
+  right: -10px;
+  text-align: center;
+  top: -8px;
+  width: 25px;
+}
+.wps_uwgc_customize_remove_email_template_image {
+  display: inline-block;
+  position: relative;
+}
+.wps_wgm_customize_remove_giftcard_span {
+  background-color: #ef5350;
+  border-radius: 100%;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 18px;
+  height: 25px;
+  line-height: 24px;
+  position: absolute;
+  right: -10px;
+  text-align: center;
+  top: -8px;
+  width: 25px;
+}
+.wps_wgm_customize_remove_giftcard_para {
+  display: inline-block;
+  position: relative;
+}
+p#wps_wgm_customize_remove_giftcard_para {
+    display: none;
+}
+#wps_wgm_thankyou_message {
+	margin-left: 35px;
+}
+
+/*import template*/
+.wps_uwgc_wrapper:after {
+  display: block;
+  clear:both;
+  content:'';
+}
+.button.wps_gc_events {
+	display: block;
+	margin: 10px;
+}
+.element-item.template_block {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	border: 1px solid #bcbcbc;
+	margin-bottom: 18px;
+	margin-left: 18px;
+	max-width: 280px;
+
+}
+.wps_notice_temp {
+	padding: 10px;
+	margin: 10px 10px 0px 0px;
+	border-left: 4px solid black;
+	background: azure;
+	font-weight: bold;
+}
+.fas.fa-times.cancel_notice {
+	float: right;
+	margin-right: 5px;
+	font-size: large;
+	color: #ba2424;
+}
+
+/*==================================
+=            Layout-css            =
+==================================*/
+#filters.wps_template_filter {
+	width: 20%;
+	float:left;
+	vertical-align: top;
+	white-space: normal;
+	font-size: 14px;
+	background: #fff;
+	box-sizing: border-box;
+}
+#filters .button.wps_gc_events {
+	display: block;
+	padding: 1px 15px;
+	border: none;
+	width: 100%;
+	border-radius: 0;
+	text-transform: capitalize;
+	transition: transform ease-in 0.1s,
+	box-shadow ease-in 0.25s;
+	text-align: left;
+	cursor: pointer;
+	background-color: #6ba8a9;
+	color: #fff;
+	border-bottom: 1px solid #569e9f;
+	font-size: 16px;
+	margin: 0;
+}
+#filters .button.wps_gc_events.is-checked
+{
+	background: #fff;
+	color: #333;
+	font-weight: 600;
+	outline: 0;
+	border-left: 5px solid #357376;
+}
+.wps_template_display h3 {
+	margin: 0;
+	padding: 10px 0;
+	background: #000;
+	color: #fff;
+}
+#filters .button.wps_gc_events.is-checked:focus
+{
+	outline:0;
+	box-shadow:none;
+}
+.grid.wps_template_display
+{
+	width: 78%;
+	float: left;
+	top:20px;
+}
+.wps_template_display .event_template img{
+	width:100%;
+	display: block;
+}
+.giftcard_page_uwgc-import-giftcard-templates #wpcontent #wpbody h1 {
+	font-size: 24px;
+	border-top: 5px solid #357376;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	color: #ffffff;
+	background: #6ba8a9;
+	text-align: center;
+	margin-bottom: 0;
+}
+.wps_uwgc_wrapper {
+	background: #fff;
+	border-left: 1px solid #cac7c7;
+	border-right: 1px solid #cac7c7;
+}
+.wps_uwgc_filter_wrap {
+	padding: 10px 10px;
+	border-bottom: 1px solid #cac7c7;
+	background: #fafafa;
+	border-left: 1px solid #cac7c7;
+	border-right: 1px solid #cac7c7;
+}
+.wps_uwgc_filter_wrap:after {
+  display: block;
+  clear:both;
+  content:'';
+}
+.wps_uwgc_filter_wrap h2 {
+	float: left;
+	margin: 0;
+	line-height: 1.9;
+	color: #222;
+	font-size: 16px;
+
+}
+a.wps_import_all_giftcard_templates.button {
+	float: right;
+	vertical-align: middle;
+	font-weight: 400;
+	text-align: center;
+	border: 1px solid transparent;
+	padding: 5px 12px;
+	font-size: 14px;
+	line-height: 1.8;
+	border-radius: 5px;
+	transition: color 0.15s ease-in-out,
+	background-color 0.15s ease-in-out,
+	border-color 0.15s ease-in-out,
+	box-shadow 0.15s ease-in-out;
+	background: #357376!important;
+	border-color: #357376;
+	color: #fff;
+}
+a.wps_import_all_giftcard_templates.button:hover {
+	background: #6ba8a9 !important;
+	color: #fff;
+	border-color: #6ba8a9;
+}
+.event_template {
+	position: relative;
+}
+.event_template:after {
+	position: absolute;
+	content: "";
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: rgba(251, 227, 185, 0.8);
+	opacity: 0;
+	transition: 0.3s linear all;
+}
+.wps_event_template_preview {
+	opacity: 0;
+	transition: 0.3s linear all;
+}
+.element-item.template_block:hover .event_template:after, .element-item.template_block:hover .wps_event_template_preview {
+	opacity: 1;
+	transition: 0.3s linear all;
+}
+.wps_preview_links {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	z-index: 1;
+	text-align: center;
+	width: 110px;
+	background-color: #fff;
+	padding: 8px;
+	transform: translateY(-50%);
+	cursor: pointer;
+}
+.wps_preview_links a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 5px 10px;
+	width: 45px;
+	color: #000;
+}
+.wps_preview_links a:focus {
+	outline: none;
+}
+.wps_preview_links a:nth-of-type(1) {
+	border-right: 1px solid #888;
+}
+.wps_preview_links a i {
+	font-size: 16px;
+}
+/*=====  End of Layout-css  ======*/
+.wps-popup-wrapper {
+	background-color: rgba(0, 0, 0, 0.7);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+}
+.wps-popup-wrapper
+{
+	display: none;
+}
+.wps-popup {
+	background-color: #fff;
+	width: 340px;
+	height:auto;
+	padding: 20px;
+	position: fixed;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 999;
+	opacity: 1;
+	left:0;
+	right:0;
+	margin:0 auto;
+}
+.wps-popup-img{
+	position: relative;
+}
+.wps-popup-img img{
+	width:100%;
+}
+.wps-popup-img span {
+	position: absolute;
+	right: -20px;
+	top: -18px;
+	font-size: 20px;
+	color: #000;
+	cursor:pointer;
+}
+.wps_download_template {
+	display: inline-block;
+	padding: 5px 10px;
+	width: 45px;
+	color: #000;
+}
+.giftcard_page_uwgc-import-giftcard-templates #wpcontent, .giftcard_page_uwgc-import-giftcard-templates #wpfooter
+{
+	margin-right:18px;
+}
+.wps_select_template_filter
+{
+	display: none;
+}
+.wps_update_template {
+    display: inline-block;
+    padding: 5px 10px;
+    width: 45px;
+    color: #000;
+}
+.wps_update_template:hover ~ .wps_template_update_note {
+	display: block;
+}
+.wps_template_update_note {
+	display: none;
+    position: absolute;
+    color: #fff;
+    top: -125px;
+    left: -70px;
+    right: -70px;
+    margin: 0 auto;
+    background-color: #6ba8a9;
+    border-radius: 6px;
+    padding: 5px 10px;
+    text-align: center;
+}
+.wps_note {
+    margin: 4px 0px;
+}
+.wps_template_update_note::after {
+    content: "";
+	position: absolute;
+	top: 99%;
+	left: 50%;
+	margin-left: 11px;
+	border-width: 12px;
+	border-style: solid;
+	border-color: #6ba8a9 transparent transparent transparent;
+}
+.wps_template_import_note{
+	display: none;
+	position: absolute;
+	color: #fff;
+	top: -34px;
+	left: -23px;
+    right: -37px;
+	margin: 0 auto;
+	background-color: #6ba8a9;
+	border-radius: 6px;
+	padding: 5px 10px;
+	text-align: center;
+}
+.wps_template_import_note::after{
+	content: "";
+	position: absolute;
+	top: 99%;
+	left: 50%;
+	margin-left: 10px;
+	border-width: 8px;
+	border-style: solid;
+	border-color: #6ba8a9 transparent transparent transparent;
+
+}
+.wps_download_template:hover ~ .wps_template_import_note {
+	display: block;
+}
+#wps_caution {
+
+    background: #ef5350;
+    padding: 5px;
+    border-radius: 6px;
+
+}
+#wps_wgm_terms_condition_content {
+    display: inline-block;
+}
+#wps_wgm_whatsapp_message {
+    display: inline-block;
+}
+/*===================================
+=            Media Query            =
+===================================*/
+@media screen and (max-width:840px) and (min-width: 768px)
+{
+	.element-item.template_block {
+		max-width: 265px;
+	}
+}
+@media only screen and (max-width: 767px){
+	.giftcard_page_uwgc-import-giftcard-templates #wpcontent, .giftcard_page_uwgc-import-giftcard-templates #wpfooter
+	{
+		margin-right:0;
+	}
+	#filters.wps_template_filter
+	{
+		display: none;
+	}
+	.grid.wps_template_display
+	{
+		width:100%;
+	}
+	.element-item.template_block
+	{
+		max-width: 100%;
+		margin: 10px auto;
+		padding-left:10px;
+		padding-right: 10px;
+		border:0;
+	}
+	.wps-popup
+	{
+		width:100%;
+	}
+	.wps_select_template_filter
+	{
+		display: block;
+	}
+	#filters_on_mobile.wps_template_filter {
+		padding: 20px 10px 0 10px;
+	}
+	.select-group.wps_select_template_filter {
+		width: 100%;
+		text-transform: capitalize;
+		color:#000;
+		border-radius: 0;
+	}
+	.select-group.wps_select_template_filter:focus {
+		outline: none;
+		border: 1px solid #357376;
+		box-shadow: none;
+		color:#357376;
+	}
+	.wps_uwgc_filter_wrap h2
+	{
+		width:100%;
+	}
+	a.wps_import_all_giftcard_templates.button
+	{
+		float:left;
+	}
+}
+@media screen and (max-width:767px) and (min-width: 601px)
+{
+	.element-item.template_block {
+		max-width: 33%;
+	}
+	.wps_template_display h3
+	{
+		font-size:14px;
+	}
+	.wps_template_update_note {
+		top: -126px;
+		left: -38px;
+		right: -38px;
+	    padding: 5px
+	}
+	.wps_note {
+	    font-size: 12px;
+	}
+}
+@media screen and (max-width:600px) and (min-width: 380px)
+{
+	.element-item.template_block {
+		max-width: 50%;
+	}
+	.wps_template_update_note {
+		top: -126px;
+		left: -38px;
+		right: -38px;
+	    padding: 5px
+	}
+	.wps_note {
+	    font-size: 12px;
+	}
+}
+/*=====  End of Media Query  ======*/
+/* Custom css for design issues  */
+#browse_img_section, .wps_ml-35, #wps_wgm_customize_remove_giftcard_para, .description.wps_ml-35, .wps_wgm_add_more.wps_ml-35 {
+	margin-left: 35px;
+}
+.wps_wgm_button_wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin: 20px 0;
+}
+.wps_wgm_button_wrapper p {
+	margin: 0;
+	padding: 0;
+}
+#wps_wgm_general_setting_giftcard_payment + .select2.select2-container,
+.wps_wgm_discount_table {
+	width: auto!important;
+	max-width: 90%!important;
+}
+.wps_wgm_general_setting table.wps_wgm_discount_table {
+	margin-left: 35px!important;
+}
+.wps_wgm_content_template .form-table.wps_wgm_offline_gift_to {
+	table-layout: auto;
+}
+#wps_wgm_custom_giftcard {
+	background: #ef5350;
+	border-color: #ef5350;
+}

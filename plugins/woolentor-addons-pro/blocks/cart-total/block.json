@@ -1,0 +1,282 @@
+{
+  "name": "woolentor/cart-total",
+  "category": "woolentor-cart",
+  "title": "Cart Total",
+  "attributes": {
+    "blockUniqId": {
+      "type": "string",
+      "default": ""
+    },
+    "areaPadding": {
+      "type": "object",
+      "default": {
+        "device": "desktop"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} { padding: {{areaPadding}} !important; }"
+      }
+    },
+    "areaBGProperty": {
+      "type": "object",
+      "default": {
+        "imageId": null,
+        "imageUrl": "",
+        "position": "",
+        "attachment": "",
+        "repeat": "",
+        "size": ""
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}"
+      }
+    },
+    "headingTextColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .cart_totals > h2 { color: {{headingTextColor}}; }"
+      }
+    },
+    "headingSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .cart_totals > h2 { font-size: {{headingSize}}; }"
+      }
+    },
+    "headingMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .cart_totals > h2 { margin: {{headingMargin}}; }"
+      }
+    },
+    "headingAlignment": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .cart_totals > h2 { text-align: {{headingAlignment}}; }"
+      }
+    },
+    "tableCellBorderType": {
+      "type": "string",
+      "default": "",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .cart_totals .shop_table tr th,{{WOOLENTOR_WRAPPER}} .cart_totals .shop_table tr td { border-style: {{tableCellBorderType}}; }"
+      }
+    },
+    "tableCellBorderWidth": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "tableCellBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} .cart_totals .shop_table tr th,{{WOOLENTOR_WRAPPER}} .cart_totals .shop_table tr td { border-width: {{tableCellBorderWidth}}; }"
+      }
+    },
+    "tableCellBorderColor": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "tableCellBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} .cart_totals .shop_table tr th,{{WOOLENTOR_WRAPPER}} .cart_totals .shop_table tr td { border-color: {{tableCellBorderColor}}; }"
+      }
+    },
+    "tableCellPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .cart_totals .shop_table tr th,{{WOOLENTOR_WRAPPER}} .cart_totals .shop_table tr td { padding: {{tableCellPadding}}; }"
+      }
+    },
+    "tableCellAlignment": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .cart_totals .shop_table tr th,{{WOOLENTOR_WRAPPER}} .cart_totals .shop_table tr td { text-align: {{tableCellAlignment}}; }"
+      }
+    },
+    "tableCellBackgroundColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .cart_totals .shop_table { background-color: {{tableCellBackgroundColor}}; }"
+      }
+    },
+    "tableHeadingColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .cart_totals .shop_table tr th { color: {{tableHeadingColor}}; }"
+      }
+    },
+    "tableHeadingSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .cart_totals .shop_table tr th { font-size: {{tableHeadingSize}}; }"
+      }
+    },
+    "tableSubtotalColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .cart_totals .shop_table tr.cart-subtotal td { color: {{tableSubtotalColor}}; }"
+      }
+    },
+    "tableSubtotalSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .cart_totals .shop_table tr.cart-subtotal td { font-size: {{tableSubtotalSize}}; }"
+      }
+    },
+    "tableTotalColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .cart_totals .shop_table tr.order-total th, {{WOOLENTOR_WRAPPER}} .cart_totals .shop_table tr.order-total td .amount { color: {{tableTotalColor}}; }"
+      }
+    },
+    "tableTotalSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} {{WOOLENTOR_WRAPPER}} .cart_totals .shop_table tr.order-total th, {{WOOLENTOR_WRAPPER}} .cart_totals .shop_table tr.order-total td .amount { font-size: {{tableTotalSize}}; }"
+      }
+    },
+    "checkoutBtnColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .wc-proceed-to-checkout .button.checkout-button { color: {{checkoutBtnColor}}; }"
+      }
+    },
+    "checkoutBtnBGColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .wc-proceed-to-checkout .button.checkout-button { background-color: {{checkoutBtnBGColor}}; }"
+      }
+    },
+    "checkoutBtnSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .wc-proceed-to-checkout .button.checkout-button { font-size: {{checkoutBtnSize}}; }"
+      }
+    },
+    "checkoutBtnBorderType": {
+      "type": "string",
+      "default": "",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .wc-proceed-to-checkout .button.checkout-button { border-style: {{checkoutBtnBorderType}}; }"
+      }
+    },
+    "checkoutBtnBorderWidth": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "checkoutBtnBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} .wc-proceed-to-checkout .button.checkout-button { border-width: {{checkoutBtnBorderWidth}}; }"
+      }
+    },
+    "checkoutBtnBorderColor": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "checkoutBtnBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}} .wc-proceed-to-checkout .button.checkout-button { border-color: {{checkoutBtnBorderColor}}; }"
+      }
+    },
+    "checkoutBtnBorderRadius": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .wc-proceed-to-checkout .button.checkout-button { border-radius: {{checkoutBtnBorderRadius}}; }"
+      }
+    },
+    "checkoutBtnPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .wc-proceed-to-checkout .button.checkout-button { padding: {{checkoutBtnPadding}}; }"
+      }
+    },
+    "checkoutBtnHoverColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .wc-proceed-to-checkout .button.checkout-button:hover { color: {{checkoutBtnHoverColor}}; }"
+      }
+    },
+    "checkoutBtnHoverBGColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .wc-proceed-to-checkout .button.checkout-button:hover { background-color: {{checkoutBtnHoverBGColor}}; }"
+      }
+    },
+    "checkoutBtnHoverBorderColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .wc-proceed-to-checkout .button.checkout-button:hover { border-color: {{checkoutBtnHoverBorderColor}}; }"
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+button.kadence-status-toggle {
+    background: transparent;
+    border: 0;
+	display: flex;
+    align-items: center;
+	cursor: pointer;
+	.kadence-toggle {
+		width: 40px;
+		height: 20px;
+		background: grey;
+		display: block;
+		border-radius: 100px;
+		position: relative;
+	}
+	.kadence-toggle:after {
+		content: '';
+		position: absolute;
+		top: 5px;
+		left: 5px;
+		width: 10px;
+		height: 10px;
+		background: #fff;
+		border-radius: 90px;
+		transition: 0.3s;
+	}
+	.kadence-status-label {
+		text-transform: uppercase;
+		font-size: .8em;
+		margin-left: .8em;
+	}
+
+	&.kadence-status-publish .kadence-toggle {
+		background: var( --admin-color, #2271b1 );
+		&:after {
+			left: calc(100% - 5px);
+			transform: translateX(-100%);
+		}
+	}
+}
+.kadence-static-status-toggle {
+	background: grey;
+	color: white;
+	padding: 0.25rem 0.5rem;
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: .8em;
+}
+.woo-template-type {
+	color:#273243;
+	background:#b1d2fe;
+	font-weight: 600;
+	font-size: .75rem;
+	text-transform: uppercase;
+    line-height: 1rem;
+	padding: 0.25rem 0.5rem;
+	&.woo-template-type-archive {
+		background: #bbf7d0;
+	}
+	&.woo-template-type-loop {
+		background: #e3caff;
+	}
+}

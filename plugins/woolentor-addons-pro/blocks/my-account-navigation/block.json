@@ -1,0 +1,345 @@
+{
+  "name": "woolentor/my-account-navigation",
+  "category": "woolentor-myaccount",
+  "title": "WL: My Account Navigation",
+  "description": "Display My Account Menu.",
+  "keywords": [
+    "woolentor",
+    "My Account",
+    "Account",
+    "Account Menu",
+    "My Account Menu",
+    "My Account Navigation"
+  ],
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "blockUniqId": {
+      "type": "string",
+      "default": ""
+    },
+    "areaPadding": {
+      "type": "object",
+      "default": {
+        "device": "desktop"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} { padding: {{areaPadding}} !important; }"
+      }
+    },
+    "areaBGProperty": {
+      "type": "object",
+      "default": {
+        "imageId": null,
+        "imageUrl": "",
+        "position": "",
+        "attachment": "",
+        "repeat": "",
+        "size": ""
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}"
+      }
+    },
+    "userInfo": {
+      "type": "boolean",
+      "default": false
+    },
+    "userCustomImage": {
+      "type": "object",
+      "default": {
+        "id": null,
+        "url": ""
+      }
+    },
+    "imageSize": {
+      "type": "string",
+      "default": "thumbnail"
+    },
+    "userInfoTextColor": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "userInfo",
+              "condition": "!=",
+              "value": false
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_my_account_navigation .woolentor-user-info { color: {{userInfoTextColor}}; }"
+      }
+    },
+    "userInfoLinkColor": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "userInfo",
+              "condition": "!=",
+              "value": false
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_my_account_navigation .woolentor-logout a { color: {{userInfoLinkColor}}; }"
+      }
+    },
+    "userInfoLinkHoverColor": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "userInfo",
+              "condition": "!=",
+              "value": false
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_my_account_navigation .woolentor-logout a:hover { color: {{userInfoLinkHoverColor}}; }"
+      }
+    },
+    "userInfoTextSize": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "userInfo",
+              "condition": "!=",
+              "value": false
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_my_account_navigation .woolentor-username { font-size: {{userInfoTextSize}}; }"
+      }
+    },
+    "userInfoLinkSize": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "userInfo",
+              "condition": "!=",
+              "value": false
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_my_account_navigation .woolentor-logout { font-size: {{userInfoLinkSize}}; }"
+      }
+    },
+    "userImageBorderType": {
+      "type": "string",
+      "default": "",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "userInfo",
+              "condition": "!=",
+              "value": false
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_my_account_navigation .woolentor-user-image img { border-style: {{userImageBorderType}}; }"
+      }
+    },
+    "userImaggeBorderWidth": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "userInfo",
+              "condition": "!=",
+              "value": false
+            },
+            {
+              "key": "userImageBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_my_account_navigation .woolentor-user-image img { border-width: {{userImaggeBorderWidth}}; }"
+      }
+    },
+    "userImageBorderColor": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "userInfo",
+              "condition": "!=",
+              "value": false
+            },
+            {
+              "key": "userImageBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_my_account_navigation .woolentor-user-image img { border-color: {{userImageBorderColor}}; }"
+      }
+    },
+    "userImageBorderRadius": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "userInfo",
+              "condition": "!=",
+              "value": false
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_my_account_navigation .woolentor-user-image img { border-radius: {{userImageBorderRadius}}!important; }"
+      }
+    },
+    "userInfoAlignment": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_my_account_navigation .woolentor-user-area { justify-content: {{userInfoAlignment}}; }"
+      }
+    },
+    "menuPosition": {
+      "type": "string",
+      "default": "hleft"
+    },
+    "menuAlignment": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_my_account_navigation .woocommerce-MyAccount-navigation { text-align: {{menuAlignment}}; }"
+      }
+    },
+    "menuColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_my_account_navigation .woocommerce-MyAccount-navigation ul li a { color: {{menuColor}}; }"
+      }
+    },
+    "menuBGColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_my_account_navigation .woocommerce-MyAccount-navigation ul li,{{WOOLENTOR_WRAPPER}}.woolentor_block_my_account_navigation .woocommerce-MyAccount-navigation ul li a { background-color: {{menuBGColor}}; }"
+      }
+    },
+    "menuSize": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_my_account_navigation .woocommerce-MyAccount-navigation ul li a { font-size: {{menuSize}}; }"
+      }
+    },
+    "menuPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_my_account_navigation .woocommerce-MyAccount-navigation ul li { padding: {{menuPadding}}; }"
+      }
+    },
+    "menuMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_my_account_navigation .woocommerce-MyAccount-navigation ul li { margin: {{menuMargin}}; }"
+      }
+    },
+    "menuBorderType": {
+      "type": "string",
+      "default": "",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_my_account_navigation .woocommerce-MyAccount-navigation ul li { border-style: {{menuBorderType}}; }"
+      }
+    },
+    "menuBorderWidth": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "menuBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_my_account_navigation .woocommerce-MyAccount-navigation ul li { border-width: {{menuBorderWidth}}; }"
+      }
+    },
+    "menuBorderColor": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "menuBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_my_account_navigation .woocommerce-MyAccount-navigation ul li { border-color: {{menuBorderColor}}; }"
+      }
+    },
+    "menuActiveColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_my_account_navigation .woocommerce-MyAccount-navigation ul li:hover a,{{WOOLENTOR_WRAPPER}}.woolentor_block_my_account_navigation .woocommerce-MyAccount-navigation ul li.is-active a { color: {{menuActiveColor}}; }"
+      }
+    },
+    "menuActiveBGColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}.woolentor_block_my_account_navigation .woocommerce-MyAccount-navigation ul li.is-active,{{WOOLENTOR_WRAPPER}}.woolentor_block_my_account_navigation .woocommerce-MyAccount-navigation ul li.is-active a,{{WOOLENTOR_WRAPPER}}.woolentor_block_my_account_navigation .woocommerce-MyAccount-navigation ul li:hover,{{WOOLENTOR_WRAPPER}}.woolentor_block_my_account_navigation .woocommerce-MyAccount-navigation ul li:hover a { background-color: {{menuActiveBGColor}}; }"
+      }
+    }
+  }
+}

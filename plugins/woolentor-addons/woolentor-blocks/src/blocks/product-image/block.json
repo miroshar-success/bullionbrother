@@ -1,0 +1,189 @@
+{
+  "name": "woolentor/product-image",
+  "category": "woolentor-single-product",
+  "title": "Product Image",
+  "attributes": {
+    "blockUniqId": {
+      "type": "string",
+      "default": ""
+    },
+    "areaPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} { padding: {{areaPadding}}; }"
+      }
+    },
+    "areaMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} { margin: {{areaMargin}}; }"
+      }
+    },
+    "areaBGProperty": {
+      "type": "object",
+      "default": {
+        "imageId": null,
+        "imageUrl": "",
+        "position": "",
+        "attachment": "",
+        "repeat": "",
+        "size": ""
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}"
+      }
+    },
+    "imageBorderType": {
+      "type": "string",
+      "style": {
+        "selector": ".woocommerce {{WOOLENTOR_WRAPPER}} .woocommerce-product-gallery__trigger + .woocommerce-product-gallery__wrapper, .woocommerce {{WOOLENTOR_WRAPPER}} .flex-viewport{border-style:{{imageBorderType}};overflow:hidden; }"
+      }
+    },
+    "imageBorderWidth": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "imageBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": ".woocommerce {{WOOLENTOR_WRAPPER}} .woocommerce-product-gallery__trigger + .woocommerce-product-gallery__wrapper, .woocommerce {{WOOLENTOR_WRAPPER}} .flex-viewport { border-width: {{imageBorderWidth}}; }"
+      }
+    },
+    "imageBorderColor": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "imageBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": ".woocommerce {{WOOLENTOR_WRAPPER}} .woocommerce-product-gallery__trigger + .woocommerce-product-gallery__wrapper, .woocommerce {{WOOLENTOR_WRAPPER}} .flex-viewport { border-color: {{imageBorderColor}}; }"
+      }
+    },
+    "imageBorderRadius": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": ".woocommerce {{WOOLENTOR_WRAPPER}} .woocommerce-product-gallery__trigger + .woocommerce-product-gallery__wrapper, .woocommerce {{WOOLENTOR_WRAPPER}} .flex-viewport { border-radius: {{imageBorderRadius}}; }"
+      }
+    },
+    "imageMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": ".woocommerce {{WOOLENTOR_WRAPPER}} .flex-viewport:not(:last-child) { margin: {{imageMargin}}; }"
+      }
+    },
+    "thumbBorderType": {
+      "type": "string",
+      "style": {
+        "selector": ".woocommerce {{WOOLENTOR_WRAPPER}} .flex-control-thumbs img { border-style: {{thumbBorderType}}; }"
+      }
+    },
+    "thumbBorderWidth": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "thumbBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": ".woocommerce {{WOOLENTOR_WRAPPER}} .flex-control-thumbs img { border-width: {{thumbBorderWidth}}; }"
+      }
+    },
+    "thumbBorderColor": {
+      "type": "string",
+      "style": {
+        "dependency": [
+          [
+            {
+              "key": "thumbBorderType",
+              "condition": "!=",
+              "value": ""
+            }
+          ]
+        ],
+        "selector": ".woocommerce {{WOOLENTOR_WRAPPER}} .flex-control-thumbs img { border-color: {{thumbBorderColor}}; }"
+      }
+    },
+    "thumbBorderRadius": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": ".woocommerce {{WOOLENTOR_WRAPPER}} .flex-control-thumbs img { border-radius: {{thumbBorderRadius}}; }"
+      }
+    },
+    "thumbSpacing": {
+      "type": "number",
+      "style": {
+        "selector": ".woocommerce {{WOOLENTOR_WRAPPER}} .flex-control-thumbs li { padding-right: calc({{thumbSpacing}}px / 2);padding-left: calc({{thumbSpacing}}px / 2);}.woocommerce {{WOOLENTOR_WRAPPER}} .flex-control-thumbs { margin-right: calc(-{{thumbSpacing}}px / 2)!important;margin-left: calc(-{{thumbSpacing}}px / 2)!important; }"
+      }
+    }
+  }
+}

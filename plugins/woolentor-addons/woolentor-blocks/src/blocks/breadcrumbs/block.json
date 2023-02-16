@@ -1,0 +1,87 @@
+{
+  "name": "woolentor/breadcrumbs",
+  "category": "woolentor-blocks",
+  "title": "Breadcrumbs",
+  "attributes": {
+    "blockUniqId": {
+      "type": "string",
+      "default": ""
+    },
+    "areaPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} { padding: {{areaPadding}}; }"
+      }
+    },
+    "areaBGProperty": {
+      "type": "object",
+      "default": {
+        "imageId": null,
+        "imageUrl": "",
+        "position": "",
+        "attachment": "",
+        "repeat": "",
+        "size": ""
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}"
+      }
+    },
+    "separator": {
+      "type": "string",
+      "default": "/"
+    },
+    "contentAlignment": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} {text-align:{{contentAlignment}}; }"
+      }
+    },
+    "textColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-breadcrumb{color:{{textColor}}; }"
+      }
+    },
+    "linkColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-breadcrumb a{color:{{linkColor}}; }"
+      }
+    },
+    "linkHoverColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} .woocommerce-breadcrumb a:hover{color:{{linkHoverColor}}; }"
+      }
+    },
+    "space": {
+      "type": "number",
+      "default": 10,
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} span.breadcrumb-separator{margin: 0 {{space}}px; }"
+      }
+    },
+    "separateColor": {
+      "type": "string",
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} span.breadcrumb-separator{color:{{separateColor}}; }"
+      }
+    },
+    "separateSize": {
+      "type": "number",
+      "default": 14,
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} span.breadcrumb-separator{font-size:{{separateSize}}px; }"
+      }
+    }
+  }
+}

@@ -1,0 +1,231 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: File Manager Advanced\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-24 07:34+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0.3\n"
+"X-Domain: file-manager-advanced"
+
+#: application/pages/main.php:19
+msgid ""
+"\">plugins</a> page then <a href=\"https://advancedfilemanager."
+"com/contact/\" target=\"_blank\">contact</a> with us."
+msgstr ""
+
+#: application/pages/main.php:27
+msgid ""
+"<strong>Advanced File Manager</strong>, we always support you and provide "
+"better features for you, please spend some seconds to review our plugin."
+msgstr ""
+
+#: application/pages/controls.php:41
+msgid "Administrator (Default)"
+msgstr ""
+
+#: application/pages/main.php:12
+msgid "Advanced File Manager"
+msgstr ""
+
+#: application/pages/controls.php:127
+msgid "all"
+msgstr ""
+
+#: application/pages/controls.php:63
+msgid "Bootstrap"
+msgstr ""
+
+#: application/pages/controls.php:11 application/pages/main.php:13
+msgid "Buy Shortcode Addon"
+msgstr ""
+
+#: application/pages/buy_shortcode.php:6
+msgid "Congratulations,"
+msgstr ""
+
+#. Description of the plugin
+msgid "Cpanel for files management in wordpress"
+msgstr ""
+
+#: application/pages/controls.php:60
+msgid "Dark"
+msgstr ""
+
+#: application/pages/controls.php:109
+msgid "Deleted files will go to trash folder, you can restore later."
+msgstr ""
+
+#: application/pages/controls.php:114
+msgid "Display .htaccess?"
+msgstr ""
+
+#: application/pages/buy_shortcode.php:3 application/pages/controls.php:11
+#: application/pages/main.php:44
+msgid "Documentation"
+msgstr ""
+
+#: application/pages/controls.php:105
+msgid "Enable Trash?"
+msgstr ""
+
+#: application/pages/controls.php:126
+msgid ""
+"Enter Mimetypes allowed to upload, multiple comma(,) separated. Example: "
+"<code>image/vnd.adobe.photoshop,image/png</code>"
+msgstr ""
+
+#: application/class_fma_admin_menus.php:26
+#: application/class_fma_admin_menus.php:27
+msgid "File Manager"
+msgstr ""
+
+#. Name of the plugin
+msgid "File Manager Advanced"
+msgstr ""
+
+#: application/pages/controls.php:91
+msgid ""
+"File Manager Advanced Files URL, you can change according to your choice."
+msgstr ""
+
+#: application/pages/controls.php:83
+msgid ""
+"File Manager Advanced Root Path, you can change according to your choice."
+msgstr ""
+
+#: application/pages/controls.php:88
+msgid "Files URL"
+msgstr ""
+
+#: application/pages/controls.php:61
+msgid "Grey"
+msgstr ""
+
+#: application/pages/controls.php:96
+msgid "Hide File Path on Preview ?"
+msgstr ""
+
+#: application/pages/controls.php:100
+msgid "Hide real path of file on preview."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://advancedfilemanager.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/file-manager-advanced"
+msgstr ""
+
+#: application/pages/main.php:30
+msgid "I love your plugin!"
+msgstr ""
+
+#: application/pages/controls.php:69
+msgid "Language"
+msgstr ""
+
+#: application/pages/controls.php:59
+msgid "Light"
+msgstr ""
+
+#: application/pages/controls.php:127
+msgid "MIME Types Help"
+msgstr ""
+
+#: application/pages/controls.php:123
+msgid "Mimetypes allowed to upload"
+msgstr ""
+
+#. Author of the plugin
+msgid "modalweb"
+msgstr ""
+
+#: application/pages/controls.php:101 application/pages/controls.php:110
+#: application/pages/controls.php:119
+msgid "Not Enabled"
+msgstr ""
+
+#: application/pages/main.php:31
+msgid "Not Now"
+msgstr ""
+
+#: application/pages/controls.php:80
+msgid "Public Root Path"
+msgstr ""
+
+#: application/pages/controls.php:14 application/pages/main.php:39
+msgid "Rate Us"
+msgstr ""
+
+#: application/class_fma_admin_menus.php:90
+msgid "Saving options, Please wait..."
+msgstr ""
+
+#: application/pages/controls.php:76
+msgid "Select file manager advanced language. Default: en (English)"
+msgstr ""
+
+#: application/pages/controls.php:65
+msgid "Select file manager advanced theme. Default: Light"
+msgstr ""
+
+#: application/pages/controls.php:11
+msgid "Settings"
+msgstr ""
+
+#: application/pages/buy_shortcode.php:3 application/pages/main.php:46
+msgid "Shortcodes"
+msgstr ""
+
+#: application/pages/main.php:45
+msgid "Support"
+msgstr ""
+
+#: application/pages/main.php:38
+msgid ""
+"Thank you for using <a href=\"https://wordpress.org/plugins/file-manager-"
+"advanced/\">Advanced File Manager</a>. If happy then "
+msgstr ""
+
+#: application/pages/controls.php:13
+msgid ""
+"Thank you for using <a href=\"https://wordpress.org/plugins/file-manager-"
+"advanced/\">File Manager Advanced</a>. If happy then "
+msgstr ""
+
+#: application/pages/controls.php:56
+msgid "Theme"
+msgstr ""
+
+#: application/pages/buy_shortcode.php:10
+msgid ""
+"This is Pro Feature of Advanced File Manager, Please Buy <a href=\"https:"
+"//advancedfilemanager.com/pricing\" target=\"_blank\">Advanced File Manager "
+"Shortcode</a> Addon to make shortcode work for frontend. <a href=\"https:"
+"//advancedfilemanager.com/pricing\" target=\"_blank\" class=\"button button-"
+"primary\">Buy Now</a>"
+msgstr ""
+
+#: application/pages/controls.php:118
+msgid "Will Display .htaccess file (if exists) in file manager."
+msgstr ""
+
+#: application/pages/controls.php:62
+msgid "Windows 10"
+msgstr ""
+
+#: application/pages/buy_shortcode.php:6
+msgid ""
+"You have Installed Advanced File Manager Shortcode Successfully. Start "
+"working with shortcode."
+msgstr ""

@@ -1,0 +1,153 @@
+{
+  "name": "woolentor/product-tabs",
+  "category": "woolentor-single-product",
+  "title": "Product Data Tabs",
+  "attributes": {
+    "blockUniqId": {
+      "type": "string",
+      "default": ""
+    },
+    "areaPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} { padding: {{areaPadding}}; }"
+      }
+    },
+    "areaMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}} { margin: {{areaMargin}}; }"
+      }
+    },
+    "areaBGProperty": {
+      "type": "object",
+      "default": {
+        "imageId": null,
+        "imageUrl": "",
+        "position": "",
+        "attachment": "",
+        "repeat": "",
+        "size": ""
+      },
+      "style": {
+        "selector": "{{WOOLENTOR_WRAPPER}}"
+      }
+    },
+    "tabMenuColor": {
+      "type": "string",
+      "style": {
+        "selector": ".woocommerce {{WOOLENTOR_WRAPPER}} .woocommerce-tabs ul.wc-tabs li a{ color: {{tabMenuColor}} !important; }"
+      }
+    },
+    "tabMenuBGColor": {
+      "type": "string",
+      "style": {
+        "selector": ".woocommerce {{WOOLENTOR_WRAPPER}} .woocommerce-tabs ul.wc-tabs li{ background-color: {{tabMenuBGColor}} !important; }"
+      }
+    },
+    "tabMenuBorderColor": {
+      "type": "string",
+      "style": {
+        "selector": ".woocommerce {{WOOLENTOR_WRAPPER}} .woocommerce-tabs .woocommerce-Tabs-panel,.woocommerce {{WOOLENTOR_WRAPPER}} .woocommerce-tabs ul.wc-tabs li{ border-color: {{tabMenuBorderColor}} !important; }"
+      }
+    },
+    "tabMenuSize": {
+      "type": "string",
+      "style": {
+        "selector": ".woocommerce {{WOOLENTOR_WRAPPER}} .woocommerce-tabs ul.wc-tabs li a{ font-size: {{tabMenuSize}} !important; }"
+      }
+    },
+    "tabMenuBorderRadius": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": ".woocommerce {{WOOLENTOR_WRAPPER}} .woocommerce-tabs ul.wc-tabs li{ border-radius: {{tabMenuBorderRadius}} !important; }"
+      }
+    },
+    "tabMenuAlignment": {
+      "type": "string",
+      "style": {
+        "selector": ".woocommerce {{WOOLENTOR_WRAPPER}} .woocommerce-tabs ul.wc-tabs{ text-align: {{tabMenuAlignment}} !important; }"
+      }
+    },
+    "tabMenuActiveColor": {
+      "type": "string",
+      "style": {
+        "selector": ".woocommerce {{WOOLENTOR_WRAPPER}} .woocommerce-tabs ul.wc-tabs li.active a{ color: {{tabMenuActiveColor}} !important; }"
+      }
+    },
+    "tabMenuBGActiveColor": {
+      "type": "string",
+      "style": {
+        "selector": ".woocommerce {{WOOLENTOR_WRAPPER}} .woocommerce-tabs ul.wc-tabs li.active{ background-color: {{tabMenuBGActiveColor}} !important; }"
+      }
+    },
+    "tabMenuActiveBorderColor": {
+      "type": "string",
+      "style": {
+        "selector": ".woocommerce {{WOOLENTOR_WRAPPER}} .woocommerce-tabs ul.wc-tabs li.active{ border-color: {{tabMenuActiveBorderColor}} !important; }.woocommerce .{{WOOLENTOR_WRAPPER}} .woocommerce-tabs ul.wc-tabs li:not(.active){ border-bottom-color:{{tabMenuActiveBorderColor}}; }"
+      }
+    },
+    "tabContentHeadingColor": {
+      "type": "string",
+      "style": {
+        "selector": ".woocommerce {{WOOLENTOR_WRAPPER}} .woocommerce-Tabs-panel h2{ color: {{tabContentHeadingColor}} !important; }"
+      }
+    },
+    "tabContentHeadingSize": {
+      "type": "string",
+      "style": {
+        "selector": ".woocommerce {{WOOLENTOR_WRAPPER}} .woocommerce-Tabs-panel h2{ font-size: {{tabContentHeadingSize}} !important; }"
+      }
+    },
+    "tabContentHeadingMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "unit": "px",
+        "link": "yes"
+      },
+      "style": {
+        "selector": ".woocommerce {{WOOLENTOR_WRAPPER}} .woocommerce-Tabs-panel h2{ margin: {{tabContentHeadingMargin}} !important; }"
+      }
+    },
+    "tabContentColor": {
+      "type": "string",
+      "style": {
+        "selector": ".woocommerce {{WOOLENTOR_WRAPPER}} .woocommerce-Tabs-panel,.woocommerce {{WOOLENTOR_WRAPPER}} .woocommerce-Tabs-panel p{ color: {{tabContentColor}} !important; }"
+      }
+    },
+    "tabContentSize": {
+      "type": "string",
+      "style": {
+        "selector": ".woocommerce {{WOOLENTOR_WRAPPER}} .woocommerce-tabs .woocommerce-Tabs-panel{ font-size: {{tabContentSize}} !important; }"
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.woolentor-partial-payment-calculate-amount{
+    margin-top: 5px;
+}
+.woolentor-partial-ammount {
+    display: inline-block;
+}
+.woolentor-partial-ammount .woocommerce-Price-amount, .woolentor-partial-ammount .amount{
+    font-weight: bold;
+}
+
+.woolentor-partial-payment-area{
+    margin-bottom: 20px;
+}
+
+.woolentor-partial-payment-selector-fields {
+    background: #fff;
+    border-radius: 5px;
+    width: 250px;
+    border: 1px solid #ddd;
+}
+.woolentor-partial-payment-field {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+}
+.woolentor-partial-payment-field:first-child{
+    border-bottom: 1px solid #ddd;
+}
+
+label.woolentor-partial-payment-label, .woolentor-partial-payment-field input {
+    cursor: pointer;
+}
+.woolentor-partial-payment-field input{
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+.woolentor-partial-payment-field label{
+    margin-left: 5px;
+}
+
+.woocommerce-table__line-item ul.wc-item-meta,#order_review ul.wc-item-meta{
+    margin-left: 0;
+}
+td.woocommerce-orders-table__cell.woocommerce-orders-table__cell-order-actions a {
+    padding: 10px 15px;
+    margin-right: 3px;
+}
+td.woocommerce-orders-table__cell.woocommerce-orders-table__cell-order-actions a:last-child {
+    margin-right: 0;
+}

@@ -1,0 +1,408 @@
+.slick-prev:before,
+.slick-next:before,
+a.wpgis-popup{
+	transition: all 0.3s linear 0s; 
+	-webkit-transition: all 0.3s linear 0s;
+	-moz-transition: all 0.3s linear 0s;
+	-o-transition: all 0.3s linear 0s;
+}
+
+/* Slider */
+.slick-slider{
+	position: relative;
+	display: block;
+	box-sizing: border-box;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-touch-callout: none;
+	-khtml-user-select: none;
+	-ms-touch-action: pan-y;
+	touch-action: pan-y;
+	-webkit-tap-highlight-color: transparent;
+	overflow:hidden;
+}
+
+.slick-list{
+	position: relative;
+	display: block;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+.slick-list:focus{
+    outline: none;
+}
+
+.slick-list.dragging{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.slick-track:before,
+.slick-track:after{
+    display: table;
+    content: '';
+}
+
+.slick-track:after{
+    clear: both;
+}
+
+.slick-loading .slick-track{
+    visibility: hidden;
+}
+
+.slick-slide{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+[dir='rtl'] .slick-slide{
+    float: right;
+}
+
+.slick-slide img{
+    display: block;
+}
+
+.slick-slide.slick-loading img{
+    display: none;
+}
+
+.slick-slide.dragging img{
+    pointer-events: none;
+}
+
+.slick-initialized .slick-slide{
+    display: block;
+}
+
+.slick-loading .slick-slide{
+    visibility: hidden;
+}
+
+.slick-vertical .slick-slide{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+/* Arrows */
+.slick-prev, 
+.slick-next,
+.slick-prev:hover,
+.slick-next:hover {
+	border: 0;
+	display: inline-block;
+	font-size: 0;
+	height: 32px;
+	line-height: 33px;
+	position: absolute;
+	top: 50%;
+	width: 27px;
+	background:none !important;
+	box-shadow:none !important;
+	border-radius:0;
+	margin-top: -16px;
+	opacity: .75;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+	opacity: 1;
+}
+
+.slick-prev.slick-disabled,
+.slick-next.slick-disabled{
+    opacity: .25;
+}
+
+.slick-prev:before,
+.slick-next:before{
+    font-size: 16px;
+    line-height: 1;
+    color: #333;
+}
+
+.slick-prev{
+    left: -28px;
+}
+
+[dir='rtl'] .slick-prev{
+    right: -28px;
+    left: auto;
+}
+
+.slick-prev:before{
+    content: "\f053";
+	font-family: FontAwesome;
+}
+
+[dir='rtl'] .slick-prev:before{
+    content: "\f054";
+	font-family: FontAwesome;
+}
+
+.slick-next{
+    right: -28px;
+}
+
+[dir='rtl'] .slick-next{
+    right: auto;
+    left: -28px;
+}
+
+.slick-next:before{
+    content: "\f054";
+	font-family: FontAwesome;
+}
+
+[dir='rtl'] .slick-next:before{
+    content: "\f053";
+	font-family: FontAwesome;
+}
+
+/* Dots */
+.slick-dotted.slick-slider{
+    margin-bottom: 30px;
+}
+
+.slick-dots{
+    position: absolute;
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.slick-dots li{
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.slick-dots li button{
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+.slick-dots li button:hover,
+.slick-dots li button:focus{
+    outline: none;
+}
+
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before{
+    opacity: 1;
+}
+
+.slick-dots li button:before{
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots li.slick-active button:before{
+    opacity: .75;
+    color: black;
+}
+
+.wpgis-slider-nav img{
+	cursor:pointer;
+}
+
+a.wpgis-popup {
+	top: 10px;
+	font-size: 25px;
+	line-height: 0;
+	opacity: 0.6;
+	outline: medium none !important;
+	padding: 15px 0;
+	position: absolute;
+	right: 13px;
+	text-decoration: none;
+	z-index: 9;
+	color:#444;
+}
+
+a.wpgis-popup:hover{
+	opacity: 1;
+	color:#444;
+}
+
+.wpgis-slider-nav img{
+	opacity:.9;
+}
+
+.wpgis-slider-nav .slick-current img,
+.wpgis-slider-nav img:hover{
+	opacity:1;
+}
+
+.wpgis-slider-for .zoom img:first-child{
+	display:none!important;
+}
+
+.wpgis-slider-for  .zoomImg {
+    cursor: crosshair;
+}
+
+/* WooCommerce Css */
+
+.admin-bar .fancybox-container {
+	z-index: 999999;
+}
+
+.single-product.woocommerce span.onsale{
+	z-index:9;
+}
+
+
+/* @media-query Css*/
+
+@media (max-width:500px){
+	.wpgis-slider-for .slick-prev, .wpgis-slider-for .slick-next{
+		display:none!important;
+	}	
+}
+.wpgis-slider-for .btn-prev, .wpgis-slider-for .btn-next {
+    position: absolute;
+    top: 45%;
+    z-index: 999;
+    width: 40px;
+    height: 35px;
+    line-height: 37px;
+    border-radius: 0px;
+    padding: 0;
+    font-size: 25px;
+    border: none;
+    text-align: center;
+}
+.wpgis-slider-for .btn-prev, .wpgis-slider-for .btn-next {
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+}
+.wpgis-slider-for .btn-next {
+    margin-right: -20px;
+}
+.wpgis-slider-for .btn-prev {
+    margin-left: -20px;
+}
+.wpgis-slider-for:hover .btn-prev, .wpgis-slider-for:hover .btn-next {
+    opacity: 1;
+    margin: 0px;
+}
+.btn-next {
+    right: 0px;
+}
+.btn-prev
+{
+left:0;
+}
+.btn-prev, .btn-next {
+    color: #fff;
+    background: #000000;
+	cursor:pointer;
+}
+.vertical-thumb-left.wpgis-slider-nav,
+.vertical-thumb-right.wpgis-slider-nav
+{
+	overflow:hidden;
+	height:100%;
+}
+.vertical-thumb-left.slick-slider,
+.vertical-thumb-right.slick-slider
+{
+	width:20%;
+}
+.vertical-img-left.wpgis-slider-for
+{
+	width: 79%;
+	float: right;
+	margin-left: 1%;
+}
+.vertical-img-right.wpgis-slider-for
+{
+	width: 79%;
+	float: left;
+	margin-right: 1%;
+}
+.vertical-thumb-left .slick-slide,
+.vertical-thumb-right .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.wpgis-slider-for
+{
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+#wpgis-gallery .slick-slide
+{
+	margin:0;
+}
+.wpgis-slider-nav .slick-slide
+{
+	border: 1px solid transparent;
+}
+.slick-slide.slick-current.slick-active
+{
+	position:relative;
+}

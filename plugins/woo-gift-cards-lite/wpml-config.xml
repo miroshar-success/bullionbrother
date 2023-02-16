@@ -1,0 +1,9 @@
+<wpml-config>
+	<admin-texts>
+		<key name="wps_wgm_mail_settings" >
+		<key name="wps_wgm_mail_setting_default_message" />
+		<key name="wps_wgm_mail_setting_disclaimer" />
+		<key name="wps_wgm_mail_setting_giftcard_subject" />
+		</key>
+	</admin-texts>
+</wpml-config>

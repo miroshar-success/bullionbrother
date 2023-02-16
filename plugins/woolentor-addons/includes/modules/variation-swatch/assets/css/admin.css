@@ -1,0 +1,305 @@
+/*
+Admin style.
+Contain all admin style of the plugin.
+
+/* 1. General
+======================================================= */
+.swatchly_d_none,
+.woolentor-condition-on {
+    display: none;
+}
+.csf-nav-options .swatchly_active{
+    position: relative;
+}
+.csf-nav-options .swatchly_active::after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    color: #2dbe60;
+    background: #2dbe60;
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%;
+    left: 7px;
+    top: 49%;
+    -webkit-transform: translateY(-51%);
+    -ms-transform: translateY(-51%);
+        transform: translateY(-51%);
+    line-height: 10px;
+}
+
+/*Taxonomy metabox*/
+.swatchly-cs-field:after,
+.swatchly-cs-field:before {
+    content: " ";
+    display: table;
+}
+.swatchly-cs-taxonomy {
+    max-width: 95%;
+    overflow: hidden;
+}
+.swatchly-cs-field .swatchly-cs-title h4 {
+    margin: 0;
+    color: #23282d;
+}
+
+.swatchly-cs-field-media .swatchly-cs--placeholder {
+    display: flex;
+    align-items: flex-start;
+}
+.swatchly-cs-field-media .swatchly-cs--placeholder input {
+	width: 100%;
+	margin: 0;
+}
+
+.swatchly-cs-field-media .hidden+.button {
+	margin-left: 0;
+}
+
+.swatchly-cs-field-media .swatchly-cs--preview {
+	position: relative;
+}
+
+.swatchly-cs-field-media .swatchly-cs--preview .fa-times {
+	position: absolute;
+	z-index: 1;
+	right: 2px;
+	top: 2px;
+	font-size: 14px;
+	width: 22px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	background-color: #dd3333;
+	opacity: 0.75;
+	border-radius: 2px;
+	transition: all .2s;
+}
+
+.swatchly-cs-image-preview {
+  display: inline-block;
+  position: relative;
+  padding: 4px;
+  min-width: 100px;
+  min-height: 100px;
+  line-height: 100px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+}
+.swatchly-cs-image-preview img {
+  max-width: 100px;
+  max-height: 100px;
+  display: inline-block;
+  vertical-align: middle;
+  object-fit: contain;
+}
+
+.swatchly-cs-field-media .swatchly-cs--preview .fa-times:hover {
+	opacity: 1;
+}
+
+.swatchly-cs-field-media .swatchly-cs--preview .fa-times:focus {
+	box-shadow: none;
+}
+
+/* Add */
+.swatchly-cs-taxonomy-add-fields .swatchly-cs-field {
+    padding: 8px 0;
+}
+.swatchly-cs-taxonomy-add-fields  .swatchly-cs-field  .swatchly-cs-title {
+    float: none;
+    width: 100%;
+    padding: 2px 2px 4px 0;
+}
+.swatchly-cs-taxonomy-add-fields .swatchly-cs-field .swatchly-cs-fieldset {
+    float: none;
+    width: 100%;
+}
+.swatchly-cs-taxonomy-add-fields + p.submit {
+    margin-top: 0;
+}
+
+/* Edit */
+.swatchly-cs-taxonomy-edit-fields .swatchly-cs-field {
+    padding: 20px 0;
+    overflow: hidden;
+}
+.swatchly-cs-taxonomy-edit-fields .swatchly-cs-title {
+    position: relative;
+    width: 20%;
+    float: left;
+}
+.swatchly-cs-taxonomy-edit-fields .swatchly-cs-field .swatchly-cs-title {
+    width: 200px;
+}
+.swatchly-cs-taxonomy-edit-fields .swatchly-cs-field .swatchly-cs-title h4 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.3;
+    display: inline-block;
+    vertical-align: middle;
+}
+.swatchly-cs-taxonomy-edit-fields .swatchly-cs-field .swatchly-cs-fieldset {
+    float: right;
+    width: calc(100% - 220px);
+}
+.swatchly-cs-after-text {
+    margin-top: 6px;
+}
+
+/*Swatch preview*/
+table.wp-list-table td.column-thumb .swatchly_preview {
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    font-weight: 700;
+    border: 1px solid #ddd;
+}
+
+ /* 2. Product Metabox
+======================================================= */
+.swatchly .wc-metabox h3 .fr strong {
+    font-weight: 400;
+    margin-right: 5px;
+}
+
+.swatchly .wc-metabox h3 .fr select {
+    max-width: 100%;
+    margin: 0;
+    width: auto !important;
+}
+
+.swatchly .wc-metabox .wc-metabox {
+    border: 1px solid transparent;
+    margin-bottom: 10px !important;
+}
+
+.swatchly .wc-metabox .wc-metabox h3 {
+    border: 1px solid #eee !important;
+}
+
+.swatchly .wc-metabox .wc-metabox table {
+    border: 0;
+}
+
+.swatchly .wc-metabox .wc-metabox.open {
+    border: 1px solid #eee;
+    margin-bottom: 10px !important;
+}
+
+.swatchly .wc-metabox .wc-metabox h3 {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+.swatchly .wc-metabox .wc-metabox.open h3 {
+    background: #eee;
+}
+
+.swatchly .wc-metabox .wc-metabox-content > table td select {
+    width: auto !important;
+}
+
+.swatchly.wc-metaboxes-wrapper .woocommerce-message {
+    display: none;
+    margin: 10px !important;
+}
+
+.swatchly_media_preview {
+    margin-right: 10px;
+}
+
+.swatchly_media_preview img {
+    width: 60px;
+    height: 60px;
+}
+
+/*Conditional fields*/
+.swatchly_show_if_label,
+.swatchly_show_if_color,
+.swatchly_show_if_image,
+.swatchly_show_if_tooltip_text,
+.swatchly_show_if_tooltip_image,
+.swatchly_show_if_enable_multi_color_1,
+.swatchly_type_ .swatchly-cs-field.swatchly_hide_if_select,
+.swatchly_type_select .swatchly-cs-field.swatchly_hide_if_select,
+.swatchly_show_if_auto_convert_to_dropdown_image_1 {
+    display: none;
+}
+
+.swatchly_1.swatchly_type_color tr.swatchly_show_if_color,
+.swatchly_1.swatchly_type_image tr.swatchly_show_if_image,
+.swatchly_1.swatchly_tooltip_text tr.swatchly_show_if_tooltip_text,
+.swatchly_1.swatchly_tooltip_image tr.swatchly_show_if_tooltip_image,
+.swatchly_1.swatchly_type_color.swatchly_enable_multi_color_1 tr.swatchly_show_if_enable_multi_color_1,
+.swatchly_2.swatchly_tooltip_text>.wc-metabox-content>table>tbody>tr.swatchly_show_if_tooltip_text,
+.swatchly_2.swatchly_tooltip_image>.wc-metabox-content>table>tbody>tr.swatchly_show_if_tooltip_image {
+    display: table-row;
+}
+
+.swatchly_type_color .swatchly-cs-field.swatchly_show_if_color,
+.swatchly_type_image .swatchly-cs-field.swatchly_show_if_image,
+.swatchly_type_label .swatchly-cs-field.swatchly_show_if_label,
+.swatchly_auto_convert_dropdowns_to_image_1 .swatchly_show_if_auto_convert_to_dropdown_image_1 {
+    display: block;
+}
+
+.swatchly .toolbar-top input[type="checkbox"] {
+    float: none;
+}
+
+.swatchly .toolbar-top label {
+    margin-left: 5px;
+    float: none;
+    width: auto;
+}
+
+.swatchly .toolbar-top .swatchly_condition label{
+    margin-left: 0;
+}
+.swatchly .wc-metabox table td input[type="text"] {
+    padding: 0px 4px;
+}
+
+.swatchly .wc-metabox table td input[type="checkbox"] {
+    width: 1rem;
+    min-width: 1rem;
+}
+
+.swatchly .wc-metabox .wp-picker-input-wrap {
+    min-width: 150px;
+}
+
+.swatchly .wc-metabox .swatchly_color_picker {
+    width: 4rem !important;
+    min-width: 4rem !important;
+}
+
+#swatchly_swatches_product_data .wc-metabox .wp-picker-clear {
+    display: inline-block;
+    min-width: auto;
+    width: auto;
+}
+
+.wc-metabox.swatchly_2.swatchly_type_ h3,
+.wc-metabox.swatchly_2.swatchly_type_select h3 {
+    cursor: no-drop;
+}
+
+.wc-metabox.swatchly_2.swatchly_type_label h3,
+.wc-metabox.swatchly_2.swatchly_type_color h3,
+.wc-metabox.swatchly_2.swatchly_type_image h3 {
+    cursor: pointer;
+}
+
+.swatchly .wc-metabox.swatchly_1 table td {
+    padding: .6em .6em .6em 0;
+    vertical-align: middle;
+}

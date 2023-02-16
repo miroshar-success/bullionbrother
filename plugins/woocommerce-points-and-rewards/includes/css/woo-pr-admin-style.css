@@ -1,0 +1,365 @@
+.woo-pr-points-left {
+	float: left;
+}
+.woo-pr-points-right {
+	float: right;
+}
+.woo-pr-points-social-none {
+	display:none;
+}
+.woo-pr-send-email-manually{
+  margin-left: 10px !important;
+}
+
+/***************** CSS for Social Login Page Starts ******************/
+.woo-pr-points-social-submit {
+	margin:15px 0 0 0 !important;
+}
+.woo-pr-points-sortable tbody td{
+	cursor:move !important;
+}
+.woo-pr-points-social-chart-container{
+	text-align: center; 
+	margin: 30px 0 0; 
+	width:650px; 
+	margin:auto;
+}
+/***************** CSS for Social Login Page Ends******************/
+
+/********** CSS for Shortcode Popup Starts ***********/
+.woo-pr-points-popup-content {
+    margin: 0 auto;
+    min-height: 340px;
+    display: none;
+	position: fixed; /*absolute*/
+	border: 1px solid #555555;
+	top: 16%;
+	text-align: left;
+	max-width: 480px;
+	background: none repeat scroll 0 0 #EEEEEE;
+	z-index:9995;
+	overflow: auto;
+	box-shadow: 0 4px 30px #000000;
+	color: #000000;
+	left:0;
+	right:0;
+}
+.woo-pr-points-popup-content .description {
+	margin-left: 0px !important
+}
+.woo-pr-points-popup-overlay {
+	display: none;
+	background-color: #000000;
+    height: 100%;
+    left: 0;
+    opacity: 0.75;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9991;
+}
+.woo-pr-points-header-title {
+    float: left;
+    padding: 6px 10px 0;
+}
+.woo-pr-points-popup-close {
+ 	float: right;
+    padding: 6px 10px 0;
+    text-align: right;
+}
+.woo-pr-points-header {
+    background-color: #222222;
+    color: #CFCFCF;
+    min-height: 30px;
+    position: relative;
+    width: 100%;
+}
+.woo-pr-points-popup table.form-table {
+	margin : 15px !important;
+	width: 95% !important;	
+}
+.woo-pr-points-loader {
+	display:none;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+.woo-pr-points-validate-error {
+	border-color: #FF0000 !important;
+}
+#woo_pr_points_user_current_balance {
+	color: #008000
+}
+#woo-pr-points-shortcode-error {
+	color: red;
+}
+#woo-pr-points-insert-container {
+	margin: 15px;
+}
+#woo-pr-points-shortcode-error, 
+#woo-pr-points-insert-container,
+.woo-pr-points-shortcodes-options {
+ 	display: block;
+}
+#woo-pr-points-message-label{
+	width:90% !important;
+}
+.pointslog #customer{width:21%;}
+.pointslog #event{width:35%;}
+.pointslog #expiry_date{width:12%;}
+.pointslog .column-expiry_date > label {
+    text-align: left;
+    display: block;
+    font-size: 25px;
+}
+.pointslog td.expiry_date{
+	text-align: left;
+}
+.expiry_date label{
+	cursor: default;
+}
+#woo_pr_validity_period_days{
+    width: 70px;
+}
+
+/***************** CSS for Shortcode Popup Ends******************/
+.woo-pr-points-user-profile-balance h2 {
+	padding: 0;
+	margin: 0;
+}
+/***************** Customize Chosen CSS Start *******************/
+.tablenav .actions {
+	overflow: visible;
+}
+.alignleft.actions .chzn-container-single {
+    display: inline-block;
+    vertical-align: middle;
+}
+.chzn-search input {
+	width: 100% !important;
+}
+/***************** Customize Chosen CSS End ********************/
+.woo-pr-points-reset-points {
+	margin-left: 6px;
+}
+.taxonomy-product_cat .fixed .column-points_earned,
+.taxonomy-product_cat .fixed .column-max_points_discount{
+	width: 13%;
+}
+.taxonomy-product_cat .fixed .column-description{
+	width: 21%;
+}
+.taxonomy-product_cat .fixed .column-posts{
+	width: 9%;
+}
+/***************** Customize Product Cat CSS *******************/
+#addtag .woo-points-earned-cat-field,
+#addtag .woo-pr-points-dis-cat-field,
+#edittag .woo-points-earned-cat-field,
+#edittag .woo-pr-points-dis-cat-field{
+    width: 150px;
+}
+/***************** Customize Order Edit CSS *******************/
+#order_data .order_data_column .form-field-wide.wp-pr-user-order-points > span {
+	float: right;
+}
+/***************** Customize CSS End *******************/
+.woocommerce table.form-table fieldset,
+.woocommerce table.form-table fieldset > span,
+.woocommerce table.form-table fieldset input:first-child {
+	vertical-align: middle;
+}
+#woo_pr_points_rewads_fields .woo-pr-rating-point-td{
+	vertical-align:top;
+}
+.woopr-textarea-section-desc{
+	margin-top:0;
+}
+.woopr-ratingpoints-section-desc{
+	margin-top:0;
+}
+.woopr-ratio-max-width{
+	max-width: 80px;
+}
+.woo-pr-hide-row{
+	display: none;
+}
+th#points_amount{
+	width:8%;
+}
+
+
+.woo_pr_switch_label {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.woo_pr_switch_label input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.woo_pr_switch_label {  
+  cursor: pointer;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius:34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input.woo_pr_switch:checked + .slider {
+  background-color: #00669b;
+}
+
+input.woo_pr_switch:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input.woo_pr_switch:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px !important; 
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.slider {
+position: absolute;
+cursor: pointer;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #ccc;
+-webkit-transition: .4s;
+transition: .4s;
+}
+#woo_pr_expire_point_email_content,#woo_pr_earn_point_email_content,#woo_pr_redeem_point_email_content{
+	width:100% !important;
+}
+td.forminp.forminp-text p.description:nth-child(3), td.forminp.forminp-number p.description:nth-child(3){
+clear: both;
+}
+td.forminp.forminp-text input {
+float: left;
+margin-right: 10px !important;
+}
+td.forminp.forminp-text fieldset input {
+    float: unset;
+    margin-right: 0 !important;
+}
+#woo_pr_minimum_cart_total_redeem,#woo_pr_minimum_cart_total_earn{
+	float:left;
+	margin-right: 10px;
+}
+.clear-both{
+	clear: both;
+    width: 100%;
+    float: left;
+}
+.form-table th.label-row{
+	width:100%;
+}
+.csv-messages{
+	clear: both;
+}
+
+td.forminp.forminp-multiselect {
+    padding-top: 0;
+}
+td.forminp.forminp-woo_pr_radio {
+    padding-bottom: 0;
+}
+.custom-ajax-message{
+  clear: both;
+  margin-top: 10px;
+  float: left;
+  width: 98%;
+}
+
+.not-active {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  color: black;
+  background: red;
+}
+
+
+label[for="woo_pr_redd_exc_inc_categories_points"],label[for="woo_pr_redd_exclude_products_points"],
+label[for="woo_pr_exc_inc_categories_points"],label[for="woo_pr_exclude_products_points"]
+ {
+    margin-top: -46px !important;
+}
+
+
+.tooltip {      
+      cursor: default;
+      text-decoration: none !important;
+      position: relative;
+      border: none;
+    }
+    .tooltip span {
+      margin-left: -999em;
+      position: absolute;
+    }
+    .tooltip:hover span {
+      border-radius: 5px 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; 
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+      font-family: Calibri, Tahoma, Geneva, sans-serif;
+      position: absolute; left: 1em; top: 2em; z-index: 99;
+      margin-left: 0; width: 250px;
+    }
+    .tooltip:hover img {
+      border: 0; margin: -10px 0 0 -55px;
+      float: left; position: absolute;
+    }
+    .tooltip:hover em {
+      font-family: Candara, Tahoma, Geneva, sans-serif; font-size: 1.2em; font-weight: bold;
+      display: block; padding: 0.2em 0 0.6em 0;
+    }
+    .classic { padding: 0.8em 1em; }
+    .custom { padding: 0.5em 0.8em 0.8em 2em; }
+    * html a:hover { background: transparent; }
+    .classic {background: #FFFFAA; border: 1px solid #FFAD33; }
+    .critical { background: #FFCCAA; border: 1px solid #FF3334; }
+    .help { background: #9FDAEE; border: 1px solid #2BB0D7; }
+    .info { background: #9FDAEE; border: 1px solid #2BB0D7; }
+    .warning { background: #FFFFAA; border: 1px solid #FFAD33; }
+
+    .dismmis-notice{
+        float: right;
+        margin-top: -27px;
+        text-decoration: none;
+    }
+.woopr-custom-checkbox{
+  width: 25%;
+  float: left;
+  margin-bottom: 20px;
+}
+.woopr-custom-checkbox .woopr-custom-checkbox-label{
+  margin: 0px !important;
+}
+.woopr-custom-checkbox input[type="checkbox"]{
+  margin: 0;
+  margin-right: 2px;
+}

@@ -1,0 +1,78 @@
+/*
+Admin styles.
+
+Table of contents:
+==================
+1. General
+*/
+
+/* 1. General
+======================================================= */
+/* Unique ID */
+.wlpf-dynamic-unique-id {
+    display: none;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+/* Shortcode copy */
+.wlpf-dynamic-shortcode .woolentor-admin-input {
+    position: relative;
+}
+.wlpf-dynamic-shortcode .wlpf-dynamic-shortcode-copy {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 4px;
+    right: 5px;
+    margin: 0;
+    padding: 0;
+    color: #007eff;
+    background-color: #fff;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+.wlpf-dynamic-shortcode .wlpf-dynamic-shortcode-copy-success {
+    color: #4fb845;
+}
+.wlpf-dynamic-shortcode .wlpf-dynamic-shortcode-copy-error {
+    color: #ed6f6f;
+}
+.wlpf-dynamic-shortcode .wlpf-dynamic-shortcode-copy .dashicons {
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    line-height: 32px;
+}
+.wlpf-dynamic-shortcode .wlpf-dynamic-shortcode-copy-success .dashicons::before {
+    content: "\f15e";
+}
+.wlpf-dynamic-shortcode .wlpf-dynamic-shortcode-copy-error .dashicons::before {
+    content: "\f335";
+}
+
+/* Show filter arguments */
+.wlpf-show-filter-arguments {
+    display: none;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+/* Core fields */
+form[data-section="woolentor_product_filter_settings"] .woolenor-reapeater-fields-area + .woolentor-admin-option {
+    border-top: 1px solid #eaeaea;
+    margin-top: 20px;
+}
+form[data-section="woolentor_product_filter_settings"] .woolenor-reapeater-fields-area + .woolentor-admin-option-heading {
+    margin-top: 20px;
+}
+form[data-section="woolentor_product_filter_settings"] .woolentor-admin-option-heading + .woolentor-admin-option {
+    border-top: none;
+}

@@ -1,0 +1,1777 @@
+#: checkout-fees-for-woocommerce.php:125
+msgid "Settings"
+msgstr ""
+
+#: checkout-fees-for-woocommerce.php:128
+msgid "Unlock All"
+msgstr ""
+
+#: includes/class-wc-checkout-fees-admin.php:33
+msgid "Plugin data successfully deleted."
+msgstr ""
+
+#: includes/class-wc-checkout-fees-admin.php:43
+msgid "Wrong user role or nonce not verified."
+msgstr ""
+
+#: includes/class-alg-wc-checkout-fees.php:908
+msgid "(includes %s %s)"
+msgstr ""
+
+#: includes/functions/country-functions.php:45
+msgid "Africa"
+msgstr ""
+
+#: includes/functions/country-functions.php:46
+msgid "Asia"
+msgstr ""
+
+#: includes/functions/country-functions.php:47
+msgid "Australia & Oceania"
+msgstr ""
+
+#: includes/functions/country-functions.php:48
+msgid "Central America"
+msgstr ""
+
+#: includes/functions/country-functions.php:49
+msgid "European Union"
+msgstr ""
+
+#: includes/functions/country-functions.php:50
+msgid "Europe"
+msgstr ""
+
+#: includes/functions/country-functions.php:51
+msgid "Europe excluding EU"
+msgstr ""
+
+#: includes/functions/country-functions.php:52
+msgid "Eurozone"
+msgstr ""
+
+#: includes/functions/country-functions.php:53
+msgid "North America"
+msgstr ""
+
+#: includes/functions/country-functions.php:54
+msgid "South America"
+msgstr ""
+
+#: includes/functions/country-functions.php:68
+msgid "Afghanistan"
+msgstr ""
+
+#: includes/functions/country-functions.php:69
+msgid "&#197;land Islands"
+msgstr ""
+
+#: includes/functions/country-functions.php:70
+msgid "Albania"
+msgstr ""
+
+#: includes/functions/country-functions.php:71
+msgid "Algeria"
+msgstr ""
+
+#: includes/functions/country-functions.php:72
+msgid "Andorra"
+msgstr ""
+
+#: includes/functions/country-functions.php:73
+msgid "Angola"
+msgstr ""
+
+#: includes/functions/country-functions.php:74
+msgid "Anguilla"
+msgstr ""
+
+#: includes/functions/country-functions.php:75
+msgid "Antarctica"
+msgstr ""
+
+#: includes/functions/country-functions.php:76
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: includes/functions/country-functions.php:77
+msgid "Argentina"
+msgstr ""
+
+#: includes/functions/country-functions.php:78
+msgid "Armenia"
+msgstr ""
+
+#: includes/functions/country-functions.php:79
+msgid "Aruba"
+msgstr ""
+
+#: includes/functions/country-functions.php:80
+msgid "Australia"
+msgstr ""
+
+#: includes/functions/country-functions.php:81
+msgid "Austria"
+msgstr ""
+
+#: includes/functions/country-functions.php:82
+msgid "Azerbaijan"
+msgstr ""
+
+#: includes/functions/country-functions.php:83
+msgid "Bahamas"
+msgstr ""
+
+#: includes/functions/country-functions.php:84
+msgid "Bahrain"
+msgstr ""
+
+#: includes/functions/country-functions.php:85
+msgid "Bangladesh"
+msgstr ""
+
+#: includes/functions/country-functions.php:86
+msgid "Barbados"
+msgstr ""
+
+#: includes/functions/country-functions.php:87
+msgid "Belarus"
+msgstr ""
+
+#: includes/functions/country-functions.php:88
+msgid "Belgium"
+msgstr ""
+
+#: includes/functions/country-functions.php:89
+msgid "Belau"
+msgstr ""
+
+#: includes/functions/country-functions.php:90
+msgid "Belize"
+msgstr ""
+
+#: includes/functions/country-functions.php:91
+msgid "Benin"
+msgstr ""
+
+#: includes/functions/country-functions.php:92
+msgid "Bermuda"
+msgstr ""
+
+#: includes/functions/country-functions.php:93
+msgid "Bhutan"
+msgstr ""
+
+#: includes/functions/country-functions.php:94
+msgid "Bolivia"
+msgstr ""
+
+#: includes/functions/country-functions.php:95
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr ""
+
+#: includes/functions/country-functions.php:96
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: includes/functions/country-functions.php:97
+msgid "Botswana"
+msgstr ""
+
+#: includes/functions/country-functions.php:98
+msgid "Bouvet Island"
+msgstr ""
+
+#: includes/functions/country-functions.php:99
+msgid "Brazil"
+msgstr ""
+
+#: includes/functions/country-functions.php:100
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: includes/functions/country-functions.php:101
+msgid "British Virgin Islands"
+msgstr ""
+
+#: includes/functions/country-functions.php:102
+msgid "Brunei"
+msgstr ""
+
+#: includes/functions/country-functions.php:103
+msgid "Bulgaria"
+msgstr ""
+
+#: includes/functions/country-functions.php:104
+msgid "Burkina Faso"
+msgstr ""
+
+#: includes/functions/country-functions.php:105
+msgid "Burundi"
+msgstr ""
+
+#: includes/functions/country-functions.php:106
+msgid "Cambodia"
+msgstr ""
+
+#: includes/functions/country-functions.php:107
+msgid "Cameroon"
+msgstr ""
+
+#: includes/functions/country-functions.php:108
+msgid "Canada"
+msgstr ""
+
+#: includes/functions/country-functions.php:109
+msgid "Cape Verde"
+msgstr ""
+
+#: includes/functions/country-functions.php:110
+msgid "Cayman Islands"
+msgstr ""
+
+#: includes/functions/country-functions.php:111
+msgid "Central African Republic"
+msgstr ""
+
+#: includes/functions/country-functions.php:112
+msgid "Chad"
+msgstr ""
+
+#: includes/functions/country-functions.php:113
+msgid "Chile"
+msgstr ""
+
+#: includes/functions/country-functions.php:114
+msgid "China"
+msgstr ""
+
+#: includes/functions/country-functions.php:115
+msgid "Christmas Island"
+msgstr ""
+
+#: includes/functions/country-functions.php:116
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: includes/functions/country-functions.php:117
+msgid "Colombia"
+msgstr ""
+
+#: includes/functions/country-functions.php:118
+msgid "Comoros"
+msgstr ""
+
+#: includes/functions/country-functions.php:119
+msgid "Congo (Brazzaville)"
+msgstr ""
+
+#: includes/functions/country-functions.php:120
+msgid "Congo (Kinshasa)"
+msgstr ""
+
+#: includes/functions/country-functions.php:121
+msgid "Cook Islands"
+msgstr ""
+
+#: includes/functions/country-functions.php:122
+msgid "Costa Rica"
+msgstr ""
+
+#: includes/functions/country-functions.php:123
+msgid "Croatia"
+msgstr ""
+
+#: includes/functions/country-functions.php:124
+msgid "Cuba"
+msgstr ""
+
+#: includes/functions/country-functions.php:125
+msgid "Cura&Ccedil;ao"
+msgstr ""
+
+#: includes/functions/country-functions.php:126
+msgid "Cyprus"
+msgstr ""
+
+#: includes/functions/country-functions.php:127
+msgid "Czech Republic"
+msgstr ""
+
+#: includes/functions/country-functions.php:128
+msgid "Denmark"
+msgstr ""
+
+#: includes/functions/country-functions.php:129
+msgid "Djibouti"
+msgstr ""
+
+#: includes/functions/country-functions.php:130
+msgid "Dominica"
+msgstr ""
+
+#: includes/functions/country-functions.php:131
+msgid "Dominican Republic"
+msgstr ""
+
+#: includes/functions/country-functions.php:132
+msgid "Ecuador"
+msgstr ""
+
+#: includes/functions/country-functions.php:133
+msgid "Egypt"
+msgstr ""
+
+#: includes/functions/country-functions.php:134
+msgid "El Salvador"
+msgstr ""
+
+#: includes/functions/country-functions.php:135
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: includes/functions/country-functions.php:136
+msgid "Eritrea"
+msgstr ""
+
+#: includes/functions/country-functions.php:137
+msgid "Estonia"
+msgstr ""
+
+#: includes/functions/country-functions.php:138
+msgid "Ethiopia"
+msgstr ""
+
+#: includes/functions/country-functions.php:139
+msgid "Falkland Islands"
+msgstr ""
+
+#: includes/functions/country-functions.php:140
+msgid "Faroe Islands"
+msgstr ""
+
+#: includes/functions/country-functions.php:141
+msgid "Fiji"
+msgstr ""
+
+#: includes/functions/country-functions.php:142
+msgid "Finland"
+msgstr ""
+
+#: includes/functions/country-functions.php:143
+msgid "France"
+msgstr ""
+
+#: includes/functions/country-functions.php:144
+msgid "French Guiana"
+msgstr ""
+
+#: includes/functions/country-functions.php:145
+msgid "French Polynesia"
+msgstr ""
+
+#: includes/functions/country-functions.php:146
+msgid "French Southern Territories"
+msgstr ""
+
+#: includes/functions/country-functions.php:147
+msgid "Gabon"
+msgstr ""
+
+#: includes/functions/country-functions.php:148
+msgid "Gambia"
+msgstr ""
+
+#: includes/functions/country-functions.php:149
+msgid "Georgia"
+msgstr ""
+
+#: includes/functions/country-functions.php:150
+msgid "Germany"
+msgstr ""
+
+#: includes/functions/country-functions.php:151
+msgid "Ghana"
+msgstr ""
+
+#: includes/functions/country-functions.php:152
+msgid "Gibraltar"
+msgstr ""
+
+#: includes/functions/country-functions.php:153
+msgid "Greece"
+msgstr ""
+
+#: includes/functions/country-functions.php:154
+msgid "Greenland"
+msgstr ""
+
+#: includes/functions/country-functions.php:155
+msgid "Grenada"
+msgstr ""
+
+#: includes/functions/country-functions.php:156
+msgid "Guadeloupe"
+msgstr ""
+
+#: includes/functions/country-functions.php:157
+msgid "Guatemala"
+msgstr ""
+
+#: includes/functions/country-functions.php:158
+msgid "Guernsey"
+msgstr ""
+
+#: includes/functions/country-functions.php:159
+msgid "Guinea"
+msgstr ""
+
+#: includes/functions/country-functions.php:160
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: includes/functions/country-functions.php:161
+msgid "Guyana"
+msgstr ""
+
+#: includes/functions/country-functions.php:162
+msgid "Haiti"
+msgstr ""
+
+#: includes/functions/country-functions.php:163
+msgid "Heard Island and McDonald Islands"
+msgstr ""
+
+#: includes/functions/country-functions.php:164
+msgid "Honduras"
+msgstr ""
+
+#: includes/functions/country-functions.php:165
+msgid "Hong Kong"
+msgstr ""
+
+#: includes/functions/country-functions.php:166
+msgid "Hungary"
+msgstr ""
+
+#: includes/functions/country-functions.php:167
+msgid "Iceland"
+msgstr ""
+
+#: includes/functions/country-functions.php:168
+msgid "India"
+msgstr ""
+
+#: includes/functions/country-functions.php:169
+msgid "Indonesia"
+msgstr ""
+
+#: includes/functions/country-functions.php:170
+msgid "Iran"
+msgstr ""
+
+#: includes/functions/country-functions.php:171
+msgid "Iraq"
+msgstr ""
+
+#: includes/functions/country-functions.php:172
+msgid "Republic of Ireland"
+msgstr ""
+
+#: includes/functions/country-functions.php:173
+msgid "Isle of Man"
+msgstr ""
+
+#: includes/functions/country-functions.php:174
+msgid "Israel"
+msgstr ""
+
+#: includes/functions/country-functions.php:175
+msgid "Italy"
+msgstr ""
+
+#: includes/functions/country-functions.php:176
+msgid "Ivory Coast"
+msgstr ""
+
+#: includes/functions/country-functions.php:177
+msgid "Jamaica"
+msgstr ""
+
+#: includes/functions/country-functions.php:178
+msgid "Japan"
+msgstr ""
+
+#: includes/functions/country-functions.php:179
+msgid "Jersey"
+msgstr ""
+
+#: includes/functions/country-functions.php:180
+msgid "Jordan"
+msgstr ""
+
+#: includes/functions/country-functions.php:181
+msgid "Kazakhstan"
+msgstr ""
+
+#: includes/functions/country-functions.php:182
+msgid "Kenya"
+msgstr ""
+
+#: includes/functions/country-functions.php:183
+msgid "Kiribati"
+msgstr ""
+
+#: includes/functions/country-functions.php:184
+msgid "Kuwait"
+msgstr ""
+
+#: includes/functions/country-functions.php:185
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: includes/functions/country-functions.php:186
+msgid "Laos"
+msgstr ""
+
+#: includes/functions/country-functions.php:187
+msgid "Latvia"
+msgstr ""
+
+#: includes/functions/country-functions.php:188
+msgid "Lebanon"
+msgstr ""
+
+#: includes/functions/country-functions.php:189
+msgid "Lesotho"
+msgstr ""
+
+#: includes/functions/country-functions.php:190
+msgid "Liberia"
+msgstr ""
+
+#: includes/functions/country-functions.php:191
+msgid "Libya"
+msgstr ""
+
+#: includes/functions/country-functions.php:192
+msgid "Liechtenstein"
+msgstr ""
+
+#: includes/functions/country-functions.php:193
+msgid "Lithuania"
+msgstr ""
+
+#: includes/functions/country-functions.php:194
+msgid "Luxembourg"
+msgstr ""
+
+#: includes/functions/country-functions.php:195
+msgid "Macao S.A.R., China"
+msgstr ""
+
+#: includes/functions/country-functions.php:196
+msgid "Macedonia"
+msgstr ""
+
+#: includes/functions/country-functions.php:197
+msgid "Madagascar"
+msgstr ""
+
+#: includes/functions/country-functions.php:198
+msgid "Malawi"
+msgstr ""
+
+#: includes/functions/country-functions.php:199
+msgid "Malaysia"
+msgstr ""
+
+#: includes/functions/country-functions.php:200
+msgid "Maldives"
+msgstr ""
+
+#: includes/functions/country-functions.php:201
+msgid "Mali"
+msgstr ""
+
+#: includes/functions/country-functions.php:202
+msgid "Malta"
+msgstr ""
+
+#: includes/functions/country-functions.php:203
+msgid "Marshall Islands"
+msgstr ""
+
+#: includes/functions/country-functions.php:204
+msgid "Martinique"
+msgstr ""
+
+#: includes/functions/country-functions.php:205
+msgid "Mauritania"
+msgstr ""
+
+#: includes/functions/country-functions.php:206
+msgid "Mauritius"
+msgstr ""
+
+#: includes/functions/country-functions.php:207
+msgid "Mayotte"
+msgstr ""
+
+#: includes/functions/country-functions.php:208
+msgid "Mexico"
+msgstr ""
+
+#: includes/functions/country-functions.php:209
+msgid "Micronesia"
+msgstr ""
+
+#: includes/functions/country-functions.php:210
+msgid "Moldova"
+msgstr ""
+
+#: includes/functions/country-functions.php:211
+msgid "Monaco"
+msgstr ""
+
+#: includes/functions/country-functions.php:212
+msgid "Mongolia"
+msgstr ""
+
+#: includes/functions/country-functions.php:213
+msgid "Montenegro"
+msgstr ""
+
+#: includes/functions/country-functions.php:214
+msgid "Montserrat"
+msgstr ""
+
+#: includes/functions/country-functions.php:215
+msgid "Morocco"
+msgstr ""
+
+#: includes/functions/country-functions.php:216
+msgid "Mozambique"
+msgstr ""
+
+#: includes/functions/country-functions.php:217
+msgid "Myanmar"
+msgstr ""
+
+#: includes/functions/country-functions.php:218
+msgid "Namibia"
+msgstr ""
+
+#: includes/functions/country-functions.php:219
+msgid "Nauru"
+msgstr ""
+
+#: includes/functions/country-functions.php:220
+msgid "Nepal"
+msgstr ""
+
+#: includes/functions/country-functions.php:221
+msgid "Netherlands"
+msgstr ""
+
+#: includes/functions/country-functions.php:222
+msgid "Netherlands Antilles"
+msgstr ""
+
+#: includes/functions/country-functions.php:223
+msgid "New Caledonia"
+msgstr ""
+
+#: includes/functions/country-functions.php:224
+msgid "New Zealand"
+msgstr ""
+
+#: includes/functions/country-functions.php:225
+msgid "Nicaragua"
+msgstr ""
+
+#: includes/functions/country-functions.php:226
+msgid "Niger"
+msgstr ""
+
+#: includes/functions/country-functions.php:227
+msgid "Nigeria"
+msgstr ""
+
+#: includes/functions/country-functions.php:228
+msgid "Niue"
+msgstr ""
+
+#: includes/functions/country-functions.php:229
+msgid "Norfolk Island"
+msgstr ""
+
+#: includes/functions/country-functions.php:230
+msgid "North Korea"
+msgstr ""
+
+#: includes/functions/country-functions.php:231
+msgid "Norway"
+msgstr ""
+
+#: includes/functions/country-functions.php:232
+msgid "Oman"
+msgstr ""
+
+#: includes/functions/country-functions.php:233
+msgid "Pakistan"
+msgstr ""
+
+#: includes/functions/country-functions.php:234
+msgid "Palestinian Territory"
+msgstr ""
+
+#: includes/functions/country-functions.php:235
+msgid "Panama"
+msgstr ""
+
+#: includes/functions/country-functions.php:236
+msgid "Papua New Guinea"
+msgstr ""
+
+#: includes/functions/country-functions.php:237
+msgid "Paraguay"
+msgstr ""
+
+#: includes/functions/country-functions.php:238
+msgid "Peru"
+msgstr ""
+
+#: includes/functions/country-functions.php:239
+msgid "Philippines"
+msgstr ""
+
+#: includes/functions/country-functions.php:240
+msgid "Pitcairn"
+msgstr ""
+
+#: includes/functions/country-functions.php:241
+msgid "Poland"
+msgstr ""
+
+#: includes/functions/country-functions.php:242
+msgid "Portugal"
+msgstr ""
+
+#: includes/functions/country-functions.php:243
+msgid "Qatar"
+msgstr ""
+
+#: includes/functions/country-functions.php:244
+msgid "Reunion"
+msgstr ""
+
+#: includes/functions/country-functions.php:245
+msgid "Romania"
+msgstr ""
+
+#: includes/functions/country-functions.php:246
+msgid "Russia"
+msgstr ""
+
+#: includes/functions/country-functions.php:247
+msgid "Rwanda"
+msgstr ""
+
+#: includes/functions/country-functions.php:248
+msgid "Saint Barth&eacute;lemy"
+msgstr ""
+
+#: includes/functions/country-functions.php:249
+msgid "Saint Helena"
+msgstr ""
+
+#: includes/functions/country-functions.php:250
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: includes/functions/country-functions.php:251
+msgid "Saint Lucia"
+msgstr ""
+
+#: includes/functions/country-functions.php:252
+msgid "Saint Martin (French part)"
+msgstr ""
+
+#: includes/functions/country-functions.php:253
+msgid "Saint Martin (Dutch part)"
+msgstr ""
+
+#: includes/functions/country-functions.php:254
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: includes/functions/country-functions.php:255
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: includes/functions/country-functions.php:256
+msgid "San Marino"
+msgstr ""
+
+#: includes/functions/country-functions.php:257
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr ""
+
+#: includes/functions/country-functions.php:258
+msgid "Saudi Arabia"
+msgstr ""
+
+#: includes/functions/country-functions.php:259
+msgid "Senegal"
+msgstr ""
+
+#: includes/functions/country-functions.php:260
+msgid "Serbia"
+msgstr ""
+
+#: includes/functions/country-functions.php:261
+msgid "Seychelles"
+msgstr ""
+
+#: includes/functions/country-functions.php:262
+msgid "Sierra Leone"
+msgstr ""
+
+#: includes/functions/country-functions.php:263
+msgid "Singapore"
+msgstr ""
+
+#: includes/functions/country-functions.php:264
+msgid "Slovakia"
+msgstr ""
+
+#: includes/functions/country-functions.php:265
+msgid "Slovenia"
+msgstr ""
+
+#: includes/functions/country-functions.php:266
+msgid "Solomon Islands"
+msgstr ""
+
+#: includes/functions/country-functions.php:267
+msgid "Somalia"
+msgstr ""
+
+#: includes/functions/country-functions.php:268
+msgid "South Africa"
+msgstr ""
+
+#: includes/functions/country-functions.php:269
+msgid "South Georgia/Sandwich Islands"
+msgstr ""
+
+#: includes/functions/country-functions.php:270
+msgid "South Korea"
+msgstr ""
+
+#: includes/functions/country-functions.php:271
+msgid "South Sudan"
+msgstr ""
+
+#: includes/functions/country-functions.php:272
+msgid "Spain"
+msgstr ""
+
+#: includes/functions/country-functions.php:273
+msgid "Sri Lanka"
+msgstr ""
+
+#: includes/functions/country-functions.php:274
+msgid "Sudan"
+msgstr ""
+
+#: includes/functions/country-functions.php:275
+msgid "Suriname"
+msgstr ""
+
+#: includes/functions/country-functions.php:276
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#: includes/functions/country-functions.php:277
+msgid "Swaziland"
+msgstr ""
+
+#: includes/functions/country-functions.php:278
+msgid "Sweden"
+msgstr ""
+
+#: includes/functions/country-functions.php:279
+msgid "Switzerland"
+msgstr ""
+
+#: includes/functions/country-functions.php:280
+msgid "Syria"
+msgstr ""
+
+#: includes/functions/country-functions.php:281
+msgid "Taiwan"
+msgstr ""
+
+#: includes/functions/country-functions.php:282
+msgid "Tajikistan"
+msgstr ""
+
+#: includes/functions/country-functions.php:283
+msgid "Tanzania"
+msgstr ""
+
+#: includes/functions/country-functions.php:284
+msgid "Thailand"
+msgstr ""
+
+#: includes/functions/country-functions.php:285
+msgid "Timor-Leste"
+msgstr ""
+
+#: includes/functions/country-functions.php:286
+msgid "Togo"
+msgstr ""
+
+#: includes/functions/country-functions.php:287
+msgid "Tokelau"
+msgstr ""
+
+#: includes/functions/country-functions.php:288
+msgid "Tonga"
+msgstr ""
+
+#: includes/functions/country-functions.php:289
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: includes/functions/country-functions.php:290
+msgid "Tunisia"
+msgstr ""
+
+#: includes/functions/country-functions.php:291
+msgid "Turkey"
+msgstr ""
+
+#: includes/functions/country-functions.php:292
+msgid "Turkmenistan"
+msgstr ""
+
+#: includes/functions/country-functions.php:293
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: includes/functions/country-functions.php:294
+msgid "Tuvalu"
+msgstr ""
+
+#: includes/functions/country-functions.php:295
+msgid "Uganda"
+msgstr ""
+
+#: includes/functions/country-functions.php:296
+msgid "Ukraine"
+msgstr ""
+
+#: includes/functions/country-functions.php:297
+msgid "United Arab Emirates"
+msgstr ""
+
+#: includes/functions/country-functions.php:298
+msgid "United Kingdom (UK)"
+msgstr ""
+
+#: includes/functions/country-functions.php:299
+msgid "United States (US)"
+msgstr ""
+
+#: includes/functions/country-functions.php:300
+msgid "Uruguay"
+msgstr ""
+
+#: includes/functions/country-functions.php:301
+msgid "Uzbekistan"
+msgstr ""
+
+#: includes/functions/country-functions.php:302
+msgid "Vanuatu"
+msgstr ""
+
+#: includes/functions/country-functions.php:303
+msgid "Vatican"
+msgstr ""
+
+#: includes/functions/country-functions.php:304
+msgid "Venezuela"
+msgstr ""
+
+#: includes/functions/country-functions.php:305
+msgid "Vietnam"
+msgstr ""
+
+#: includes/functions/country-functions.php:306
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: includes/functions/country-functions.php:307
+msgid "Western Sahara"
+msgstr ""
+
+#: includes/functions/country-functions.php:308
+msgid "Western Samoa"
+msgstr ""
+
+#: includes/functions/country-functions.php:309
+msgid "Yemen"
+msgstr ""
+
+#: includes/functions/country-functions.php:310
+msgid "Zambia"
+msgstr ""
+
+#: includes/functions/country-functions.php:311
+msgid "Zimbabwe"
+msgstr ""
+
+#: includes/functions/country-functions.php:313
+msgid "France, Metropolitan"
+msgstr ""
+
+#: includes/functions/country-functions.php:314
+msgid "African Regional Industrial Property Organization"
+msgstr ""
+
+#: includes/functions/country-functions.php:315
+msgid "American Samoa"
+msgstr ""
+
+#: includes/functions/country-functions.php:316
+msgid "Guam"
+msgstr ""
+
+#: includes/functions/country-functions.php:317
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: includes/functions/country-functions.php:318
+msgid "United States Minor Outlying Islands"
+msgstr ""
+
+#: includes/functions/country-functions.php:319
+msgid "Puerto Rico"
+msgstr ""
+
+#: includes/functions/country-functions.php:320
+msgid "Virgin Islands, U.S."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:24
+#: includes/settings/class-wc-checkout-fees-settings-general.php:36
+#: includes/settings/class-wc-checkout-fees-settings-general.php:41
+#: includes/settings/class-wc-settings-checkout-fees.php:24
+msgid "Payment Gateway Based Fees and Discounts"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:57
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:118
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:180
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:208
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:226
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:160
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:300
+msgid "Disabled"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:58
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:209
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:227
+msgid "Enabled"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:63
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:69
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:131
+msgid "Fee/Discount"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:69
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:131
+msgid "title"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:75
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:137
+msgid "Override global fee"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:77
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:139
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:243
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:253
+msgid "No"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:78
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:140
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:244
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:254
+msgid "Yes"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:85
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:147
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:120
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:260
+msgid "Fee type"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:87
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:149
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:126
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:266
+msgid "Fixed"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:88
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:150
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:127
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:267
+msgid "Percent"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:95
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:157
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:131
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:271
+#: includes/settings/class-wc-checkout-fees-settings-global-extra-fee.php:80
+msgid "Fee value"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:102
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:164
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:139
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:279
+msgid "Minimum fee value"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:109
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:171
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:147
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:287
+msgid "Maximum fee value"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:116
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:178
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:155
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:295
+msgid "Coupons rule"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:119
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:181
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:161
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:301
+msgid "Apply fees only if no coupons were applied"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:120
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:182
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:162
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:302
+msgid "Apply fees only if any coupons were applied"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:125
+msgid "Additional Fee/Discount (Optional)"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:187
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:387
+#: includes/settings/class-wc-checkout-fees-settings-general.php:78
+msgid "General Options"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:193
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:392
+msgid "Minimum cart amount"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:200
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:400
+msgid "Maximum cart amount"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:211
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:408
+msgid "Rounding"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:217
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:416
+msgid "Rounding precision"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:219
+msgid "Number of decimals"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:229
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:424
+msgid "Taxes"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:235
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:432
+msgid "Tax class"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:236
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:437
+msgid "Standard rate"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:246
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:440
+msgid "Exclude shipping"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:256
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:448
+msgid "Add taxes"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:262
+msgid "Fee calculation (for Percent fees)"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:264
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:491
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:501
+msgid "For all cart"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:265
+msgid "Only for current product"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:272
+msgid "Fee calculation (for Fixed fees)"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:274
+msgid "Once"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:275
+msgid "Multiply by product quantity"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:352
+msgid ""
+"In free version only <strong>Direct Bank Transfer (BACS)</strong> fees are "
+"available on per product basis."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-meta-boxes-per-product.php:353
+#, php-format
+msgid ""
+"You will need <a target=\"_blank\" href=\"%s\">Pro version</a> of the plugin "
+"to set fees for this gateway on per product basis."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:96
+#, php-format
+msgid "\"%s\" fees and discounts"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:97
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:409
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:425
+#: includes/settings/class-wc-checkout-fees-settings-general.php:59
+#: includes/settings/class-wc-checkout-fees-settings-general.php:85
+#: includes/settings/class-wc-checkout-fees-settings-global-extra-fee.php:49
+#: includes/settings/class-wc-checkout-fees-settings-global-extra-fee.php:58
+msgid "Enable"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:98
+#, php-format
+msgid "Add fee/discount to \"%s\" gateway."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:108
+msgid "Fee"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:113
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:252
+#: includes/settings/class-wc-checkout-fees-settings-global-extra-fee.php:73
+msgid "Fee title"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:114
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:253
+#: includes/settings/class-wc-checkout-fees-settings-global-extra-fee.php:74
+msgid "Fee (or discount) title to show to customer."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:121
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:261
+msgid "Fee (or discount) type. Percent or fixed value."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:132
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:272
+#: includes/settings/class-wc-checkout-fees-settings-global-extra-fee.php:81
+msgid "Fee (or discount) value. For discount enter a negative number."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:140
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:280
+msgid "Minimum fee (or discount)."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:140
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:148
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:280
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:288
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:393
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:401
+msgid "Ignored if set to zero."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:148
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:288
+msgid "Maximum fee (or discount)."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:166
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:306
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:456
+msgid "Customer countries"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:167
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:307
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:457
+msgid "Countries to include"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:168
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:181
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:195
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:206
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:218
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:231
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:308
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:321
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:335
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:346
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:358
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:371
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:458
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:472
+#, php-format
+msgid ""
+"You will need <a target=\"_blank\" href=\"%s\">Pro version</a> of the plugin "
+"to set this option."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:170
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:310
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:460
+msgid ""
+"Fee (or discount) will only be added if customer's billing country is in the "
+"list."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:171
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:184
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:198
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:209
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:221
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:234
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:311
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:324
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:338
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:349
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:361
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:374
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:461
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:475
+msgid "Ignored if empty."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:180
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:320
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:471
+msgid "Countries to exclude"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:183
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:323
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:474
+msgid ""
+"Fee (or discount) will only be added if customer's billing country is NOT in "
+"the list."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:193
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:333
+msgid "Customer states"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:194
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:334
+msgid "States to include"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:197
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:337
+msgid ""
+"Fee (or discount) will only be added if customer's billing state is in the "
+"list. Comma separated list of states codes."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:205
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:345
+msgid "States to exclude"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:208
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:348
+msgid ""
+"Fee (or discount) will only be added if customer's billing state is NOT in "
+"the list. Comma separated list of states codes."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:216
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:356
+msgid "Product categories"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:217
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:357
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:486
+msgid "Categories to include"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:220
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:360
+msgid ""
+"Fee (or discount) will only be added if product of selected category(-ies) "
+"is in the cart."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:230
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:370
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:496
+msgid "Categories to exclude"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:233
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:373
+msgid ""
+"Fee (or discount) will only be added if NO product of selected category(-"
+"ies) is in the cart."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:247
+msgid "Additional Fee (Optional)"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:254
+msgid ""
+"To display each (i.e. main and additional) fees on different lines in cart "
+"(and checkout), you must set different titles. If titles are equal they will "
+"be merged into single line."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:393
+msgid "Minimum cart amount for adding the fee (or discount)."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:401
+msgid "Maximum cart amount for adding the fee (or discount)."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:410
+msgid "Round the fee (or discount) value before adding to the cart."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:417
+msgid "If rounding is enabled, set precision (i.e. number of decimals) here."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:426
+msgid "Is taxable?"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:433
+msgid "Only if \"Taxes\" option above is enabled."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:441
+msgid "Exclude"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:442
+msgid "Exclude shipping from total cart sum, when calculating fees."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:449
+#: includes/settings/class-wc-checkout-fees-settings-general.php:67
+msgid "Add"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:450
+msgid "Add taxes to total cart sum, when calculating fees."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:462
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:476
+msgid ""
+"This is applied to both main and additional fees. Alternatively you can also "
+"set customer countries for each fee individually."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:485
+msgid "Product categories - Calculation type"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:492
+#: includes/settings/class-wc-checkout-fees-settings-gateways.php:502
+msgid "Only for selected products"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-general.php:23
+msgid "General"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-general.php:42
+msgid "Enable plugin"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-general.php:43
+msgid "Enable extra fees or discounts for WooCommerce payment gateways."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-general.php:53
+msgid "Fees/Discounts per Product"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-general.php:58
+msgid "Payment gateways fees and discounts on per product basis"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-general.php:60
+msgid ""
+"This will add meta boxes with fees settings to each product's edit page."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-general.php:66
+msgid "Add product title to fee/discount title"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-general.php:68
+msgid "This can help when you adding fees/discounts for variable products."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-general.php:83
+msgid "Merge all fees"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-general.php:84
+msgid ""
+"This will merge all fees for a gateway into single line (i.e. will display "
+"it as a single fee on front end)."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-general.php:95
+msgid "Max Range Options"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-general.php:100
+msgid "Max total discount"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-general.php:101
+msgid "Negative number."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-general.php:101
+#: includes/settings/class-wc-checkout-fees-settings-general.php:109
+msgid "Set 0 to disable."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-general.php:108
+msgid "Max total fee"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-general.php:120
+msgid "Cart Options"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-general.php:125
+msgid "Hide gateways fees and discounts on cart page"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-general.php:126
+msgid "Hide"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-general.php:136
+msgid "Advanced Options"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-general.php:141
+msgid "Delete all plugin's data"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-general.php:144
+msgid "Are you sure?"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-general.php:146
+msgid "Delete"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-global-extra-fee.php:24
+#: includes/settings/class-wc-checkout-fees-settings-global-extra-fee.php:43
+msgid "Global Extra Fee"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-global-extra-fee.php:48
+msgid "Global extra fee"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-global-extra-fee.php:50
+msgid "This fee will be added to all gateways. Fee is fixed and not taxable."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-global-extra-fee.php:56
+msgid "Add as extra fee only"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-global-extra-fee.php:57
+msgid ""
+"Check this, if you want fee to be added only if there are already any other "
+"fees added for the gateway."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-global-extra-fee.php:64
+msgid "Exclude from gateways"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-global-extra-fee.php:65
+msgid "Leave blank to include in all gateways."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-info.php:24
+msgid "Info"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-info.php:37
+msgid "Info on Single Product"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-info.php:40
+#, php-format
+msgid "Values that will be replaced in templates below are: %s."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-info.php:52
+#, php-format
+msgid "You can also use %s and %s shortcodes. Or %s and %s functions."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-info.php:61
+msgid "Info on single product page"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-info.php:62
+#: includes/settings/class-wc-checkout-fees-settings-info.php:111
+msgid "Show"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-info.php:63
+msgid ""
+"This will add gateway fee/discount info on single product frontend page."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-info.php:69
+msgid "Start HTML"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-info.php:77
+msgid "Row template HTML"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-info.php:85
+msgid "End HTML"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-info.php:93
+#: includes/settings/class-wc-checkout-fees-settings-info.php:126
+msgid "Position"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-info.php:98
+#: includes/settings/class-wc-checkout-fees-settings-info.php:131
+msgid "Inside product summary"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-info.php:99
+#: includes/settings/class-wc-checkout-fees-settings-info.php:132
+msgid "Before product summary"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-info.php:100
+#: includes/settings/class-wc-checkout-fees-settings-info.php:133
+msgid "After product summary"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-info.php:104
+#: includes/settings/class-wc-checkout-fees-settings-info.php:137
+msgid "Position priority (i.e. order)"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-info.php:110
+msgid "Lowest price info on single product page"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-info.php:112
+msgid ""
+"This will add gateway fee/discount lowest price info on single product "
+"frontend page."
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-info.php:118
+msgid "Template HTML"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-info.php:143
+msgid "Variable products info"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-info.php:148
+msgid "For each variation"
+msgstr ""
+
+#: includes/settings/class-wc-checkout-fees-settings-info.php:149
+msgid "As price range"
+msgstr ""
+
+#: includes/settings/class-wc-settings-checkout-fees.php:43
+msgid "Reset Settings"
+msgstr ""
+
+#: includes/settings/class-wc-settings-checkout-fees.php:48
+msgid "Reset section settings"
+msgstr ""
+
+#: includes/settings/class-wc-settings-checkout-fees.php:49
+msgid "Reset"
+msgstr ""

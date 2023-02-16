@@ -1,0 +1,90 @@
+img[src=''] {
+	display: none !important;
+}
+.fca_ga_setting_table {
+	width: 100%;
+	max-width: 600px;
+	margin-top: 40px;
+}
+.fca_ga_setting_table input, .fca_ga_setting_table textarea, .fca_ga_setting_table select {
+	width: 100%;
+}
+.fca_ga_setting_table textarea.fca-ga-input-textarea {
+	min-height: 5em;
+}
+#fca-ga-shortcode {
+	width: auto;
+}
+.fca_ga_setting_table th {
+	text-align: left;
+	vertical-align: top;
+	width: 35%;
+	font-weight: 600;
+}
+.fca_ga_setting_table td {
+	text-align: left;
+	width: 65%;
+	padding-bottom:20px;
+	
+}
+
+.fca_ga_hint {
+	margin: 0;
+	font-style: italic;
+}
+
+.select2-selection--multiple {
+	border: 1px solid #ddd !important;
+	border-radius: 0!important;
+	margin-bottom: 0;
+}
+
+/* ON OFF SWITCH */
+
+.onoffswitch {
+    position: relative; width: 76px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 1px solid #FFF; border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in-out 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: attr(data-content-on);
+    padding-left: 10px;
+    background-color: #0085ba; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: attr(data-content-off);
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #32373c;
+    text-align: right;
+	font-weight: 500;
+}
+.onoffswitch-switch {
+    display: block; width: 18px; margin: 6px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 42px;
+    border: 1px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in-out 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
+
