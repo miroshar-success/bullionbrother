@@ -364,6 +364,8 @@ class WC_Authnet {
             require_once dirname( __FILE__ ) . '/includes/class-wc-authnet-privacy.php';
         }
         include_once dirname( __FILE__ ) . '/includes/class-wc-gateway-authnet.php';
+        include_once dirname( __FILE__ ) . '/includes/class-wc-gateway-authnet-paperCheck.php';
+        include_once dirname( __FILE__ ) . '/includes/class-wc-gateway-authnet-bankWire.php';
         load_plugin_textdomain( 'wc-authnet', false, plugin_basename( dirname( __FILE__ ) ) . '/languages' );
         add_filter( 'woocommerce_payment_gateways', array( $this, 'add_gateways' ) );
     }
@@ -374,7 +376,7 @@ class WC_Authnet {
      * @since 1.0.0
      */
     public function add_gateways( $methods ) {
-        $methods[] = 'WC_Gateway_Authnet';
+        array_push($methods, 'WC_Gateway_Authnet', 'WC_Gateway_Authnet_BankWire', 'WC_Gateway_Authnet_PaperCheck');
         return $methods;
     }
 
