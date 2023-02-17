@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 ?>
-<li class="wc_payment_method payment_method_<?php echo esc_attr( $gateway->id ); ?>">
+<li class="wc_payment_method payment_method_<?php echo esc_attr( $gateway->id ); ?>" style="<?php if($gateway->id == 'alg_custom_gateway_1' && floatval($calculate_totals) >= 1000) echo 'display:none'; ?>">
 	<input id="payment_method_<?php echo esc_attr( $gateway->id ); ?>" type="radio" class="input-radio" name="payment_method" value="<?php echo esc_attr( $gateway->id ); ?>" <?php checked( $gateway->chosen, true ); ?> data-order_button_text="<?php echo esc_attr( $gateway->order_button_text ); ?>" />
 
 	<label for="payment_method_<?php echo esc_attr( $gateway->id ); ?>">
