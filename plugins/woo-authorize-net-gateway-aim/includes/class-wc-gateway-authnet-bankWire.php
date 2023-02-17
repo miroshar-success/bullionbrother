@@ -74,7 +74,7 @@ class WC_Gateway_Authnet_BankWire extends WC_Payment_Gateway_CC {
 	 * @return string
 	 */
 	public function get_icon() {
-        $icon .= '<img style="margin-left: 0.3em" src="' . WC_HTTPS::force_https_url( WC()->plugin_url() . '/assets/images/icons/bank-wire/wire.png' ) . '" alt="Bank wire" width="32" />';
+        $icon = '<img style="margin-left: 0.3em" src="' . WC_HTTPS::force_https_url( WC()->plugin_url() . '/assets/images/icons/bank-wire/wire.png' ) . '" alt="Bank wire" width="32" />';
         return apply_filters( 'woocommerce_gateway_icon', $icon, $this->id );
 	}
 
@@ -236,9 +236,7 @@ class WC_Gateway_Authnet_BankWire extends WC_Payment_Gateway_CC {
 	 * Process the payment
 	 */
 	public function process_payment( $order_id, $retry = true ) {
-
 		$order = wc_get_order( $order_id );
-
 		$this->log( "Info: Begin processing payment for order {$order_id} for the amount of {$order->get_total()}" );
 
 		$response = false;
@@ -247,27 +245,26 @@ class WC_Gateway_Authnet_BankWire extends WC_Payment_Gateway_CC {
 		try {
 
 			// Check for CC details filled or not
-			if( empty( $_POST['authnet-card-number'] ) || empty( $_POST['authnet-card-expiry'] ) || empty( $_POST['authnet-card-cvc'] ) ) {
-				throw new Exception( __( 'Credit card details cannot be left incomplete.', 'wc-authnet' ) );
+			if( empty( $_POST['bankwire-card-number'] ) || empty( $_POST['bankwire-card-expiry'] ) || empty( $_POST['bankwire-card-cvc'] ) ) {
+				throw new Exception( __( 'Card details cannot be left incomplete.', 'wc-authnet' ) );
 			}
 
 			// Check for card type supported or not
-			if( ! in_array( $this->get_card_type( wc_clean( $_POST['authnet-card-number'] ), 'pattern', 'name' ), $this->allowed_card_types ) ) {
-				$this->log( sprintf( __( 'Card type being used is not one of supported types in plugin settings: %s', 'wc-authnet' ), $this->get_card_type( wc_clean( $_POST['authnet-card-number'] ) ) ) );
+			if( ! in_array( $this->get_card_type( wc_clean( $_POST['bankwire-card-number'] ), 'pattern', 'name' ), $this->allowed_card_types ) ) {
+				$this->log( sprintf( __( 'Card type being used is not one of supported types in plugin settings: %s', 'wc-authnet' ), $this->get_card_type( wc_clean( $_POST['bankwire-card-number'] ) ) ) );
 				throw new Exception( __( 'Card Type Not Accepted', 'wc-authnet' ) );
 			}
 
-			$expiry = explode( ' / ', wc_clean( $_POST['authnet-card-expiry'] ) );
+			$expiry = explode( ' / ', wc_clean( $_POST['bankwire-card-expiry'] ) );
 
 			$description = sprintf( __( '%s - Order %s', 'wc-authnet' ), $this->statement_descriptor, $order->get_order_number() );
-
 			$payment_args = array(
-				'x_card_num'	 		=> str_replace( ' ', '', wc_clean( $_POST['authnet-card-number'] ) ),
+				'x_card_num'	 		=> str_replace( ' ', '', wc_clean( $_POST['bankwire-card-number'] ) ),
 				'x_exp_date'	 		=> $expiry[0] . $expiry[1],
-				'x_card_code'	 		=> wc_clean( $_POST['authnet-card-cvc'] ),
+				'x_card_code'	 		=> wc_clean( $_POST['bankwire-card-cvc'] ),
 				'x_description'			=> substr( $description, 0, 255 ),
 				'x_amount'				=> $order->get_total(),
-				'x_type'				=> $this->capture ? 'AUTH_CAPTURE' : 'AUTH_ONLY',
+				'x_type'				=> 'PRIOR_AUTH_CAPTURE',
 				'x_first_name'			=> substr( $order->get_billing_first_name(), 0, 50 ),
 				'x_last_name'			=> substr( $order->get_billing_last_name(), 0, 50 ),
 				'x_address'				=> substr( trim( $order->get_billing_address_1() . ' ' . $order->get_billing_address_2() ), 0, 60 ),
@@ -317,7 +314,6 @@ class WC_Gateway_Authnet_BankWire extends WC_Payment_Gateway_CC {
 			$payment_args['line_items'] = $line_items;
 
 			$payment_args = apply_filters( 'wc_authnet_request_args', $payment_args, $order );
-
 			$response = $this->authnet_request( $payment_args );
 
 			if ( is_wp_error( $response ) ) {
@@ -326,7 +322,7 @@ class WC_Gateway_Authnet_BankWire extends WC_Payment_Gateway_CC {
 
 			// Store charge ID
 			$order->update_meta_data( '_authnet_charge_id', $response['transaction_id'] );
-			$order->update_meta_data( '_authnet_cc_last4', substr( wc_clean( $_POST['authnet-card-number'] ), -4 ) );
+			$order->update_meta_data( '_authnet_cc_last4', substr( wc_clean( $_POST['bankwire-card-number'] ), -4 ) );
 			$order->update_meta_data( '_authnet_authorization_code', $response['authorization_code'] );
 
             $order->set_transaction_id( $response['transaction_id'] );
@@ -498,7 +494,6 @@ class WC_Gateway_Authnet_BankWire extends WC_Payment_Gateway_CC {
 		}
 
 		remove_filter( 'http_request_timeout', array( $this, 'http_request_timeout' ), 9999 );
-
         if ( is_wp_error( $result ) ) {
 			return $result;
 		} elseif( count( $result ) < 10 ) {
