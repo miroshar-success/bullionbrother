@@ -2012,19 +2012,22 @@ class WC_Cart extends WC_Legacy_Cart {
 	 * @return string formatted price
 	 */
 	public function get_product_subtotal( $product, $quantity ) {
+		$ccPercent = get_option('nfusion_cc_price');
+		$ccAdjust = ($ccPercent / 100) + 1;
 		$price = $product->get_price();
+		$price = round($price * $ccAdjust, 2);
 
 		if ( $product->is_taxable() ) {
 
 			if ( $this->display_prices_including_tax() ) {
-				$row_price        = wc_get_price_including_tax( $product, array( 'qty' => $quantity ) );
+				$row_price        = wc_get_price_including_tax( $product, array( 'qty' => $quantity, 'price' => $price ) );
 				$product_subtotal = wc_price( $row_price );
 
 				if ( ! wc_prices_include_tax() && $this->get_subtotal_tax() > 0 ) {
 					$product_subtotal .= ' <small class="tax_label">' . WC()->countries->inc_tax_or_vat() . '</small>';
 				}
 			} else {
-				$row_price        = wc_get_price_excluding_tax( $product, array( 'qty' => $quantity ) );
+				$row_price        = wc_get_price_excluding_tax( $product, array( 'qty' => $quantity, 'price' => $price ) );
 				$product_subtotal = wc_price( $row_price );
 
 				if ( wc_prices_include_tax() && $this->get_subtotal_tax() > 0 ) {
