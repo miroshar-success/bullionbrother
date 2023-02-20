@@ -1,5 +1,5 @@
 === Authorize.Net Payment Gateway For WooCommerce ===
-Contributors: mohsinoffline
+Contributors: mohsinoffline, freemius
 Donate link: https://wpgateways.com/support/send-payment/
 Tags: woocommerce Authorize.Net, Authorize.Net, payment gateway, woocommerce, woocommerce payment gateway, woocommerce subscriptions, recurring payments, pre order
 Plugin URI: https://pledgedplugins.com/products/authorize-net-payment-gateway-woocommerce/
@@ -7,7 +7,7 @@ Author URI: https://pledgedplugins.com
 Requires at least: 4.4
 Tested up to: 6.1
 Requires PHP: 5.6
-Stable tag: 5.2.4
+Stable tag: 6.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,7 +21,7 @@ WooCommerce is one of the oldest and most powerful e-commerce solutions for Word
 
 #### FREE Pro Version Features
 * **Easy Install**: Like all Pledged Plugins add-ons, this plugin installs with one click. After installing, you will have only a few fields to fill out before you are ready to accept credit cards on your store.
-* **Secure Credit Card Processing**: Securely process credit cards without redirecting your customers to the gateway website.
+* **Secure Credit Card Processing**: Uses [Accept.js](https://developer.authorize.net/api/reference/features/acceptjs.html) library to send secure payment data directly to Authorize.Net to reduce the PCI scope.
 * **Refund via Dashboard**: Process full or partial refunds, directly from your WordPress dashboard! No need to search order in your Authorize.Net account.
 * **Authorize Now, Capture Later**: Optionally choose only to authorize transactions, and capture at a later date.
 * **Restrict Card Types**: Optionally choose to restrict certain card types and the plugin will hide its icon and provide a proper error message on checkout.
@@ -32,12 +32,13 @@ WooCommerce is one of the oldest and most powerful e-commerce solutions for Word
 > * **Process Subscriptions:**  Use with  [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/)  extension to **create and manage products with recurring payments**  — payments that will give you residual revenue you can track and count on.
 > * **Setup Pre-Orders:**  Use with  [WooCommerce Pre-Orders](https://woocommerce.com/products/woocommerce-pre-orders/)  extension so customers can order products before they’re available by submitting their card details. The card is then automatically charged when the pre-order is available.
 > * **Pay via Saved Cards:** Enable option to use saved card details on the gateway servers for quicker checkout. No sensitive card data is stored on the website!
+> * **ACH Payments:** Fully supports eCheck payments via ACH network.
 >
 > [Click here](https://pledgedplugins.com/products/authorize-net-payment-gateway-woocommerce/) for Pricing details.
 
 #### Requirements
 * Active  [Authorize.Net](https://www.authorize.net/)  account – Sign up for a sandbox account  [here](https://developer.authorize.net/hello_world/sandbox.html)  if you need to test.
-* [**WooCommerce**](https://woocommerce.com/)  version 3.3.0 or later.
+* [**WooCommerce**](https://woocommerce.com/)  version 3.3 or later.
 * A valid SSL certificate is required to ensure your customer credit card details are safe and make your site PCI DSS compliant. This plugin does not store the customer credit card numbers or sensitive information on your website.
 #### Extend, Contribute, Integrate
 Visit the [plugin page](https://pledgedplugins.com/products/authorize-net-payment-gateway-woocommerce/) for more details. Contributors are welcome to send pull requests via [Bitbucket repository](https://bitbucket.org/pledged/wc-authorize.net-pro/).
@@ -53,7 +54,7 @@ This plugin is not affiliated with or supported by Authorize.Net, WooCommerce.co
 2. Activate the plugin (WordPress -> Plugins).
 3. Go to the WooCommerce settings page (WordPress -> WooCommerce -> Settings) and select the Payments tab.
 4. Under the Payments tab, you will find all the available payment methods. Find the 'Authorize.Net' link in the list and click it.
-5. On this page you will find all of the configuration options for this payment gateway.
+5. On this page you will find all the configuration options for this payment gateway.
 6. Enable the method by using the checkbox.
 7. Enter the Authorize.Net account details (API Login ID, Transaction Key and Public Client Key).
 
@@ -63,10 +64,26 @@ That's it! You are ready to accept credit cards with your Authorize.Net merchant
 
 == Frequently Asked Questions ==
 
+= Which API method does this plugin use? =
+Since version 6.0.0, the plugin uses the latest Authorize.Net  [Payment Transactions API](https://developer.authorize.net/api/reference/features/payment_transactions.html) along with [Accept.js](https://developer.authorize.net/api/reference/features/acceptjs.html) integration to provide maximum security to your transactions.
+
+= Does this plugin support Authorize.Net AIM Emulation? =
+Unfortunately, the [Authorize.Net emulation method is deprecated](https://developer.authorize.net/api/upgrade_guide/#aim), and will soon be phased out. If you are using another merchant account provider that supports Authorize.Net AIM emulator, we would advise you to use its native API instead of emulation and chances are that *we already have* a **[WooCommerce integration](https://pledgedplugins.com/product-category/woocommerce/)** available for it.
+
+= I **still** need to use Authorize.Net AIM Emulation? =
+You are in luck! The free version of the plugin has an option to use the AIM integration.
+
 = Is SSL Required to use this plugin? =
 A valid SSL certificate is required to ensure your customer credit card details are safe and make your site PCI DSS compliant. This plugin does not store the customer credit card numbers or sensitive information on your website.
 
 == Changelog ==
+
+= 6.0.0 - MAJOR UPDATE =
+* Implemented Payments API and added an option to use it
+* Fixed captured payments being voided on cancelling orders
+* Complete overhaul of the plugin
+* Updated "WC tested up to" header to 7.4
+* Updated Freemius SDK to 2.5.3
 
 = 5.2.4 =
 * Updated "WC tested up to" header to 7.3
