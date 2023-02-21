@@ -1,0 +1,53 @@
+== Add BankWire and PaperCheck to payment method in admin ==
+    plugins/woo-authorize-net-gateway-aim/includes/class-wc-gateway-authnet-bankWire.php
+    plugins/woo-authorize-net-gateway-aim/includes/aim/class-wc-gateway-authnet-paperCheck.php
+    plugins/woo-authorize-net-gateway-aim/includes/class-wc-gateway-authnet-paperCheck.php
+    plugins/woo-authorize-net-gateway-aim/includes/aim/class-wc-gateway-authnet-bankWire.php
+    plugins/woo-authorize-net-gateway-aim/gateway.php
+      public function add_gateways( $methods )
+        array_push($methods, 'WC_Gateway_Authnet', 'WC_Gateway_Authnet_BankWire', 'WC_Gateway_Authnet_PaperCheck');
+      public function init_gateways()
+        if ( $free_api_method == 'aim' ) {
+          include_once( dirname( __FILE__ ) . '/includes/aim/class-wc-gateway-authnet.php' );
+          include_once( dirname( __FILE__ ) . '/includes/aim/class-wc-gateway-authnet-bankWire.php' );
+          include_once( dirname( __FILE__ ) . '/includes/aim/class-wc-gateway-authnet-paperCheck.php' );
+        } else {
+          include_once( dirname( __FILE__ ) . '/includes/class-wc-gateway-authnet.php' );
+          include_once( dirname( __FILE__ ) . '/includes/class-wc-gateway-authnet-paperCheck.php' );
+          include_once( dirname( __FILE__ ) . '/includes/class-wc-gateway-authnet-bankWire.php' );
+        }
+== Add BankWire and PaperCheck to payment method in checkout page ==
+    Enable Bankwire and PaperCheck payment in payment tab of woocommerce setting payment.
+== Set up pre-authorization for papaercheck/bankwire.
+    plugins/woo-authorize-net-gateway-aim/includes/class-wc-gateway-authnet-bankWire.php
+       Define transactionType in generate_payment_request_args() function
+         'transactionType'     => 'priorAuthCaptureTransaction',
+    plugins/woo-authorize-net-gateway-aim/includes/class-wc-gateway-authnet-paperCheck.php
+       Define transactionType in generate_payment_request_args() function
+         'transactionType'     => 'priorAuthCaptureTransaction',
+== Dynamically product price change as selecting payment method.
+    plugins/woocommerce/includes/class-wc-cart.php
+      public function get_product_subtotal( $product, $quantity )
+        Use WC()->cart->get_fees(): if this is empty then percent is 0, otherwise percent is fee value to set.
+          Here fee value can see in nfusion plugin setting in admin
+        Change parameter: $row_price = wc_get_price_including_tax( $product, array( 'qty' => $quantity, 'price' => $price )
+        
+== Disable Zelle only once order total price is over $1000
+    wp-content/plugins/woocommerce/includes/wc-template-functions.php
+        wc_get_template(
+        'checkout/payment.php',
+        array(
+          'checkout'           => WC()->checkout(),
+          'available_gateways' => $available_gateways,
+          'calculate_totals'   => WC()->cart->get_total("anything_else_than_'view'"), // pure value only
+          'order_button_text'  => apply_filters( 'woocommerce_order_button_text', __( 'Place order', 'woocommerce' ) ),
+        )
+      );
+    plugins/woocommerce/templates/checkout/payment-method.php
+        <li class="wc_payment_method payment_method_<?php echo esc_attr( $gateway->id ); ?>" style="<?php if($gateway->id == 'alg_custom_gateway_1' && floatval($calculate_totals) >= 1000) echo 'display:none'; ?>">
+    plugins/woocommerce/templates/checkout/payment.php
+        wc_get_template( 'checkout/payment-method.php', array( 'gateway' => $gateway, 'calculate_totals' => $calculate_totals ) );
+ == Disable All fees(shipping, fee, tax)
+    shipping: Set flat rate to 0 in shipping tab of woocommerce setting.
+    Remove parts to implement fee in woocommerc/templates/checkout/review-order.php
+    
