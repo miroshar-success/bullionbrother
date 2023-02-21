@@ -2012,7 +2012,7 @@ class WC_Cart extends WC_Legacy_Cart {
 	 * @return string formatted price
 	 */
 	public function get_product_subtotal( $product, $quantity ) {
-		$ccPercent = get_option('nfusion_cc_price');
+		$ccPercent = empty(WC()->cart->get_fees()) ? 0 : get_option('nfusion_cc_price');
 		$ccAdjust = ($ccPercent / 100) + 1;
 		$price = $product->get_price();
 		$price = round($price * $ccAdjust, 2);
