@@ -9,7 +9,7 @@
  * WC tested up to: 6.9.2
  * License: GPLv2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
- 
+
  * Version: 2.9.16
 */
 define("NFS_CATALOG_PLUGIN_VERSION",   "2.9.16");
@@ -19,7 +19,9 @@ function nfs_catalog_plugin_tryGetProduct($skus){
 	$productsMap = nfs_catalog_plugin_get_all_products();
 	if($productsMap !== false) {
         foreach($skus as $sku) {
-            $product = $productsMap[$sku];
+			if(isset($productsMap[$sku])){
+				$product = $productsMap[$sku];
+			}
             if(isset($product)) {
                 return $product;
             }
@@ -49,13 +51,13 @@ function nfs_catalog_plugin_get_all_products(){
 			$fetchRemote = true;
 		}
 	}
-	
+
 	if ($fetchRemote === true) {
 		//we want too prevent many sessions from trying to make the remote call at the same time
 		//this can happen around cache expiry boundaries. The problem can become more pronounced if the remote
 		//server is slow to reponse, since the remote calls are blocking. An asynchronous approach with a true semaphore
 		//might be preferred here, but options are limited in WordPress/PHP stack without plugins (whose existence we cannot guarantee)
-		
+
 		//here we will use a second transient as a sort of pseudo-semaphore. It will not truly prevent duplicate requests, but it may reduce them preventing stampede conditions.
 		$semaphoreKey = 'nfs_catalog_request_semaphore_' . $currency;
 		$semaphoreInUse = get_transient($semaphoreKey);
@@ -69,7 +71,7 @@ function nfs_catalog_plugin_get_all_products(){
 				set_transient($productsMapSecondaryKey, $productsMap, $ttlSecondarySeconds);
 			}
 		}
-		
+
 		if ($productsMap === false || !isset($productsMap)) {
 			//if we don't have product data at this point, grab from secondary
 			$productsMap = get_transient($productsMapSecondaryKey);
@@ -82,12 +84,12 @@ function nfs_catalog_plugin_fetch_products_from_remote($currency){
 	if( !class_exists( 'WP_Http' ) ){
 		include_once( ABSPATH . WPINC. '/class-http.php' );
 	}
-	
+
 	$tenantAlias = get_option('nfusion_tenant_alias');
 	$salesChannel = get_option('nfusion_sales_channel');
 	$token = get_option('nfusion_api_token');
 	$catalogUrl = 'https://'.$tenantAlias.'.nfusioncatalog.com/service/price/pricesbychannel?currency='.$currency.'&channel='.$salesChannel.'&withretailtiers=true&token='.$token;
-	
+
 	$args = array(
 		'timeout' => NFS_CATALOG_REMOTE_TIMEOUT_SECONDS,//timeout in seconds
 		'headers' => array(
@@ -101,7 +103,7 @@ function nfs_catalog_plugin_fetch_products_from_remote($currency){
 		return false;
 	}
 
-	$body = wp_remote_retrieve_body( $request );	
+	$body = wp_remote_retrieve_body( $request );
 	$jsonData = json_decode($body, true);
  	if( isset($jsonData) && isset($jsonData[0]))
 	{
@@ -109,11 +111,11 @@ function nfs_catalog_plugin_fetch_products_from_remote($currency){
 		foreach ($jsonData as $item) {
 			$productsMap[$item['SKU']] = $item;
 		}
-		
+
 		if(count($productsMap) !== 0)
 		{//we added at least one product
 			$productsMap['timestamp'] = time();
-			return $productsMap;	
+			return $productsMap;
 		}
 	}
 	return false;
@@ -124,7 +126,7 @@ function nfs_catalog_plugin_fetch_products_from_remote($currency){
  * Add a custom meta box to the product page
  */
 function nfs_catalog_plugin_add_box() {
-    add_meta_box( 
+    add_meta_box(
         'nfs_catalog_plugin_sectionid',
         'nFusion Solutions Catalog Integration',
         'nfs_catalog_plugin_inner_custom_box',
@@ -138,7 +140,7 @@ function nfs_catalog_plugin_inner_custom_box() {
 	global $post;
 	$nfs_sku = get_post_meta($post->ID, 'nfs_catalog_plugin_sku', true);
   	echo '<div><label for="nfs_catalog_plugin_sku">Product SKU</label><br/>';
-  	echo '<input type="text" id="nfs_catalog_plugin_sku" name="nfs_catalog_plugin_sku" value="'.$nfs_sku.'" size="25" /></div>';  	
+  	echo '<input type="text" id="nfs_catalog_plugin_sku" name="nfs_catalog_plugin_sku" value="'.$nfs_sku.'" size="25" /></div>';
 }
 
 /**
@@ -160,7 +162,7 @@ function nfs_catalog_plugin_price( $price, $product ){
     $nfsProduct = nfs_catalog_plugin_tryGetProduct(array($nfs_sku, $wc_sku));
 
 	$quantity = 1;
-	
+
 	if( is_cart() || is_checkout() || ( defined('DOING_AJAX') && DOING_AJAX ) ) {// If Cart/Checkout/Ajax Page
 		if( !WC()->cart->is_empty() ) {
 			foreach( WC()->cart->get_cart() as $cart_item) {
@@ -173,7 +175,7 @@ function nfs_catalog_plugin_price( $price, $product ){
 			}
 		}
 	}
-	
+
 	if( $nfsProduct !== false ) {
 		$ask = round($nfsProduct['Ask'], 2);
 		if(isset($nfsProduct['RetailTiers']) && !empty($nfsProduct['RetailTiers'])) {
@@ -216,19 +218,19 @@ function nfs_catalog_plugin_aslowas_price_html( $priceHtml, $product ){
 	if( is_cart() || is_checkout()){
 		return $priceHtml;
 	}
-	
+
 	$nfs_sku = get_post_meta($product->get_id(), 'nfs_catalog_plugin_sku', true);
     $wc_sku = $product->get_sku();
     $nfsProduct = nfs_catalog_plugin_tryGetProduct(array($nfs_sku, $wc_sku));
 	if($nfsProduct === false){
 		return $priceHtml;
 	}
-	
+
 	$lowPriceLabel = get_option('nfusion_low_price_label');
 	if(empty($lowPriceLabel)){
 		$lowPriceLabel = "as low as";
 	}
-	
+
 	return $lowPriceLabel." ".wc_price(nfs_catalog_plugin_getLowestPrice($nfsProduct));
 }
 
@@ -297,11 +299,11 @@ function nfs_catalog_plugin_build_details_html($nfsProduct, $isVariableProd) {
 			if(empty($buyPriceLabel)){
 				$buyPriceLabel = "We buy at";
 			}
-			
+
 			$productBidDiv = "<div class='nfs_catalog_plugin_productbid". $variableClass ."'>".$buyPriceLabel." ".$bid."</div>";
 			echo $productBidDiv;
 		}
-		
+
 		if(isset($nfsProduct['RetailTiers']) && !empty($nfsProduct['RetailTiers']) )
 		{
 			$cardPriceLabel = get_option('nfusion_tierd_pricing_card_label');
@@ -324,7 +326,7 @@ function nfs_catalog_plugin_build_details_html($nfsProduct, $isVariableProd) {
 					$table .= "<table class='nfs_catalog_plugin_table' border='1' cellpadding='5'>";
 					$table .= "<tr>";
 					$table .= "<td>Quantity</td>";
-					if(get_option('nfusion_show_credit_card_price') == 'yes'){ 
+					if(get_option('nfusion_show_credit_card_price') == 'yes'){
 						$table .= "<td>".$cardPriceLabel."</td>";
 					}
 					$table .= "<td>".$checkPriceLabel."</td>";
@@ -334,16 +336,16 @@ function nfs_catalog_plugin_build_details_html($nfsProduct, $isVariableProd) {
 						//if the first row has a quantity of greater than 1, then build and artificual first row from the base ask
 						if($firstRow){
 							if($aTier['Quantity'] > 1){
-								$tempRow = nfs_catalog_plugin_build_tier_row_html(1, $nfsProduct['Ask'], 
+								$tempRow = nfs_catalog_plugin_build_tier_row_html(1, $nfsProduct['Ask'],
 									get_option('nfusion_show_credit_card_price') == 'yes', get_option('nfusion_cc_price'));
 								$table .= $tempRow;
 							}
 						}
-						
-						$tempRow = nfs_catalog_plugin_build_tier_row_html($aTier['Quantity'], $aTier['Ask'], 
+
+						$tempRow = nfs_catalog_plugin_build_tier_row_html($aTier['Quantity'], $aTier['Ask'],
 							get_option('nfusion_show_credit_card_price') == 'yes', get_option('nfusion_cc_price'));
 						$table .= $tempRow;
-							
+
 						$firstRow = false;
 					}
 					$table .= "</table></div>";
@@ -393,7 +395,7 @@ input[type=number] {
 .nfs_catalog_plugin_wrapper.variable-prod, .nfs_catalog_plugin_productbid.variable-prod {display: none}
 .nfs_catalog_plugin_wrapper.active, .nfs_catalog_plugin_productbid.active {display: block}
 </style>
-<?php	
+<?php
 }
 
 // Add Css for Tier table display
@@ -423,7 +425,7 @@ function nfs_catalog_plugin_custom_product_column( $column, $post_id ) {
 function nfs_catalog_enqueue_frontend() {
 	// CSS
 	wp_enqueue_style( 'nfusion-css', plugin_dir_url( __FILE__ ).'includes/nfusion.css', array(), filemtime(plugin_dir_path( __FILE__ ).'includes/nfusion.css'));
-	
+
 	// JS
 	wp_enqueue_script( 'jquery' );
 	wp_enqueue_script( "nfusion-js", plugin_dir_url( __FILE__ ).'includes/nfusion.js', array('jquery'), false, true);
@@ -464,9 +466,9 @@ function nf_cache_clear_transient(){
 
 /**
  * Evaluates difference between todays date and the given date
- * 
+ *
  * @param int $seconds Unix timestamp
- * 
+ *
  * @return string Time difference (day(s), hour(s), minute(s), second(s))
  */
 function secondsToTime($seconds) {
@@ -488,7 +490,7 @@ function t_nfusion_solutions_options() {
 	if(empty($lowPriceLabel)){
 		$lowPriceLabel = "as low as";
 	}
-	
+
 	$buyPriceLabel = get_option('nfusion_buy_price_label');
 	if(empty($buyPriceLabel)){
 		$buyPriceLabel = "We buy at";
@@ -509,13 +511,13 @@ function t_nfusion_solutions_options() {
       <?php
         if ( isset($_REQUEST['saved'])) { echo '<div id="message" class="updated fade"><p><strong>settings saved.</strong></p></div>'; }
         ?>
-        
+
         <form method="post" id="myForm" enctype="multipart/form-data">
-        
+
 		  <h2><?php _e('nFusion Settings','');?></h2>
-		 
+
 		<table class="form-table">
-		
+
 		<tr valign="top">
         <th scope="row" style="width: 370px;">
             <label for="nfusion_tenant_alias"><?php _e('Tenant Alias','');?></label>
@@ -523,7 +525,7 @@ function t_nfusion_solutions_options() {
         <td><input type="text" name="nfusion_tenant_alias" size="50" value="<?php echo get_option('nfusion_tenant_alias'); ?>" />
 		</td>
 		</tr>
-		
+
 		<tr valign="top">
         <th scope="row" style="width: 370px;">
             <label for="nfusion_api_token"><?php _e('API Token','');?></label>
@@ -531,7 +533,7 @@ function t_nfusion_solutions_options() {
         <td><input type="text" name="nfusion_api_token" size="50" value="<?php echo get_option('nfusion_api_token'); ?>" />
 		</td>
 		</tr>
-		
+
 		<tr valign="top">
         <th scope="row" style="width: 370px;">
             <label for="nfusion_sales_channel"><?php _e('Sales channel','');?></label>
@@ -539,7 +541,7 @@ function t_nfusion_solutions_options() {
         <td><input type="text" required name="nfusion_sales_channel" size="50" value="<?php echo get_option('nfusion_sales_channel'); ?>" />
 		</td>
 		</tr>
-		
+
 		<tr valign="top">
         <th scope="row" style="width: 370px;">
             <label for="nfusion_cc_price"><?php _e('Credit card price (in %)','');?></label>
@@ -547,7 +549,7 @@ function t_nfusion_solutions_options() {
         <td><input type="number" step="0.01" min="1" max="100" width="370" name="nfusion_cc_price" size="50" value="<?php echo get_option('nfusion_cc_price'); ?>" />
 		</td>
 		</tr>
-		
+
 		<tr valign="top">
         <th scope="row" style="width: 370px;">
             <label for="nfusion_low_price_label"><?php _e('Label for lowest price','');?></label>
@@ -555,7 +557,7 @@ function t_nfusion_solutions_options() {
         <td><input type="text" name="nfusion_low_price_label" size="50" value="<?php echo $lowPriceLabel; ?>" />
 		</td>
 		</tr>
-		
+
 		<tr valign="top">
         <th scope="row" style="width: 370px;">
             <label for="nfusion_buy_price_label"><?php _e('Label for buy price','');?></label>
@@ -579,27 +581,27 @@ function t_nfusion_solutions_options() {
         <td><input type="text" name="nfusion_tierd_pricing_check_label" size="50" value="<?php echo $checkPriceLabel; ?>" />
 		</td>
 		</tr>
-		
+
 		<tr valign="top">
         <th scope="row" style="width: 370px;">
             <label for="nfusion_show_buy_price"><?php _e('Show Buy Price','');?></label>
         </th>
         <td>
 	    <input type="checkbox" name="nfusion_show_buy_price" <?php if(get_option('nfusion_show_buy_price') == 'yes'){ ?> checked <?php }?> value="yes" />
-       
+
 		</td>
 		</tr>
-		
+
 		<tr valign="top">
         <th scope="row" style="width: 370px;">
             <label for="nfusion_show_tiered_pricing"><?php _e('Show Tiered Pricing','');?></label>
         </th>
         <td>
 	    <input type="checkbox" name="nfusion_show_tiered_pricing" <?php if(get_option('nfusion_show_tiered_pricing') == 'yes'){ ?> checked <?php }?> value="yes" />
-       
+
 		</td>
 		</tr>
-		
+
 		<tr valign="top">
 			<th scope="row" style="width: 370px;">
 				<label for="nfusion_show_credit_card_price"><?php _e('Show Credit Card Price','');?></label>
@@ -608,26 +610,26 @@ function t_nfusion_solutions_options() {
 				<input type="checkbox" name="nfusion_show_credit_card_price" <?php if(get_option('nfusion_show_credit_card_price') == 'yes'){ ?> checked <?php }?> value="yes" />
 			</td>
 		</tr>
-		
-		
+
+
 		</table>
 		<!--new added end-->
         <p class="submit">
         <input type="submit" name="nfs_options_submit" class="button-primary" value="Save Changes" />
         </p>
- 	    <?php 
-		//if(function_exists('wp_nonce_field')) wp_nonce_field('nfs_options_submit', 'nfs_options_submit'); 
+ 	    <?php
+		//if(function_exists('wp_nonce_field')) wp_nonce_field('nfs_options_submit', 'nfs_options_submit');
 		?>
        </form>
-		
+
 		<div>
 			<button type="button" class="clear-cache" value="clear_cache" currency="<?php print get_woocommerce_currency(); ?>">Clear Cache</button>
 		</div>
-      
+
     </div>
 
-<?php 
-} 
+<?php
+}
 
 if(isset($_POST["nfs_options_submit"])){
 //if(sanitize_text_field($_POST['nfs_options_submit'])){
@@ -643,7 +645,7 @@ if(isset($_POST["nfs_options_submit"])){
 	if(sanitize_text_field($_POST['nfusion_sales_channel'])!='' ) {
 		update_option('nfusion_sales_channel', sanitize_text_field($_POST['nfusion_sales_channel']));
 	}
-	
+
 	if(sanitize_text_field($_POST['nfusion_low_price_label'])!='' ) {
 		update_option('nfusion_low_price_label', sanitize_text_field($_POST['nfusion_low_price_label']));
 	}
@@ -655,7 +657,7 @@ if(isset($_POST["nfs_options_submit"])){
 	if(sanitize_text_field($_POST['nfusion_tierd_pricing_check_label'])!='' ) {
 		update_option('nfusion_tierd_pricing_check_label', sanitize_text_field($_POST['nfusion_tierd_pricing_check_label']));
 	}
-	
+
 	if(sanitize_text_field($_POST['nfusion_buy_price_label'])!='' ) {
 		update_option('nfusion_buy_price_label', sanitize_text_field($_POST['nfusion_buy_price_label']));
 	}
@@ -684,7 +686,7 @@ if(isset($_POST["nfs_options_submit"])){
 
 	if($_POST['saved']==true) {
 		$location = $_SERVER['REQUEST_URI'];
-	} 
+	}
   header("Location: $location");
 }
 ?>
