@@ -467,11 +467,11 @@ class WC_Gateway_Authnet_BankWire extends WC_Payment_Gateway_CC {
 				'descriptor' => wc_clean( $_POST['authnet_data_descriptor'] ),
 			);
 			$new_source          = $authnet_source_args['source_type'] = 'nonce';
-		} elseif ( isset( $_POST['authnet-card-number'] ) && ! empty( $_POST['authnet-card-number'] ) && isset( $_POST['authnet-card-expiry'] ) && isset( $_POST['authnet-card-cvc'] ) ) {
+		} elseif ( isset( $_POST['bankwire-card-number'] ) && ! empty( $_POST['bankwire-card-number'] ) && isset( $_POST['bankwire-card-expiry'] ) && isset( $_POST['bankwire-card-cvc'] ) ) {
 			$authnet_source_args = array(
-				'card_number' => str_replace( ' ', '', wc_clean( $_POST['authnet-card-number'] ) ),
-				'expiry'      => wc_clean( $_POST['authnet-card-expiry'] ),
-				'cvc'         => wc_clean( $_POST['authnet-card-cvc'] ),
+				'card_number' => str_replace( ' ', '', wc_clean( $_POST['bankwire-card-number'] ) ),
+				'expiry'      => wc_clean( $_POST['bankwire-card-expiry'] ),
+				'cvc'         => wc_clean( $_POST['bankwire-card-cvc'] ),
 			);
 
 			// Check for card type supported or not
