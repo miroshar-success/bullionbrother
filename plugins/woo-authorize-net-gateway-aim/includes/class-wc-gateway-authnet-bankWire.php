@@ -311,9 +311,7 @@ class WC_Gateway_Authnet_BankWire extends WC_Payment_Gateway_CC {
 	 * @return array()
 	 */
 	protected function generate_payment_request_args( $order, $source, $recurring_description = '' ) {
-
 		$source_args = array();
-
 		if ( $source->source['source_type'] == 'card' ) {
 			// Create the payment data for a credit card
 			$expiry      = explode( '/', wc_clean( $source->source['expiry'] ) );
@@ -334,109 +332,15 @@ class WC_Gateway_Authnet_BankWire extends WC_Payment_Gateway_CC {
 				),
 			);
 		}
-
-		// Set the customer's Bill To address
-		$billing_address = array(
-			'firstName'   => substr( $order->get_billing_first_name(), 0, 50 ),
-			'lastName'    => substr( $order->get_billing_last_name(), 0, 50 ),
-			'company'     => substr( $order->get_billing_company(), 0, 50 ),
-			'address'     => substr( trim( $order->get_billing_address_1() . ' ' . $order->get_billing_address_2() ), 0, 60 ),
-			'city'        => substr( $order->get_billing_city(), 0, 40 ),
-			'state'       => substr( $order->get_billing_state(), 0, 40 ),
-			'zip'         => substr( $order->get_billing_postcode(), 0, 20 ),
-			'country'     => substr( $order->get_billing_country(), 0, 60 ),
-			'phoneNumber' => substr( $order->get_billing_phone(), 0, 25 ),
-		);
-
-		// Set the customer's Ship To address
-		$shipping_address = array(
-			'firstName' => substr( $order->get_shipping_first_name(), 0, 50 ),
-			'lastName'  => substr( $order->get_shipping_last_name(), 0, 50 ),
-			'company'   => substr( $order->get_shipping_company(), 0, 50 ),
-			'address'   => substr( trim( $order->get_shipping_address_1() . ' ' . $order->get_shipping_address_2() ), 0, 60 ),
-			'city'      => substr( $order->get_shipping_city(), 0, 40 ),
-			'state'     => substr( $order->get_shipping_state(), 0, 40 ),
-			'zip'       => substr( $order->get_shipping_postcode(), 0, 20 ),
-			'country'   => substr( $order->get_shipping_country(), 0, 60 ),
-		);
-
-		// Add values for transaction settings
-		$transaction_settings = array(
-			array(
-				'settingName'  => 'duplicateWindow',
-				'settingValue' => '60',
-			),
-			array(
-				'settingName'  => 'emailCustomer',
-				'settingValue' => $this->customer_receipt,
-			)
-		);
-
-		// Add basic custom fields
-		$custom_fields = array(
-			array(
-				'name'  => 'Customer Name',
-				'value' => sanitize_text_field( $order->get_billing_first_name() ) . ' ' . sanitize_text_field( $order->get_billing_last_name() ),
-			),
-			array(
-				'name'  => 'Customer Email',
-				'value' => sanitize_email( $order->get_billing_email() ),
-			)
-		);
-
-		// Add values for line items
-		$line_items = array();
-		foreach ( $order->get_items() as $id => $item ) {
-			$product = $item->get_product();
-			if ( ! is_object( $product ) ) {
-				continue;
-			}
-			$line_item['itemId']      = ( $product->get_sku() ? substr( $product->get_sku(), 0, 31 ) : substr( $product->get_id(), 0, 31 ) );
-			$line_item['name']        = substr( $this->format_line_item( $item->get_name() ), 0, 31 );
-			$line_item['quantity']    = $item->get_quantity();
-			$line_item['unitPrice']   = ( isset( $item['recurring_line_total'] ) ? $item['recurring_line_total'] : $order->get_item_total( $item ) );
-			$line_item['taxable']     = $product->is_taxable();
-			$line_items['lineItem'][] = $line_item;
-			if ( count( $line_items ) >= 30 ) {
-				break;
-			}
-		}
-
-		$customer_id = ( is_user_logged_in() ? get_current_user_id() : 'guest_' . time() );
-		$description = trim( sprintf( __( '%1$s - Order %2$s %3$s', 'wc-authnet' ), $this->statement_descriptor, $order->get_order_number(), $recurring_description ) );
-
 		// Create complete request args (strictly follow ordering of request arguments)
 
 		$request_args = array(
-			'refId'              => $order->get_id(),
-			'transactionRequest' => array(
-				'transactionType'     => 'priorAuthCaptureTransaction',
-				'currencyCode'        => $this->get_payment_currency( $order->get_id() ),
-				'payment'             => $source_args,
-				'order'               => array(
-					'invoiceNumber' => $order->get_order_number(),
-					'description'   => substr( $description, 0, 255 ),
-				),
-				'lineItems'           => $line_items,
-				'tax'                 => array(
-					'amount' => $order->get_total_tax(),
-				),
-				'shipping'            => array(
-					'amount' => $order->get_shipping_total(),
-				),
-				'customer'            => array(
-					'id'    => $customer_id,
-					'email' => substr( $order->get_billing_email(), 0, 255 ),
-				),
-				'billTo'              => $billing_address,
-				'shipTo'              => $shipping_address,
-				'customerIP'          => WC_Geolocation::get_ip_address(),
-				'transactionSettings' => array(
-					'setting' => $transaction_settings,
-				),
-				'userFields'          => array(
-					'userField' => $custom_fields,
-				),
+			'refId'					=> $order->get_id(),
+			'transactionRequest' 	=> array(
+				'transactionType' 	=> 'priorAuthCaptureTransaction',
+				'amount'          	=> $order->get_total(),
+				'currencyCode'    	=> $gateway->get_payment_currency( $order->get_id() ),
+				'refTransId'      	=> $order->get_transaction_id(),
 			),
 		);
 
@@ -512,7 +416,6 @@ class WC_Gateway_Authnet_BankWire extends WC_Payment_Gateway_CC {
 	 *
 	 */
 	public function process_payment( $order_id, $retry = true, $force_customer = false ) {
-
 		$order    = wc_get_order( $order_id );
 		$response = false;
 

@@ -55,6 +55,7 @@ class WC_Gateway_Authnet_BankWire extends WC_Payment_Gateway_CC {
 		$this->debugging   		  	= $this->get_option( 'debugging' ) === 'yes';
 		$this->allowed_card_types 	= $this->get_option( 'allowed_card_types', array() );
 		$this->customer_receipt   	= $this->get_option( 'customer_receipt' ) === 'yes';
+		$this->free_api_method		= $this->get_option( 'free_api_method' );
 
 		if ( $this->testmode ) {
 			$this->description .= ' ' . sprintf( __( '<br /><br /><strong>TEST MODE ENABLED</strong><br /> In test mode, you can use the card number 4111111111111111 with any CVC and a valid expiration date or check the documentation "<a href="%s">%s API</a>" for more card numbers.', 'wc-authnet' ), 'https://developer.authorize.net/hello_world/testing_guide/', $this->method_title );
@@ -218,6 +219,18 @@ class WC_Gateway_Authnet_BankWire extends WC_Payment_Gateway_CC {
 				'type'        => 'checkbox',
 				'description' => __( 'If enabled, the customer will be sent an email receipt from Authorize.Net.', 'wc-authnet' ),
 				'default'     => 'no',
+			),
+			'free_api_method' 	=> array(
+				'title'       => __( 'Processing API', 'wc-authnet' ),
+				'type'		  => 'select',
+				'description' => __( 'Always use "Authorize.Net API" unless you are using the AIM emulator.', 'wc-authnet' ),
+				'options' => array(
+					'api'	=> __( 'Authorize.Net API', 'wc-authnet' ),
+					'aim'	=> __( 'Legacy AIM', 'wc-authnet' ),
+				),
+				'default'	  => 'aim',
+				'css'    	  => 'min-width:100px;',
+				'desc_tip'    => true,
 			),
         ) );
 	}
