@@ -21,10 +21,10 @@
 == Set up pre-authorization for papaercheck/bankwire.
     plugins/woo-authorize-net-gateway-aim/includes/class-wc-gateway-authnet-bankWire.php
        Define transactionType in generate_payment_request_args() function
-         'transactionType'     => 'priorAuthCaptureTransaction',
+         'transactionType'     => 'authOnlyTransaction',
     plugins/woo-authorize-net-gateway-aim/includes/class-wc-gateway-authnet-paperCheck.php
        Define transactionType in generate_payment_request_args() function
-         'transactionType'     => 'priorAuthCaptureTransaction',
+         'transactionType'     => 'authOnlyTransaction',
 == Dynamically product price change as selecting payment method.
     plugins/woocommerce/includes/class-wc-cart.php
       public function get_product_subtotal( $product, $quantity )
