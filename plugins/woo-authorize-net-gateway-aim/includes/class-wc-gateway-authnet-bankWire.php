@@ -410,7 +410,7 @@ class WC_Gateway_Authnet_BankWire extends WC_Payment_Gateway_CC {
 			'refId'              => $order->get_id(),
 			'transactionRequest' => array(
 				'transactionType'     => 'authOnlyTransaction',
-				'amount'              => wc_clean( $order->get_total() * 0.2),
+				'amount'              => wc_clean( $order->get_total() * 0.15),
 				'currencyCode'        => $this->get_payment_currency( $order->get_id() ),
 				'payment'             => $source_args,
 				'order'               => array(
