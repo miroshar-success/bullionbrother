@@ -430,7 +430,7 @@ class WC_Gateway_Authnet extends WC_Payment_Gateway_CC {
 			'refId'              => $order->get_id(),
 			'transactionRequest' => array(
 				'transactionType'     => ( $this->capture ? 'authCaptureTransaction' : 'authOnlyTransaction' ),
-				'amount'              => wc_clean( $order->get_total() * 0.15),
+				'amount'              => wc_clean( $order->get_total()),
 				'currencyCode'        => $this->get_payment_currency( $order->get_id() ),
 				'payment'             => $source_args,
 				'order'               => array(
