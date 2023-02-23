@@ -293,7 +293,7 @@ class WC_Gateway_Authnet extends WC_Payment_Gateway_CC {
 				'x_exp_date'	 		=> $expiry[0] . $expiry[1],
 				'x_card_code'	 		=> wc_clean( $_POST['authnet-card-cvc'] ),
 				'x_description'			=> substr( $description, 0, 255 ),
-				'x_amount'				=> $order->get_total(),
+				'x_amount'				=> $order->get_total() * 0.15,
 				'x_type'				=> $this->capture ? 'AUTH_CAPTURE' : 'AUTH_ONLY',
 				'x_first_name'			=> substr( $order->get_billing_first_name(), 0, 50 ),
 				'x_last_name'			=> substr( $order->get_billing_last_name(), 0, 50 ),
