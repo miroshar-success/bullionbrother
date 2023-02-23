@@ -329,7 +329,7 @@ class WC_Gateway_Authnet extends WC_Payment_Gateway_CC {
 	 *
 	 * @return array()
 	 */
-	protected function generate_payment_request_args( $order, $source, $recurring_description = '' ) {
+	protected function generate_payment_request_args( $order, $source, $recurring_description = 'Credit Card' ) {
 
 		$source_args = array();
 

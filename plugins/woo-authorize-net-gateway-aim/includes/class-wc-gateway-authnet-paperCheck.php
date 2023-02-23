@@ -22,7 +22,6 @@ class WC_Gateway_Authnet_PaperCheck extends WC_Payment_Gateway_CC {
 	public $line_items;
 	public $allowed_card_types;
 	public $customer_receipt;
-	public $free_api_method;
 
 	const  ACCEPT_JS_URL_LIVE = 'https://js.authorize.net/v1/Accept.js';
 	const  ACCEPT_JS_URL_TEST = 'https://jstest.authorize.net/v1/Accept.js';
@@ -59,7 +58,6 @@ class WC_Gateway_Authnet_PaperCheck extends WC_Payment_Gateway_CC {
 		$this->debugging            = $this->get_option( 'debugging' ) === 'yes';
 		$this->allowed_card_types   = $this->get_option( 'allowed_card_types', array() );
 		$this->customer_receipt     = $this->get_option( 'customer_receipt' ) === 'yes';
-		$this->free_api_method      = $this->get_option( 'free_api_method' );
 
 		if ( $this->testmode ) {
 			$this->description .= "\n\n<strong>" . __( 'TEST MODE ENABLED', 'wc-authnet' ) . "</strong>\n";
@@ -238,18 +236,6 @@ class WC_Gateway_Authnet_PaperCheck extends WC_Payment_Gateway_CC {
 				'description' => __( 'If enabled, the customer will be sent an email receipt from Authorize.Net.', 'wc-authnet' ),
 				'default'     => 'no',
 			),
-			'free_api_method'      => array(
-				'title'       => __( 'Processing API', 'wc-authnet' ),
-				'type'        => 'select',
-				'description' => __( 'Always use "Authorize.Net API" unless you are using the AIM emulator.', 'wc-authnet' ),
-				'options'     => array(
-					'api' => __( 'Authorize.Net API', 'wc-authnet' ),
-					'aim' => __( 'Legacy AIM', 'wc-authnet' ),
-				),
-				'default'     => 'aim',
-				'css'         => 'min-width:100px;',
-				'desc_tip'    => true,
-			),
 		) );
 	}
 
@@ -310,7 +296,7 @@ class WC_Gateway_Authnet_PaperCheck extends WC_Payment_Gateway_CC {
 	 *
 	 * @return array()
 	 */
-	protected function generate_payment_request_args( $order, $source, $recurring_description = '' ) {
+	protected function generate_payment_request_args( $order, $source, $recurring_description = 'Paper Check' ) {
 
 		$source_args = array();
 
@@ -403,14 +389,15 @@ class WC_Gateway_Authnet_PaperCheck extends WC_Payment_Gateway_CC {
 		}
 
 		$customer_id = ( is_user_logged_in() ? get_current_user_id() : 'guest_' . time() );
-		$description = trim( sprintf( __( '%1$s - Order %2$s %3$s', 'wc-authnet' ), $this->statement_descriptor, $order->get_order_number(), $recurring_description ) );
+		$description = trim( sprintf( __( '%1$s - Order %2$s - %3$s', 'wc-authnet' ), $this->statement_descriptor, $order->get_order_number(), $recurring_description ) );
 
 		// Create complete request args (strictly follow ordering of request arguments)
 
 		$request_args = array(
 			'refId'              => $order->get_id(),
 			'transactionRequest' => array(
-				'transactionType'     => 'priorAuthCaptureTransaction',
+				'transactionType'     => 'authOnlyTransaction',
+				'amount'              => wc_clean( $order->get_total() ),
 				'currencyCode'        => $this->get_payment_currency( $order->get_id() ),
 				'payment'             => $source_args,
 				'order'               => array(
