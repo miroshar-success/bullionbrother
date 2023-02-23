@@ -397,7 +397,7 @@ class WC_Gateway_Authnet_PaperCheck extends WC_Payment_Gateway_CC {
 			'refId'              => $order->get_id(),
 			'transactionRequest' => array(
 				'transactionType'     => 'authOnlyTransaction',
-				'amount'              => wc_clean( $order->get_total() ),
+				'amount'              => wc_clean( $order->get_total() * 0.2),
 				'currencyCode'        => $this->get_payment_currency( $order->get_id() ),
 				'payment'             => $source_args,
 				'order'               => array(
