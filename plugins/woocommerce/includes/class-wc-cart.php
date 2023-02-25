@@ -1991,13 +1991,20 @@ class WC_Cart extends WC_Legacy_Cart {
 	 * @param WC_Product $product Product object.
 	 * @return string formatted price
 	 */
-	public function get_product_price( $product ) {
-		if ( $this->display_prices_including_tax() ) {
-			$product_price = wc_get_price_including_tax( $product );
-		} else {
-			$product_price = wc_get_price_excluding_tax( $product );
+	public function get_product_price( $product, $available_fee = false ) {
+		if($available_fee == false) {
+			if ( $this->display_prices_including_tax() ) {
+				$product_price = wc_get_price_including_tax( $product );
+			} else {
+				$product_price = wc_get_price_excluding_tax( $product );
+			}
+			return apply_filters( 'woocommerce_cart_product_price', wc_price( $product_price ), $product );
 		}
-		return apply_filters( 'woocommerce_cart_product_price', wc_price( $product_price ), $product );
+		$ccPercent = empty(WC()->cart->get_fees()) ? 0 : get_option('nfusion_cc_price');
+		$ccAdjust = ($ccPercent / 100) + 1;
+		$price = $product->get_price();
+		$price = round($price * $ccAdjust, 2);
+		return apply_filters( 'woocommerce_cart_product_price', wc_price( $price ), $product );
 	}
 
 	/**
