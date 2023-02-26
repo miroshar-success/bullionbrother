@@ -288,6 +288,10 @@ class WC_Cart extends WC_Legacy_Cart {
 	 */
 	public function get_total( $context = 'view' ) {
 		$total = apply_filters( 'woocommerce_cart_' . __FUNCTION__, $this->get_totals_var( 'total' ) );
+		$ccPercent = empty(WC()->cart->get_fees()) ? 0 : get_option('nfusion_cc_price');
+		$ccAdjust = $ccPercent / 100;
+		$shipping_price = $this->get_shipping_total();
+		$total = $total - round($shipping_price * $ccAdjust, 2);
 		return 'view' === $context ? apply_filters( 'woocommerce_cart_total', wc_price( $total ) ) : $total;
 	}
 
